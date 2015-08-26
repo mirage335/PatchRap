@@ -1,0 +1,290 @@
+v 20130925 2
+C 58500 49400 1 0 0 connector9-2.sym
+{
+T 58800 53450 5 10 0 0 0 0 1
+device=CONNECTOR_9
+T 58500 49400 5 10 0 0 0 0 1
+footprint=538-95540-2881
+T 58500 49400 5 10 0 0 0 0 1
+value=-
+T 58500 49400 5 10 0 0 0 0 1
+description=$1.75 MOUSER 538-95540-2881
+T 59200 53500 5 10 1 1 0 6 1
+refdes=STEP
+}
+T 60300 50700 9 10 1 0 0 0 8
+3 / 1 - 12V
+3 \\ 2 - pGND
+2 - 3 - B+
+1 / 4 - A+
+1 \\ 5 - A-
+2 - 6 - B-
+4 / 7 - B+
+4 \\ 8 - B-
+C 52000 50000 1 0 0 in-1.sym
+{
+T 52000 50300 5 10 0 0 0 0 1
+device=INPUT
+T 52100 50100 5 10 1 1 0 0 1
+refdes=B+
+}
+C 57100 52100 1 0 0 input-2.sym
+{
+T 57700 52800 5 10 0 0 0 0 1
+device=none
+T 57100 52300 5 10 1 0 0 0 1
+net=Bplus:1
+T 57600 52200 5 10 1 1 0 7 1
+value=INPUT
+}
+C 54600 50000 1 0 0 output-2.sym
+{
+T 54800 50700 5 10 0 0 0 0 1
+device=none
+T 55500 50200 5 10 1 0 0 0 1
+net=Bplus:1
+T 55500 50100 5 10 1 1 0 1 1
+value=OUTPUT
+}
+C 54000 49200 1 90 0 capacitor-1.sym
+{
+T 53300 49400 5 10 0 0 90 0 1
+device=CAPACITOR
+T 53800 49300 5 10 1 1 90 0 1
+refdes=C2
+T 53100 49400 5 10 0 0 90 0 1
+symversion=0.1
+T 54000 49700 5 10 1 1 90 0 1
+value=10n
+T 54000 49200 5 10 0 0 0 0 1
+footprint=0402
+T 54000 49200 5 10 0 0 0 0 1
+description=$0.07 MOUSER 80-C0402C103K5RAUTO
+}
+T 51600 54100 9 10 1 0 0 0 4
+10uH Inductor (0.6Ohms@10kHz, 94Ohms@1MHz)
+10nF Capacitor (1.5kOhms@10kHz, 15Ohms@1MHz)
+
+Compare with NEMA17 2.8mH/1.65Ohm/175Ohm@10kHz .
+C 52900 50000 1 0 0 inductor-1.sym
+{
+T 53100 50500 5 10 0 0 0 0 1
+device=INDUCTOR
+T 53100 50700 5 10 0 0 0 0 1
+symversion=0.1
+T 52900 50000 5 10 0 0 0 0 1
+description=$0.53 MOUSER 652-SRN8040-100M
+T 52900 50000 5 10 0 0 0 0 1
+footprint=SRN8040.fp
+T 53000 50100 5 10 1 1 0 0 1
+refdes=L2
+T 53200 50000 5 10 1 1 0 0 1
+value=10uH
+}
+N 53800 50100 54600 50100 4
+C 54600 49100 1 0 0 output-2.sym
+{
+T 54800 49800 5 10 0 0 0 0 1
+device=none
+T 55500 49300 5 10 1 0 0 0 1
+net=Bminus:1
+T 55500 49200 5 10 1 1 0 1 1
+value=OUTPUT
+}
+N 52600 49200 54600 49200 4
+N 52600 50100 52900 50100 4
+C 52000 49100 1 0 0 in-1.sym
+{
+T 52000 49400 5 10 0 0 0 0 1
+device=INPUT
+T 52100 49200 5 10 1 1 0 0 1
+refdes=B-
+}
+C 54700 50500 1 0 1 glow-lamp-1.sym
+{
+T 54500 51100 5 10 0 0 0 6 1
+device=GLOW_LAMP
+T 54500 51300 5 10 0 0 0 6 1
+symversion=0.1
+T 54700 50500 5 10 0 0 0 6 1
+description=-
+T 54700 50500 5 10 0 0 0 6 1
+footprint=SparkGap
+T 54700 50500 5 10 1 1 0 6 1
+value=~2kV
+T 54400 50700 5 10 1 1 0 6 1
+refdes=X3
+}
+C 54700 48600 1 0 1 glow-lamp-1.sym
+{
+T 54500 49200 5 10 0 0 0 6 1
+device=GLOW_LAMP
+T 54500 49400 5 10 0 0 0 6 1
+symversion=0.1
+T 54700 48600 5 10 0 0 0 6 1
+description=-
+T 54700 48600 5 10 0 0 0 6 1
+footprint=SparkGap
+T 54700 48600 5 10 1 1 0 6 1
+value=~2kV
+T 54400 48800 5 10 1 1 0 6 1
+refdes=X4
+}
+N 53800 50700 53800 50100 4
+N 53800 48800 53800 49200 4
+C 54700 48600 1 270 1 vee-1.sym
+C 54700 50500 1 270 1 vee-1.sym
+C 57100 50100 1 0 0 input-2.sym
+{
+T 57700 50800 5 10 0 0 0 0 1
+device=none
+T 57100 50300 5 10 1 0 0 0 1
+net=Bminus:1
+T 57600 50200 5 10 1 1 0 7 1
+value=INPUT
+}
+C 57100 50500 1 0 0 input-2.sym
+{
+T 57700 51200 5 10 0 0 0 0 1
+device=none
+T 57100 50700 5 10 1 0 0 0 1
+net=Bplus:1
+T 57600 50600 5 10 1 1 0 7 1
+value=INPUT
+}
+C 57100 50900 1 0 0 input-2.sym
+{
+T 57700 51600 5 10 0 0 0 0 1
+device=none
+T 57100 51100 5 10 1 0 0 0 1
+net=Bminus:1
+T 57600 51000 5 10 1 1 0 7 1
+value=INPUT
+}
+C 58500 49600 1 90 0 vee-1.sym
+C 58500 52400 1 90 0 vee-1.sym
+C 58300 53000 1 0 0 12V-plus-1.sym
+C 52000 52900 1 0 0 in-1.sym
+{
+T 52000 53200 5 10 0 0 0 0 1
+device=INPUT
+T 52100 53000 5 10 1 1 0 0 1
+refdes=A+
+}
+C 54600 52900 1 0 0 output-2.sym
+{
+T 54800 53600 5 10 0 0 0 0 1
+device=none
+T 55500 53100 5 10 1 0 0 0 1
+net=Aplus:1
+T 55500 53000 5 10 1 1 0 1 1
+value=OUTPUT
+}
+C 54000 52100 1 90 0 capacitor-1.sym
+{
+T 53300 52300 5 10 0 0 90 0 1
+device=CAPACITOR
+T 53100 52300 5 10 0 0 90 0 1
+symversion=0.1
+T 54000 52100 5 10 0 0 0 0 1
+footprint=0402
+T 54000 52100 5 10 0 0 0 0 1
+description=$0.07 MOUSER 80-C0402C103K5RAUTO
+T 53800 52200 5 10 1 1 90 0 1
+refdes=C1
+T 54000 52600 5 10 1 1 90 0 1
+value=10n
+}
+C 52900 52900 1 0 0 inductor-1.sym
+{
+T 53100 53400 5 10 0 0 0 0 1
+device=INDUCTOR
+T 53100 53600 5 10 0 0 0 0 1
+symversion=0.1
+T 52900 52900 5 10 0 0 0 0 1
+description=$0.53 MOUSER 652-SRN8040-100M
+T 52900 52900 5 10 0 0 0 0 1
+footprint=SRN8040.fp
+T 53000 53000 5 10 1 1 0 0 1
+refdes=L1
+T 53200 52900 5 10 1 1 0 0 1
+value=10uH
+}
+N 53800 53000 54600 53000 4
+C 54600 52000 1 0 0 output-2.sym
+{
+T 54800 52700 5 10 0 0 0 0 1
+device=none
+T 55500 52200 5 10 1 0 0 0 1
+net=Aminus:1
+T 55500 52100 5 10 1 1 0 1 1
+value=OUTPUT
+}
+N 52600 52100 54600 52100 4
+N 52600 53000 52900 53000 4
+C 52000 52000 1 0 0 in-1.sym
+{
+T 52000 52300 5 10 0 0 0 0 1
+device=INPUT
+T 52100 52100 5 10 1 1 0 0 1
+refdes=A-
+}
+C 54700 53400 1 0 1 glow-lamp-1.sym
+{
+T 54500 54000 5 10 0 0 0 6 1
+device=GLOW_LAMP
+T 54500 54200 5 10 0 0 0 6 1
+symversion=0.1
+T 54700 53400 5 10 0 0 0 6 1
+description=-
+T 54700 53400 5 10 0 0 0 6 1
+footprint=SparkGap
+T 54700 53400 5 10 1 1 0 6 1
+value=~2kV
+T 54400 53600 5 10 1 1 0 6 1
+refdes=X1
+}
+C 54700 51500 1 0 1 glow-lamp-1.sym
+{
+T 54500 52100 5 10 0 0 0 6 1
+device=GLOW_LAMP
+T 54500 52300 5 10 0 0 0 6 1
+symversion=0.1
+T 54700 51500 5 10 0 0 0 6 1
+description=-
+T 54700 51500 5 10 0 0 0 6 1
+footprint=SparkGap
+T 54700 51500 5 10 1 1 0 6 1
+value=~2kV
+T 54400 51700 5 10 1 1 0 6 1
+refdes=X2
+}
+N 53800 53600 53800 53000 4
+N 53800 51700 53800 52100 4
+C 54700 51500 1 270 1 vee-1.sym
+C 54700 53400 1 270 1 vee-1.sym
+C 57100 51700 1 0 0 input-2.sym
+{
+T 57700 52400 5 10 0 0 0 0 1
+device=none
+T 57100 51900 5 10 1 0 0 0 1
+net=Aplus:1
+T 57600 51800 5 10 1 1 0 7 1
+value=INPUT
+}
+C 57100 51300 1 0 0 input-2.sym
+{
+T 57700 52000 5 10 0 0 0 0 1
+device=none
+T 57100 51500 5 10 1 0 0 0 1
+net=Aminus:1
+T 57600 51400 5 10 1 1 0 7 1
+value=INPUT
+}
+C 57900 52900 1 0 0 in-1.sym
+{
+T 57900 53200 5 10 0 0 0 0 1
+device=INPUT
+T 58000 53000 5 10 1 1 0 0 1
+refdes=+12V
+}

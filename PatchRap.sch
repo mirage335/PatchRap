@@ -1,1 +1,29 @@
-v 20110115 2
+v 20130925 2
+C 66600 47500 1 0 0 connector9-2.sym
+{
+T 67300 51600 5 10 1 1 0 6 1
+refdes=SAFE
+T 66900 51550 5 10 0 0 0 0 1
+device=CONNECTOR_9
+T 66600 47500 5 10 0 0 0 0 1
+footprint=538-95540-2881
+T 66600 47500 5 10 0 0 0 0 1
+value=-
+T 66600 47500 5 10 0 0 0 0 1
+description=$1.75 MOUSER 538-95540-2881
+}
+C 64800 50300 1 0 0 glow-lamp-1.sym
+{
+T 65000 50900 5 10 0 0 0 0 1
+device=GLOW_LAMP
+T 65000 51100 5 10 0 0 0 0 1
+symversion=0.1
+T 64800 50300 5 10 1 1 0 0 1
+value=~2kV
+T 64800 50300 5 10 0 0 0 0 1
+description=-
+T 64800 50300 5 10 0 0 0 0 1
+footprint=SparkGap
+T 65100 50500 5 10 1 1 0 0 1
+refdes=X1
+}

@@ -117,6 +117,9 @@ ClassIV lasers are extraordinarily hazardous. Backscatter from the projected spo
 
 No claim of liability is made by anyone. Your accident is your accident. Use common sense, and follow all regulations. If you don't understand the safety features and limitations, don't use this circuitry or anything similar.
 
+#Reference
+https://www.inventables.com/technologies/stepper-motor-nema-17
+
 
 #Copyright
 This file is part of PatchRap.
