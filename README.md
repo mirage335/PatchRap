@@ -2,6 +2,8 @@ Copyright (C) 2015 mirage335
 See the end of the file for license conditions.
 See license.txt for PatchRap license conditions.
 
+'PatchPanel' for RepRap 3D printers to replace PCB terminal blocks with RJ45 jacks.
+
 #Usage
 PatchRap mainboard provides input terminals for connection to appropriate RepRap motherboard (eg. Duet, RAMBO, etc). Breakout boards adapt shielded RJ45/8P8C connectors to peripherials (eg. steppers).
 
