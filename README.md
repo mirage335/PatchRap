@@ -21,93 +21,90 @@ USA companies provide all parts in these schematics.
 Pinouts are as follows, numbering by T568A standard.
 
 ##Steppers
-3 / 1 - 12V
-3 \ 2 - pGND
-2 - 3 - B+
-1 / 4 - A+
-1 \ 5 - A-
-2 - 6 - B-
-4 / 7 - B+
-4 \ 8 - B-
+	3 / 1 - 12V
+	3 \ 2 - pGND
+	2 - 3 - B+
+	1 / 4 - A+
+	1 \ 5 - A-
+	2 - 6 - B-
+	4 / 7 - B+
+	4 \ 8 - B-
 
 ##Limit Switches
-3 / 1 - 5V
-3 \ 2 - sGND
-2 - 3 - 24V
-1 / 4 - NC
-1 \ 5 - NO
-2 - 6 - pGND
-4 / 7 - PWM (Servo)
-4 \ 8 - pGND
+	3 / 1 - 5V
+	3 \ 2 - sGND
+	2 - 3 - 24V
+	1 / 4 - NC
+	1 \ 5 - NO
+	2 - 6 - pGND
+	4 / 7 - PWM (Servo)
+	4 \ 8 - pGND
 
 ##Laser
-3 / 1 - 5V
-3 \ 2 - sGND
-2 - 3 - 24V
-1 / 4 - 12V (Must be powered internally or externally.)
-1 \ 5 - pGND
-2 - 6 - pGND
-4 / 7 - PWM (Control)
-4 \ 8 - sGND
+	3 / 1 - 5V
+	3 \ 2 - sGND
+	2 - 3 - 24V
+	1 / 4 - 12V (Must be powered internally or externally.)
+	1 \ 5 - pGND
+	2 - 6 - pGND
+	4 / 7 - PWM (Control)
+	4 \ 8 - sGND
 
 ###Drive
 Laser drive electronic designs may wish to follow similar standards.
 ####Tool
-3 / 1 - 5V
-3 \ 2 - sGND
-2 - 3 - 24V
-1 / 4 - 12V
-1 \ 5 - pGND
-2 - 6 - pGND
-4 / 7 - PWR (Laser)
-4 \ 8 - pGND
+	3 / 1 - 5V
+	3 \ 2 - sGND
+	2 - 3 - 24V
+	1 / 4 - 12V
+	1 \ 5 - pGND
+	2 - 6 - pGND
+	4 / 7 - PWR (Laser)
+	4 \ 8 - pGND
 
 ####Interface
-3 / 1 - 5V
-3 \ 2 - sGND
-2 - 3 - Emitter (Enable, Ammeter)
-1 / 4 - 10k Emitter (Voltmeter, BNC)
-1 \ 5 - 10k sGND
-2 - 6 - pGND
-4 / 7 - Emitter (Enable, Ammeter)
-4 \ 8 - pGND
+	3 / 1 - 5V
+	3 \ 2 - sGND
+	2 - 3 - Emitter (Enable, Ammeter)
+	1 / 4 - 10k Emitter (Voltmeter, BNC)
+	1 \ 5 - 10k sGND
+	2 - 6 - pGND
+	4 / 7 - Emitter (Enable, Ammeter)
+	4 \ 8 - pGND
 
 ##Extruder
 In addition to a dedicated cable for stepper motor operation, extruders require an auxiliary connection as follows.
-
-3 / 1 - PWMfan
-3 \ 2 - pGND
-2 - 3 - 24V
-1 / 4 - PWMheater
-1 \ 5 - pGND
-2 - 6 - pGND
-4 / 7 - Thermistor
-4 \ 8 - sGND
+	3 / 1 - PWMfan
+	3 \ 2 - pGND
+	2 - 3 - 24V
+	1 / 4 - PWMheater
+	1 \ 5 - pGND
+	2 - 6 - pGND
+	4 / 7 - Thermistor
+	4 \ 8 - sGND
 
 ##Accessory
 Continious cooling fans, lighting, etc.
-
-3 / 1 - 5V
-3 \ 2 - sGND
-2 - 3 - 24V
-1 / 4 - 12V
-1 \ 5 - pGND
-2 - 6 - pGND
-4 / 7 - pGND
-4 \ 8 - pGND
+	3 / 1 - 5V
+	3 \ 2 - sGND
+	2 - 3 - 24V
+	1 / 4 - 12V
+	1 \ 5 - pGND
+	2 - 6 - pGND
+	4 / 7 - pGND
+	4 \ 8 - pGND
 
 
 ##LinearPSU
 Partly inspired the above pinouts. See https://github.com/mirage335/LinearPSU/blob/master/Photo.jpg .
-
-3 / 1 - 5V
-3 \ 2 - Vee
-2 - 3 - Vcc
-1 / 4 - GND
-1 \ 5 - Vee
-2 - 6 - Vee
-4 / 7 - 3.3V
-4 \ 8 - Vee
+	3 / 1 - 5V
+	3 \ 2 - Vee
+	2 - 3 - Vcc
+	1 / 4 - GND
+	1 \ 5 - Vee
+	2 - 6 - Vee
+	4 / 7 - 3.3V
+	4 \ 8 - Vee
 
 #Safety
 Not Ethernet compatible, will destroy network hardware.
@@ -121,7 +118,7 @@ ClassIV lasers are extraordinarily hazardous. Backscatter from the projected spo
 No claim of liability is made by anyone. Your accident is your accident. Use common sense, and follow all regulations. If you don't understand the safety features and limitations, don't use this circuitry or anything similar.
 
 
-__Copyright__
+#Copyright
 This file is part of PatchRap.
 
 PatchRap is free software: you can redistribute it and/or modify
