@@ -10,7 +10,13 @@ External 24V/12V power may be required to meet fan, limit switch/sensor, or lase
 Cat 6A S/FTP cabling recommended.
 
 #Design
-RJ45/8P8C connectors are among most convenient, cheapest connectors designed to provide high performance with commodity shielded twisted-pair cabling. High power transmission is documented, exceeding 2A/pin. Pinouts are as follows, following the T568A standard.
+RJ45/8P8C connectors are among most convenient, cheapest connectors designed to provide high performance with commodity shielded twisted-pair cabling. High power transmission is documented, exceeding 2A/pin.
+
+Besides 'patch panel' functions, surge suppressors and EMI filters are supported.
+
+USA companies provide all parts in these schematics.
+
+Pinouts are as follows, numbering by T568A standard.
 
 ##Steppers
 3 / 1 - 12V
@@ -100,8 +106,6 @@ Partly inspired the above pinouts. See https://github.com/mirage335/LinearPSU/bl
 2 - 6 - Vee
 4 / 7 - 3.3V
 4 \ 8 - Vee
-
-USA companies provide all parts in these schematics.
 
 #Safety
 Not Ethernet compatible, will destroy network hardware.
