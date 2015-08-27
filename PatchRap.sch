@@ -99,7 +99,7 @@ refdes=Vsys
 T 45900 54850 5 10 0 0 0 0 1
 device=CONNECTOR_2
 T 45900 55050 5 10 0 0 0 0 1
-footprint=SIP2N
+footprint=XT60
 }
 C 47100 53600 1 0 0 connector2-2.sym
 {
@@ -279,7 +279,7 @@ C 45600 57100 1 0 0 connector2-2.sym
 T 45900 58350 5 10 0 0 0 0 1
 device=CONNECTOR_2
 T 45900 58550 5 10 0 0 0 0 1
-footprint=SIP2N
+footprint=XT60
 T 46300 58100 5 10 1 1 0 6 1
 refdes=Vsys
 }
@@ -294,7 +294,7 @@ C 47100 57100 1 0 0 connector2-2.sym
 T 47400 58350 5 10 0 0 0 0 1
 device=CONNECTOR_2
 T 47400 58550 5 10 0 0 0 0 1
-footprint=SIP2N
+footprint=XT60
 T 47800 58100 5 10 1 1 0 6 1
 refdes=Vsys
 }
