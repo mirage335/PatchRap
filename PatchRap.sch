@@ -83,78 +83,39 @@ device=STEPPER
 T 52400 53700 5 10 1 1 270 0 1
 refdes=e5
 }
-C 45300 61300 1 0 0 connector2-2.sym
+C 45600 55200 1 0 0 connector2-2.sym
 {
-T 46000 62300 5 10 1 1 0 6 1
+T 46300 56200 5 10 1 1 0 6 1
 refdes=5V
-T 45600 62550 5 10 0 0 0 0 1
+T 45900 56450 5 10 0 0 0 0 1
 device=CONNECTOR_2
-T 45600 62750 5 10 0 0 0 0 1
+T 45900 56650 5 10 0 0 0 0 1
 footprint=SIP2N
 }
-C 45300 59800 1 0 0 connector2-2.sym
+C 45600 53600 1 0 0 connector2-2.sym
 {
-T 46000 60800 5 10 1 1 0 6 1
-refdes=12V
-T 45600 61050 5 10 0 0 0 0 1
-device=CONNECTOR_2
-T 45600 61250 5 10 0 0 0 0 1
-footprint=SIP2N
-}
-C 45300 58300 1 0 0 connector2-2.sym
-{
-T 46000 59300 5 10 1 1 0 6 1
+T 46300 54600 5 10 1 1 0 6 1
 refdes=Vsys
-T 45600 59550 5 10 0 0 0 0 1
+T 45900 54850 5 10 0 0 0 0 1
 device=CONNECTOR_2
-T 45600 59750 5 10 0 0 0 0 1
+T 45900 55050 5 10 0 0 0 0 1
 footprint=SIP2N
 }
-C 47300 61300 1 0 0 connector2-2.sym
+C 47100 53600 1 0 0 connector2-2.sym
 {
-T 47600 62550 5 10 0 0 0 0 1
+T 47400 54850 5 10 0 0 0 0 1
 device=CONNECTOR_2
-T 47600 62750 5 10 0 0 0 0 1
+T 47400 55050 5 10 0 0 0 0 1
 footprint=SIP2N
-T 48000 62300 5 10 1 1 0 6 1
-refdes=5V
+T 47800 54600 5 10 1 1 0 6 1
+refdes=Vcfg
 }
-C 47300 59800 1 0 0 connector2-2.sym
+C 45400 56000 1 0 0 5V-plus-1.sym
+C 45600 53800 1 90 0 vee-1.sym
+C 45500 55300 1 0 0 gnd-1.sym
+C 45400 54400 1 0 0 generic-power.sym
 {
-T 47600 61050 5 10 0 0 0 0 1
-device=CONNECTOR_2
-T 47600 61250 5 10 0 0 0 0 1
-footprint=SIP2N
-T 48000 60800 5 10 1 1 0 6 1
-refdes=12V
-}
-C 47300 58300 1 0 0 connector2-2.sym
-{
-T 47600 59550 5 10 0 0 0 0 1
-device=CONNECTOR_2
-T 47600 59750 5 10 0 0 0 0 1
-footprint=SIP2N
-T 48000 59300 5 10 1 1 0 6 1
-refdes=Vsys
-}
-C 47300 58500 1 90 0 vee-1.sym
-C 45100 62100 1 0 0 5V-plus-1.sym
-C 45100 60600 1 0 0 12V-plus-1.sym
-C 45300 58500 1 90 0 vee-1.sym
-C 47100 60600 1 0 0 12V-plus-1.sym
-C 47300 60000 1 90 0 vee-1.sym
-C 45300 60000 1 90 0 vee-1.sym
-C 45200 61400 1 0 0 gnd-1.sym
-C 47200 61400 1 0 0 gnd-1.sym
-C 47100 62100 1 0 0 5V-plus-1.sym
-C 45100 59100 1 0 0 generic-power.sym
-{
-T 45300 59350 5 10 1 1 0 3 1
-net=Vsys:1
-}
-C 47100 59100 1 0 0 generic-power.sym
-{
-T 47300 59350 5 10 1 1 0 3 1
+T 45600 54650 5 10 1 1 0 3 1
 net=Vsys:1
 }
 C 51100 57200 1 180 0 vee-1.sym
@@ -313,18 +274,51 @@ refdes=x1c
 }
 N 68200 54700 68100 54700 4
 N 68600 54700 68700 54700 4
-C 43300 58300 1 0 0 connector2-2.sym
+C 45600 57100 1 0 0 connector2-2.sym
 {
-T 43600 59550 5 10 0 0 0 0 1
+T 45900 58350 5 10 0 0 0 0 1
 device=CONNECTOR_2
-T 43600 59750 5 10 0 0 0 0 1
+T 45900 58550 5 10 0 0 0 0 1
 footprint=SIP2N
-T 44000 59300 5 10 1 1 0 6 1
+T 46300 58100 5 10 1 1 0 6 1
 refdes=Vsys
 }
-C 43300 58500 1 90 0 vee-1.sym
-C 43100 59100 1 0 0 generic-power.sym
+C 45600 57300 1 90 0 vee-1.sym
+C 45400 57900 1 0 0 generic-power.sym
 {
-T 43300 59350 5 10 1 1 0 3 1
+T 45600 58150 5 10 1 1 0 3 1
 net=Vsys:1
 }
+C 47100 57100 1 0 0 connector2-2.sym
+{
+T 47400 58350 5 10 0 0 0 0 1
+device=CONNECTOR_2
+T 47400 58550 5 10 0 0 0 0 1
+footprint=SIP2N
+T 47800 58100 5 10 1 1 0 6 1
+refdes=Vsys
+}
+C 47100 57300 1 90 0 vee-1.sym
+C 46900 57900 1 0 0 generic-power.sym
+{
+T 47100 58150 5 10 1 1 0 3 1
+net=Vsys:1
+}
+B 45000 56900 3000 1600 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+C 46900 54400 1 0 0 12V-plus-1.sym
+C 47100 53800 1 90 0 generic-power.sym
+{
+T 46850 54000 5 10 1 1 90 3 1
+net=Vsys:1
+}
+C 47100 55200 1 0 0 connector2-2.sym
+{
+T 47400 56450 5 10 0 0 0 0 1
+device=CONNECTOR_2
+T 47400 56650 5 10 0 0 0 0 1
+footprint=SIP2N
+T 47800 56200 5 10 1 1 0 6 1
+refdes=12V
+}
+C 46900 56000 1 0 0 12V-plus-1.sym
+C 47100 55400 1 90 0 vee-1.sym
