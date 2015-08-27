@@ -33,7 +33,7 @@ Pinouts are as follows, numbering by T568A standard.
 ##Limit Switches
 	3 / 1 - 5V
 	3 \ 2 - sGND
-	2 - 3 - 24V
+	2 - 3 - Vsys
 	1 / 4 - NC
 	1 \ 5 - NO
 	2 - 6 - pGND
@@ -43,7 +43,7 @@ Pinouts are as follows, numbering by T568A standard.
 ##Laser
 	3 / 1 - 5V
 	3 \ 2 - sGND
-	2 - 3 - 24V
+	2 - 3 - Vsys
 	1 / 4 - 12V (Must be powered internally or externally.)
 	1 \ 5 - pGND
 	2 - 6 - pGND
@@ -55,7 +55,7 @@ Laser drive electronic designs may wish to follow similar standards.
 ####Tool
 	3 / 1 - 5V
 	3 \ 2 - sGND
-	2 - 3 - 24V
+	2 - 3 - Vsys
 	1 / 4 - 12V
 	1 \ 5 - pGND
 	2 - 6 - pGND
@@ -76,7 +76,7 @@ Laser drive electronic designs may wish to follow similar standards.
 In addition to a dedicated cable for stepper motor operation, extruders require an auxiliary connection as follows.
 	3 / 1 - PWMfan
 	3 \ 2 - pGND
-	2 - 3 - 24V
+	2 - 3 - 12V
 	1 / 4 - PWMheater
 	1 \ 5 - pGND
 	2 - 6 - pGND
@@ -87,7 +87,7 @@ In addition to a dedicated cable for stepper motor operation, extruders require 
 Continious cooling fans, lighting, etc.
 	3 / 1 - 5V
 	3 \ 2 - sGND
-	2 - 3 - 24V
+	2 - 3 - Vsys
 	1 / 4 - 12V
 	1 \ 5 - pGND
 	2 - 6 - pGND
