@@ -119,6 +119,7 @@ No claim of liability is made by anyone. Your accident is your accident. Use com
 
 #Reference
 https://www.inventables.com/technologies/stepper-motor-nema-17
+http://www.rcgroups.com/forums/showthread.php?t=2387201
 
 
 #Copyright
