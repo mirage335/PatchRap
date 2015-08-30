@@ -1640,26 +1640,48 @@ C 45600 71600 1 0 0 generic-power.sym
 T 45800 71850 5 10 1 1 0 3 1
 net=Vsys:1
 }
-C 45600 71200 1 0 0 generic-power.sym
+C 45800 70100 1 180 0 output-2.sym
 {
-T 45800 71450 5 10 1 1 0 3 1
-net=Vsys:1
+T 45600 69400 5 10 0 0 0 8 1
+device=none
+T 44900 69900 5 10 1 0 0 8 1
+net=xsA+1-:1
+T 44900 70000 5 10 1 1 0 7 1
+value=OUTPUT
 }
-C 45600 70800 1 0 0 generic-power.sym
+C 45800 69700 1 180 0 output-2.sym
 {
-T 45800 71050 5 10 1 1 0 3 1
-net=Vsys:1
+T 45600 69000 5 10 0 0 0 8 1
+device=none
+T 44900 69500 5 10 1 0 0 8 1
+net=xsA-1-:1
+T 44900 69600 5 10 1 1 0 7 1
+value=OUTPUT
 }
-C 45600 70000 1 0 0 12V-plus-1.sym
-C 45500 68900 1 270 0 gnd-1.sym
-C 45600 69200 1 0 0 5V-plus-1.sym
-C 45800 69400 1 90 0 vee-1.sym
+C 45800 68900 1 180 0 output-2.sym
+{
+T 45600 68200 5 10 0 0 0 8 1
+device=none
+T 44900 68700 5 10 1 0 0 8 1
+net=xsB-1-:1
+T 44900 68800 5 10 1 1 0 7 1
+value=OUTPUT
+}
+C 45800 69300 1 180 0 output-2.sym
+{
+T 45600 68600 5 10 0 0 0 8 1
+device=none
+T 44900 69100 5 10 1 0 0 8 1
+net=xsB+1-:1
+T 44900 69200 5 10 1 1 0 7 1
+value=OUTPUT
+}
 C 45800 68500 1 180 0 output-2.sym
 {
 T 45600 67800 5 10 0 0 0 8 1
 device=none
 T 44900 68300 5 10 1 0 0 8 1
-net=xsA+1-:1
+net=ysA+1-:1
 T 44900 68400 5 10 1 1 0 7 1
 value=OUTPUT
 }
@@ -1668,7 +1690,7 @@ C 45800 68100 1 180 0 output-2.sym
 T 45600 67400 5 10 0 0 0 8 1
 device=none
 T 44900 67900 5 10 1 0 0 8 1
-net=xsA-1-:1
+net=ysA-1-:1
 T 44900 68000 5 10 1 1 0 7 1
 value=OUTPUT
 }
@@ -1677,7 +1699,7 @@ C 45800 67300 1 180 0 output-2.sym
 T 45600 66600 5 10 0 0 0 8 1
 device=none
 T 44900 67100 5 10 1 0 0 8 1
-net=xsB-1-:1
+net=ysB-1-:1
 T 44900 67200 5 10 1 1 0 7 1
 value=OUTPUT
 }
@@ -1686,7 +1708,7 @@ C 45800 67700 1 180 0 output-2.sym
 T 45600 67000 5 10 0 0 0 8 1
 device=none
 T 44900 67500 5 10 1 0 0 8 1
-net=xsB+1-:1
+net=ysB+1-:1
 T 44900 67600 5 10 1 1 0 7 1
 value=OUTPUT
 }
@@ -1695,7 +1717,7 @@ C 45800 66900 1 180 0 output-2.sym
 T 45600 66200 5 10 0 0 0 8 1
 device=none
 T 44900 66700 5 10 1 0 0 8 1
-net=ysA+1-:1
+net=zsA+1-:1
 T 44900 66800 5 10 1 1 0 7 1
 value=OUTPUT
 }
@@ -1704,7 +1726,7 @@ C 45800 66500 1 180 0 output-2.sym
 T 45600 65800 5 10 0 0 0 8 1
 device=none
 T 44900 66300 5 10 1 0 0 8 1
-net=ysA-1-:1
+net=zsA-1-:1
 T 44900 66400 5 10 1 1 0 7 1
 value=OUTPUT
 }
@@ -1713,7 +1735,7 @@ C 45800 65700 1 180 0 output-2.sym
 T 45600 65000 5 10 0 0 0 8 1
 device=none
 T 44900 65500 5 10 1 0 0 8 1
-net=ysB-1-:1
+net=zsB-1-:1
 T 44900 65600 5 10 1 1 0 7 1
 value=OUTPUT
 }
@@ -1722,71 +1744,35 @@ C 45800 66100 1 180 0 output-2.sym
 T 45600 65400 5 10 0 0 0 8 1
 device=none
 T 44900 65900 5 10 1 0 0 8 1
-net=ysB+1-:1
+net=zsB+1-:1
 T 44900 66000 5 10 1 1 0 7 1
 value=OUTPUT
 }
-C 45800 65300 1 180 0 output-2.sym
+C 44400 64700 1 0 0 input-2.sym
 {
-T 45600 64600 5 10 0 0 0 8 1
+T 45000 65400 5 10 0 0 0 0 1
 device=none
-T 44900 65100 5 10 1 0 0 8 1
-net=zsA+1-:1
-T 44900 65200 5 10 1 1 0 7 1
-value=OUTPUT
-}
-C 45800 64900 1 180 0 output-2.sym
-{
-T 45600 64200 5 10 0 0 0 8 1
-device=none
-T 44900 64700 5 10 1 0 0 8 1
-net=zsA-1-:1
-T 44900 64800 5 10 1 1 0 7 1
-value=OUTPUT
-}
-C 45800 63300 1 180 0 output-2.sym
-{
-T 45600 62600 5 10 0 0 0 8 1
-device=none
-T 44900 63100 5 10 1 0 0 8 1
-net=zsB-1-:1
-T 44900 63200 5 10 1 1 0 7 1
-value=OUTPUT
-}
-C 45800 63700 1 180 0 output-2.sym
-{
-T 45600 63000 5 10 0 0 0 8 1
-device=none
-T 44900 63500 5 10 1 0 0 8 1
-net=zsB+1-:1
-T 44900 63600 5 10 1 1 0 7 1
-value=OUTPUT
-}
-C 44400 62300 1 0 0 input-2.sym
-{
-T 45000 63000 5 10 0 0 0 0 1
-device=none
-T 44400 62500 5 10 1 0 0 0 1
+T 44400 64600 5 10 1 0 0 0 1
 net=xlNO:1
-T 44900 62400 5 10 1 1 0 7 1
+T 44900 64800 5 10 1 1 0 7 1
 value=INPUT
 }
-C 44400 62700 1 0 0 input-2.sym
+C 44400 65100 1 0 0 input-2.sym
 {
-T 45000 63400 5 10 0 0 0 0 1
+T 45000 65800 5 10 0 0 0 0 1
 device=none
-T 44400 62900 5 10 1 0 0 0 1
+T 44400 65000 5 10 1 0 0 0 1
 net=xlNC:1
-T 44900 62800 5 10 1 1 0 7 1
+T 44900 65200 5 10 1 1 0 7 1
 value=INPUT
 }
-C 45800 61900 1 0 1 output-2.sym
+C 45800 63500 1 0 1 output-2.sym
 {
-T 45600 62600 5 10 0 0 180 2 1
+T 45600 64200 5 10 0 0 180 2 1
 device=none
-T 44900 62100 5 10 1 0 180 2 1
+T 44900 63700 5 10 1 0 180 2 1
 net=xlPWM:1
-T 44900 62000 5 10 1 1 180 1 1
+T 44900 63600 5 10 1 1 180 1 1
 value=OUTPUT
 }
 C 45800 59500 1 0 1 output-2.sym
@@ -1798,108 +1784,51 @@ net=zlPWM:1
 T 44900 59600 5 10 1 1 180 1 1
 value=OUTPUT
 }
-C 44400 61100 1 0 0 input-2.sym
+C 44400 61900 1 0 0 input-2.sym
 {
-T 45000 61800 5 10 0 0 0 0 1
+T 45000 62600 5 10 0 0 0 0 1
 device=none
-T 44400 61300 5 10 1 0 0 0 1
+T 44400 62100 5 10 1 0 0 0 1
 net=ylNO:1
-T 44900 61200 5 10 1 1 0 7 1
+T 44900 62000 5 10 1 1 0 7 1
 value=INPUT
 }
-C 44400 61500 1 0 0 input-2.sym
+C 44400 62700 1 0 0 input-2.sym
 {
-T 45000 62200 5 10 0 0 0 0 1
+T 45000 63400 5 10 0 0 0 0 1
 device=none
-T 44400 61700 5 10 1 0 0 0 1
+T 44400 62900 5 10 1 0 0 0 1
 net=ylNC:1
-T 44900 61600 5 10 1 1 0 7 1
+T 44900 62800 5 10 1 1 0 7 1
 value=INPUT
 }
-C 45800 60700 1 0 1 output-2.sym
+C 45800 61100 1 0 1 output-2.sym
 {
-T 45600 61400 5 10 0 0 180 2 1
+T 45600 61800 5 10 0 0 180 2 1
 device=none
-T 44900 60900 5 10 1 0 180 2 1
+T 44900 61300 5 10 1 0 180 2 1
 net=ylPWM:1
-T 44900 60800 5 10 1 1 180 1 1
+T 44900 61200 5 10 1 1 180 1 1
 value=OUTPUT
-}
-C 44400 59900 1 0 0 input-2.sym
-{
-T 45000 60600 5 10 0 0 0 0 1
-device=none
-T 44400 60100 5 10 1 0 0 0 1
-net=zlNO:1
-T 44900 60000 5 10 1 1 0 7 1
-value=INPUT
 }
 C 44400 60300 1 0 0 input-2.sym
 {
 T 45000 61000 5 10 0 0 0 0 1
 device=none
 T 44400 60500 5 10 1 0 0 0 1
-net=zlNC:1
+net=zlNO:1
 T 44900 60400 5 10 1 1 0 7 1
 value=INPUT
 }
-C 45800 58900 1 180 0 output-2.sym
+C 44400 60700 1 0 0 input-2.sym
 {
-T 45600 58200 5 10 0 0 0 8 1
+T 45000 61400 5 10 0 0 0 0 1
 device=none
-T 44900 58700 5 10 1 0 0 8 1
-net=es0A+:1
-T 44900 58800 5 10 1 1 0 7 1
-value=OUTPUT
+T 44400 60900 5 10 1 0 0 0 1
+net=zlNC:1
+T 44900 60800 5 10 1 1 0 7 1
+value=INPUT
 }
-C 45800 58500 1 180 0 output-2.sym
-{
-T 45600 57800 5 10 0 0 0 8 1
-device=none
-T 44900 58300 5 10 1 0 0 8 1
-net=es0A-:1
-T 44900 58400 5 10 1 1 0 7 1
-value=OUTPUT
-}
-C 45800 58100 1 180 0 output-2.sym
-{
-T 45600 57400 5 10 0 0 0 8 1
-device=none
-T 44900 57900 5 10 1 0 0 8 1
-net=es0B+:1
-T 44900 58000 5 10 1 1 0 7 1
-value=OUTPUT
-}
-C 45800 57700 1 180 0 output-2.sym
-{
-T 45600 57000 5 10 0 0 0 8 1
-device=none
-T 44900 57500 5 10 1 0 0 8 1
-net=es0B-:1
-T 44900 57600 5 10 1 1 0 7 1
-value=OUTPUT
-}
-C 45800 57300 1 180 0 output-2.sym
-{
-T 45600 56600 5 10 0 0 0 8 1
-device=none
-T 44900 57100 5 10 1 0 0 8 1
-net=etcHeat0:1
-T 44900 57200 5 10 1 1 0 7 1
-value=OUTPUT
-}
-C 45800 56900 1 180 0 output-2.sym
-{
-T 45600 56200 5 10 0 0 0 8 1
-device=none
-T 44900 56700 5 10 1 0 0 8 1
-net=etcTherm0:1
-T 44900 56800 5 10 1 1 0 7 1
-value=OUTPUT
-}
-C 45800 64200 1 90 0 vee-1.sym
-C 45800 59000 1 90 0 vee-1.sym
-C 45800 70200 1 90 0 vee-1.sym
 C 47800 49300 1 0 1 output-2.sym
 {
 T 46900 49500 5 10 1 0 0 6 1
@@ -1981,87 +1910,13 @@ device=none
 T 46300 45700 5 10 1 1 0 7 1
 value=INPUT
 }
-C 45800 56300 1 0 1 output-2.sym
-{
-T 44900 56200 5 10 1 0 0 6 1
-net=extFan:1
-T 45600 57000 5 10 0 0 0 6 1
-device=none
-T 44900 56400 5 10 1 1 0 7 1
-value=OUTPUT
-}
-C 45800 55900 1 0 1 output-2.sym
-{
-T 44900 55800 5 10 1 0 0 6 1
-net=laser:1
-T 45600 56600 5 10 0 0 0 6 1
-device=none
-T 44900 56000 5 10 1 1 0 7 1
-value=OUTPUT
-}
-C 47900 71600 1 0 1 generic-power.sym
-{
-T 47700 71850 5 10 1 1 0 3 1
-net=Vsys:1
-}
-C 47900 71200 1 0 1 generic-power.sym
-{
-T 47700 71450 5 10 1 1 0 3 1
-net=Vsys:1
-}
-C 47900 70800 1 0 1 generic-power.sym
-{
-T 47700 71050 5 10 1 1 0 3 1
-net=Vsys:1
-}
-C 47900 70000 1 0 1 12V-plus-1.sym
-C 47700 70200 1 270 1 vee-1.sym
-C 47900 69200 1 0 1 5V-plus-1.sym
-C 47700 69400 1 270 1 vee-1.sym
-C 48000 68900 1 90 1 gnd-1.sym
-C 47700 60100 1 180 1 output-2.sym
-{
-T 47900 59400 5 10 0 0 0 2 1
-device=none
-T 48600 59900 5 10 1 0 0 2 1
-net=es5B-:1
-T 48600 60000 5 10 1 1 0 1 1
-value=OUTPUT
-}
-C 47700 60500 1 180 1 output-2.sym
-{
-T 47900 59800 5 10 0 0 0 2 1
-device=none
-T 48600 60300 5 10 1 0 0 2 1
-net=es5B+:1
-T 48600 60400 5 10 1 1 0 1 1
-value=OUTPUT
-}
-C 47700 60900 1 180 1 output-2.sym
-{
-T 47900 60200 5 10 0 0 0 2 1
-device=none
-T 48600 60700 5 10 1 0 0 2 1
-net=es5A-:1
-T 48600 60800 5 10 1 1 0 1 1
-value=OUTPUT
-}
 C 47700 61300 1 180 1 output-2.sym
 {
 T 47900 60600 5 10 0 0 0 2 1
 device=none
 T 48600 61100 5 10 1 0 0 2 1
-net=es5A+:1
+net=es5B-:1
 T 48600 61200 5 10 1 1 0 1 1
-value=OUTPUT
-}
-C 47700 61700 1 180 1 output-2.sym
-{
-T 47900 61000 5 10 0 0 0 2 1
-device=none
-T 48600 61500 5 10 1 0 0 2 1
-net=es4B-:1
-T 48600 61600 5 10 1 1 0 1 1
 value=OUTPUT
 }
 C 47700 62100 1 180 1 output-2.sym
@@ -2069,17 +1924,8 @@ C 47700 62100 1 180 1 output-2.sym
 T 47900 61400 5 10 0 0 0 2 1
 device=none
 T 48600 61900 5 10 1 0 0 2 1
-net=es4B+:1
+net=es5B+:1
 T 48600 62000 5 10 1 1 0 1 1
-value=OUTPUT
-}
-C 47700 62500 1 180 1 output-2.sym
-{
-T 47900 61800 5 10 0 0 0 2 1
-device=none
-T 48600 62300 5 10 1 0 0 2 1
-net=es4A-:1
-T 48600 62400 5 10 1 1 0 1 1
 value=OUTPUT
 }
 C 47700 62900 1 180 1 output-2.sym
@@ -2087,17 +1933,8 @@ C 47700 62900 1 180 1 output-2.sym
 T 47900 62200 5 10 0 0 0 2 1
 device=none
 T 48600 62700 5 10 1 0 0 2 1
-net=es4A+:1
+net=es5A-:1
 T 48600 62800 5 10 1 1 0 1 1
-value=OUTPUT
-}
-C 47700 63300 1 180 1 output-2.sym
-{
-T 47900 62600 5 10 0 0 0 2 1
-device=none
-T 48600 63100 5 10 1 0 0 2 1
-net=es3B-:1
-T 48600 63200 5 10 1 1 0 1 1
 value=OUTPUT
 }
 C 47700 63700 1 180 1 output-2.sym
@@ -2105,7 +1942,7 @@ C 47700 63700 1 180 1 output-2.sym
 T 47900 63000 5 10 0 0 0 2 1
 device=none
 T 48600 63500 5 10 1 0 0 2 1
-net=es3B+:1
+net=es5A+:1
 T 48600 63600 5 10 1 1 0 1 1
 value=OUTPUT
 }
@@ -2114,7 +1951,7 @@ C 47700 64900 1 180 1 output-2.sym
 T 47900 64200 5 10 0 0 0 2 1
 device=none
 T 48600 64700 5 10 1 0 0 2 1
-net=es3A-:1
+net=es4B-:1
 T 48600 64800 5 10 1 1 0 1 1
 value=OUTPUT
 }
@@ -2123,7 +1960,7 @@ C 47700 65300 1 180 1 output-2.sym
 T 47900 64600 5 10 0 0 0 2 1
 device=none
 T 48600 65100 5 10 1 0 0 2 1
-net=es3A+:1
+net=es4B+:1
 T 48600 65200 5 10 1 1 0 1 1
 value=OUTPUT
 }
@@ -2132,7 +1969,7 @@ C 47700 65700 1 180 1 output-2.sym
 T 47900 65000 5 10 0 0 0 2 1
 device=none
 T 48600 65500 5 10 1 0 0 2 1
-net=es2B-:1
+net=es4A-:1
 T 48600 65600 5 10 1 1 0 1 1
 value=OUTPUT
 }
@@ -2141,7 +1978,7 @@ C 47700 66100 1 180 1 output-2.sym
 T 47900 65400 5 10 0 0 0 2 1
 device=none
 T 48600 65900 5 10 1 0 0 2 1
-net=es2B+:1
+net=es4A+:1
 T 48600 66000 5 10 1 1 0 1 1
 value=OUTPUT
 }
@@ -2150,7 +1987,7 @@ C 47700 66500 1 180 1 output-2.sym
 T 47900 65800 5 10 0 0 0 2 1
 device=none
 T 48600 66300 5 10 1 0 0 2 1
-net=es2A-:1
+net=es3B-:1
 T 48600 66400 5 10 1 1 0 1 1
 value=OUTPUT
 }
@@ -2159,7 +1996,7 @@ C 47700 66900 1 180 1 output-2.sym
 T 47900 66200 5 10 0 0 0 2 1
 device=none
 T 48600 66700 5 10 1 0 0 2 1
-net=es2A+:1
+net=es3B+:1
 T 48600 66800 5 10 1 1 0 1 1
 value=OUTPUT
 }
@@ -2168,7 +2005,7 @@ C 47700 67300 1 180 1 output-2.sym
 T 47900 66600 5 10 0 0 0 2 1
 device=none
 T 48600 67100 5 10 1 0 0 2 1
-net=es1B-:1
+net=es3A-:1
 T 48600 67200 5 10 1 1 0 1 1
 value=OUTPUT
 }
@@ -2177,7 +2014,7 @@ C 47700 67700 1 180 1 output-2.sym
 T 47900 67000 5 10 0 0 0 2 1
 device=none
 T 48600 67500 5 10 1 0 0 2 1
-net=es1B+:1
+net=es3A+:1
 T 48600 67600 5 10 1 1 0 1 1
 value=OUTPUT
 }
@@ -2186,7 +2023,7 @@ C 47700 68100 1 180 1 output-2.sym
 T 47900 67400 5 10 0 0 0 2 1
 device=none
 T 48600 67900 5 10 1 0 0 2 1
-net=es1A-:1
+net=es2B-:1
 T 48600 68000 5 10 1 1 0 1 1
 value=OUTPUT
 }
@@ -2195,26 +2032,62 @@ C 47700 68500 1 180 1 output-2.sym
 T 47900 67800 5 10 0 0 0 2 1
 device=none
 T 48600 68300 5 10 1 0 0 2 1
-net=es1A+:1
+net=es2B+:1
 T 48600 68400 5 10 1 1 0 1 1
 value=OUTPUT
 }
-C 47700 56100 1 180 1 output-2.sym
+C 47700 68900 1 180 1 output-2.sym
 {
-T 47900 55400 5 10 0 0 0 2 1
+T 47900 68200 5 10 0 0 0 2 1
 device=none
-T 48600 55900 5 10 1 0 0 2 1
-net=etcTherm5:1
-T 48600 56000 5 10 1 1 0 1 1
+T 48600 68700 5 10 1 0 0 2 1
+net=es2A-:1
+T 48600 68800 5 10 1 1 0 1 1
 value=OUTPUT
 }
-C 47700 56500 1 180 1 output-2.sym
+C 47700 69300 1 180 1 output-2.sym
 {
-T 47900 55800 5 10 0 0 0 2 1
+T 47900 68600 5 10 0 0 0 2 1
 device=none
-T 48600 56300 5 10 1 0 0 2 1
-net=etcHeat5:1
-T 48600 56400 5 10 1 1 0 1 1
+T 48600 69100 5 10 1 0 0 2 1
+net=es2A+:1
+T 48600 69200 5 10 1 1 0 1 1
+value=OUTPUT
+}
+C 47700 69700 1 180 1 output-2.sym
+{
+T 47900 69000 5 10 0 0 0 2 1
+device=none
+T 48600 69500 5 10 1 0 0 2 1
+net=es1B-:1
+T 48600 69600 5 10 1 1 0 1 1
+value=OUTPUT
+}
+C 47700 70100 1 180 1 output-2.sym
+{
+T 47900 69400 5 10 0 0 0 2 1
+device=none
+T 48600 69900 5 10 1 0 0 2 1
+net=es1B+:1
+T 48600 70000 5 10 1 1 0 1 1
+value=OUTPUT
+}
+C 47700 70500 1 180 1 output-2.sym
+{
+T 47900 69800 5 10 0 0 0 2 1
+device=none
+T 48600 70300 5 10 1 0 0 2 1
+net=es1A-:1
+T 48600 70400 5 10 1 1 0 1 1
+value=OUTPUT
+}
+C 47700 70900 1 180 1 output-2.sym
+{
+T 47900 70200 5 10 0 0 0 2 1
+device=none
+T 48600 70700 5 10 1 0 0 2 1
+net=es1A+:1
+T 48600 70800 5 10 1 1 0 1 1
 value=OUTPUT
 }
 C 47700 56900 1 180 1 output-2.sym
@@ -2222,7 +2095,7 @@ C 47700 56900 1 180 1 output-2.sym
 T 47900 56200 5 10 0 0 0 2 1
 device=none
 T 48600 56700 5 10 1 0 0 2 1
-net=etcTherm4:1
+net=etcTherm5:1
 T 48600 56800 5 10 1 1 0 1 1
 value=OUTPUT
 }
@@ -2231,7 +2104,7 @@ C 47700 57300 1 180 1 output-2.sym
 T 47900 56600 5 10 0 0 0 2 1
 device=none
 T 48600 57100 5 10 1 0 0 2 1
-net=etcHeat4:1
+net=etcHeat5:1
 T 48600 57200 5 10 1 1 0 1 1
 value=OUTPUT
 }
@@ -2240,7 +2113,7 @@ C 47700 57700 1 180 1 output-2.sym
 T 47900 57000 5 10 0 0 0 2 1
 device=none
 T 48600 57500 5 10 1 0 0 2 1
-net=etcTherm3:1
+net=etcTherm4:1
 T 48600 57600 5 10 1 1 0 1 1
 value=OUTPUT
 }
@@ -2249,7 +2122,7 @@ C 47700 58100 1 180 1 output-2.sym
 T 47900 57400 5 10 0 0 0 2 1
 device=none
 T 48600 57900 5 10 1 0 0 2 1
-net=etcHeat3:1
+net=etcHeat4:1
 T 48600 58000 5 10 1 1 0 1 1
 value=OUTPUT
 }
@@ -2258,7 +2131,7 @@ C 47700 58500 1 180 1 output-2.sym
 T 47900 57800 5 10 0 0 0 2 1
 device=none
 T 48600 58300 5 10 1 0 0 2 1
-net=etcTherm2:1
+net=etcTherm3:1
 T 48600 58400 5 10 1 1 0 1 1
 value=OUTPUT
 }
@@ -2267,7 +2140,7 @@ C 47700 58900 1 180 1 output-2.sym
 T 47900 58200 5 10 0 0 0 2 1
 device=none
 T 48600 58700 5 10 1 0 0 2 1
-net=etcHeat2:1
+net=etcHeat3:1
 T 48600 58800 5 10 1 1 0 1 1
 value=OUTPUT
 }
@@ -2276,7 +2149,7 @@ C 47700 59300 1 180 1 output-2.sym
 T 47900 58600 5 10 0 0 0 2 1
 device=none
 T 48600 59100 5 10 1 0 0 2 1
-net=etcTherm1:1
+net=etcTherm2:1
 T 48600 59200 5 10 1 1 0 1 1
 value=OUTPUT
 }
@@ -2285,8 +2158,241 @@ C 47700 59700 1 180 1 output-2.sym
 T 47900 59000 5 10 0 0 0 2 1
 device=none
 T 48600 59500 5 10 1 0 0 2 1
-net=etcHeat1:1
+net=etcHeat2:1
 T 48600 59600 5 10 1 1 0 1 1
 value=OUTPUT
 }
-C 47700 64200 1 270 1 vee-1.sym
+C 47700 60500 1 180 1 output-2.sym
+{
+T 47900 59800 5 10 0 0 0 2 1
+device=none
+T 48600 60300 5 10 1 0 0 2 1
+net=etcTherm1:1
+T 48600 60400 5 10 1 1 0 1 1
+value=OUTPUT
+}
+C 47700 60900 1 180 1 output-2.sym
+{
+T 47900 60200 5 10 0 0 0 2 1
+device=none
+T 48600 60700 5 10 1 0 0 2 1
+net=etcHeat1:1
+T 48600 60800 5 10 1 1 0 1 1
+value=OUTPUT
+}
+C 45800 59300 1 180 0 output-2.sym
+{
+T 45600 58600 5 10 0 0 0 8 1
+device=none
+T 44900 59100 5 10 1 0 0 8 1
+net=es0A+:1
+T 44900 59200 5 10 1 1 0 7 1
+value=OUTPUT
+}
+C 45800 58900 1 180 0 output-2.sym
+{
+T 45600 58200 5 10 0 0 0 8 1
+device=none
+T 44900 58700 5 10 1 0 0 8 1
+net=es0A-:1
+T 44900 58800 5 10 1 1 0 7 1
+value=OUTPUT
+}
+C 45800 58500 1 180 0 output-2.sym
+{
+T 45600 57800 5 10 0 0 0 8 1
+device=none
+T 44900 58300 5 10 1 0 0 8 1
+net=es0B+:1
+T 44900 58400 5 10 1 1 0 7 1
+value=OUTPUT
+}
+C 45800 58100 1 180 0 output-2.sym
+{
+T 45600 57400 5 10 0 0 0 8 1
+device=none
+T 44900 57900 5 10 1 0 0 8 1
+net=es0B-:1
+T 44900 58000 5 10 1 1 0 7 1
+value=OUTPUT
+}
+C 45800 57700 1 180 0 output-2.sym
+{
+T 45600 57000 5 10 0 0 0 8 1
+device=none
+T 44900 57500 5 10 1 0 0 8 1
+net=etcHeat0:1
+T 44900 57600 5 10 1 1 0 7 1
+value=OUTPUT
+}
+C 45800 57300 1 180 0 output-2.sym
+{
+T 45600 56600 5 10 0 0 0 8 1
+device=none
+T 44900 57100 5 10 1 0 0 8 1
+net=etcTherm0:1
+T 44900 57200 5 10 1 1 0 7 1
+value=OUTPUT
+}
+C 45800 56700 1 0 1 output-2.sym
+{
+T 45600 57400 5 10 0 0 0 6 1
+device=none
+T 44900 56600 5 10 1 0 0 6 1
+net=extFan:1
+T 44900 56800 5 10 1 1 0 7 1
+value=OUTPUT
+}
+C 45800 56300 1 0 1 output-2.sym
+{
+T 45600 57000 5 10 0 0 0 6 1
+device=none
+T 44900 56200 5 10 1 0 0 6 1
+net=laser:1
+T 44900 56400 5 10 1 1 0 7 1
+value=OUTPUT
+}
+C 45800 71400 1 90 1 vee-1.sym
+C 45800 64600 1 90 1 vee-1.sym
+C 45800 63400 1 90 1 vee-1.sym
+C 45800 62600 1 90 1 vee-1.sym
+C 45800 61800 1 90 1 vee-1.sym
+C 45800 60200 1 90 1 vee-1.sym
+C 45800 56200 1 90 1 vee-1.sym
+C 45800 70600 1 90 1 5V-plus-1.sym
+C 45800 71000 1 90 1 12V-plus-1.sym
+L 46700 65300 43100 65300 3 0 0 0 -1 -1
+C 47900 40800 1 90 0 capacitor-1.sym
+{
+T 47200 41000 5 10 0 0 90 0 1
+device=CAPACITOR
+T 47000 41000 5 10 0 0 90 0 1
+symversion=0.1
+T 47900 40800 5 10 0 0 0 0 1
+footprint=0402
+T 47900 40800 5 10 0 0 0 0 1
+description=$0.07 MOUSER 80-C0402C103K5RAUTO
+T 47700 40900 5 10 1 1 90 0 1
+refdes=C1
+T 47900 41300 5 10 1 1 90 0 1
+value=10n
+}
+C 46800 40700 1 0 0 inductor-1.sym
+{
+T 47000 41200 5 10 0 0 0 0 1
+device=INDUCTOR
+T 47000 41400 5 10 0 0 0 0 1
+symversion=0.1
+T 46800 40700 5 10 0 0 0 0 1
+description=$0.53 MOUSER 652-SRN8040-100M
+T 46800 40700 5 10 0 0 0 0 1
+footprint=SRN8040.fp
+T 46900 40800 5 10 1 1 0 0 1
+refdes=L1
+T 47100 40700 5 10 1 1 0 0 1
+value=10uH
+}
+C 47500 41700 1 0 0 5V-plus-1.sym
+C 47800 40500 1 0 1 gnd-1.sym
+C 46800 40600 1 90 0 vee-1.sym
+C 48000 41700 1 0 0 5V-plus-1.sym
+C 48300 40500 1 0 1 gnd-1.sym
+C 47000 41700 1 90 1 glow-lamp-1.sym
+{
+T 46400 41500 5 10 0 0 90 6 1
+device=GLOW_LAMP
+T 46200 41500 5 10 0 0 90 6 1
+symversion=0.1
+T 47000 41700 5 10 0 0 90 6 1
+description=-
+T 47000 41700 5 10 0 0 90 6 1
+footprint=SparkGap
+T 47000 41700 5 10 1 1 90 6 1
+value=~2kV
+T 46800 41400 5 10 1 1 90 6 1
+refdes=X1
+}
+C 46600 41700 1 0 0 5V-plus-1.sym
+C 48400 41700 1 90 1 glow-lamp-1.sym
+{
+T 47800 41500 5 10 0 0 90 6 1
+device=GLOW_LAMP
+T 47600 41500 5 10 0 0 90 6 1
+symversion=0.1
+T 48400 41700 5 10 0 0 90 6 1
+description=-
+T 48400 41700 5 10 0 0 90 6 1
+footprint=SparkGap
+T 48400 41700 5 10 1 1 90 6 1
+value=~2kV
+T 48200 41400 5 10 1 1 90 6 1
+refdes=X1
+}
+C 49300 41700 1 0 0 generic-power.sym
+{
+T 49500 41950 5 10 1 1 0 3 1
+net=Vsys:1
+}
+C 48600 41700 1 0 0 12V-plus-1.sym
+C 49700 41700 1 90 1 glow-lamp-1.sym
+{
+T 49100 41500 5 10 0 0 90 6 1
+device=GLOW_LAMP
+T 48900 41500 5 10 0 0 90 6 1
+symversion=0.1
+T 49700 41700 5 10 0 0 90 6 1
+description=-
+T 49700 41700 5 10 0 0 90 6 1
+footprint=SparkGap
+T 49700 41700 5 10 1 1 90 6 1
+value=~2kV
+T 49500 41400 5 10 1 1 90 6 1
+refdes=X1
+}
+C 49700 40800 1 180 0 vee-1.sym
+C 49000 41700 1 90 1 glow-lamp-1.sym
+{
+T 48400 41500 5 10 0 0 90 6 1
+device=GLOW_LAMP
+T 48200 41500 5 10 0 0 90 6 1
+symversion=0.1
+T 49000 41700 5 10 0 0 90 6 1
+description=-
+T 49000 41700 5 10 0 0 90 6 1
+footprint=SparkGap
+T 49000 41700 5 10 1 1 90 6 1
+value=~2kV
+T 48800 41400 5 10 1 1 90 6 1
+refdes=X1
+}
+C 49000 40800 1 180 0 vee-1.sym
+C 46900 40000 1 0 0 resistor-1.sym
+{
+T 47200 40400 5 10 0 0 0 0 1
+device=RESISTOR
+T 47100 40100 5 10 1 1 0 0 1
+refdes=R?
+T 47300 40000 5 10 1 1 0 0 1
+value=100
+T 46900 40000 5 10 0 0 0 0 1
+description=$0.89 MOUSER 71-CP0010100R0KE14
+}
+C 46900 39900 1 90 0 generic-power.sym
+{
+T 46650 40100 5 10 1 1 90 3 1
+net=Vsys:1
+}
+C 47800 40300 1 270 0 vee-1.sym
+C 47700 56200 1 270 0 vee-1.sym
+C 47700 60200 1 270 0 vee-1.sym
+C 47700 61800 1 270 0 vee-1.sym
+C 47700 62600 1 270 0 vee-1.sym
+C 47700 63400 1 270 0 vee-1.sym
+C 47700 64600 1 270 0 vee-1.sym
+C 47700 71400 1 270 0 vee-1.sym
+C 48000 56300 1 90 0 gnd-1.sym
+C 47500 71600 1 0 0 generic-power.sym
+{
+T 47700 71850 5 10 1 1 0 3 1
+net=Vsys:1
+}
