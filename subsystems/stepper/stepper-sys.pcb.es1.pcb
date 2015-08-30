@@ -5,7 +5,7 @@ FileVersion[20091103]
 
 PCB["" 29.5000mm 18.5000mm]
 
-Grid[100.000000 0.0000 0.0000 1]
+Grid[2500.000000 0.0000 0.0000 1]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[6.00mil 0.10mil 6.00mil 0.10mil 13.00mil 7.00mil]
@@ -785,8 +785,8 @@ Symbol['~' 12.00mil]
 	SymbolLine[15.00mil 35.00mil 20.00mil 35.00mil 8.00mil]
 	SymbolLine[20.00mil 35.00mil 25.00mil 30.00mil 8.00mil]
 )
-Attribute("PCB::grid::unit" "mm")
-Attribute("PCB::grid::size" "1.00mil")
+Attribute("PCB::grid::unit" "mil")
+Attribute("PCB::grid::size" "25.00mil")
 Via[360.00mil 445.00mil 27.00mil 20.00mil 0.0000 13.00mil "" ""]
 Via[360.00mil 115.00mil 27.00mil 20.00mil 0.0000 13.00mil "" ""]
 Via[305.00mil 595.00mil 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,1X)"]
@@ -794,7 +794,7 @@ Via[325.00mil 540.00mil 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,1X)"]
 Via[310.00mil 270.00mil 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,1X)"]
 Via[325.00mil 210.00mil 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,1X)"]
 
-Element["" "538-95540-2881" "es1/STEP" "-" 835.00mil 585.00mil 87.00mil -177.00mil 1 100 ""]
+Element["" "538-95540-2881" "es1/STEP" "-" 835.00mil 585.00mil 87.00mil -102.00mil 1 100 ""]
 (
 	Attribute("device" "CONNECTOR_9")
 	Attribute("manufacturer" "unknown")
@@ -824,7 +824,7 @@ Element["" "538-95540-2881" "es1/STEP" "-" 835.00mil 585.00mil 87.00mil -177.00m
 
 	)
 
-Element["onsolder" "SRN8040.fp" "es1/L1" "10uH" 1.3340mm 660.00mil 176.48mil -95.00mil 3 100 "auto"]
+Element["hidename,onsolder" "SRN8040.fp" "es1/L1" "10uH" 1.3340mm 660.00mil 176.48mil -95.00mil 3 100 "auto"]
 (
 	Attribute("device" "INDUCTOR")
 	Attribute("manufacturer" "unknown")
@@ -836,7 +836,7 @@ Element["onsolder" "SRN8040.fp" "es1/L1" "10uH" 1.3340mm 660.00mil 176.48mil -95
 
 	)
 
-Element["onsolder" "SRN8040.fp" "es1/L2" "10uH" 1.3340mm 335.00mil 175.00mil -75.00mil 3 100 "auto"]
+Element["hidename,onsolder" "SRN8040.fp" "es1/L2" "10uH" 1.3340mm 335.00mil 175.00mil -75.00mil 3 100 "auto"]
 (
 	Attribute("device" "INDUCTOR")
 	Attribute("manufacturer" "unknown")
@@ -848,7 +848,7 @@ Element["onsolder" "SRN8040.fp" "es1/L2" "10uH" 1.3340mm 335.00mil 175.00mil -75
 
 	)
 
-Element["" "SparkGap" "es1/X4" "~2kV" 384.50mil 252.00mil 0.0000 0.0000 2 100 ""]
+Element["hidename" "SparkGap" "es1/X4" "~2kV" 384.50mil 252.00mil 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "GLOW_LAMP")
 	Attribute("manufacturer" "unknown")
@@ -883,7 +883,7 @@ Element["" "SparkGap" "es1/X4" "~2kV" 384.50mil 252.00mil 0.0000 0.0000 2 100 ""
 
 	)
 
-Element["" "SparkGap" "es1/X3" "~2kV" 384.50mil 182.00mil 0.0000 0.0000 2 100 ""]
+Element["hidename" "SparkGap" "es1/X3" "~2kV" 384.50mil 182.00mil 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "GLOW_LAMP")
 	Attribute("manufacturer" "unknown")
@@ -918,7 +918,7 @@ Element["" "SparkGap" "es1/X3" "~2kV" 384.50mil 182.00mil 0.0000 0.0000 2 100 ""
 
 	)
 
-Element["" "0402" "es1/C2" "10n" 279.50mil 5.4290mm -31.50mil 31.50mil 1 100 ""]
+Element["hidename" "0402" "es1/C2" "10n" 279.50mil 5.4290mm -31.50mil 31.50mil 1 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -930,7 +930,7 @@ Element["" "0402" "es1/C2" "10n" 279.50mil 5.4290mm -31.50mil 31.50mil 1 100 ""]
 
 	)
 
-Element["" "SparkGap" "es1/X1" "~2kV" 385.00mil 509.00mil 0.0000 0.0000 2 100 ""]
+Element["hidename" "SparkGap" "es1/X1" "~2kV" 385.00mil 509.00mil 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "GLOW_LAMP")
 	Attribute("manufacturer" "unknown")
@@ -965,7 +965,7 @@ Element["" "SparkGap" "es1/X1" "~2kV" 385.00mil 509.00mil 0.0000 0.0000 2 100 ""
 
 	)
 
-Element["" "0402" "es1/C1" "10n" 6.7630mm 554.00mil -31.50mil 31.50mil 1 100 ""]
+Element["hidename" "0402" "es1/C1" "10n" 6.7630mm 554.00mil -31.50mil 31.50mil 1 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -977,7 +977,7 @@ Element["" "0402" "es1/C1" "10n" 6.7630mm 554.00mil -31.50mil 31.50mil 1 100 ""]
 
 	)
 
-Element["" "SparkGap" "es1/X2" "~2kV" 385.00mil 589.00mil 0.0000 0.0000 2 100 ""]
+Element["hidename" "SparkGap" "es1/X2" "~2kV" 385.00mil 589.00mil 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "GLOW_LAMP")
 	Attribute("manufacturer" "unknown")
