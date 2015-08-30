@@ -456,7 +456,7 @@ C 57900 58200 1 270 1 output-2.sym
 T 58600 58400 5 10 0 0 90 2 1
 device=none
 T 58100 59100 5 10 1 0 90 2 1
-net=xsA+1-:1
+net=xsAplus:1
 T 58000 59100 5 10 1 1 90 1 1
 value=OUTPUT
 }
@@ -465,7 +465,7 @@ C 58300 58200 1 270 1 output-2.sym
 T 59000 58400 5 10 0 0 90 2 1
 device=none
 T 58500 59100 5 10 1 0 90 2 1
-net=xsA-1-:1
+net=xsAminus:1
 T 58400 59100 5 10 1 1 90 1 1
 value=OUTPUT
 }
@@ -474,7 +474,7 @@ C 59100 58200 1 270 1 output-2.sym
 T 59800 58400 5 10 0 0 90 2 1
 device=none
 T 59300 59100 5 10 1 0 90 2 1
-net=xsB-1-:1
+net=xsBminus:1
 T 59200 59100 5 10 1 1 90 1 1
 value=OUTPUT
 }
@@ -483,7 +483,7 @@ C 58700 58200 1 270 1 output-2.sym
 T 59400 58400 5 10 0 0 90 2 1
 device=none
 T 58900 59100 5 10 1 0 90 2 1
-net=xsB+1-:1
+net=xsBplus:1
 T 58800 59100 5 10 1 1 90 1 1
 value=OUTPUT
 }
@@ -1146,7 +1146,7 @@ C 51400 60500 1 270 1 input-2.sym
 T 52100 61100 5 10 0 0 90 2 1
 device=none
 T 51600 60500 5 10 1 0 90 2 1
-net=xsA+1:1
+net=xsAplus:1
 T 51500 61000 5 10 1 1 90 7 1
 value=INPUT
 }
@@ -1155,7 +1155,7 @@ C 51800 60500 1 270 1 input-2.sym
 T 52500 61100 5 10 0 0 90 2 1
 device=none
 T 52000 60500 5 10 1 0 90 2 1
-net=xsA-1:1
+net=xsAminus:1
 T 51900 61000 5 10 1 1 90 7 1
 value=INPUT
 }
@@ -1164,7 +1164,7 @@ C 52600 60500 1 270 1 input-2.sym
 T 53300 61100 5 10 0 0 90 2 1
 device=none
 T 52800 60500 5 10 1 0 90 2 1
-net=xsB-1:1
+net=xsBminus:1
 T 52700 61000 5 10 1 1 90 7 1
 value=INPUT
 }
@@ -1173,80 +1173,8 @@ C 52200 60500 1 270 1 input-2.sym
 T 52900 61100 5 10 0 0 90 2 1
 device=none
 T 52400 60500 5 10 1 0 90 2 1
-net=xsB+1:1
+net=xsBplus:1
 T 52300 61000 5 10 1 1 90 7 1
-value=INPUT
-}
-C 58400 60500 1 270 1 input-2.sym
-{
-T 59100 61100 5 10 0 0 90 2 1
-device=none
-T 58600 60500 5 10 1 0 90 2 1
-net=ysA+1:1
-T 58500 61000 5 10 1 1 90 7 1
-value=INPUT
-}
-C 58800 60500 1 270 1 input-2.sym
-{
-T 59500 61100 5 10 0 0 90 2 1
-device=none
-T 59000 60500 5 10 1 0 90 2 1
-net=ysA-1:1
-T 58900 61000 5 10 1 1 90 7 1
-value=INPUT
-}
-C 59600 60500 1 270 1 input-2.sym
-{
-T 60300 61100 5 10 0 0 90 2 1
-device=none
-T 59800 60500 5 10 1 0 90 2 1
-net=ysB-1:1
-T 59700 61000 5 10 1 1 90 7 1
-value=INPUT
-}
-C 59200 60500 1 270 1 input-2.sym
-{
-T 59900 61100 5 10 0 0 90 2 1
-device=none
-T 59400 60500 5 10 1 0 90 2 1
-net=ysB+1:1
-T 59300 61000 5 10 1 1 90 7 1
-value=INPUT
-}
-C 65400 60500 1 270 1 input-2.sym
-{
-T 66100 61100 5 10 0 0 90 2 1
-device=none
-T 65600 60500 5 10 1 0 90 2 1
-net=zsA+1:1
-T 65500 61000 5 10 1 1 90 7 1
-value=INPUT
-}
-C 65800 60500 1 270 1 input-2.sym
-{
-T 66500 61100 5 10 0 0 90 2 1
-device=none
-T 66000 60500 5 10 1 0 90 2 1
-net=zsA-1:1
-T 65900 61000 5 10 1 1 90 7 1
-value=INPUT
-}
-C 66600 60500 1 270 1 input-2.sym
-{
-T 67300 61100 5 10 0 0 90 2 1
-device=none
-T 66800 60500 5 10 1 0 90 2 1
-net=zsB-1:1
-T 66700 61000 5 10 1 1 90 7 1
-value=INPUT
-}
-C 66200 60500 1 270 1 input-2.sym
-{
-T 66900 61100 5 10 0 0 90 2 1
-device=none
-T 66400 60500 5 10 1 0 90 2 1
-net=zsB+1:1
-T 66300 61000 5 10 1 1 90 7 1
 value=INPUT
 }
 C 59500 58200 1 270 1 output-2.sym
@@ -1254,7 +1182,7 @@ C 59500 58200 1 270 1 output-2.sym
 T 60200 58400 5 10 0 0 90 2 1
 device=none
 T 59700 59100 5 10 1 0 90 2 1
-net=ysA+1-:1
+net=ysAplus:1
 T 59600 59100 5 10 1 1 90 1 1
 value=OUTPUT
 }
@@ -1263,7 +1191,7 @@ C 59900 58200 1 270 1 output-2.sym
 T 60600 58400 5 10 0 0 90 2 1
 device=none
 T 60100 59100 5 10 1 0 90 2 1
-net=ysA-1-:1
+net=ysAminus:1
 T 60000 59100 5 10 1 1 90 1 1
 value=OUTPUT
 }
@@ -1272,7 +1200,7 @@ C 60700 58200 1 270 1 output-2.sym
 T 61400 58400 5 10 0 0 90 2 1
 device=none
 T 60900 59100 5 10 1 0 90 2 1
-net=ysB-1-:1
+net=ysBminus:1
 T 60800 59100 5 10 1 1 90 1 1
 value=OUTPUT
 }
@@ -1281,7 +1209,7 @@ C 60300 58200 1 270 1 output-2.sym
 T 61000 58400 5 10 0 0 90 2 1
 device=none
 T 60500 59100 5 10 1 0 90 2 1
-net=ysB+1-:1
+net=ysBplus:1
 T 60400 59100 5 10 1 1 90 1 1
 value=OUTPUT
 }
@@ -1290,7 +1218,7 @@ C 61100 58200 1 270 1 output-2.sym
 T 61800 58400 5 10 0 0 90 2 1
 device=none
 T 61300 59100 5 10 1 0 90 2 1
-net=zsA+1-:1
+net=zsAplus:1
 T 61200 59100 5 10 1 1 90 1 1
 value=OUTPUT
 }
@@ -1299,7 +1227,7 @@ C 61500 58200 1 270 1 output-2.sym
 T 62200 58400 5 10 0 0 90 2 1
 device=none
 T 61700 59100 5 10 1 0 90 2 1
-net=zsA-1-:1
+net=zsAminus:1
 T 61600 59100 5 10 1 1 90 1 1
 value=OUTPUT
 }
@@ -1308,7 +1236,7 @@ C 62300 58200 1 270 1 output-2.sym
 T 63000 58400 5 10 0 0 90 2 1
 device=none
 T 62500 59100 5 10 1 0 90 2 1
-net=zsB-1-:1
+net=zsBminus:1
 T 62400 59100 5 10 1 1 90 1 1
 value=OUTPUT
 }
@@ -1317,7 +1245,7 @@ C 61900 58200 1 270 1 output-2.sym
 T 62600 58400 5 10 0 0 90 2 1
 device=none
 T 62100 59100 5 10 1 0 90 2 1
-net=zsB+1-:1
+net=zsBplus:1
 T 62000 59100 5 10 1 1 90 1 1
 value=OUTPUT
 }
@@ -1649,7 +1577,7 @@ C 45800 70100 1 180 0 output-2.sym
 T 45600 69400 5 10 0 0 0 8 1
 device=none
 T 44900 69900 5 10 1 0 0 8 1
-net=xsA+1-:1
+net=xsAplus:1
 T 44900 70000 5 10 1 1 0 7 1
 value=OUTPUT
 }
@@ -1658,7 +1586,7 @@ C 45800 69700 1 180 0 output-2.sym
 T 45600 69000 5 10 0 0 0 8 1
 device=none
 T 44900 69500 5 10 1 0 0 8 1
-net=xsA-1-:1
+net=xsAminus:1
 T 44900 69600 5 10 1 1 0 7 1
 value=OUTPUT
 }
@@ -1667,7 +1595,7 @@ C 45800 68900 1 180 0 output-2.sym
 T 45600 68200 5 10 0 0 0 8 1
 device=none
 T 44900 68700 5 10 1 0 0 8 1
-net=xsB-1-:1
+net=xsBminus:1
 T 44900 68800 5 10 1 1 0 7 1
 value=OUTPUT
 }
@@ -1676,7 +1604,7 @@ C 45800 69300 1 180 0 output-2.sym
 T 45600 68600 5 10 0 0 0 8 1
 device=none
 T 44900 69100 5 10 1 0 0 8 1
-net=xsB+1-:1
+net=xsBplus:1
 T 44900 69200 5 10 1 1 0 7 1
 value=OUTPUT
 }
@@ -1685,7 +1613,7 @@ C 45800 68500 1 180 0 output-2.sym
 T 45600 67800 5 10 0 0 0 8 1
 device=none
 T 44900 68300 5 10 1 0 0 8 1
-net=ysA+1-:1
+net=ysAplus:1
 T 44900 68400 5 10 1 1 0 7 1
 value=OUTPUT
 }
@@ -1694,7 +1622,7 @@ C 45800 68100 1 180 0 output-2.sym
 T 45600 67400 5 10 0 0 0 8 1
 device=none
 T 44900 67900 5 10 1 0 0 8 1
-net=ysA-1-:1
+net=ysAminus:1
 T 44900 68000 5 10 1 1 0 7 1
 value=OUTPUT
 }
@@ -1703,7 +1631,7 @@ C 45800 67300 1 180 0 output-2.sym
 T 45600 66600 5 10 0 0 0 8 1
 device=none
 T 44900 67100 5 10 1 0 0 8 1
-net=ysB-1-:1
+net=ysBminus:1
 T 44900 67200 5 10 1 1 0 7 1
 value=OUTPUT
 }
@@ -1712,7 +1640,7 @@ C 45800 67700 1 180 0 output-2.sym
 T 45600 67000 5 10 0 0 0 8 1
 device=none
 T 44900 67500 5 10 1 0 0 8 1
-net=ysB+1-:1
+net=ysBplus:1
 T 44900 67600 5 10 1 1 0 7 1
 value=OUTPUT
 }
@@ -1721,7 +1649,7 @@ C 45800 66900 1 180 0 output-2.sym
 T 45600 66200 5 10 0 0 0 8 1
 device=none
 T 44900 66700 5 10 1 0 0 8 1
-net=zsA+1-:1
+net=zsAplus:1
 T 44900 66800 5 10 1 1 0 7 1
 value=OUTPUT
 }
@@ -1730,7 +1658,7 @@ C 45800 66500 1 180 0 output-2.sym
 T 45600 65800 5 10 0 0 0 8 1
 device=none
 T 44900 66300 5 10 1 0 0 8 1
-net=zsA-1-:1
+net=zsAminus:1
 T 44900 66400 5 10 1 1 0 7 1
 value=OUTPUT
 }
@@ -1739,7 +1667,7 @@ C 45800 65700 1 180 0 output-2.sym
 T 45600 65000 5 10 0 0 0 8 1
 device=none
 T 44900 65500 5 10 1 0 0 8 1
-net=zsB-1-:1
+net=zsBminus:1
 T 44900 65600 5 10 1 1 0 7 1
 value=OUTPUT
 }
@@ -1748,7 +1676,7 @@ C 45800 66100 1 180 0 output-2.sym
 T 45600 65400 5 10 0 0 0 8 1
 device=none
 T 44900 65900 5 10 1 0 0 8 1
-net=zsB+1-:1
+net=zsBplus:1
 T 44900 66000 5 10 1 1 0 7 1
 value=OUTPUT
 }
@@ -2400,4 +2328,76 @@ C 47500 71600 1 0 0 generic-power.sym
 {
 T 47700 71850 5 10 1 1 0 3 1
 net=Vsys:1
+}
+C 58400 60500 1 270 1 input-2.sym
+{
+T 59100 61100 5 10 0 0 90 2 1
+device=none
+T 58600 60500 5 10 1 0 90 2 1
+net=ysAplus:1
+T 58500 61000 5 10 1 1 90 7 1
+value=INPUT
+}
+C 58800 60500 1 270 1 input-2.sym
+{
+T 59500 61100 5 10 0 0 90 2 1
+device=none
+T 59000 60500 5 10 1 0 90 2 1
+net=ysAminus:1
+T 58900 61000 5 10 1 1 90 7 1
+value=INPUT
+}
+C 59600 60500 1 270 1 input-2.sym
+{
+T 60300 61100 5 10 0 0 90 2 1
+device=none
+T 59800 60500 5 10 1 0 90 2 1
+net=ysBminus:1
+T 59700 61000 5 10 1 1 90 7 1
+value=INPUT
+}
+C 59200 60500 1 270 1 input-2.sym
+{
+T 59900 61100 5 10 0 0 90 2 1
+device=none
+T 59400 60500 5 10 1 0 90 2 1
+net=ysBplus:1
+T 59300 61000 5 10 1 1 90 7 1
+value=INPUT
+}
+C 65400 60500 1 270 1 input-2.sym
+{
+T 66100 61100 5 10 0 0 90 2 1
+device=none
+T 65600 60500 5 10 1 0 90 2 1
+net=zsAplus:1
+T 65500 61000 5 10 1 1 90 7 1
+value=INPUT
+}
+C 65800 60500 1 270 1 input-2.sym
+{
+T 66500 61100 5 10 0 0 90 2 1
+device=none
+T 66000 60500 5 10 1 0 90 2 1
+net=zsAminus:1
+T 65900 61000 5 10 1 1 90 7 1
+value=INPUT
+}
+C 66600 60500 1 270 1 input-2.sym
+{
+T 67300 61100 5 10 0 0 90 2 1
+device=none
+T 66800 60500 5 10 1 0 90 2 1
+net=zsBminus:1
+T 66700 61000 5 10 1 1 90 7 1
+value=INPUT
+}
+C 66200 60500 1 270 1 input-2.sym
+{
+T 66900 61100 5 10 0 0 90 2 1
+device=none
+T 66400 60500 5 10 1 0 90 2 1
+net=zsBplus:1
+T 66300 61000 5 10 1 1 90 7 1
+value=INPUT
 }
