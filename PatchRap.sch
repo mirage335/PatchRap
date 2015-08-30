@@ -1616,7 +1616,7 @@ refdes=IDE1
 T 46100 72050 5 10 0 0 0 0 1
 device=CONNECTOR_40
 T 46100 72250 5 10 0 0 0 0 1
-footprint=header40_2
+footprint=HEADER40_2
 T 45700 55500 5 10 0 0 0 0 1
 value=-
 T 45700 55500 5 10 0 0 0 0 1
@@ -1629,7 +1629,7 @@ C 47800 55500 1 0 1 connector40-2.sym
 T 47400 72050 5 10 0 0 0 6 1
 device=CONNECTOR_40
 T 47400 72250 5 10 0 0 0 6 1
-footprint=header40_2
+footprint=HEADER40_2
 T 47000 72100 5 10 1 1 0 0 1
 refdes=IDE2
 T 47800 55500 5 10 0 0 0 0 1

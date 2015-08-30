@@ -1,0 +1,135 @@
+zsB-1-	IDE1-16 ascc1-12 
+zsB+1-	IDE1-15 ascc1-11 
+zsA-1-	IDE1-14 ascc1-10 
+zsA+1-	IDE1-13 ascc1-9 
+ysB-1-	IDE1-12 ascc1-8 
+ysB+1-	IDE1-11 ascc1-7 
+ysA-1-	IDE1-10 ascc1-6 
+ysA+1-	IDE1-9 ascc1-5 
+xsB-1-	IDE1-8 ascc1-4 
+xsB+1-	IDE1-7 ascc1-3 
+xsA-1-	IDE1-6 ascc1-2 
+xsA+1-	IDE1-5 ascc1-1 
+l1/Vee	l1/LASER-6 l1/LASER-5 
+l1/GND	l1/LASER-9 l1/LASER-8 l1/LASER-2 
+laser	IDE1-39 pwmc-2 l1/LASER-7 
+a1/Vee	a1/ACC-8 a1/ACC-7 a1/ACC-6 a1/ACC-5 
+a1/GND	a1/ACC-9 a1/ACC-2 
+zl1/Vee	zl1/LIMIT-8 zl1/LIMIT-6 
+zl1/GND	zl1/C1-1 zl1/LIMIT-9 zl1/LIMIT-2 
+zlPWM	IDE1-31 alcc1-12 zl1/LIMIT-7 
+zlNO	IDE1-29 alcc1-10 zl1/LIMIT-5 
+zlNC	IDE1-28 alcc1-9 zl1/LIMIT-4 
+yl1/Vee	yl1/LIMIT-8 yl1/LIMIT-6 
+yl1/GND	yl1/C1-1 yl1/LIMIT-9 yl1/LIMIT-2 
+ylPWM	IDE1-27 alcc1-8 yl1/LIMIT-7 
+ylNO	IDE1-25 alcc1-6 yl1/LIMIT-5 
+ylNC	IDE1-23 alcc1-5 yl1/LIMIT-4 
+xl1/Vee	xl1/LIMIT-8 xl1/LIMIT-6 
+xl1/GND	xl1/C1-1 xl1/LIMIT-9 xl1/LIMIT-2 
+xlPWM	IDE1-21 alcc1-4 xl1/LIMIT-7 
+xlNO	IDE1-18 alcc1-2 xl1/LIMIT-5 
+xlNC	IDE1-17 alcc1-1 xl1/LIMIT-4 
+et5/GND	et5/EXT-9 et5/EXT-8 
+et5/Vee	et5/EXT-6 et5/EXT-5 et5/EXT-2 
+etcTherm5	IDE2-38 etcc1-12 et5/EXT-7 
+etcHeat5	IDE2-37 etcc1-11 et5/EXT-4 
+et4/GND	et4/EXT-9 et4/EXT-8 
+et4/Vee	et4/EXT-6 et4/EXT-5 et4/EXT-2 
+etcTherm4	IDE2-36 etcc1-10 et4/EXT-7 
+etcHeat4	IDE2-35 etcc1-9 et4/EXT-4 
+et3/GND	et3/EXT-9 et3/EXT-8 
+et3/Vee	et3/EXT-6 et3/EXT-5 et3/EXT-2 
+etcTherm3	IDE2-34 etcc1-8 et3/EXT-7 
+etcHeat3	IDE2-33 etcc1-7 et3/EXT-4 
+et2/GND	et2/EXT-9 et2/EXT-8 
+et2/Vee	et2/EXT-6 et2/EXT-5 et2/EXT-2 
+etcTherm2	IDE2-32 etcc1-6 et2/EXT-7 
+etcHeat2	IDE2-31 etcc1-5 et2/EXT-4 
+et1/GND	et1/EXT-9 et1/EXT-8 
+et1/Vee	et1/EXT-6 et1/EXT-5 et1/EXT-2 
+etcTherm1	IDE2-29 etcc1-4 et1/EXT-7 
+etcHeat1	IDE2-28 etcc1-3 et1/EXT-4 
+et0/GND	et0/EXT-9 et0/EXT-8 
+et0/Vee	et0/EXT-6 et0/EXT-5 et0/EXT-2 
+etcTherm0	IDE1-37 etcc1-2 et0/EXT-7 
+etcHeat0	IDE1-36 etcc1-1 et0/EXT-4 
+extFan	IDE1-38 pwmc-1 et5/EXT-1 et4/EXT-1 et3/EXT-1 et2/EXT-1 et1/EXT-1 et0/EXT-1 
+Vsys	R1-1 X4-1 IDE2-1 IDE1-1 Vcfg-2 Vsys1-1 Vsys3-1 l1/LASER-3 a1/ACC-3 zl1/LIMIT-3 yl1/LIMIT-3 xl1/LIMIT-3 Vsys2-1 
+GND	X2-2 L1-2 C1-1 IDE2-39 alcc1-11 alcc1-7 alcc1-3 5V-2 
++5V	X2-1 X1-1 C1-2 IDE1-4 l1/LASER-1 a1/ACC-1 zl1/C1-2 zl1/LIMIT-1 yl1/C1-2 yl1/LIMIT-1 xl1/C1-2 xl1/LIMIT-1 5V-1 
+es5/Aplus	es5/X1-2 es5/L1-2 es5/C1-2 es5/STEP-4 
+es5/Bplus	es5/X3-2 es5/L2-2 es5/C2-2 es5/STEP-7 es5/STEP-3 
+es5/Vee	es5/X2-1 es5/X1-1 es5/X4-1 es5/X3-1 es5/STEP-9 es5/STEP-2 
+es5B-	IDE2-27 escc2-12 es5/X4-2 es5/C2-1 es5/STEP-8 es5/STEP-6 
+es5B+	IDE2-25 escc2-11 es5/L2-1 
+es5A-	IDE2-23 escc2-10 es5/X2-2 es5/C1-1 es5/STEP-5 
+es5A+	IDE2-21 escc2-9 es5/L1-1 
+es4/Aplus	es4/X1-2 es4/L1-2 es4/C1-2 es4/STEP-4 
+es4/Bplus	es4/X3-2 es4/L2-2 es4/C2-2 es4/STEP-7 es4/STEP-3 
+es4/Vee	es4/X2-1 es4/X1-1 es4/X4-1 es4/X3-1 es4/STEP-9 es4/STEP-2 
+es4B-	IDE2-18 escc2-8 es4/X4-2 es4/C2-1 es4/STEP-8 es4/STEP-6 
+es4B+	IDE2-17 escc2-7 es4/L2-1 
+es4A-	IDE2-16 escc2-6 es4/X2-2 es4/C1-1 es4/STEP-5 
+es4A+	IDE2-15 escc2-5 es4/L1-1 
+es\3/Aplus	es\3/X1-2 es\3/L1-2 es\3/C1-2 es\3/STEP-4 
+es\3/Bplus	es\3/X3-2 es\3/L2-2 es\3/C2-2 es\3/STEP-7 es\3/STEP-3 
+es\3/Vee	es\3/X2-1 es\3/X1-1 es\3/X4-1 es\3/X3-1 es\3/STEP-9 es\3/STEP-2 
+es3B-	IDE2-14 escc2-4 es\3/X4-2 es\3/C2-1 es\3/STEP-8 es\3/STEP-6 
+es3B+	IDE2-13 escc2-3 es\3/L2-1 
+es3A-	IDE2-12 escc2-2 es\3/X2-2 es\3/C1-1 es\3/STEP-5 
+es3A+	IDE2-11 escc2-1 es\3/L1-1 
+es2/Aplus	es2/X1-2 es2/L1-2 es2/C1-2 es2/STEP-4 
+es2/Bplus	es2/X3-2 es2/L2-2 es2/C2-2 es2/STEP-7 es2/STEP-3 
+es2/Vee	es2/X2-1 es2/X1-1 es2/X4-1 es2/X3-1 es2/STEP-9 es2/STEP-2 
+es2B-	IDE2-10 escc1-12 es2/X4-2 es2/C2-1 es2/STEP-8 es2/STEP-6 
+es2B+	IDE2-9 escc1-11 es2/L2-1 
+es2A-	IDE2-8 escc1-10 es2/X2-2 es2/C1-1 es2/STEP-5 
+es2A+	IDE2-7 escc1-9 es2/L1-1 
+es1/Aplus	es1/X1-2 es1/L1-2 es1/C1-2 es1/STEP-4 
+es1/Bplus	es1/X3-2 es1/L2-2 es1/C2-2 es1/STEP-7 es1/STEP-3 
+es1/Vee	es1/X2-1 es1/X1-1 es1/X4-1 es1/X3-1 es1/STEP-9 es1/STEP-2 
+es1B-	IDE2-6 escc1-8 es1/X4-2 es1/C2-1 es1/STEP-8 es1/STEP-6 
+es1B+	IDE2-5 escc1-7 es1/L2-1 
+es1A-	IDE2-4 escc1-6 es1/X2-2 es1/C1-1 es1/STEP-5 
+es1A+	IDE2-3 escc1-5 es1/L1-1 
+xs1/Aplus	xs1/X1-2 xs1/L1-2 xs1/C1-2 xs1/STEP-4 
+xs1/Bplus	xs1/X3-2 xs1/L2-2 xs1/C2-2 xs1/STEP-7 xs1/STEP-3 
+xs1/Vee	xs1/X2-1 xs1/X1-1 xs1/X4-1 xs1/X3-1 xs1/STEP-9 xs1/STEP-2 
+zs2/Aplus	zs2/X1-2 zs2/L1-2 zs2/C1-2 zs2/STEP-4 
+zs2/Bplus	zs2/X3-2 zs2/L2-2 zs2/C2-2 zs2/STEP-7 zs2/STEP-3 
+zs2/Vee	zs2/X2-1 zs2/X1-1 zs2/X4-1 zs2/X3-1 zs2/STEP-9 zs2/STEP-2 
+es0/Aplus	es0/X1-2 es0/L1-2 es0/C1-2 es0/STEP-4 
+es0/Bplus	es0/X3-2 es0/L2-2 es0/C2-2 es0/STEP-7 es0/STEP-3 
+es0/Vee	es0/X2-1 es0/X1-1 es0/X4-1 es0/X3-1 es0/STEP-9 es0/STEP-2 
+es0B-	IDE1-35 escc1-4 es0/X4-2 es0/C2-1 es0/STEP-8 es0/STEP-6 
+es0B+	IDE1-34 escc1-3 es0/L2-1 
+es0A-	IDE1-33 escc1-2 es0/X2-2 es0/C1-1 es0/STEP-5 
+es0A+	IDE1-32 escc1-1 es0/L1-1 
+ys2/Aplus	ys2/X1-2 ys2/L1-2 ys2/C1-2 ys2/STEP-4 
+ys2/Bplus	ys2/X3-2 ys2/L2-2 ys2/C2-2 ys2/STEP-7 ys2/STEP-3 
+ys2/Vee	ys2/X2-1 ys2/X1-1 ys2/X4-1 ys2/X3-1 ys2/STEP-9 ys2/STEP-2 
+zs1/Aplus	zs1/X1-2 zs1/L1-2 zs1/C1-2 zs1/STEP-4 
+zs1/Bplus	zs1/X3-2 zs1/L2-2 zs1/C2-2 zs1/STEP-7 zs1/STEP-3 
+zs1/Vee	zs1/X2-1 zs1/X1-1 zs1/X4-1 zs1/X3-1 zs1/STEP-9 zs1/STEP-2 
+zsB-1	zs2/X4-2 zs2/C2-1 zs2/STEP-8 zs2/STEP-6 zs1/X4-2 zs1/C2-1 zs1/STEP-8 zs1/STEP-6 
+zsB+1	zs2/L2-1 zs1/L2-1 
+zsA-1	zs2/X2-2 zs2/C1-1 zs2/STEP-5 zs1/X2-2 zs1/C1-1 zs1/STEP-5 
+zsA+1	zs2/L1-1 zs1/L1-1 
+xs2/Aplus	xs2/X1-2 xs2/L1-2 xs2/C1-2 xs2/STEP-4 
+xs2/Bplus	xs2/X3-2 xs2/L2-2 xs2/C2-2 xs2/STEP-7 xs2/STEP-3 
+xs2/Vee	xs2/X2-1 xs2/X1-1 xs2/X4-1 xs2/X3-1 xs2/STEP-9 xs2/STEP-2 
+xsB-1	xs1/X4-2 xs1/C2-1 xs1/STEP-8 xs1/STEP-6 xs2/X4-2 xs2/C2-1 xs2/STEP-8 xs2/STEP-6 
+xsB+1	xs1/L2-1 xs2/L2-1 
+xsA-1	xs1/X2-2 xs1/C1-1 xs1/STEP-5 xs2/X2-2 xs2/C1-1 xs2/STEP-5 
+xsA+1	xs1/L1-1 xs2/L1-1 
+ys1/Aplus	ys1/X1-2 ys1/L1-2 ys1/C1-2 ys1/STEP-4 
+ys1/Bplus	ys1/X3-2 ys1/L2-2 ys1/C2-2 ys1/STEP-7 ys1/STEP-3 
+ys1/Vee	ys1/X2-1 ys1/X1-1 ys1/X4-1 ys1/X3-1 ys1/STEP-9 ys1/STEP-2 
+ysB-1	ys2/X4-2 ys2/C2-1 ys2/STEP-8 ys2/STEP-6 ys1/X4-2 ys1/C2-1 ys1/STEP-8 ys1/STEP-6 
+ysB+1	ys2/L2-1 ys1/L2-1 
+ysA-1	ys2/X2-2 ys2/C1-1 ys2/STEP-5 ys1/X2-2 ys1/C1-1 ys1/STEP-5 
+ysA+1	ys2/L1-1 ys1/L1-1 
+Vee	R1-2 X3-2 X4-2 X1-2 L1-1 IDE2-40 IDE2-30 IDE2-26 IDE2-24 IDE2-22 IDE2-19 IDE2-2 IDE1-40 IDE1-30 IDE1-26 IDE1-24 IDE1-22 IDE1-19 IDE1-2 12V-2 Vsys1-2 Vsys3-2 Vsys2-2 
++12V	X3-1 IDE1-3 Vcfg-1 12V-1 l1/LASER-4 a1/ACC-4 et5/EXT-3 et4/EXT-3 et3/EXT-3 et2/EXT-3 et1/EXT-3 et0/EXT-3 es5/STEP-1 es4/STEP-1 es\3/STEP-1 es2/STEP-1 es1/STEP-1 xs1/STEP-1 zs2/STEP-1 es0/STEP-1 \
+ ys2/STEP-1 zs1/STEP-1 xs2/STEP-1 ys1/STEP-1 
