@@ -11,24 +11,12 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 9)
+    (start_pass_no 21)
     (layer_rule top
       (active on)
       (preferred_direction horizontal)
-      (preferred_direction_trace_costs 2.0)
-      (against_preferred_direction_trace_costs 3.3)
-    )
-    (layer_rule ground
-      (active off)
-      (preferred_direction vertical)
-      (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 1.8)
-    )
-    (layer_rule power
-      (active off)
-      (preferred_direction horizontal)
-      (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 2.3)
+      (preferred_direction_trace_costs 1.6)
+      (against_preferred_direction_trace_costs 2.9)
     )
     (layer_rule outline
       (active off)
@@ -39,24 +27,18 @@
     (layer_rule bottom
       (active on)
       (preferred_direction vertical)
-      (preferred_direction_trace_costs 2.0)
-      (against_preferred_direction_trace_costs 3.3)
+      (preferred_direction_trace_costs 1.6)
+      (against_preferred_direction_trace_costs 2.9)
     )
   )
   (rule
-    (width 0.3048)
-    (clear 0.3048)
-    (clear 0.1524 (type smd_to_turn_gap))
+    (width 0.2032)
+    (clear 0.2032)
+    (clear 0.1016 (type smd_to_turn_gap))
   )
-  (padstack "via_685800_330200"
+  (padstack "via_685800_381000"
     (shape
       (circle top 0.6858 0.0 0.0)
-    )
-    (shape
-      (circle ground 0.6858 0.0 0.0)
-    )
-    (shape
-      (circle power 0.6858 0.0 0.0)
     )
     (shape
       (circle outline 0.6858 0.0 0.0)
@@ -67,22 +49,22 @@
     (attach off)
   )
   (via 
-    "via_685800_330200" "via_685800_330200" via
+    "via_685800_381000" "via_685800_381000" via
   )
   (via_rule
-    default "via_685800_330200"
+    default "via_685800_381000"
   )
   (via_rule
-    "geda_default" "via_685800_330200"
+    "geda_default" "via_685800_381000"
   )
   (class default
     (clearance_class default)
     (via_rule default)
     (rule
-      (width 0.3048)
+      (width 0.2032)
     )
     (circuit 
-      (use_layer top ground power outline bottom)
+      (use_layer top outline bottom)
     )
   )
   (class "geda_default"
@@ -105,10 +87,10 @@
     (clearance_class default)
     (via_rule geda_default)
     (rule
-      (width 0.3048)
+      (width 0.2032)
     )
     (circuit 
-      (use_layer top ground power outline bottom)
+      (use_layer top outline bottom)
     )
   )
 )
