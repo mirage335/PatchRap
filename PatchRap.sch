@@ -433,7 +433,7 @@ refdes=escc2
 T 62850 54600 5 10 0 1 90 2 1
 device=CONNECTOR_12
 T 63050 54600 5 10 0 0 90 2 1
-footprint=termStrip
+footprint=SIP12
 T 57600 54300 5 10 0 0 0 0 1
 description=$4.23 MOUSER 571-1-282834-2
 T 57600 54300 5 10 0 0 0 0 1
@@ -1427,7 +1427,7 @@ refdes=escc1
 T 69350 54600 5 10 0 1 90 2 1
 device=CONNECTOR_12
 T 69550 54600 5 10 0 0 90 2 1
-footprint=termStrip
+footprint=SIP12
 T 64100 54300 5 10 0 0 0 0 1
 description=$4.23 MOUSER 571-1-282834-2
 T 64100 54300 5 10 0 0 0 0 1
@@ -1440,7 +1440,7 @@ refdes=ascc1
 T 57550 57900 5 10 0 1 270 2 1
 device=CONNECTOR_12
 T 57350 57900 5 10 0 0 270 2 1
-footprint=termStrip
+footprint=SIP12
 T 62800 58200 5 10 0 0 180 0 1
 description=$4.23 MOUSER 538-38700-6112
 T 62800 58200 5 10 0 0 180 0 1
@@ -1453,7 +1453,7 @@ refdes=alcc1
 T 64050 57900 5 10 0 1 270 2 1
 device=CONNECTOR_12
 T 63850 57900 5 10 0 0 270 2 1
-footprint=termStrip
+footprint=SIP12
 T 69300 58200 5 10 0 0 180 0 1
 description=$4.23 MOUSER 571-1-282834-2 
 T 69300 58200 5 10 0 0 180 0 1
@@ -1466,7 +1466,7 @@ refdes=etcc1
 T 70500 59050 5 10 0 1 180 2 1
 device=CONNECTOR_12
 T 70500 59250 5 10 0 0 180 2 1
-footprint=termStrip
+footprint=SIP12
 T 70800 53800 5 10 0 0 90 0 1
 description=$4.23 MOUSER 571-1-282834-2 
 T 70800 53800 5 10 0 0 90 0 1
