@@ -109,7 +109,7 @@ symversion=0.1
 T 54700 50500 5 10 0 0 0 6 1
 description=-
 T 54700 50500 5 10 0 0 0 6 1
-footprint=SparkGap
+footprint=none
 T 54700 50500 5 10 1 1 0 6 1
 value=~2kV
 T 54400 50700 5 10 1 1 0 6 1
@@ -124,7 +124,7 @@ symversion=0.1
 T 54700 48600 5 10 0 0 0 6 1
 description=-
 T 54700 48600 5 10 0 0 0 6 1
-footprint=SparkGap
+footprint=none
 T 54700 48600 5 10 1 1 0 6 1
 value=~2kV
 T 54400 48800 5 10 1 1 0 6 1
@@ -238,7 +238,7 @@ symversion=0.1
 T 54700 53400 5 10 0 0 0 6 1
 description=-
 T 54700 53400 5 10 0 0 0 6 1
-footprint=SparkGap
+footprint=none
 T 54700 53400 5 10 1 1 0 6 1
 value=~2kV
 T 54400 53600 5 10 1 1 0 6 1
@@ -253,7 +253,7 @@ symversion=0.1
 T 54700 51500 5 10 0 0 0 6 1
 description=-
 T 54700 51500 5 10 0 0 0 6 1
-footprint=SparkGap
+footprint=none
 T 54700 51500 5 10 1 1 0 6 1
 value=~2kV
 T 54400 51700 5 10 1 1 0 6 1
