@@ -1,0 +1,114 @@
+
+(rules PCB PatchRap
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 9)
+    (layer_rule top
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 2.0)
+      (against_preferred_direction_trace_costs 3.3)
+    )
+    (layer_rule ground
+      (active off)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.8)
+    )
+    (layer_rule power
+      (active off)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.3)
+    )
+    (layer_rule outline
+      (active off)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.8)
+    )
+    (layer_rule bottom
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 2.0)
+      (against_preferred_direction_trace_costs 3.3)
+    )
+  )
+  (rule
+    (width 0.3048)
+    (clear 0.3048)
+    (clear 0.1524 (type smd_to_turn_gap))
+  )
+  (padstack "via_685800_330200"
+    (shape
+      (circle top 0.6858 0.0 0.0)
+    )
+    (shape
+      (circle ground 0.6858 0.0 0.0)
+    )
+    (shape
+      (circle power 0.6858 0.0 0.0)
+    )
+    (shape
+      (circle outline 0.6858 0.0 0.0)
+    )
+    (shape
+      (circle bottom 0.6858 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "via_685800_330200" "via_685800_330200" via
+  )
+  (via_rule
+    default "via_685800_330200"
+  )
+  (via_rule
+    "geda_default" "via_685800_330200"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 0.3048)
+    )
+    (circuit 
+      (use_layer top ground power outline bottom)
+    )
+  )
+  (class "geda_default"
+    +5V +12V a1/GND a1/Vee es0B+ es0A+ "es0B-" "es0A-"
+    es0/Aplus es0/Bplus es0/Vee es1B+ es1A+ "es1B-" "es1A-" es1/Aplus
+    es1/Bplus es1/Vee es2B+ es2A+ "es2B-" "es2A-" es2/Aplus es2/Bplus
+    es2/Vee es3B+ es3A+ "es3B-" "es3A-" es3/Aplus es3/Bplus es3/Vee
+    es4B+ es4A+ "es4B-" "es4A-" es4/Aplus es4/Bplus es4/Vee es5B+
+    es5A+ "es5B-" "es5A-" es5/Aplus es5/Bplus es5/Vee et0/GND et0/Vee
+    et1/GND et1/Vee et2/GND et2/Vee et3/GND et3/Vee et4/GND et4/Vee
+    et5/GND et5/Vee etcHeat0 etcHeat1 etcHeat2 etcHeat3 etcHeat4 etcHeat5
+    etcTherm0 etcTherm1 etcTherm2 etcTherm3 etcTherm4 etcTherm5 extFan GND
+    l1/GND l1/Vee laser Vee Vsys xl1/GND xl1/Vee xlNC
+    xlNO xlPWM xs1/Aplus xs1/Bplus xs1/Vee xs2/Aplus xs2/Bplus xs2/Vee
+    xsAminus xsAplus xsBminus xsBplus yl1/GND yl1/Vee ylNC ylNO
+    ylPWM ys1/Aplus ys1/Bplus ys1/Vee ys2/Aplus ys2/Bplus ys2/Vee ysAminus
+    ysAplus ysBminus ysBplus zl1/GND zl1/Vee zlNC zlNO zlPWM
+    zs1/Aplus zs1/Bplus zs1/Vee zs2/Aplus zs2/Bplus zs2/Vee zsAminus zsAplus
+    zsBminus zsBplus
+    (clearance_class default)
+    (via_rule geda_default)
+    (rule
+      (width 0.3048)
+    )
+    (circuit 
+      (use_layer top ground power outline bottom)
+    )
+  )
+)
