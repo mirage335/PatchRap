@@ -5,7 +5,7 @@ FileVersion[20091103]
 
 PCB["" 5600.00mil 4300.00mil]
 
-Grid[10000.000000 0.0000 0.0000 0]
+Grid[1000.000000 0.0000 0.0000 1]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[8.00mil 0.10mil 8.00mil 0.10mil 13.00mil 7.00mil]
@@ -786,7 +786,7 @@ Symbol['~' 12.00mil]
 	SymbolLine[20.00mil 35.00mil 25.00mil 30.00mil 8.00mil]
 )
 Attribute("PCB::grid::unit" "mil")
-Attribute("PCB::grid::size" "100.00mil")
+Attribute("PCB::grid::size" "10.00mil")
 Via[121.0130mm 28.0194mm 27.00mil 20.00mil 0.0000 13.00mil "" "auto"]
 Via[35.6055mm 300.00mil 27.00mil 20.00mil 0.0000 13.00mil "" "auto"]
 Via[12.9174mm 10.8636mm 27.00mil 20.00mil 0.0000 13.00mil "" "auto"]
@@ -1012,7 +1012,7 @@ Element["hidename,onsolder" "SRN8040.fp" "es5/L1" "10uH" 1300.00mil 65.8500mm 95
 
 	)
 
-Element["" "538-95540-2881" "es5/STEP" "-" 1375.00mil 3375.00mil 102.00mil 87.00mil 0 100 ""]
+Element["" "538-95540-2881" "es5/STEP1" "-" 1375.00mil 3375.00mil 102.00mil 87.00mil 0 100 ""]
 (
 	Attribute("device" "CONNECTOR_9")
 	Attribute("manufacturer" "unknown")
@@ -1042,7 +1042,7 @@ Element["" "538-95540-2881" "es5/STEP" "-" 1375.00mil 3375.00mil 102.00mil 87.00
 
 	)
 
-Element["" "538-95540-2881" "es4/STEP" "-" 2100.00mil 3375.00mil 102.00mil 87.00mil 0 100 ""]
+Element["" "538-95540-2881" "es4/STEP1" "-" 2100.00mil 3375.00mil 102.00mil 87.00mil 0 100 ""]
 (
 	Attribute("device" "CONNECTOR_9")
 	Attribute("manufacturer" "unknown")
@@ -1120,7 +1120,7 @@ Element["hidename" "0402" "es4/C1" "10n" 2131.00mil 71.2790mm -31.50mil -31.50mi
 
 	)
 
-Element["" "538-95540-2881" "es2/STEP" "-" 3550.00mil 3375.00mil 102.00mil 87.00mil 0 100 ""]
+Element["" "538-95540-2881" "es2/STEP1" "-" 3550.00mil 3375.00mil 102.00mil 87.00mil 0 100 ""]
 (
 	Attribute("device" "CONNECTOR_9")
 	Attribute("manufacturer" "unknown")
@@ -1198,7 +1198,7 @@ Element["hidename" "0402" "es2/C1" "10n" 3581.00mil 71.2790mm -31.50mil -31.50mi
 
 	)
 
-Element["" "538-95540-2881" "es1/STEP" "-" 4275.00mil 3375.00mil 102.00mil 87.00mil 0 100 ""]
+Element["" "538-95540-2881" "es1/STEP1" "-" 4275.00mil 3375.00mil 102.00mil 87.00mil 0 100 ""]
 (
 	Attribute("device" "CONNECTOR_9")
 	Attribute("manufacturer" "unknown")
@@ -1276,7 +1276,7 @@ Element["hidename" "0402" "es1/C1" "10n" 4306.00mil 71.2790mm -31.50mil -31.50mi
 
 	)
 
-Element["" "538-95540-2881" "es0/STEP" "-" 5000.00mil 3375.00mil 102.00mil 87.00mil 0 100 ""]
+Element["" "538-95540-2881" "es0/STEP1" "-" 5000.00mil 3375.00mil 102.00mil 87.00mil 0 100 ""]
 (
 	Attribute("device" "CONNECTOR_9")
 	Attribute("manufacturer" "unknown")
@@ -1354,7 +1354,7 @@ Element["hidename" "0402" "es0/C1" "10n" 5031.00mil 71.2790mm -31.50mil -31.50mi
 
 	)
 
-Element["onsolder" "538-95540-2881" "et5/EXT" "-" 1825.00mil 3975.00mil -100.00mil 0.0000 2 100 "auto"]
+Element["onsolder" "538-95540-2881" "et5/EXT1" "-" 1825.00mil 3975.00mil -100.00mil 0.0000 2 100 "auto"]
 (
 	Attribute("device" "CONNECTOR_9")
 	Attribute("manufacturer" "unknown")
@@ -1384,7 +1384,7 @@ Element["onsolder" "538-95540-2881" "et5/EXT" "-" 1825.00mil 3975.00mil -100.00m
 
 	)
 
-Element["onsolder" "538-95540-2881" "et4/EXT" "-" 2550.00mil 3975.00mil -100.00mil 0.0000 2 100 "auto"]
+Element["onsolder" "538-95540-2881" "et4/EXT1" "-" 2550.00mil 3975.00mil -100.00mil 0.0000 2 100 "auto"]
 (
 	Attribute("device" "CONNECTOR_9")
 	Attribute("manufacturer" "unknown")
@@ -1414,7 +1414,7 @@ Element["onsolder" "538-95540-2881" "et4/EXT" "-" 2550.00mil 3975.00mil -100.00m
 
 	)
 
-Element["onsolder" "538-95540-2881" "et3/EXT" "-" 3275.00mil 3975.00mil -100.00mil 0.0000 2 100 "auto"]
+Element["onsolder" "538-95540-2881" "et3/EXT1" "-" 3275.00mil 3975.00mil -100.00mil 0.0000 2 100 "auto"]
 (
 	Attribute("device" "CONNECTOR_9")
 	Attribute("manufacturer" "unknown")
@@ -1444,7 +1444,7 @@ Element["onsolder" "538-95540-2881" "et3/EXT" "-" 3275.00mil 3975.00mil -100.00m
 
 	)
 
-Element["onsolder" "538-95540-2881" "et2/EXT" "-" 4000.00mil 3975.00mil -100.00mil 0.0000 2 100 "auto"]
+Element["onsolder" "538-95540-2881" "et2/EXT1" "-" 4000.00mil 3975.00mil -100.00mil 0.0000 2 100 "auto"]
 (
 	Attribute("device" "CONNECTOR_9")
 	Attribute("manufacturer" "unknown")
@@ -1474,7 +1474,7 @@ Element["onsolder" "538-95540-2881" "et2/EXT" "-" 4000.00mil 3975.00mil -100.00m
 
 	)
 
-Element["onsolder" "538-95540-2881" "et1/EXT" "-" 4725.00mil 3975.00mil -100.00mil 0.0000 2 100 "auto"]
+Element["onsolder" "538-95540-2881" "et1/EXT1" "-" 4725.00mil 3975.00mil -100.00mil 0.0000 2 100 "auto"]
 (
 	Attribute("device" "CONNECTOR_9")
 	Attribute("manufacturer" "unknown")
@@ -1504,7 +1504,7 @@ Element["onsolder" "538-95540-2881" "et1/EXT" "-" 4725.00mil 3975.00mil -100.00m
 
 	)
 
-Element["onsolder" "538-95540-2881" "et0/EXT" "-" 5450.00mil 3975.00mil -100.00mil 0.0000 2 100 "auto"]
+Element["onsolder" "538-95540-2881" "et0/EXT1" "-" 5450.00mil 3975.00mil -100.00mil 0.0000 2 100 "auto"]
 (
 	Attribute("device" "CONNECTOR_9")
 	Attribute("manufacturer" "unknown")
@@ -1582,7 +1582,7 @@ Element["hidename" "0402" "es3/C2" "10n" 81.1850mm 2819.50mil -31.50mil -31.50mi
 
 	)
 
-Element["" "538-95540-2881" "es3/STEP" "-" 2825.00mil 3375.00mil 95.00mil 85.00mil 0 100 ""]
+Element["" "538-95540-2881" "es3/STEP1" "-" 2825.00mil 3375.00mil 95.00mil 85.00mil 0 100 ""]
 (
 	Attribute("device" "CONNECTOR_9")
 	Attribute("manufacturer" "unknown")
@@ -1693,7 +1693,7 @@ Element["" "SIP12" "escc2" "6A" 2400.00mil 2500.00mil 50.00mil -50.00mil 2 100 "
 
 	)
 
-Element["" "538-95540-2881" "xs1/STEP" "-" 1825.00mil 925.00mil -102.00mil -87.00mil 2 100 ""]
+Element["" "538-95540-2881" "xs1/STEP1" "-" 1825.00mil 925.00mil -102.00mil -87.00mil 2 100 ""]
 (
 	Attribute("device" "CONNECTOR_9")
 	Attribute("manufacturer" "unknown")
@@ -1771,7 +1771,7 @@ Element["hidename" "0402" "xs1/C1" "10n" 1794.00mil 37.9410mm 31.50mil 31.50mil 
 
 	)
 
-Element["" "538-95540-2881" "xs2/STEP" "-" 2550.00mil 925.00mil -102.00mil -87.00mil 2 100 ""]
+Element["" "538-95540-2881" "xs2/STEP1" "-" 2550.00mil 925.00mil -102.00mil -87.00mil 2 100 ""]
 (
 	Attribute("device" "CONNECTOR_9")
 	Attribute("manufacturer" "unknown")
@@ -1849,7 +1849,7 @@ Element["hidename" "0402" "xs2/C1" "10n" 2519.00mil 37.9410mm 31.50mil 31.50mil 
 
 	)
 
-Element["" "538-95540-2881" "ys1/STEP" "-" 3275.00mil 925.00mil -102.00mil -87.00mil 2 100 ""]
+Element["" "538-95540-2881" "ys1/STEP1" "-" 3275.00mil 925.00mil -102.00mil -87.00mil 2 100 ""]
 (
 	Attribute("device" "CONNECTOR_9")
 	Attribute("manufacturer" "unknown")
@@ -1927,7 +1927,7 @@ Element["hidename" "0402" "ys1/C1" "10n" 3244.00mil 37.9410mm 31.50mil 31.50mil 
 
 	)
 
-Element["" "538-95540-2881" "ys2/STEP" "-" 4000.00mil 925.00mil -102.00mil -87.00mil 2 100 ""]
+Element["" "538-95540-2881" "ys2/STEP1" "-" 4000.00mil 925.00mil -102.00mil -87.00mil 2 100 ""]
 (
 	Attribute("device" "CONNECTOR_9")
 	Attribute("manufacturer" "unknown")
@@ -2005,7 +2005,7 @@ Element["hidename" "0402" "ys2/C1" "10n" 3969.00mil 37.9410mm 31.50mil 31.50mil 
 
 	)
 
-Element["" "538-95540-2881" "zs1/STEP" "-" 4725.00mil 925.00mil -102.00mil -87.00mil 2 100 ""]
+Element["" "538-95540-2881" "zs1/STEP1" "-" 4725.00mil 925.00mil -102.00mil -87.00mil 2 100 ""]
 (
 	Attribute("device" "CONNECTOR_9")
 	Attribute("manufacturer" "unknown")
@@ -2083,7 +2083,7 @@ Element["hidename" "0402" "zs1/C1" "10n" 4694.00mil 37.9410mm 31.50mil 31.50mil 
 
 	)
 
-Element["" "538-95540-2881" "zs2/STEP" "-" 5450.00mil 925.00mil -102.00mil -87.00mil 2 100 ""]
+Element["" "538-95540-2881" "zs2/STEP1" "-" 5450.00mil 925.00mil -102.00mil -87.00mil 2 100 ""]
 (
 	Attribute("device" "CONNECTOR_9")
 	Attribute("manufacturer" "unknown")
@@ -2161,7 +2161,7 @@ Element["hidename" "0402" "zs2/C1" "10n" 5419.00mil 37.9410mm 31.50mil 31.50mil 
 
 	)
 
-Element["onsolder" "538-95540-2881" "xl1/LIMIT" "-" 2100.00mil 325.00mil 75.00mil 0.0000 0 100 "auto"]
+Element["onsolder" "538-95540-2881" "xl1/LIMIT1" "-" 2100.00mil 325.00mil 75.00mil 0.0000 0 100 "auto"]
 (
 	Attribute("device" "CONNECTOR_9")
 	Attribute("manufacturer" "unknown")
@@ -2203,7 +2203,7 @@ Element["hidename,onsolder" "0402" "xl1/C1" "10n" 54.2102mm 675.00mil 31.50mil -
 
 	)
 
-Element["onsolder" "538-95540-2881" "yl1/LIMIT" "-" 3550.00mil 325.00mil 100.00mil 0.0000 0 100 "auto"]
+Element["onsolder" "538-95540-2881" "yl1/LIMIT1" "-" 3550.00mil 325.00mil 100.00mil 0.0000 0 100 "auto"]
 (
 	Attribute("device" "CONNECTOR_9")
 	Attribute("manufacturer" "unknown")
@@ -2245,7 +2245,7 @@ Element["hidename,onsolder" "0402" "yl1/C1" "10n" 91.0402mm 675.00mil 31.50mil -
 
 	)
 
-Element["onsolder" "538-95540-2881" "zl1/LIMIT" "-" 5000.00mil 325.00mil 100.00mil 0.0000 0 100 "auto"]
+Element["onsolder" "538-95540-2881" "zl1/LIMIT1" "-" 5000.00mil 325.00mil 100.00mil 0.0000 0 100 "auto"]
 (
 	Attribute("device" "CONNECTOR_9")
 	Attribute("manufacturer" "unknown")
@@ -2353,7 +2353,7 @@ Element["" "SIP12" "ascc1" "6A" 1300.00mil 1800.00mil -50.00mil 50.00mil 0 100 "
 
 	)
 
-Element["" "538-95540-2881" "l1/LASER" "-" 150.00mil 3375.00mil 100.00mil 100.00mil 0 100 ""]
+Element["" "538-95540-2881" "l1/LASER1" "-" 150.00mil 3375.00mil 100.00mil 100.00mil 0 100 ""]
 (
 	Attribute("device" "CONNECTOR_9")
 	Attribute("manufacturer" "unknown")
@@ -2383,7 +2383,7 @@ Element["" "538-95540-2881" "l1/LASER" "-" 150.00mil 3375.00mil 100.00mil 100.00
 
 	)
 
-Element["onsolder" "538-95540-2881" "a1/ACC" "-" 600.00mil 3975.00mil -125.00mil 0.0000 2 100 "auto"]
+Element["onsolder" "538-95540-2881" "a1/ACC1" "-" 600.00mil 3975.00mil -125.00mil 0.0000 2 100 "auto"]
 (
 	Attribute("device" "CONNECTOR_9")
 	Attribute("manufacturer" "unknown")
@@ -2537,23 +2537,6 @@ Element["onsolder" "0402" "C1" "10n" 2.1402mm 575.00mil -31.50mil 31.50mil 0 100
 
 	)
 
-Element["" "SIP2" "pwmc" "-" 600.00mil 400.00mil -50.00mil -125.00mil 0 100 ""]
-(
-	Attribute("device" "CONNECTOR_2")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "1" "1" "square,warn"]
-	Pin[0.0000 100.00mil 60.00mil 30.00mil 66.00mil 28.00mil "2" "2" "warn"]
-	ElementLine [-50.00mil 0.0000 -50.00mil 100.00mil 20.00mil]
-	ElementLine [50.00mil 0.0000 50.00mil 100.00mil 20.00mil]
-	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementArc [0.0000 0.0000 50.00mil 50.00mil 180 180 20.00mil]
-	ElementArc [0.0000 100.00mil 50.00mil 50.00mil 0 180 20.00mil]
-
-	)
-
 Element["" "SIP2" "5V" "-" 75.00mil 400.00mil -25.00mil -125.00mil 0 100 ""]
 (
 	Attribute("device" "CONNECTOR_2")
@@ -2588,15 +2571,32 @@ Element["" "SIP2" "12V" "-" 250.00mil 400.00mil -25.00mil -125.00mil 0 100 ""]
 
 	)
 
-Element["" "SIP2" "Vcfg" "-" 425.00mil 400.00mil -50.00mil -125.00mil 0 100 ""]
+Element["" "SIP2" "pwmc1" "-" 600.00mil 400.00mil 110.00mil -40.00mil 3 100 ""]
 (
 	Attribute("device" "CONNECTOR_2")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "1" "1" "square,warn"]
-	Pin[0.0000 100.00mil 60.00mil 30.00mil 66.00mil 28.00mil "2" "2" "warn"]
+	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "1" "1" "square"]
+	Pin[0.0000 100.00mil 60.00mil 30.00mil 66.00mil 28.00mil "2" "2" ""]
+	ElementLine [-50.00mil 0.0000 -50.00mil 100.00mil 20.00mil]
+	ElementLine [50.00mil 0.0000 50.00mil 100.00mil 20.00mil]
+	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementArc [0.0000 0.0000 50.00mil 50.00mil 180 180 20.00mil]
+	ElementArc [0.0000 100.00mil 50.00mil 50.00mil 0 180 20.00mil]
+
+	)
+
+Element["" "SIP2" "Vcfg1" "-" 425.00mil 400.00mil 110.00mil -40.00mil 3 100 ""]
+(
+	Attribute("device" "CONNECTOR_2")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "1" "1" "square"]
+	Pin[0.0000 100.00mil 60.00mil 30.00mil 66.00mil 28.00mil "2" "2" ""]
 	ElementLine [-50.00mil 0.0000 -50.00mil 100.00mil 20.00mil]
 	ElementLine [50.00mil 0.0000 50.00mil 100.00mil 20.00mil]
 	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
@@ -3323,13 +3323,13 @@ Layer(1 "top")
 	Line[54.3409mm 39.2089mm 48.8753mm 33.7433mm 12.00mil 20.00mil "clearline,auto"]
 	Line[48.8753mm 33.7433mm 47.8417mm 33.7433mm 12.00mil 20.00mil "clearline,auto"]
 	Line[47.8417mm 33.7433mm 46.7844mm 32.6860mm 12.00mil 20.00mil "clearline,auto"]
-	Line[68.9050mm 33.5927mm 2906.30mil 28.6776mm 12.00mil 20.00mil "clearline,auto"]
-	Line[2906.30mil 28.6776mm 75.6676mm 28.6776mm 12.00mil 20.00mil "clearline,auto"]
+	Line[68.9050mm 33.5927mm 73.8200mm 28.6776mm 12.00mil 20.00mil "clearline,auto"]
+	Line[73.8200mm 28.6776mm 75.6676mm 28.6776mm 12.00mil 20.00mil "clearline,auto"]
 	Line[75.6676mm 28.6776mm 3025.00mil 1175.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[101.2124mm 37.9410mm 101.2124mm 38.7481mm 12.00mil 20.00mil "clearline,auto"]
 	Line[3750.00mil 36.5030mm 3750.00mil 1175.00mil 12.00mil 20.00mil "clearline,auto"]
-	Line[82.7974mm 38.3445mm 3262.60mil 38.4172mm 12.00mil 20.00mil "clearline,auto"]
-	Line[3262.60mil 38.4172mm 93.3358mm 38.4172mm 12.00mil 20.00mil "clearline,auto"]
+	Line[82.7974mm 38.3445mm 82.8700mm 38.4172mm 12.00mil 20.00mil "clearline,auto"]
+	Line[82.8700mm 38.4172mm 93.3358mm 38.4172mm 12.00mil 20.00mil "clearline,auto"]
 	Line[93.3358mm 38.4172mm 3750.00mil 36.5030mm 12.00mil 20.00mil "clearline,auto"]
 	Line[101.2124mm 38.7481mm 97.4951mm 38.7481mm 12.00mil 20.00mil "clearline,auto"]
 	Line[97.4951mm 38.7481mm 3750.00mil 36.5030mm 12.00mil 20.00mil "clearline,auto"]
@@ -4620,57 +4620,57 @@ NetList()
 	Net("+5V" "(unknown)")
 	(
 		Connect("5V-1")
-		Connect("a1/ACC-1")
+		Connect("a1/ACC1-1")
 		Connect("C1-2")
 		Connect("IDE1-4")
-		Connect("l1/LASER-1")
+		Connect("l1/LASER1-1")
 		Connect("X1-1")
 		Connect("X2-1")
 		Connect("xl1/C1-2")
-		Connect("xl1/LIMIT-1")
+		Connect("xl1/LIMIT1-1")
 		Connect("yl1/C1-2")
-		Connect("yl1/LIMIT-1")
+		Connect("yl1/LIMIT1-1")
 		Connect("zl1/C1-2")
-		Connect("zl1/LIMIT-1")
+		Connect("zl1/LIMIT1-1")
 	)
 	Net("+12V" "(unknown)")
 	(
 		Connect("12V-1")
-		Connect("a1/ACC-4")
-		Connect("es0/STEP-1")
-		Connect("es1/STEP-1")
-		Connect("es2/STEP-1")
-		Connect("es3/STEP-1")
-		Connect("es4/STEP-1")
-		Connect("es5/STEP-1")
-		Connect("et0/EXT-3")
-		Connect("et1/EXT-3")
-		Connect("et2/EXT-3")
-		Connect("et3/EXT-3")
-		Connect("et4/EXT-3")
-		Connect("et5/EXT-3")
+		Connect("a1/ACC1-4")
+		Connect("es0/STEP1-1")
+		Connect("es1/STEP1-1")
+		Connect("es2/STEP1-1")
+		Connect("es3/STEP1-1")
+		Connect("es4/STEP1-1")
+		Connect("es5/STEP1-1")
+		Connect("et0/EXT1-3")
+		Connect("et1/EXT1-3")
+		Connect("et2/EXT1-3")
+		Connect("et3/EXT1-3")
+		Connect("et4/EXT1-3")
+		Connect("et5/EXT1-3")
 		Connect("IDE1-3")
-		Connect("l1/LASER-4")
-		Connect("Vcfg-1")
+		Connect("l1/LASER1-4")
+		Connect("Vcfg1-1")
 		Connect("X3-1")
-		Connect("xs1/STEP-1")
-		Connect("xs2/STEP-1")
-		Connect("ys1/STEP-1")
-		Connect("ys2/STEP-1")
-		Connect("zs1/STEP-1")
-		Connect("zs2/STEP-1")
+		Connect("xs1/STEP1-1")
+		Connect("xs2/STEP1-1")
+		Connect("ys1/STEP1-1")
+		Connect("ys2/STEP1-1")
+		Connect("zs1/STEP1-1")
+		Connect("zs2/STEP1-1")
 	)
 	Net("a1/GND" "(unknown)")
 	(
-		Connect("a1/ACC-2")
-		Connect("a1/ACC-9")
+		Connect("a1/ACC1-2")
+		Connect("a1/ACC1-9")
 	)
 	Net("a1/Vee" "(unknown)")
 	(
-		Connect("a1/ACC-5")
-		Connect("a1/ACC-6")
-		Connect("a1/ACC-7")
-		Connect("a1/ACC-8")
+		Connect("a1/ACC1-5")
+		Connect("a1/ACC1-6")
+		Connect("a1/ACC1-7")
+		Connect("a1/ACC1-8")
 	)
 	Net("es0B+" "(unknown)")
 	(
@@ -4687,8 +4687,8 @@ NetList()
 	Net("es0B-" "(unknown)")
 	(
 		Connect("es0/C2-1")
-		Connect("es0/STEP-6")
-		Connect("es0/STEP-8")
+		Connect("es0/STEP1-6")
+		Connect("es0/STEP1-8")
 		Connect("es0/X4-2")
 		Connect("escc1-4")
 		Connect("IDE1-35")
@@ -4696,7 +4696,7 @@ NetList()
 	Net("es0A-" "(unknown)")
 	(
 		Connect("es0/C1-1")
-		Connect("es0/STEP-5")
+		Connect("es0/STEP1-5")
 		Connect("es0/X2-2")
 		Connect("escc1-2")
 		Connect("IDE1-33")
@@ -4705,21 +4705,21 @@ NetList()
 	(
 		Connect("es0/C1-2")
 		Connect("es0/L1-2")
-		Connect("es0/STEP-4")
+		Connect("es0/STEP1-4")
 		Connect("es0/X1-2")
 	)
 	Net("es0/Bplus" "(unknown)")
 	(
 		Connect("es0/C2-2")
 		Connect("es0/L2-2")
-		Connect("es0/STEP-3")
-		Connect("es0/STEP-7")
+		Connect("es0/STEP1-3")
+		Connect("es0/STEP1-7")
 		Connect("es0/X3-2")
 	)
 	Net("es0/Vee" "(unknown)")
 	(
-		Connect("es0/STEP-2")
-		Connect("es0/STEP-9")
+		Connect("es0/STEP1-2")
+		Connect("es0/STEP1-9")
 		Connect("es0/X1-1")
 		Connect("es0/X2-1")
 		Connect("es0/X3-1")
@@ -4740,8 +4740,8 @@ NetList()
 	Net("es1B-" "(unknown)")
 	(
 		Connect("es1/C2-1")
-		Connect("es1/STEP-6")
-		Connect("es1/STEP-8")
+		Connect("es1/STEP1-6")
+		Connect("es1/STEP1-8")
 		Connect("es1/X4-2")
 		Connect("escc1-8")
 		Connect("IDE2-6")
@@ -4749,7 +4749,7 @@ NetList()
 	Net("es1A-" "(unknown)")
 	(
 		Connect("es1/C1-1")
-		Connect("es1/STEP-5")
+		Connect("es1/STEP1-5")
 		Connect("es1/X2-2")
 		Connect("escc1-6")
 		Connect("IDE2-4")
@@ -4758,21 +4758,21 @@ NetList()
 	(
 		Connect("es1/C1-2")
 		Connect("es1/L1-2")
-		Connect("es1/STEP-4")
+		Connect("es1/STEP1-4")
 		Connect("es1/X1-2")
 	)
 	Net("es1/Bplus" "(unknown)")
 	(
 		Connect("es1/C2-2")
 		Connect("es1/L2-2")
-		Connect("es1/STEP-3")
-		Connect("es1/STEP-7")
+		Connect("es1/STEP1-3")
+		Connect("es1/STEP1-7")
 		Connect("es1/X3-2")
 	)
 	Net("es1/Vee" "(unknown)")
 	(
-		Connect("es1/STEP-2")
-		Connect("es1/STEP-9")
+		Connect("es1/STEP1-2")
+		Connect("es1/STEP1-9")
 		Connect("es1/X1-1")
 		Connect("es1/X2-1")
 		Connect("es1/X3-1")
@@ -4793,8 +4793,8 @@ NetList()
 	Net("es2B-" "(unknown)")
 	(
 		Connect("es2/C2-1")
-		Connect("es2/STEP-6")
-		Connect("es2/STEP-8")
+		Connect("es2/STEP1-6")
+		Connect("es2/STEP1-8")
 		Connect("es2/X4-2")
 		Connect("escc1-12")
 		Connect("IDE2-10")
@@ -4802,7 +4802,7 @@ NetList()
 	Net("es2A-" "(unknown)")
 	(
 		Connect("es2/C1-1")
-		Connect("es2/STEP-5")
+		Connect("es2/STEP1-5")
 		Connect("es2/X2-2")
 		Connect("escc1-10")
 		Connect("IDE2-8")
@@ -4811,21 +4811,21 @@ NetList()
 	(
 		Connect("es2/C1-2")
 		Connect("es2/L1-2")
-		Connect("es2/STEP-4")
+		Connect("es2/STEP1-4")
 		Connect("es2/X1-2")
 	)
 	Net("es2/Bplus" "(unknown)")
 	(
 		Connect("es2/C2-2")
 		Connect("es2/L2-2")
-		Connect("es2/STEP-3")
-		Connect("es2/STEP-7")
+		Connect("es2/STEP1-3")
+		Connect("es2/STEP1-7")
 		Connect("es2/X3-2")
 	)
 	Net("es2/Vee" "(unknown)")
 	(
-		Connect("es2/STEP-2")
-		Connect("es2/STEP-9")
+		Connect("es2/STEP1-2")
+		Connect("es2/STEP1-9")
 		Connect("es2/X1-1")
 		Connect("es2/X2-1")
 		Connect("es2/X3-1")
@@ -4846,8 +4846,8 @@ NetList()
 	Net("es3B-" "(unknown)")
 	(
 		Connect("es3/C2-1")
-		Connect("es3/STEP-6")
-		Connect("es3/STEP-8")
+		Connect("es3/STEP1-6")
+		Connect("es3/STEP1-8")
 		Connect("es3/X4-2")
 		Connect("escc2-4")
 		Connect("IDE2-14")
@@ -4855,7 +4855,7 @@ NetList()
 	Net("es3A-" "(unknown)")
 	(
 		Connect("es3/C1-1")
-		Connect("es3/STEP-5")
+		Connect("es3/STEP1-5")
 		Connect("es3/X2-2")
 		Connect("escc2-2")
 		Connect("IDE2-12")
@@ -4864,21 +4864,21 @@ NetList()
 	(
 		Connect("es3/C1-2")
 		Connect("es3/L1-2")
-		Connect("es3/STEP-4")
+		Connect("es3/STEP1-4")
 		Connect("es3/X1-2")
 	)
 	Net("es3/Bplus" "(unknown)")
 	(
 		Connect("es3/C2-2")
 		Connect("es3/L2-2")
-		Connect("es3/STEP-3")
-		Connect("es3/STEP-7")
+		Connect("es3/STEP1-3")
+		Connect("es3/STEP1-7")
 		Connect("es3/X3-2")
 	)
 	Net("es3/Vee" "(unknown)")
 	(
-		Connect("es3/STEP-2")
-		Connect("es3/STEP-9")
+		Connect("es3/STEP1-2")
+		Connect("es3/STEP1-9")
 		Connect("es3/X1-1")
 		Connect("es3/X2-1")
 		Connect("es3/X3-1")
@@ -4899,8 +4899,8 @@ NetList()
 	Net("es4B-" "(unknown)")
 	(
 		Connect("es4/C2-1")
-		Connect("es4/STEP-6")
-		Connect("es4/STEP-8")
+		Connect("es4/STEP1-6")
+		Connect("es4/STEP1-8")
 		Connect("es4/X4-2")
 		Connect("escc2-8")
 		Connect("IDE2-18")
@@ -4908,7 +4908,7 @@ NetList()
 	Net("es4A-" "(unknown)")
 	(
 		Connect("es4/C1-1")
-		Connect("es4/STEP-5")
+		Connect("es4/STEP1-5")
 		Connect("es4/X2-2")
 		Connect("escc2-6")
 		Connect("IDE2-16")
@@ -4917,21 +4917,21 @@ NetList()
 	(
 		Connect("es4/C1-2")
 		Connect("es4/L1-2")
-		Connect("es4/STEP-4")
+		Connect("es4/STEP1-4")
 		Connect("es4/X1-2")
 	)
 	Net("es4/Bplus" "(unknown)")
 	(
 		Connect("es4/C2-2")
 		Connect("es4/L2-2")
-		Connect("es4/STEP-3")
-		Connect("es4/STEP-7")
+		Connect("es4/STEP1-3")
+		Connect("es4/STEP1-7")
 		Connect("es4/X3-2")
 	)
 	Net("es4/Vee" "(unknown)")
 	(
-		Connect("es4/STEP-2")
-		Connect("es4/STEP-9")
+		Connect("es4/STEP1-2")
+		Connect("es4/STEP1-9")
 		Connect("es4/X1-1")
 		Connect("es4/X2-1")
 		Connect("es4/X3-1")
@@ -4952,8 +4952,8 @@ NetList()
 	Net("es5B-" "(unknown)")
 	(
 		Connect("es5/C2-1")
-		Connect("es5/STEP-6")
-		Connect("es5/STEP-8")
+		Connect("es5/STEP1-6")
+		Connect("es5/STEP1-8")
 		Connect("es5/X4-2")
 		Connect("escc2-12")
 		Connect("IDE2-27")
@@ -4961,7 +4961,7 @@ NetList()
 	Net("es5A-" "(unknown)")
 	(
 		Connect("es5/C1-1")
-		Connect("es5/STEP-5")
+		Connect("es5/STEP1-5")
 		Connect("es5/X2-2")
 		Connect("escc2-10")
 		Connect("IDE2-23")
@@ -4970,21 +4970,21 @@ NetList()
 	(
 		Connect("es5/C1-2")
 		Connect("es5/L1-2")
-		Connect("es5/STEP-4")
+		Connect("es5/STEP1-4")
 		Connect("es5/X1-2")
 	)
 	Net("es5/Bplus" "(unknown)")
 	(
 		Connect("es5/C2-2")
 		Connect("es5/L2-2")
-		Connect("es5/STEP-3")
-		Connect("es5/STEP-7")
+		Connect("es5/STEP1-3")
+		Connect("es5/STEP1-7")
 		Connect("es5/X3-2")
 	)
 	Net("es5/Vee" "(unknown)")
 	(
-		Connect("es5/STEP-2")
-		Connect("es5/STEP-9")
+		Connect("es5/STEP1-2")
+		Connect("es5/STEP1-9")
 		Connect("es5/X1-1")
 		Connect("es5/X2-1")
 		Connect("es5/X3-1")
@@ -4992,152 +4992,152 @@ NetList()
 	)
 	Net("et0/GND" "(unknown)")
 	(
-		Connect("et0/EXT-8")
-		Connect("et0/EXT-9")
+		Connect("et0/EXT1-8")
+		Connect("et0/EXT1-9")
 	)
 	Net("et0/Vee" "(unknown)")
 	(
-		Connect("et0/EXT-2")
-		Connect("et0/EXT-5")
-		Connect("et0/EXT-6")
+		Connect("et0/EXT1-2")
+		Connect("et0/EXT1-5")
+		Connect("et0/EXT1-6")
 	)
 	Net("et1/GND" "(unknown)")
 	(
-		Connect("et1/EXT-8")
-		Connect("et1/EXT-9")
+		Connect("et1/EXT1-8")
+		Connect("et1/EXT1-9")
 	)
 	Net("et1/Vee" "(unknown)")
 	(
-		Connect("et1/EXT-2")
-		Connect("et1/EXT-5")
-		Connect("et1/EXT-6")
+		Connect("et1/EXT1-2")
+		Connect("et1/EXT1-5")
+		Connect("et1/EXT1-6")
 	)
 	Net("et2/GND" "(unknown)")
 	(
-		Connect("et2/EXT-8")
-		Connect("et2/EXT-9")
+		Connect("et2/EXT1-8")
+		Connect("et2/EXT1-9")
 	)
 	Net("et2/Vee" "(unknown)")
 	(
-		Connect("et2/EXT-2")
-		Connect("et2/EXT-5")
-		Connect("et2/EXT-6")
+		Connect("et2/EXT1-2")
+		Connect("et2/EXT1-5")
+		Connect("et2/EXT1-6")
 	)
 	Net("et3/GND" "(unknown)")
 	(
-		Connect("et3/EXT-8")
-		Connect("et3/EXT-9")
+		Connect("et3/EXT1-8")
+		Connect("et3/EXT1-9")
 	)
 	Net("et3/Vee" "(unknown)")
 	(
-		Connect("et3/EXT-2")
-		Connect("et3/EXT-5")
-		Connect("et3/EXT-6")
+		Connect("et3/EXT1-2")
+		Connect("et3/EXT1-5")
+		Connect("et3/EXT1-6")
 	)
 	Net("et4/GND" "(unknown)")
 	(
-		Connect("et4/EXT-8")
-		Connect("et4/EXT-9")
+		Connect("et4/EXT1-8")
+		Connect("et4/EXT1-9")
 	)
 	Net("et4/Vee" "(unknown)")
 	(
-		Connect("et4/EXT-2")
-		Connect("et4/EXT-5")
-		Connect("et4/EXT-6")
+		Connect("et4/EXT1-2")
+		Connect("et4/EXT1-5")
+		Connect("et4/EXT1-6")
 	)
 	Net("et5/GND" "(unknown)")
 	(
-		Connect("et5/EXT-8")
-		Connect("et5/EXT-9")
+		Connect("et5/EXT1-8")
+		Connect("et5/EXT1-9")
 	)
 	Net("et5/Vee" "(unknown)")
 	(
-		Connect("et5/EXT-2")
-		Connect("et5/EXT-5")
-		Connect("et5/EXT-6")
+		Connect("et5/EXT1-2")
+		Connect("et5/EXT1-5")
+		Connect("et5/EXT1-6")
 	)
 	Net("etcHeat0" "(unknown)")
 	(
-		Connect("et0/EXT-4")
+		Connect("et0/EXT1-4")
 		Connect("etcc1-1")
 		Connect("IDE1-36")
 	)
 	Net("etcHeat1" "(unknown)")
 	(
-		Connect("et1/EXT-4")
+		Connect("et1/EXT1-4")
 		Connect("etcc1-3")
 		Connect("IDE2-28")
 	)
 	Net("etcHeat2" "(unknown)")
 	(
-		Connect("et2/EXT-4")
+		Connect("et2/EXT1-4")
 		Connect("etcc1-5")
 		Connect("IDE2-31")
 	)
 	Net("etcHeat3" "(unknown)")
 	(
-		Connect("et3/EXT-4")
+		Connect("et3/EXT1-4")
 		Connect("etcc1-7")
 		Connect("IDE2-33")
 	)
 	Net("etcHeat4" "(unknown)")
 	(
-		Connect("et4/EXT-4")
+		Connect("et4/EXT1-4")
 		Connect("etcc1-9")
 		Connect("IDE2-35")
 	)
 	Net("etcHeat5" "(unknown)")
 	(
-		Connect("et5/EXT-4")
+		Connect("et5/EXT1-4")
 		Connect("etcc1-11")
 		Connect("IDE2-37")
 	)
 	Net("etcTherm0" "(unknown)")
 	(
-		Connect("et0/EXT-7")
+		Connect("et0/EXT1-7")
 		Connect("etcc1-2")
 		Connect("IDE1-37")
 	)
 	Net("etcTherm1" "(unknown)")
 	(
-		Connect("et1/EXT-7")
+		Connect("et1/EXT1-7")
 		Connect("etcc1-4")
 		Connect("IDE2-29")
 	)
 	Net("etcTherm2" "(unknown)")
 	(
-		Connect("et2/EXT-7")
+		Connect("et2/EXT1-7")
 		Connect("etcc1-6")
 		Connect("IDE2-32")
 	)
 	Net("etcTherm3" "(unknown)")
 	(
-		Connect("et3/EXT-7")
+		Connect("et3/EXT1-7")
 		Connect("etcc1-8")
 		Connect("IDE2-34")
 	)
 	Net("etcTherm4" "(unknown)")
 	(
-		Connect("et4/EXT-7")
+		Connect("et4/EXT1-7")
 		Connect("etcc1-10")
 		Connect("IDE2-36")
 	)
 	Net("etcTherm5" "(unknown)")
 	(
-		Connect("et5/EXT-7")
+		Connect("et5/EXT1-7")
 		Connect("etcc1-12")
 		Connect("IDE2-38")
 	)
 	Net("extFan" "(unknown)")
 	(
-		Connect("et0/EXT-1")
-		Connect("et1/EXT-1")
-		Connect("et2/EXT-1")
-		Connect("et3/EXT-1")
-		Connect("et4/EXT-1")
-		Connect("et5/EXT-1")
+		Connect("et0/EXT1-1")
+		Connect("et1/EXT1-1")
+		Connect("et2/EXT1-1")
+		Connect("et3/EXT1-1")
+		Connect("et4/EXT1-1")
+		Connect("et5/EXT1-1")
 		Connect("IDE1-38")
-		Connect("pwmc-1")
+		Connect("pwmc1-1")
 	)
 	Net("GND" "(unknown)")
 	(
@@ -5152,20 +5152,20 @@ NetList()
 	)
 	Net("l1/GND" "(unknown)")
 	(
-		Connect("l1/LASER-2")
-		Connect("l1/LASER-8")
-		Connect("l1/LASER-9")
+		Connect("l1/LASER1-2")
+		Connect("l1/LASER1-8")
+		Connect("l1/LASER1-9")
 	)
 	Net("l1/Vee" "(unknown)")
 	(
-		Connect("l1/LASER-5")
-		Connect("l1/LASER-6")
+		Connect("l1/LASER1-5")
+		Connect("l1/LASER1-6")
 	)
 	Net("laser" "(unknown)")
 	(
 		Connect("IDE1-39")
-		Connect("l1/LASER-7")
-		Connect("pwmc-2")
+		Connect("l1/LASER1-7")
+		Connect("pwmc1-2")
 	)
 	Net("Vee" "(unknown)")
 	(
@@ -5195,68 +5195,68 @@ NetList()
 	)
 	Net("Vsys" "(unknown)")
 	(
-		Connect("a1/ACC-3")
+		Connect("a1/ACC1-3")
 		Connect("IDE1-1")
 		Connect("IDE2-1")
-		Connect("l1/LASER-3")
+		Connect("l1/LASER1-3")
 		Connect("R1-1")
-		Connect("Vcfg-2")
+		Connect("Vcfg1-2")
 		Connect("Vsys1-1")
 		Connect("Vsys2-1")
 		Connect("Vsys3-1")
 		Connect("X4-1")
-		Connect("xl1/LIMIT-3")
-		Connect("yl1/LIMIT-3")
-		Connect("zl1/LIMIT-3")
+		Connect("xl1/LIMIT1-3")
+		Connect("yl1/LIMIT1-3")
+		Connect("zl1/LIMIT1-3")
 	)
 	Net("xl1/GND" "(unknown)")
 	(
 		Connect("xl1/C1-1")
-		Connect("xl1/LIMIT-2")
-		Connect("xl1/LIMIT-9")
+		Connect("xl1/LIMIT1-2")
+		Connect("xl1/LIMIT1-9")
 	)
 	Net("xl1/Vee" "(unknown)")
 	(
-		Connect("xl1/LIMIT-6")
-		Connect("xl1/LIMIT-8")
+		Connect("xl1/LIMIT1-6")
+		Connect("xl1/LIMIT1-8")
 	)
 	Net("xlNC" "(unknown)")
 	(
 		Connect("alcc1-1")
 		Connect("IDE1-17")
-		Connect("xl1/LIMIT-4")
+		Connect("xl1/LIMIT1-4")
 	)
 	Net("xlNO" "(unknown)")
 	(
 		Connect("alcc1-2")
 		Connect("IDE1-18")
-		Connect("xl1/LIMIT-5")
+		Connect("xl1/LIMIT1-5")
 	)
 	Net("xlPWM" "(unknown)")
 	(
 		Connect("alcc1-4")
 		Connect("IDE1-21")
-		Connect("xl1/LIMIT-7")
+		Connect("xl1/LIMIT1-7")
 	)
 	Net("xs1/Aplus" "(unknown)")
 	(
 		Connect("xs1/C1-2")
 		Connect("xs1/L1-2")
-		Connect("xs1/STEP-4")
+		Connect("xs1/STEP1-4")
 		Connect("xs1/X1-2")
 	)
 	Net("xs1/Bplus" "(unknown)")
 	(
 		Connect("xs1/C2-2")
 		Connect("xs1/L2-2")
-		Connect("xs1/STEP-3")
-		Connect("xs1/STEP-7")
+		Connect("xs1/STEP1-3")
+		Connect("xs1/STEP1-7")
 		Connect("xs1/X3-2")
 	)
 	Net("xs1/Vee" "(unknown)")
 	(
-		Connect("xs1/STEP-2")
-		Connect("xs1/STEP-9")
+		Connect("xs1/STEP1-2")
+		Connect("xs1/STEP1-9")
 		Connect("xs1/X1-1")
 		Connect("xs1/X2-1")
 		Connect("xs1/X3-1")
@@ -5266,21 +5266,21 @@ NetList()
 	(
 		Connect("xs2/C1-2")
 		Connect("xs2/L1-2")
-		Connect("xs2/STEP-4")
+		Connect("xs2/STEP1-4")
 		Connect("xs2/X1-2")
 	)
 	Net("xs2/Bplus" "(unknown)")
 	(
 		Connect("xs2/C2-2")
 		Connect("xs2/L2-2")
-		Connect("xs2/STEP-3")
-		Connect("xs2/STEP-7")
+		Connect("xs2/STEP1-3")
+		Connect("xs2/STEP1-7")
 		Connect("xs2/X3-2")
 	)
 	Net("xs2/Vee" "(unknown)")
 	(
-		Connect("xs2/STEP-2")
-		Connect("xs2/STEP-9")
+		Connect("xs2/STEP1-2")
+		Connect("xs2/STEP1-9")
 		Connect("xs2/X1-1")
 		Connect("xs2/X2-1")
 		Connect("xs2/X3-1")
@@ -5291,10 +5291,10 @@ NetList()
 		Connect("ascc1-2")
 		Connect("IDE1-6")
 		Connect("xs1/C1-1")
-		Connect("xs1/STEP-5")
+		Connect("xs1/STEP1-5")
 		Connect("xs1/X2-2")
 		Connect("xs2/C1-1")
-		Connect("xs2/STEP-5")
+		Connect("xs2/STEP1-5")
 		Connect("xs2/X2-2")
 	)
 	Net("xsAplus" "(unknown)")
@@ -5309,12 +5309,12 @@ NetList()
 		Connect("ascc1-4")
 		Connect("IDE1-8")
 		Connect("xs1/C2-1")
-		Connect("xs1/STEP-6")
-		Connect("xs1/STEP-8")
+		Connect("xs1/STEP1-6")
+		Connect("xs1/STEP1-8")
 		Connect("xs1/X4-2")
 		Connect("xs2/C2-1")
-		Connect("xs2/STEP-6")
-		Connect("xs2/STEP-8")
+		Connect("xs2/STEP1-6")
+		Connect("xs2/STEP1-8")
 		Connect("xs2/X4-2")
 	)
 	Net("xsBplus" "(unknown)")
@@ -5327,51 +5327,51 @@ NetList()
 	Net("yl1/GND" "(unknown)")
 	(
 		Connect("yl1/C1-1")
-		Connect("yl1/LIMIT-2")
-		Connect("yl1/LIMIT-9")
+		Connect("yl1/LIMIT1-2")
+		Connect("yl1/LIMIT1-9")
 	)
 	Net("yl1/Vee" "(unknown)")
 	(
-		Connect("yl1/LIMIT-6")
-		Connect("yl1/LIMIT-8")
+		Connect("yl1/LIMIT1-6")
+		Connect("yl1/LIMIT1-8")
 	)
 	Net("ylNC" "(unknown)")
 	(
 		Connect("alcc1-5")
 		Connect("IDE1-23")
-		Connect("yl1/LIMIT-4")
+		Connect("yl1/LIMIT1-4")
 	)
 	Net("ylNO" "(unknown)")
 	(
 		Connect("alcc1-6")
 		Connect("IDE1-25")
-		Connect("yl1/LIMIT-5")
+		Connect("yl1/LIMIT1-5")
 	)
 	Net("ylPWM" "(unknown)")
 	(
 		Connect("alcc1-8")
 		Connect("IDE1-27")
-		Connect("yl1/LIMIT-7")
+		Connect("yl1/LIMIT1-7")
 	)
 	Net("ys1/Aplus" "(unknown)")
 	(
 		Connect("ys1/C1-2")
 		Connect("ys1/L1-2")
-		Connect("ys1/STEP-4")
+		Connect("ys1/STEP1-4")
 		Connect("ys1/X1-2")
 	)
 	Net("ys1/Bplus" "(unknown)")
 	(
 		Connect("ys1/C2-2")
 		Connect("ys1/L2-2")
-		Connect("ys1/STEP-3")
-		Connect("ys1/STEP-7")
+		Connect("ys1/STEP1-3")
+		Connect("ys1/STEP1-7")
 		Connect("ys1/X3-2")
 	)
 	Net("ys1/Vee" "(unknown)")
 	(
-		Connect("ys1/STEP-2")
-		Connect("ys1/STEP-9")
+		Connect("ys1/STEP1-2")
+		Connect("ys1/STEP1-9")
 		Connect("ys1/X1-1")
 		Connect("ys1/X2-1")
 		Connect("ys1/X3-1")
@@ -5381,21 +5381,21 @@ NetList()
 	(
 		Connect("ys2/C1-2")
 		Connect("ys2/L1-2")
-		Connect("ys2/STEP-4")
+		Connect("ys2/STEP1-4")
 		Connect("ys2/X1-2")
 	)
 	Net("ys2/Bplus" "(unknown)")
 	(
 		Connect("ys2/C2-2")
 		Connect("ys2/L2-2")
-		Connect("ys2/STEP-3")
-		Connect("ys2/STEP-7")
+		Connect("ys2/STEP1-3")
+		Connect("ys2/STEP1-7")
 		Connect("ys2/X3-2")
 	)
 	Net("ys2/Vee" "(unknown)")
 	(
-		Connect("ys2/STEP-2")
-		Connect("ys2/STEP-9")
+		Connect("ys2/STEP1-2")
+		Connect("ys2/STEP1-9")
 		Connect("ys2/X1-1")
 		Connect("ys2/X2-1")
 		Connect("ys2/X3-1")
@@ -5406,10 +5406,10 @@ NetList()
 		Connect("ascc1-6")
 		Connect("IDE1-10")
 		Connect("ys1/C1-1")
-		Connect("ys1/STEP-5")
+		Connect("ys1/STEP1-5")
 		Connect("ys1/X2-2")
 		Connect("ys2/C1-1")
-		Connect("ys2/STEP-5")
+		Connect("ys2/STEP1-5")
 		Connect("ys2/X2-2")
 	)
 	Net("ysAplus" "(unknown)")
@@ -5424,12 +5424,12 @@ NetList()
 		Connect("ascc1-8")
 		Connect("IDE1-12")
 		Connect("ys1/C2-1")
-		Connect("ys1/STEP-6")
-		Connect("ys1/STEP-8")
+		Connect("ys1/STEP1-6")
+		Connect("ys1/STEP1-8")
 		Connect("ys1/X4-2")
 		Connect("ys2/C2-1")
-		Connect("ys2/STEP-6")
-		Connect("ys2/STEP-8")
+		Connect("ys2/STEP1-6")
+		Connect("ys2/STEP1-8")
 		Connect("ys2/X4-2")
 	)
 	Net("ysBplus" "(unknown)")
@@ -5442,51 +5442,51 @@ NetList()
 	Net("zl1/GND" "(unknown)")
 	(
 		Connect("zl1/C1-1")
-		Connect("zl1/LIMIT-2")
-		Connect("zl1/LIMIT-9")
+		Connect("zl1/LIMIT1-2")
+		Connect("zl1/LIMIT1-9")
 	)
 	Net("zl1/Vee" "(unknown)")
 	(
-		Connect("zl1/LIMIT-6")
-		Connect("zl1/LIMIT-8")
+		Connect("zl1/LIMIT1-6")
+		Connect("zl1/LIMIT1-8")
 	)
 	Net("zlNC" "(unknown)")
 	(
 		Connect("alcc1-9")
 		Connect("IDE1-28")
-		Connect("zl1/LIMIT-4")
+		Connect("zl1/LIMIT1-4")
 	)
 	Net("zlNO" "(unknown)")
 	(
 		Connect("alcc1-10")
 		Connect("IDE1-29")
-		Connect("zl1/LIMIT-5")
+		Connect("zl1/LIMIT1-5")
 	)
 	Net("zlPWM" "(unknown)")
 	(
 		Connect("alcc1-12")
 		Connect("IDE1-31")
-		Connect("zl1/LIMIT-7")
+		Connect("zl1/LIMIT1-7")
 	)
 	Net("zs1/Aplus" "(unknown)")
 	(
 		Connect("zs1/C1-2")
 		Connect("zs1/L1-2")
-		Connect("zs1/STEP-4")
+		Connect("zs1/STEP1-4")
 		Connect("zs1/X1-2")
 	)
 	Net("zs1/Bplus" "(unknown)")
 	(
 		Connect("zs1/C2-2")
 		Connect("zs1/L2-2")
-		Connect("zs1/STEP-3")
-		Connect("zs1/STEP-7")
+		Connect("zs1/STEP1-3")
+		Connect("zs1/STEP1-7")
 		Connect("zs1/X3-2")
 	)
 	Net("zs1/Vee" "(unknown)")
 	(
-		Connect("zs1/STEP-2")
-		Connect("zs1/STEP-9")
+		Connect("zs1/STEP1-2")
+		Connect("zs1/STEP1-9")
 		Connect("zs1/X1-1")
 		Connect("zs1/X2-1")
 		Connect("zs1/X3-1")
@@ -5496,21 +5496,21 @@ NetList()
 	(
 		Connect("zs2/C1-2")
 		Connect("zs2/L1-2")
-		Connect("zs2/STEP-4")
+		Connect("zs2/STEP1-4")
 		Connect("zs2/X1-2")
 	)
 	Net("zs2/Bplus" "(unknown)")
 	(
 		Connect("zs2/C2-2")
 		Connect("zs2/L2-2")
-		Connect("zs2/STEP-3")
-		Connect("zs2/STEP-7")
+		Connect("zs2/STEP1-3")
+		Connect("zs2/STEP1-7")
 		Connect("zs2/X3-2")
 	)
 	Net("zs2/Vee" "(unknown)")
 	(
-		Connect("zs2/STEP-2")
-		Connect("zs2/STEP-9")
+		Connect("zs2/STEP1-2")
+		Connect("zs2/STEP1-9")
 		Connect("zs2/X1-1")
 		Connect("zs2/X2-1")
 		Connect("zs2/X3-1")
@@ -5521,10 +5521,10 @@ NetList()
 		Connect("ascc1-10")
 		Connect("IDE1-14")
 		Connect("zs1/C1-1")
-		Connect("zs1/STEP-5")
+		Connect("zs1/STEP1-5")
 		Connect("zs1/X2-2")
 		Connect("zs2/C1-1")
-		Connect("zs2/STEP-5")
+		Connect("zs2/STEP1-5")
 		Connect("zs2/X2-2")
 	)
 	Net("zsAplus" "(unknown)")
@@ -5539,12 +5539,12 @@ NetList()
 		Connect("ascc1-12")
 		Connect("IDE1-16")
 		Connect("zs1/C2-1")
-		Connect("zs1/STEP-6")
-		Connect("zs1/STEP-8")
+		Connect("zs1/STEP1-6")
+		Connect("zs1/STEP1-8")
 		Connect("zs1/X4-2")
 		Connect("zs2/C2-1")
-		Connect("zs2/STEP-6")
-		Connect("zs2/STEP-8")
+		Connect("zs2/STEP1-6")
+		Connect("zs2/STEP1-8")
 		Connect("zs2/X4-2")
 	)
 	Net("zsBplus" "(unknown)")

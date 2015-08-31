@@ -10,7 +10,7 @@ value=-
 T 61300 49000 5 10 0 0 0 0 1
 description=$1.75 MOUSER 538-95540-2881
 T 62000 53100 5 10 1 1 0 6 1
-refdes=LIMIT
+refdes=LIMIT1
 }
 T 62600 50300 9 10 1 0 0 0 8
 3 \/ 1 - 5V

@@ -1514,7 +1514,7 @@ value=-
 C 47600 50400 1 0 0 connector2-2.sym
 {
 T 48300 51400 5 10 1 1 0 6 1
-refdes=Vcfg
+refdes=Vcfg1
 T 47900 51650 5 10 0 0 0 0 1
 device=CONNECTOR_2
 T 47900 51850 5 10 0 0 0 0 1
@@ -1527,7 +1527,7 @@ value=-
 C 47800 48600 1 0 0 connector2-2.sym
 {
 T 48500 49600 5 10 1 1 0 6 1
-refdes=pwmc
+refdes=pwmc1
 T 48100 49850 5 10 0 0 0 0 1
 device=CONNECTOR_2
 T 48100 50050 5 10 0 0 0 0 1

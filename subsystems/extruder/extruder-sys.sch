@@ -10,7 +10,7 @@ value=-
 T 58700 49500 5 10 0 0 0 0 1
 description=$1.75 MOUSER 538-95540-2881
 T 59400 53600 5 10 1 1 0 6 1
-refdes=EXT
+refdes=EXT1
 }
 T 59700 51000 9 10 1 0 0 0 8
 3 \/ 1 - PWMfan
