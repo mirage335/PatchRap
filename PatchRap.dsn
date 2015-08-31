@@ -30,314 +30,314 @@
     )
   )
   (placement
-    (component 139
+    (component 102
       (place "Vsys1" 4.445000 82.760000 front 0 (PN 0))
     )
-    (component 154
+    (component 117
       (place "Vsys3" 4.445000 49.740000 front 0 (PN 0))
     )
-    (component 169
+    (component 132
       (place "Vsys2" 4.445000 66.250000 front 0 (PN 0))
     )
-    (component 184
+    (component 147
       (place "R1" 6.985000 40.640000 front 0 (PN 0))
     )
-    (component 195
+    (component 158
       (place "es5/C1" 35.712400 37.941000 front 0 (PN 0))
     )
-    (component 201
+    (component 164
       (place "es5/C2" 44.355000 37.604700 front 0 (PN 0))
     )
-    (component 207
+    (component 170
       (place "es5/L2" 44.125007 39.370008 back 0 (PN 0))
     )
-    (component 213
+    (component 176
       (place "es5/L1" 35.870007 39.370008 back 0 (PN 0))
     )
-    (component 219
-      (place "es5/STEP" 40.638333 28.066666 front 0 (PN 0))
+    (component 182
+      (place "es5/STEP1" 40.638333 28.066666 front 0 (PN 0))
     )
-    (component 243
-      (place "es4/STEP" 59.053333 28.066666 front 0 (PN 0))
+    (component 206
+      (place "es4/STEP1" 59.053333 28.066666 front 0 (PN 0))
     )
-    (component 267
+    (component 230
       (place "es4/L1" 54.285007 39.370008 back 0 (PN 0))
     )
-    (component 273
+    (component 236
       (place "es4/L2" 62.540007 39.370008 back 0 (PN 0))
     )
-    (component 279
+    (component 242
       (place "es4/C2" 62.770000 37.604700 front 0 (PN 0))
     )
-    (component 285
+    (component 248
       (place "es4/C1" 54.127400 37.941000 front 0 (PN 0))
     )
-    (component 291
-      (place "es2/STEP" 95.883333 28.066666 front 0 (PN 0))
+    (component 254
+      (place "es2/STEP1" 95.883333 28.066666 front 0 (PN 0))
     )
-    (component 315
+    (component 278
       (place "es2/L1" 91.115007 39.370008 back 0 (PN 0))
     )
-    (component 321
+    (component 284
       (place "es2/L2" 99.370007 39.370008 back 0 (PN 0))
     )
-    (component 327
+    (component 290
       (place "es2/C2" 99.600000 37.604700 front 0 (PN 0))
     )
-    (component 333
+    (component 296
       (place "es2/C1" 90.957400 37.941000 front 0 (PN 0))
     )
-    (component 339
-      (place "es1/STEP" 114.298333 28.066666 front 0 (PN 0))
+    (component 302
+      (place "es1/STEP1" 114.298333 28.066666 front 0 (PN 0))
     )
-    (component 363
+    (component 326
       (place "es1/L1" 109.530007 39.370008 back 0 (PN 0))
     )
-    (component 369
+    (component 332
       (place "es1/L2" 117.785007 39.370008 back 0 (PN 0))
     )
-    (component 375
+    (component 338
       (place "es1/C2" 118.015000 37.604700 front 0 (PN 0))
     )
-    (component 381
+    (component 344
       (place "es1/C1" 109.372400 37.941000 front 0 (PN 0))
     )
-    (component 387
-      (place "es0/STEP" 132.713333 28.066666 front 0 (PN 0))
+    (component 350
+      (place "es0/STEP1" 132.713333 28.066666 front 0 (PN 0))
     )
-    (component 411
+    (component 374
       (place "es0/L1" 127.945007 39.370008 back 0 (PN 0))
     )
-    (component 417
+    (component 380
       (place "es0/L2" 136.200007 39.370008 back 0 (PN 0))
     )
-    (component 423
+    (component 386
       (place "es0/C2" 136.430000 37.604700 front 0 (PN 0))
     )
-    (component 429
+    (component 392
       (place "es0/C1" 127.787400 37.941000 front 0 (PN 0))
     )
-    (component 435
-      (place "et5/EXT" 40.641666 12.826666 back 0 (PN 0))
+    (component 398
+      (place "et5/EXT1" 40.641666 12.826666 back 0 (PN 0))
     )
-    (component 459
-      (place "et4/EXT" 59.056666 12.826666 back 0 (PN 0))
+    (component 422
+      (place "et4/EXT1" 59.056666 12.826666 back 0 (PN 0))
     )
-    (component 483
-      (place "et3/EXT" 77.471666 12.826666 back 0 (PN 0))
+    (component 446
+      (place "et3/EXT1" 77.471666 12.826666 back 0 (PN 0))
     )
-    (component 507
-      (place "et2/EXT" 95.886666 12.826666 back 0 (PN 0))
+    (component 470
+      (place "et2/EXT1" 95.886666 12.826666 back 0 (PN 0))
     )
-    (component 531
-      (place "et1/EXT" 114.301666 12.826666 back 0 (PN 0))
+    (component 494
+      (place "et1/EXT1" 114.301666 12.826666 back 0 (PN 0))
     )
-    (component 555
-      (place "et0/EXT" 132.716666 12.826666 back 0 (PN 0))
+    (component 518
+      (place "et0/EXT1" 132.716666 12.826666 back 0 (PN 0))
     )
-    (component 579
+    (component 542
       (place "es3/L1" 72.700007 39.370008 back 0 (PN 0))
     )
-    (component 585
+    (component 548
       (place "es3/C1" 72.542400 37.941000 front 0 (PN 0))
     )
-    (component 591
+    (component 554
       (place "es3/L2" 80.955007 39.370008 back 0 (PN 0))
     )
-    (component 597
+    (component 560
       (place "es3/C2" 81.185000 37.604700 front 0 (PN 0))
     )
-    (component 603
-      (place "es3/STEP" 77.468333 28.066666 front 0 (PN 0))
+    (component 566
+      (place "es3/STEP1" 77.468333 28.066666 front 0 (PN 0))
     )
-    (component 627
+    (component 590
       (place "etcc1" 120.650000 45.720000 front 0 (PN 0))
     )
-    (component 648
+    (component 611
       (place "escc1" 83.820000 45.720000 front 0 (PN 0))
     )
-    (component 669
+    (component 632
       (place "escc2" 46.990000 45.720000 front 0 (PN 0))
     )
-    (component 690
-      (place "xs1/STEP" 40.641666 81.153333 front 0 (PN 0))
+    (component 653
+      (place "xs1/STEP1" 40.641666 81.153333 front 0 (PN 0))
     )
-    (component 714
+    (component 677
       (place "xs1/L1" 45.409993 69.849992 back 0 (PN 0))
     )
-    (component 720
+    (component 683
       (place "xs1/L2" 37.154993 69.849992 back 0 (PN 0))
     )
-    (component 726
+    (component 689
       (place "xs1/C2" 36.925000 71.615300 front 0 (PN 0))
     )
-    (component 732
+    (component 695
       (place "xs1/C1" 45.567600 71.279000 front 0 (PN 0))
     )
-    (component 738
-      (place "xs2/STEP" 59.056666 81.153333 front 0 (PN 0))
+    (component 701
+      (place "xs2/STEP1" 59.056666 81.153333 front 0 (PN 0))
     )
-    (component 762
+    (component 725
       (place "xs2/L1" 63.824993 69.849992 back 0 (PN 0))
     )
-    (component 768
+    (component 731
       (place "xs2/L2" 55.569993 69.849992 back 0 (PN 0))
     )
-    (component 774
+    (component 737
       (place "xs2/C2" 55.340000 71.615300 front 0 (PN 0))
     )
-    (component 780
+    (component 743
       (place "xs2/C1" 63.982600 71.279000 front 0 (PN 0))
     )
-    (component 786
-      (place "ys1/STEP" 77.471666 81.153333 front 0 (PN 0))
+    (component 749
+      (place "ys1/STEP1" 77.471666 81.153333 front 0 (PN 0))
     )
-    (component 810
+    (component 773
       (place "ys1/L1" 82.239993 69.849992 back 0 (PN 0))
     )
-    (component 816
+    (component 779
       (place "ys1/L2" 73.984993 69.849992 back 0 (PN 0))
     )
-    (component 822
+    (component 785
       (place "ys1/C2" 73.755000 71.615300 front 0 (PN 0))
     )
-    (component 828
+    (component 791
       (place "ys1/C1" 82.397600 71.279000 front 0 (PN 0))
     )
-    (component 834
-      (place "ys2/STEP" 95.886666 81.153333 front 0 (PN 0))
+    (component 797
+      (place "ys2/STEP1" 95.886666 81.153333 front 0 (PN 0))
     )
-    (component 858
+    (component 821
       (place "ys2/L1" 100.654993 69.849992 back 0 (PN 0))
     )
-    (component 864
+    (component 827
       (place "ys2/L2" 92.399993 69.849992 back 0 (PN 0))
     )
-    (component 870
+    (component 833
       (place "ys2/C2" 92.170000 71.615300 front 0 (PN 0))
     )
-    (component 876
+    (component 839
       (place "ys2/C1" 100.812600 71.279000 front 0 (PN 0))
     )
-    (component 882
-      (place "zs1/STEP" 114.301666 81.153333 front 0 (PN 0))
+    (component 845
+      (place "zs1/STEP1" 114.301666 81.153333 front 0 (PN 0))
     )
-    (component 906
+    (component 869
       (place "zs1/L1" 119.069993 69.849992 back 0 (PN 0))
     )
-    (component 912
+    (component 875
       (place "zs1/L2" 110.814993 69.849992 back 0 (PN 0))
     )
-    (component 918
+    (component 881
       (place "zs1/C2" 110.585000 71.615300 front 0 (PN 0))
     )
-    (component 924
+    (component 887
       (place "zs1/C1" 119.227600 71.279000 front 0 (PN 0))
     )
-    (component 930
-      (place "zs2/STEP" 132.716666 81.153333 front 0 (PN 0))
+    (component 893
+      (place "zs2/STEP1" 132.716666 81.153333 front 0 (PN 0))
     )
-    (component 954
+    (component 917
       (place "zs2/L1" 137.484993 69.849992 back 0 (PN 0))
     )
-    (component 960
+    (component 923
       (place "zs2/L2" 129.229993 69.849992 back 0 (PN 0))
     )
-    (component 966
+    (component 929
       (place "zs2/C2" 129.000000 71.615300 front 0 (PN 0))
     )
-    (component 972
+    (component 935
       (place "zs2/C1" 137.642600 71.279000 front 0 (PN 0))
     )
-    (component 978
-      (place "xl1/LIMIT" 59.053333 96.393333 back 0 (PN 0))
+    (component 941
+      (place "xl1/LIMIT1" 59.053333 96.393333 back 0 (PN 0))
     )
-    (component 1002
+    (component 965
       (place "xl1/C1" 54.210200 92.075000 back 0 (PN 0))
     )
-    (component 1008
-      (place "yl1/LIMIT" 95.883333 96.393333 back 0 (PN 0))
+    (component 971
+      (place "yl1/LIMIT1" 95.883333 96.393333 back 0 (PN 0))
     )
-    (component 1032
+    (component 995
       (place "yl1/C1" 91.040200 92.075000 back 0 (PN 0))
     )
-    (component 1038
-      (place "zl1/LIMIT" 132.713333 96.393333 back 0 (PN 0))
+    (component 1001
+      (place "zl1/LIMIT1" 132.713333 96.393333 back 0 (PN 0))
     )
-    (component 1062
+    (component 1025
       (place "zl1/C1" 127.870200 92.075000 back 0 (PN 0))
     )
-    (component 1068
+    (component 1031
       (place "L1" 35.870007 99.695000 back 0 (PN 0))
     )
-    (component 1074
+    (component 1037
       (place "alcc1" 83.820000 63.500000 front 0 (PN 0))
     )
-    (component 1095
+    (component 1058
       (place "ascc1" 46.990000 63.500000 front 0 (PN 0))
     )
-    (component 1116
-      (place "l1/LASER" 9.523333 28.066666 front 0 (PN 0))
+    (component 1079
+      (place "l1/LASER1" 9.523333 28.066666 front 0 (PN 0))
     )
-    (component 1140
-      (place "a1/ACC" 9.526666 12.826666 back 0 (PN 0))
+    (component 1103
+      (place "a1/ACC1" 9.526666 12.826666 back 0 (PN 0))
     )
-    (component 1164
+    (component 1127
       (place "IDE2" 24.130000 27.940000 front 0 (PN 0))
     )
-    (component 1214
+    (component 1177
       (place "IDE1" 24.130000 81.280000 front 0 (PN 0))
     )
-    (component 1264
+    (component 1227
       (place "C1" 2.140200 94.615000 back 0 (PN 0))
     )
-    (component 1270
-      (place "pwmc" 15.240000 97.790000 front 0 (PN 0))
-    )
-    (component 1281
+    (component 1244
       (place "5V" 1.905000 97.790000 front 0 (PN 0))
     )
-    (component 1292
+    (component 1255
       (place "12V" 6.350000 97.790000 front 0 (PN 0))
     )
-    (component 1303
-      (place "Vcfg" 10.795000 97.790000 front 0 (PN 0))
+    (component 7060
+      (place "pwmc1" 15.240000 97.790000 front 0 (PN 0))
+    )
+    (component 7082
+      (place "Vcfg1" 10.795000 97.790000 front 0 (PN 0))
     )
   )
   (library
-    (image 139
+    (image 102
       (pin Th_round_6000000 "1" 0.000000 3.600000)
       (pin Th_round_6000000 "2" 0.000000 -3.600000)
     )
-    (image 154
+    (image 117
       (pin Th_round_6000000 "1" 0.000000 3.600000)
       (pin Th_round_6000000 "2" 0.000000 -3.600000)
     )
-    (image 169
+    (image 132
       (pin Th_round_6000000 "1" 0.000000 3.600000)
       (pin Th_round_6000000 "2" 0.000000 -3.600000)
     )
-    (image 184
+    (image 147
       (pin Th_square_1524000 "1" -1.270000 0.000000)
       (pin Th_round_1524000 "2" 1.270000 0.000000)
     )
-    (image 195
+    (image 158
       (pin Smd_rect_499872x699516 "1" -0.399796 0.000000)
       (pin Smd_rect_499872x699516 "2" 0.399796 0.000000)
     )
-    (image 201
+    (image 164
       (pin Smd_rect_499872x699516 "1" -0.399796 0.000000)
       (pin Smd_rect_499872x699516 "2" 0.399796 0.000000)
     )
-    (image 207
+    (image 170
       (pin Smd_rect_2199894x10199878 "1" 2.850007 0.000000)
       (pin Smd_rect_2199894x10199878 "2" -2.850007 0.000000)
     )
-    (image 213
+    (image 176
       (pin Smd_rect_2199894x10199878 "1" 2.850007 0.000000)
       (pin Smd_rect_2199894x10199878 "2" -2.850007 0.000000)
     )
-    (image 219
+    (image 182
       (pin Th_round_1400000 "2" -3.173333 4.318334)
       (pin Th_round_1400000 "4" -0.633333 4.318334)
       (pin Th_round_1400000 "6" 1.906667 4.318334)
@@ -351,7 +351,7 @@
       (pin Th_round_2100000 "9" -7.883333 -7.621666)
       (pin Th_round_2100000 "9" 7.866667 -7.621666)
     )
-    (image 243
+    (image 206
       (pin Th_round_1400000 "2" -3.173333 4.318334)
       (pin Th_round_1400000 "4" -0.633333 4.318334)
       (pin Th_round_1400000 "6" 1.906667 4.318334)
@@ -365,23 +365,23 @@
       (pin Th_round_2100000 "9" -7.883333 -7.621666)
       (pin Th_round_2100000 "9" 7.866667 -7.621666)
     )
-    (image 267
+    (image 230
       (pin Smd_rect_2199894x10199878 "1" 2.850007 0.000000)
       (pin Smd_rect_2199894x10199878 "2" -2.850007 0.000000)
     )
-    (image 273
+    (image 236
       (pin Smd_rect_2199894x10199878 "1" 2.850007 0.000000)
       (pin Smd_rect_2199894x10199878 "2" -2.850007 0.000000)
     )
-    (image 279
+    (image 242
       (pin Smd_rect_499872x699516 "1" -0.399796 0.000000)
       (pin Smd_rect_499872x699516 "2" 0.399796 0.000000)
     )
-    (image 285
+    (image 248
       (pin Smd_rect_499872x699516 "1" -0.399796 0.000000)
       (pin Smd_rect_499872x699516 "2" 0.399796 0.000000)
     )
-    (image 291
+    (image 254
       (pin Th_round_1400000 "2" -3.173333 4.318334)
       (pin Th_round_1400000 "4" -0.633333 4.318334)
       (pin Th_round_1400000 "6" 1.906667 4.318334)
@@ -395,23 +395,23 @@
       (pin Th_round_2100000 "9" -7.883333 -7.621666)
       (pin Th_round_2100000 "9" 7.866667 -7.621666)
     )
-    (image 315
+    (image 278
       (pin Smd_rect_2199894x10199878 "1" 2.850007 0.000000)
       (pin Smd_rect_2199894x10199878 "2" -2.850007 0.000000)
     )
-    (image 321
+    (image 284
       (pin Smd_rect_2199894x10199878 "1" 2.850007 0.000000)
       (pin Smd_rect_2199894x10199878 "2" -2.850007 0.000000)
     )
-    (image 327
+    (image 290
       (pin Smd_rect_499872x699516 "1" -0.399796 0.000000)
       (pin Smd_rect_499872x699516 "2" 0.399796 0.000000)
     )
-    (image 333
+    (image 296
       (pin Smd_rect_499872x699516 "1" -0.399796 0.000000)
       (pin Smd_rect_499872x699516 "2" 0.399796 0.000000)
     )
-    (image 339
+    (image 302
       (pin Th_round_1400000 "2" -3.173333 4.318334)
       (pin Th_round_1400000 "4" -0.633333 4.318334)
       (pin Th_round_1400000 "6" 1.906667 4.318334)
@@ -425,23 +425,23 @@
       (pin Th_round_2100000 "9" -7.883333 -7.621666)
       (pin Th_round_2100000 "9" 7.866667 -7.621666)
     )
-    (image 363
+    (image 326
       (pin Smd_rect_2199894x10199878 "1" 2.850007 0.000000)
       (pin Smd_rect_2199894x10199878 "2" -2.850007 0.000000)
     )
-    (image 369
+    (image 332
       (pin Smd_rect_2199894x10199878 "1" 2.850007 0.000000)
       (pin Smd_rect_2199894x10199878 "2" -2.850007 0.000000)
     )
-    (image 375
+    (image 338
       (pin Smd_rect_499872x699516 "1" -0.399796 0.000000)
       (pin Smd_rect_499872x699516 "2" 0.399796 0.000000)
     )
-    (image 381
+    (image 344
       (pin Smd_rect_499872x699516 "1" -0.399796 0.000000)
       (pin Smd_rect_499872x699516 "2" 0.399796 0.000000)
     )
-    (image 387
+    (image 350
       (pin Th_round_1400000 "2" -3.173333 4.318334)
       (pin Th_round_1400000 "4" -0.633333 4.318334)
       (pin Th_round_1400000 "6" 1.906667 4.318334)
@@ -455,23 +455,23 @@
       (pin Th_round_2100000 "9" -7.883333 -7.621666)
       (pin Th_round_2100000 "9" 7.866667 -7.621666)
     )
-    (image 411
+    (image 374
       (pin Smd_rect_2199894x10199878 "1" 2.850007 0.000000)
       (pin Smd_rect_2199894x10199878 "2" -2.850007 0.000000)
     )
-    (image 417
+    (image 380
       (pin Smd_rect_2199894x10199878 "1" 2.850007 0.000000)
       (pin Smd_rect_2199894x10199878 "2" -2.850007 0.000000)
     )
-    (image 423
+    (image 386
       (pin Smd_rect_499872x699516 "1" -0.399796 0.000000)
       (pin Smd_rect_499872x699516 "2" 0.399796 0.000000)
     )
-    (image 429
+    (image 392
       (pin Smd_rect_499872x699516 "1" -0.399796 0.000000)
       (pin Smd_rect_499872x699516 "2" 0.399796 0.000000)
     )
-    (image 435
+    (image 398
       (pin Th_round_1400000 "2" -3.173334 4.318334)
       (pin Th_round_1400000 "4" -0.633334 4.318334)
       (pin Th_round_1400000 "6" 1.906666 4.318334)
@@ -485,7 +485,7 @@
       (pin Th_round_2100000 "9" -7.883334 -7.621666)
       (pin Th_round_2100000 "9" 7.866666 -7.621666)
     )
-    (image 459
+    (image 422
       (pin Th_round_1400000 "2" -3.173334 4.318334)
       (pin Th_round_1400000 "4" -0.633334 4.318334)
       (pin Th_round_1400000 "6" 1.906666 4.318334)
@@ -499,7 +499,7 @@
       (pin Th_round_2100000 "9" -7.883334 -7.621666)
       (pin Th_round_2100000 "9" 7.866666 -7.621666)
     )
-    (image 483
+    (image 446
       (pin Th_round_1400000 "2" -3.173334 4.318334)
       (pin Th_round_1400000 "4" -0.633334 4.318334)
       (pin Th_round_1400000 "6" 1.906666 4.318334)
@@ -513,7 +513,7 @@
       (pin Th_round_2100000 "9" -7.883334 -7.621666)
       (pin Th_round_2100000 "9" 7.866666 -7.621666)
     )
-    (image 507
+    (image 470
       (pin Th_round_1400000 "2" -3.173334 4.318334)
       (pin Th_round_1400000 "4" -0.633334 4.318334)
       (pin Th_round_1400000 "6" 1.906666 4.318334)
@@ -527,7 +527,7 @@
       (pin Th_round_2100000 "9" -7.883334 -7.621666)
       (pin Th_round_2100000 "9" 7.866666 -7.621666)
     )
-    (image 531
+    (image 494
       (pin Th_round_1400000 "2" -3.173334 4.318334)
       (pin Th_round_1400000 "4" -0.633334 4.318334)
       (pin Th_round_1400000 "6" 1.906666 4.318334)
@@ -541,7 +541,7 @@
       (pin Th_round_2100000 "9" -7.883334 -7.621666)
       (pin Th_round_2100000 "9" 7.866666 -7.621666)
     )
-    (image 555
+    (image 518
       (pin Th_round_1400000 "2" -3.173334 4.318334)
       (pin Th_round_1400000 "4" -0.633334 4.318334)
       (pin Th_round_1400000 "6" 1.906666 4.318334)
@@ -555,23 +555,23 @@
       (pin Th_round_2100000 "9" -7.883334 -7.621666)
       (pin Th_round_2100000 "9" 7.866666 -7.621666)
     )
-    (image 579
+    (image 542
       (pin Smd_rect_2199894x10199878 "1" 2.850007 0.000000)
       (pin Smd_rect_2199894x10199878 "2" -2.850007 0.000000)
     )
-    (image 585
+    (image 548
       (pin Smd_rect_499872x699516 "1" -0.399796 0.000000)
       (pin Smd_rect_499872x699516 "2" 0.399796 0.000000)
     )
-    (image 591
+    (image 554
       (pin Smd_rect_2199894x10199878 "1" 2.850007 0.000000)
       (pin Smd_rect_2199894x10199878 "2" -2.850007 0.000000)
     )
-    (image 597
+    (image 560
       (pin Smd_rect_499872x699516 "1" -0.399796 0.000000)
       (pin Smd_rect_499872x699516 "2" 0.399796 0.000000)
     )
-    (image 603
+    (image 566
       (pin Th_round_1400000 "2" -3.173333 4.318334)
       (pin Th_round_1400000 "4" -0.633333 4.318334)
       (pin Th_round_1400000 "6" 1.906667 4.318334)
@@ -585,7 +585,7 @@
       (pin Th_round_2100000 "9" -7.883333 -7.621666)
       (pin Th_round_2100000 "9" 7.866667 -7.621666)
     )
-    (image 627
+    (image 590
       (pin Th_square_1524000 "1" 13.970000 0.000000)
       (pin Th_round_1524000 "2" 11.430000 0.000000)
       (pin Th_round_1524000 "3" 8.890000 0.000000)
@@ -599,7 +599,7 @@
       (pin Th_round_1524000 "11" -11.430000 0.000000)
       (pin Th_round_1524000 "12" -13.970000 0.000000)
     )
-    (image 648
+    (image 611
       (pin Th_square_1524000 "1" 13.970000 0.000000)
       (pin Th_round_1524000 "2" 11.430000 0.000000)
       (pin Th_round_1524000 "3" 8.890000 0.000000)
@@ -613,7 +613,7 @@
       (pin Th_round_1524000 "11" -11.430000 0.000000)
       (pin Th_round_1524000 "12" -13.970000 0.000000)
     )
-    (image 669
+    (image 632
       (pin Th_square_1524000 "1" 13.970000 0.000000)
       (pin Th_round_1524000 "2" 11.430000 0.000000)
       (pin Th_round_1524000 "3" 8.890000 0.000000)
@@ -627,7 +627,7 @@
       (pin Th_round_1524000 "11" -11.430000 0.000000)
       (pin Th_round_1524000 "12" -13.970000 0.000000)
     )
-    (image 690
+    (image 653
       (pin Th_round_1400000 "2" 3.173334 -4.318333)
       (pin Th_round_1400000 "4" 0.633334 -4.318333)
       (pin Th_round_1400000 "6" -1.906666 -4.318333)
@@ -641,23 +641,23 @@
       (pin Th_round_2100000 "9" 7.883334 7.621667)
       (pin Th_round_2100000 "9" -7.866666 7.621667)
     )
-    (image 714
+    (image 677
       (pin Smd_rect_2199894x10199878 "1" -2.850007 0.000000)
       (pin Smd_rect_2199894x10199878 "2" 2.850007 0.000000)
     )
-    (image 720
+    (image 683
       (pin Smd_rect_2199894x10199878 "1" -2.850007 0.000000)
       (pin Smd_rect_2199894x10199878 "2" 2.850007 0.000000)
     )
-    (image 726
+    (image 689
       (pin Smd_rect_499872x699516 "1" 0.399796 0.000000)
       (pin Smd_rect_499872x699516 "2" -0.399796 0.000000)
     )
-    (image 732
+    (image 695
       (pin Smd_rect_499872x699516 "1" 0.399796 0.000000)
       (pin Smd_rect_499872x699516 "2" -0.399796 0.000000)
     )
-    (image 738
+    (image 701
       (pin Th_round_1400000 "2" 3.173334 -4.318333)
       (pin Th_round_1400000 "4" 0.633334 -4.318333)
       (pin Th_round_1400000 "6" -1.906666 -4.318333)
@@ -671,23 +671,23 @@
       (pin Th_round_2100000 "9" 7.883334 7.621667)
       (pin Th_round_2100000 "9" -7.866666 7.621667)
     )
-    (image 762
+    (image 725
       (pin Smd_rect_2199894x10199878 "1" -2.850007 0.000000)
       (pin Smd_rect_2199894x10199878 "2" 2.850007 0.000000)
     )
-    (image 768
+    (image 731
       (pin Smd_rect_2199894x10199878 "1" -2.850007 0.000000)
       (pin Smd_rect_2199894x10199878 "2" 2.850007 0.000000)
     )
-    (image 774
+    (image 737
       (pin Smd_rect_499872x699516 "1" 0.399796 0.000000)
       (pin Smd_rect_499872x699516 "2" -0.399796 0.000000)
     )
-    (image 780
+    (image 743
       (pin Smd_rect_499872x699516 "1" 0.399796 0.000000)
       (pin Smd_rect_499872x699516 "2" -0.399796 0.000000)
     )
-    (image 786
+    (image 749
       (pin Th_round_1400000 "2" 3.173334 -4.318333)
       (pin Th_round_1400000 "4" 0.633334 -4.318333)
       (pin Th_round_1400000 "6" -1.906666 -4.318333)
@@ -701,23 +701,23 @@
       (pin Th_round_2100000 "9" 7.883334 7.621667)
       (pin Th_round_2100000 "9" -7.866666 7.621667)
     )
-    (image 810
+    (image 773
       (pin Smd_rect_2199894x10199878 "1" -2.850007 0.000000)
       (pin Smd_rect_2199894x10199878 "2" 2.850007 0.000000)
     )
-    (image 816
+    (image 779
       (pin Smd_rect_2199894x10199878 "1" -2.850007 0.000000)
       (pin Smd_rect_2199894x10199878 "2" 2.850007 0.000000)
     )
-    (image 822
+    (image 785
       (pin Smd_rect_499872x699516 "1" 0.399796 0.000000)
       (pin Smd_rect_499872x699516 "2" -0.399796 0.000000)
     )
-    (image 828
+    (image 791
       (pin Smd_rect_499872x699516 "1" 0.399796 0.000000)
       (pin Smd_rect_499872x699516 "2" -0.399796 0.000000)
     )
-    (image 834
+    (image 797
       (pin Th_round_1400000 "2" 3.173334 -4.318333)
       (pin Th_round_1400000 "4" 0.633334 -4.318333)
       (pin Th_round_1400000 "6" -1.906666 -4.318333)
@@ -731,23 +731,23 @@
       (pin Th_round_2100000 "9" 7.883334 7.621667)
       (pin Th_round_2100000 "9" -7.866666 7.621667)
     )
-    (image 858
+    (image 821
       (pin Smd_rect_2199894x10199878 "1" -2.850007 0.000000)
       (pin Smd_rect_2199894x10199878 "2" 2.850007 0.000000)
     )
-    (image 864
+    (image 827
       (pin Smd_rect_2199894x10199878 "1" -2.850007 0.000000)
       (pin Smd_rect_2199894x10199878 "2" 2.850007 0.000000)
     )
-    (image 870
+    (image 833
       (pin Smd_rect_499872x699516 "1" 0.399796 0.000000)
       (pin Smd_rect_499872x699516 "2" -0.399796 0.000000)
     )
-    (image 876
+    (image 839
       (pin Smd_rect_499872x699516 "1" 0.399796 0.000000)
       (pin Smd_rect_499872x699516 "2" -0.399796 0.000000)
     )
-    (image 882
+    (image 845
       (pin Th_round_1400000 "2" 3.173334 -4.318333)
       (pin Th_round_1400000 "4" 0.633334 -4.318333)
       (pin Th_round_1400000 "6" -1.906666 -4.318333)
@@ -761,23 +761,23 @@
       (pin Th_round_2100000 "9" 7.883334 7.621667)
       (pin Th_round_2100000 "9" -7.866666 7.621667)
     )
-    (image 906
+    (image 869
       (pin Smd_rect_2199894x10199878 "1" -2.850007 0.000000)
       (pin Smd_rect_2199894x10199878 "2" 2.850007 0.000000)
     )
-    (image 912
+    (image 875
       (pin Smd_rect_2199894x10199878 "1" -2.850007 0.000000)
       (pin Smd_rect_2199894x10199878 "2" 2.850007 0.000000)
     )
-    (image 918
+    (image 881
       (pin Smd_rect_499872x699516 "1" 0.399796 0.000000)
       (pin Smd_rect_499872x699516 "2" -0.399796 0.000000)
     )
-    (image 924
+    (image 887
       (pin Smd_rect_499872x699516 "1" 0.399796 0.000000)
       (pin Smd_rect_499872x699516 "2" -0.399796 0.000000)
     )
-    (image 930
+    (image 893
       (pin Th_round_1400000 "2" 3.173334 -4.318333)
       (pin Th_round_1400000 "4" 0.633334 -4.318333)
       (pin Th_round_1400000 "6" -1.906666 -4.318333)
@@ -791,23 +791,23 @@
       (pin Th_round_2100000 "9" 7.883334 7.621667)
       (pin Th_round_2100000 "9" -7.866666 7.621667)
     )
-    (image 954
+    (image 917
       (pin Smd_rect_2199894x10199878 "1" -2.850007 0.000000)
       (pin Smd_rect_2199894x10199878 "2" 2.850007 0.000000)
     )
-    (image 960
+    (image 923
       (pin Smd_rect_2199894x10199878 "1" -2.850007 0.000000)
       (pin Smd_rect_2199894x10199878 "2" 2.850007 0.000000)
     )
-    (image 966
+    (image 929
       (pin Smd_rect_499872x699516 "1" 0.399796 0.000000)
       (pin Smd_rect_499872x699516 "2" -0.399796 0.000000)
     )
-    (image 972
+    (image 935
       (pin Smd_rect_499872x699516 "1" 0.399796 0.000000)
       (pin Smd_rect_499872x699516 "2" -0.399796 0.000000)
     )
-    (image 978
+    (image 941
       (pin Th_round_1400000 "2" 3.173333 -4.318333)
       (pin Th_round_1400000 "4" 0.633333 -4.318333)
       (pin Th_round_1400000 "6" -1.906667 -4.318333)
@@ -821,11 +821,11 @@
       (pin Th_round_2100000 "9" 7.883333 7.621667)
       (pin Th_round_2100000 "9" -7.866667 7.621667)
     )
-    (image 1002
+    (image 965
       (pin Smd_rect_499872x699516 "1" -0.399796 0.000000)
       (pin Smd_rect_499872x699516 "2" 0.399796 0.000000)
     )
-    (image 1008
+    (image 971
       (pin Th_round_1400000 "2" 3.173333 -4.318333)
       (pin Th_round_1400000 "4" 0.633333 -4.318333)
       (pin Th_round_1400000 "6" -1.906667 -4.318333)
@@ -839,11 +839,11 @@
       (pin Th_round_2100000 "9" 7.883333 7.621667)
       (pin Th_round_2100000 "9" -7.866667 7.621667)
     )
-    (image 1032
+    (image 995
       (pin Smd_rect_499872x699516 "1" -0.399796 0.000000)
       (pin Smd_rect_499872x699516 "2" 0.399796 0.000000)
     )
-    (image 1038
+    (image 1001
       (pin Th_round_1400000 "2" 3.173333 -4.318333)
       (pin Th_round_1400000 "4" 0.633333 -4.318333)
       (pin Th_round_1400000 "6" -1.906667 -4.318333)
@@ -857,15 +857,15 @@
       (pin Th_round_2100000 "9" 7.883333 7.621667)
       (pin Th_round_2100000 "9" -7.866667 7.621667)
     )
-    (image 1062
+    (image 1025
       (pin Smd_rect_499872x699516 "1" -0.399796 0.000000)
       (pin Smd_rect_499872x699516 "2" 0.399796 0.000000)
     )
-    (image 1068
+    (image 1031
       (pin Smd_rect_2199894x10199878 "1" 2.850007 0.000000)
       (pin Smd_rect_2199894x10199878 "2" -2.850007 0.000000)
     )
-    (image 1074
+    (image 1037
       (pin Th_square_1524000 "1" -13.970000 0.000000)
       (pin Th_round_1524000 "2" -11.430000 0.000000)
       (pin Th_round_1524000 "3" -8.890000 0.000000)
@@ -879,7 +879,7 @@
       (pin Th_round_1524000 "11" 11.430000 0.000000)
       (pin Th_round_1524000 "12" 13.970000 0.000000)
     )
-    (image 1095
+    (image 1058
       (pin Th_square_1524000 "1" -13.970000 0.000000)
       (pin Th_round_1524000 "2" -11.430000 0.000000)
       (pin Th_round_1524000 "3" -8.890000 0.000000)
@@ -893,7 +893,7 @@
       (pin Th_round_1524000 "11" 11.430000 0.000000)
       (pin Th_round_1524000 "12" 13.970000 0.000000)
     )
-    (image 1116
+    (image 1079
       (pin Th_round_1400000 "2" -3.173333 4.318334)
       (pin Th_round_1400000 "4" -0.633333 4.318334)
       (pin Th_round_1400000 "6" 1.906667 4.318334)
@@ -907,7 +907,7 @@
       (pin Th_round_2100000 "9" -7.883333 -7.621666)
       (pin Th_round_2100000 "9" 7.866667 -7.621666)
     )
-    (image 1140
+    (image 1103
       (pin Th_round_1400000 "2" -3.173334 4.318334)
       (pin Th_round_1400000 "4" -0.633334 4.318334)
       (pin Th_round_1400000 "6" 1.906666 4.318334)
@@ -921,7 +921,7 @@
       (pin Th_round_2100000 "9" -7.883334 -7.621666)
       (pin Th_round_2100000 "9" 7.866666 -7.621666)
     )
-    (image 1164
+    (image 1127
       (pin Th_square_1524000 "1" -1.270000 24.130000)
       (pin Th_round_1524000 "2" 1.270000 24.130000)
       (pin Th_round_1524000 "3" -1.270000 21.590000)
@@ -963,7 +963,7 @@
       (pin Th_round_1524000 "39" -1.270000 -24.130000)
       (pin Th_round_1524000 "40" 1.270000 -24.130000)
     )
-    (image 1214
+    (image 1177
       (pin Th_square_1524000 "1" -1.270000 24.130000)
       (pin Th_round_1524000 "2" 1.270000 24.130000)
       (pin Th_round_1524000 "3" -1.270000 21.590000)
@@ -1005,23 +1005,23 @@
       (pin Th_round_1524000 "39" -1.270000 -24.130000)
       (pin Th_round_1524000 "40" 1.270000 -24.130000)
     )
-    (image 1264
+    (image 1227
       (pin Smd_rect_499872x699516 "1" 0.399796 0.000000)
       (pin Smd_rect_499872x699516 "2" -0.399796 0.000000)
     )
-    (image 1270
+    (image 1244
       (pin Th_square_1524000 "1" 0.000000 1.270000)
       (pin Th_round_1524000 "2" 0.000000 -1.270000)
     )
-    (image 1281
+    (image 1255
       (pin Th_square_1524000 "1" 0.000000 1.270000)
       (pin Th_round_1524000 "2" 0.000000 -1.270000)
     )
-    (image 1292
+    (image 7060
       (pin Th_square_1524000 "1" 0.000000 1.270000)
       (pin Th_round_1524000 "2" 0.000000 -1.270000)
     )
-    (image 1303
+    (image 7082
       (pin Th_square_1524000 "1" 0.000000 1.270000)
       (pin Th_round_1524000 "2" 0.000000 -1.270000)
     )
@@ -1064,16 +1064,16 @@
   )
   (network
     (net "+5V"
-      (pins "5V"-"1" "a1/ACC"-"1" "C1"-"2" "IDE1"-"4" "l1/LASER"-"1" "X1"-"1" "X2"-"1" "xl1/C1"-"2" "xl1/LIMIT"-"1" "yl1/C1"-"2" "yl1/LIMIT"-"1" "zl1/C1"-"2" "zl1/LIMIT"-"1")
+      (pins "5V"-"1" "a1/ACC1"-"1" "C1"-"2" "IDE1"-"4" "l1/LASER1"-"1" "X1"-"1" "X2"-"1" "xl1/C1"-"2" "xl1/LIMIT1"-"1" "yl1/C1"-"2" "yl1/LIMIT1"-"1" "zl1/C1"-"2" "zl1/LIMIT1"-"1")
     )
     (net "+12V"
-      (pins "12V"-"1" "a1/ACC"-"4" "es0/STEP"-"1" "es1/STEP"-"1" "es2/STEP"-"1" "es3/STEP"-"1" "es4/STEP"-"1" "es5/STEP"-"1" "et0/EXT"-"3" "et1/EXT"-"3" "et2/EXT"-"3" "et3/EXT"-"3" "et4/EXT"-"3" "et5/EXT"-"3" "IDE1"-"3" "l1/LASER"-"4" "Vcfg"-"1" "X3"-"1" "xs1/STEP"-"1" "xs2/STEP"-"1" "ys1/STEP"-"1" "ys2/STEP"-"1" "zs1/STEP"-"1" "zs2/STEP"-"1")
+      (pins "12V"-"1" "a1/ACC1"-"4" "es0/STEP1"-"1" "es1/STEP1"-"1" "es2/STEP1"-"1" "es3/STEP1"-"1" "es4/STEP1"-"1" "es5/STEP1"-"1" "et0/EXT1"-"3" "et1/EXT1"-"3" "et2/EXT1"-"3" "et3/EXT1"-"3" "et4/EXT1"-"3" "et5/EXT1"-"3" "IDE1"-"3" "l1/LASER1"-"4" "Vcfg1"-"1" "X3"-"1" "xs1/STEP1"-"1" "xs2/STEP1"-"1" "ys1/STEP1"-"1" "ys2/STEP1"-"1" "zs1/STEP1"-"1" "zs2/STEP1"-"1")
     )
     (net "a1/GND"
-      (pins "a1/ACC"-"2" "a1/ACC"-"9")
+      (pins "a1/ACC1"-"2" "a1/ACC1"-"9")
     )
     (net "a1/Vee"
-      (pins "a1/ACC"-"5" "a1/ACC"-"6" "a1/ACC"-"7" "a1/ACC"-"8")
+      (pins "a1/ACC1"-"5" "a1/ACC1"-"6" "a1/ACC1"-"7" "a1/ACC1"-"8")
     )
     (net "es0B+"
       (pins "es0/L2"-"1" "escc1"-"3" "IDE1"-"34")
@@ -1082,19 +1082,16 @@
       (pins "es0/L1"-"1" "escc1"-"1" "IDE1"-"32")
     )
     (net "es0B-"
-      (pins "es0/C2"-"1" "es0/STEP"-"6" "es0/STEP"-"8" "es0/X4"-"2" "escc1"-"4" "IDE1"-"35")
+      (pins "es0/C2"-"1" "es0/STEP1"-"6" "es0/STEP1"-"8" "es0/X4"-"2" "escc1"-"4" "IDE1"-"35")
     )
     (net "es0A-"
-      (pins "es0/C1"-"1" "es0/STEP"-"5" "es0/X2"-"2" "escc1"-"2" "IDE1"-"33")
+      (pins "es0/C1"-"1" "es0/STEP1"-"5" "es0/X2"-"2" "escc1"-"2" "IDE1"-"33")
     )
     (net "es0/Aplus"
-      (pins "es0/C1"-"2" "es0/L1"-"2" "es0/STEP"-"4" "es0/X1"-"2")
+      (pins "es0/C1"-"2" "es0/L1"-"2" "es0/STEP1"-"4" "es0/X1"-"2")
     )
     (net "es0/Bplus"
-      (pins "es0/C2"-"2" "es0/L2"-"2" "es0/STEP"-"3" "es0/STEP"-"7" "es0/X3"-"2")
-    )
-    (net "es0/Vee"
-      (pins "es0/STEP"-"2" "es0/STEP"-"9" "es0/X1"-"1" "es0/X2"-"1" "es0/X3"-"1" "es0/X4"-"1")
+      (pins "es0/C2"-"2" "es0/L2"-"2" "es0/STEP1"-"3" "es0/STEP1"-"7" "es0/X3"-"2")
     )
     (net "es1B+"
       (pins "es1/L2"-"1" "escc1"-"7" "IDE2"-"5")
@@ -1103,19 +1100,16 @@
       (pins "es1/L1"-"1" "escc1"-"5" "IDE2"-"3")
     )
     (net "es1B-"
-      (pins "es1/C2"-"1" "es1/STEP"-"6" "es1/STEP"-"8" "es1/X4"-"2" "escc1"-"8" "IDE2"-"6")
+      (pins "es1/C2"-"1" "es1/STEP1"-"6" "es1/STEP1"-"8" "es1/X4"-"2" "escc1"-"8" "IDE2"-"6")
     )
     (net "es1A-"
-      (pins "es1/C1"-"1" "es1/STEP"-"5" "es1/X2"-"2" "escc1"-"6" "IDE2"-"4")
+      (pins "es1/C1"-"1" "es1/STEP1"-"5" "es1/X2"-"2" "escc1"-"6" "IDE2"-"4")
     )
     (net "es1/Aplus"
-      (pins "es1/C1"-"2" "es1/L1"-"2" "es1/STEP"-"4" "es1/X1"-"2")
+      (pins "es1/C1"-"2" "es1/L1"-"2" "es1/STEP1"-"4" "es1/X1"-"2")
     )
     (net "es1/Bplus"
-      (pins "es1/C2"-"2" "es1/L2"-"2" "es1/STEP"-"3" "es1/STEP"-"7" "es1/X3"-"2")
-    )
-    (net "es1/Vee"
-      (pins "es1/STEP"-"2" "es1/STEP"-"9" "es1/X1"-"1" "es1/X2"-"1" "es1/X3"-"1" "es1/X4"-"1")
+      (pins "es1/C2"-"2" "es1/L2"-"2" "es1/STEP1"-"3" "es1/STEP1"-"7" "es1/X3"-"2")
     )
     (net "es2B+"
       (pins "es2/L2"-"1" "escc1"-"11" "IDE2"-"9")
@@ -1124,19 +1118,16 @@
       (pins "es2/L1"-"1" "escc1"-"9" "IDE2"-"7")
     )
     (net "es2B-"
-      (pins "es2/C2"-"1" "es2/STEP"-"6" "es2/STEP"-"8" "es2/X4"-"2" "escc1"-"12" "IDE2"-"10")
+      (pins "es2/C2"-"1" "es2/STEP1"-"6" "es2/STEP1"-"8" "es2/X4"-"2" "escc1"-"12" "IDE2"-"10")
     )
     (net "es2A-"
-      (pins "es2/C1"-"1" "es2/STEP"-"5" "es2/X2"-"2" "escc1"-"10" "IDE2"-"8")
+      (pins "es2/C1"-"1" "es2/STEP1"-"5" "es2/X2"-"2" "escc1"-"10" "IDE2"-"8")
     )
     (net "es2/Aplus"
-      (pins "es2/C1"-"2" "es2/L1"-"2" "es2/STEP"-"4" "es2/X1"-"2")
+      (pins "es2/C1"-"2" "es2/L1"-"2" "es2/STEP1"-"4" "es2/X1"-"2")
     )
     (net "es2/Bplus"
-      (pins "es2/C2"-"2" "es2/L2"-"2" "es2/STEP"-"3" "es2/STEP"-"7" "es2/X3"-"2")
-    )
-    (net "es2/Vee"
-      (pins "es2/STEP"-"2" "es2/STEP"-"9" "es2/X1"-"1" "es2/X2"-"1" "es2/X3"-"1" "es2/X4"-"1")
+      (pins "es2/C2"-"2" "es2/L2"-"2" "es2/STEP1"-"3" "es2/STEP1"-"7" "es2/X3"-"2")
     )
     (net "es3B+"
       (pins "es3/L2"-"1" "escc2"-"3" "IDE2"-"13")
@@ -1145,19 +1136,16 @@
       (pins "es3/L1"-"1" "escc2"-"1" "IDE2"-"11")
     )
     (net "es3B-"
-      (pins "es3/C2"-"1" "es3/STEP"-"6" "es3/STEP"-"8" "es3/X4"-"2" "escc2"-"4" "IDE2"-"14")
+      (pins "es3/C2"-"1" "es3/STEP1"-"6" "es3/STEP1"-"8" "es3/X4"-"2" "escc2"-"4" "IDE2"-"14")
     )
     (net "es3A-"
-      (pins "es3/C1"-"1" "es3/STEP"-"5" "es3/X2"-"2" "escc2"-"2" "IDE2"-"12")
+      (pins "es3/C1"-"1" "es3/STEP1"-"5" "es3/X2"-"2" "escc2"-"2" "IDE2"-"12")
     )
     (net "es3/Aplus"
-      (pins "es3/C1"-"2" "es3/L1"-"2" "es3/STEP"-"4" "es3/X1"-"2")
+      (pins "es3/C1"-"2" "es3/L1"-"2" "es3/STEP1"-"4" "es3/X1"-"2")
     )
     (net "es3/Bplus"
-      (pins "es3/C2"-"2" "es3/L2"-"2" "es3/STEP"-"3" "es3/STEP"-"7" "es3/X3"-"2")
-    )
-    (net "es3/Vee"
-      (pins "es3/STEP"-"2" "es3/STEP"-"9" "es3/X1"-"1" "es3/X2"-"1" "es3/X3"-"1" "es3/X4"-"1")
+      (pins "es3/C2"-"2" "es3/L2"-"2" "es3/STEP1"-"3" "es3/STEP1"-"7" "es3/X3"-"2")
     )
     (net "es4B+"
       (pins "es4/L2"-"1" "escc2"-"7" "IDE2"-"17")
@@ -1166,19 +1154,16 @@
       (pins "es4/L1"-"1" "escc2"-"5" "IDE2"-"15")
     )
     (net "es4B-"
-      (pins "es4/C2"-"1" "es4/STEP"-"6" "es4/STEP"-"8" "es4/X4"-"2" "escc2"-"8" "IDE2"-"18")
+      (pins "es4/C2"-"1" "es4/STEP1"-"6" "es4/STEP1"-"8" "es4/X4"-"2" "escc2"-"8" "IDE2"-"18")
     )
     (net "es4A-"
-      (pins "es4/C1"-"1" "es4/STEP"-"5" "es4/X2"-"2" "escc2"-"6" "IDE2"-"16")
+      (pins "es4/C1"-"1" "es4/STEP1"-"5" "es4/X2"-"2" "escc2"-"6" "IDE2"-"16")
     )
     (net "es4/Aplus"
-      (pins "es4/C1"-"2" "es4/L1"-"2" "es4/STEP"-"4" "es4/X1"-"2")
+      (pins "es4/C1"-"2" "es4/L1"-"2" "es4/STEP1"-"4" "es4/X1"-"2")
     )
     (net "es4/Bplus"
-      (pins "es4/C2"-"2" "es4/L2"-"2" "es4/STEP"-"3" "es4/STEP"-"7" "es4/X3"-"2")
-    )
-    (net "es4/Vee"
-      (pins "es4/STEP"-"2" "es4/STEP"-"9" "es4/X1"-"1" "es4/X2"-"1" "es4/X3"-"1" "es4/X4"-"1")
+      (pins "es4/C2"-"2" "es4/L2"-"2" "es4/STEP1"-"3" "es4/STEP1"-"7" "es4/X3"-"2")
     )
     (net "es5B+"
       (pins "es5/L2"-"1" "escc2"-"11" "IDE2"-"25")
@@ -1187,249 +1172,168 @@
       (pins "es5/L1"-"1" "escc2"-"9" "IDE2"-"21")
     )
     (net "es5B-"
-      (pins "es5/C2"-"1" "es5/STEP"-"6" "es5/STEP"-"8" "es5/X4"-"2" "escc2"-"12" "IDE2"-"27")
+      (pins "es5/C2"-"1" "es5/STEP1"-"6" "es5/STEP1"-"8" "es5/X4"-"2" "escc2"-"12" "IDE2"-"27")
     )
     (net "es5A-"
-      (pins "es5/C1"-"1" "es5/STEP"-"5" "es5/X2"-"2" "escc2"-"10" "IDE2"-"23")
+      (pins "es5/C1"-"1" "es5/STEP1"-"5" "es5/X2"-"2" "escc2"-"10" "IDE2"-"23")
     )
     (net "es5/Aplus"
-      (pins "es5/C1"-"2" "es5/L1"-"2" "es5/STEP"-"4" "es5/X1"-"2")
+      (pins "es5/C1"-"2" "es5/L1"-"2" "es5/STEP1"-"4" "es5/X1"-"2")
     )
     (net "es5/Bplus"
-      (pins "es5/C2"-"2" "es5/L2"-"2" "es5/STEP"-"3" "es5/STEP"-"7" "es5/X3"-"2")
-    )
-    (net "es5/Vee"
-      (pins "es5/STEP"-"2" "es5/STEP"-"9" "es5/X1"-"1" "es5/X2"-"1" "es5/X3"-"1" "es5/X4"-"1")
-    )
-    (net "et0/GND"
-      (pins "et0/EXT"-"8" "et0/EXT"-"9")
-    )
-    (net "et0/Vee"
-      (pins "et0/EXT"-"2" "et0/EXT"-"5" "et0/EXT"-"6")
-    )
-    (net "et1/GND"
-      (pins "et1/EXT"-"8" "et1/EXT"-"9")
-    )
-    (net "et1/Vee"
-      (pins "et1/EXT"-"2" "et1/EXT"-"5" "et1/EXT"-"6")
-    )
-    (net "et2/GND"
-      (pins "et2/EXT"-"8" "et2/EXT"-"9")
-    )
-    (net "et2/Vee"
-      (pins "et2/EXT"-"2" "et2/EXT"-"5" "et2/EXT"-"6")
-    )
-    (net "et3/GND"
-      (pins "et3/EXT"-"8" "et3/EXT"-"9")
-    )
-    (net "et3/Vee"
-      (pins "et3/EXT"-"2" "et3/EXT"-"5" "et3/EXT"-"6")
-    )
-    (net "et4/GND"
-      (pins "et4/EXT"-"8" "et4/EXT"-"9")
-    )
-    (net "et4/Vee"
-      (pins "et4/EXT"-"2" "et4/EXT"-"5" "et4/EXT"-"6")
-    )
-    (net "et5/GND"
-      (pins "et5/EXT"-"8" "et5/EXT"-"9")
-    )
-    (net "et5/Vee"
-      (pins "et5/EXT"-"2" "et5/EXT"-"5" "et5/EXT"-"6")
+      (pins "es5/C2"-"2" "es5/L2"-"2" "es5/STEP1"-"3" "es5/STEP1"-"7" "es5/X3"-"2")
     )
     (net "etcHeat0"
-      (pins "et0/EXT"-"4" "etcc1"-"1" "IDE1"-"36")
+      (pins "et0/EXT1"-"4" "etcc1"-"1" "IDE1"-"36")
     )
     (net "etcHeat1"
-      (pins "et1/EXT"-"4" "etcc1"-"3" "IDE2"-"28")
+      (pins "et1/EXT1"-"4" "etcc1"-"3" "IDE2"-"28")
     )
     (net "etcHeat2"
-      (pins "et2/EXT"-"4" "etcc1"-"5" "IDE2"-"31")
+      (pins "et2/EXT1"-"4" "etcc1"-"5" "IDE2"-"31")
     )
     (net "etcHeat3"
-      (pins "et3/EXT"-"4" "etcc1"-"7" "IDE2"-"33")
+      (pins "et3/EXT1"-"4" "etcc1"-"7" "IDE2"-"33")
     )
     (net "etcHeat4"
-      (pins "et4/EXT"-"4" "etcc1"-"9" "IDE2"-"35")
+      (pins "et4/EXT1"-"4" "etcc1"-"9" "IDE2"-"35")
     )
     (net "etcHeat5"
-      (pins "et5/EXT"-"4" "etcc1"-"11" "IDE2"-"37")
+      (pins "et5/EXT1"-"4" "etcc1"-"11" "IDE2"-"37")
     )
     (net "etcTherm0"
-      (pins "et0/EXT"-"7" "etcc1"-"2" "IDE1"-"37")
+      (pins "et0/EXT1"-"7" "etcc1"-"2" "IDE1"-"37")
     )
     (net "etcTherm1"
-      (pins "et1/EXT"-"7" "etcc1"-"4" "IDE2"-"29")
+      (pins "et1/EXT1"-"7" "etcc1"-"4" "IDE2"-"29")
     )
     (net "etcTherm2"
-      (pins "et2/EXT"-"7" "etcc1"-"6" "IDE2"-"32")
+      (pins "et2/EXT1"-"7" "etcc1"-"6" "IDE2"-"32")
     )
     (net "etcTherm3"
-      (pins "et3/EXT"-"7" "etcc1"-"8" "IDE2"-"34")
+      (pins "et3/EXT1"-"7" "etcc1"-"8" "IDE2"-"34")
     )
     (net "etcTherm4"
-      (pins "et4/EXT"-"7" "etcc1"-"10" "IDE2"-"36")
+      (pins "et4/EXT1"-"7" "etcc1"-"10" "IDE2"-"36")
     )
     (net "etcTherm5"
-      (pins "et5/EXT"-"7" "etcc1"-"12" "IDE2"-"38")
+      (pins "et5/EXT1"-"7" "etcc1"-"12" "IDE2"-"38")
     )
     (net "extFan"
-      (pins "et0/EXT"-"1" "et1/EXT"-"1" "et2/EXT"-"1" "et3/EXT"-"1" "et4/EXT"-"1" "et5/EXT"-"1" "IDE1"-"38" "pwmc"-"1")
+      (pins "et0/EXT1"-"1" "et1/EXT1"-"1" "et2/EXT1"-"1" "et3/EXT1"-"1" "et4/EXT1"-"1" "et5/EXT1"-"1" "IDE1"-"38" "pwmc1"-"1")
     )
     (net "GND"
-      (pins "5V"-"2" "alcc1"-"3" "alcc1"-"7" "alcc1"-"11" "C1"-"1" "IDE2"-"39" "L1"-"2" "X2"-"2")
-    )
-    (net "l1/GND"
-      (pins "l1/LASER"-"2" "l1/LASER"-"8" "l1/LASER"-"9")
-    )
-    (net "l1/Vee"
-      (pins "l1/LASER"-"5" "l1/LASER"-"6")
+      (pins "5V"-"2" "alcc1"-"3" "alcc1"-"7" "alcc1"-"11" "C1"-"1" "et0/EXT1"-"8" "et0/EXT1"-"9" "et1/EXT1"-"8" "et1/EXT1"-"9" "et2/EXT1"-"8" "et2/EXT1"-"9" "et3/EXT1"-"8" "et3/EXT1"-"9" "et4/EXT1"-"8" "et4/EXT1"-"9" "et5/EXT1"-"8" "et5/EXT1"-"9" "IDE2"-"39" "L1"-"2" "l1/LASER1"-"2" "l1/LASER1"-"8" "l1/LASER1"-"9" "X2"-"2" "xl1/C1"-"1" "xl1/LIMIT1"-"2" "xl1/LIMIT1"-"9" "yl1/C1"-"1" "yl1/LIMIT1"-"2" "yl1/LIMIT1"-"9" "zl1/C1"-"1" "zl1/LIMIT1"-"2" "zl1/LIMIT1"-"9")
     )
     (net "laser"
-      (pins "IDE1"-"39" "l1/LASER"-"7" "pwmc"-"2")
+      (pins "IDE1"-"39" "l1/LASER1"-"7" "pwmc1"-"2")
     )
     (net "Vee"
-      (pins "12V"-"2" "IDE1"-"2" "IDE1"-"19" "IDE1"-"22" "IDE1"-"24" "IDE1"-"26" "IDE1"-"30" "IDE1"-"40" "IDE2"-"2" "IDE2"-"19" "IDE2"-"22" "IDE2"-"24" "IDE2"-"26" "IDE2"-"30" "IDE2"-"40" "L1"-"1" "R1"-"2" "Vsys1"-"2" "Vsys2"-"2" "Vsys3"-"2" "X1"-"2" "X3"-"2" "X4"-"2")
+      (pins "12V"-"2" "es0/STEP1"-"2" "es0/STEP1"-"9" "es0/X1"-"1" "es0/X2"-"1" "es0/X3"-"1" "es0/X4"-"1" "es1/STEP1"-"2" "es1/STEP1"-"9" "es1/X1"-"1" "es1/X2"-"1" "es1/X3"-"1" "es1/X4"-"1" "es2/STEP1"-"2" "es2/STEP1"-"9" "es2/X1"-"1" "es2/X2"-"1" "es2/X3"-"1" "es2/X4"-"1" "es3/STEP1"-"2" "es3/STEP1"-"9" "es3/X1"-"1" "es3/X2"-"1" "es3/X3"-"1" "es3/X4"-"1" "es4/STEP1"-"2" "es4/STEP1"-"9" "es4/X1"-"1" "es4/X2"-"1" "es4/X3"-"1" "es4/X4"-"1" "es5/STEP1"-"2" "es5/STEP1"-"9" "es5/X1"-"1" "es5/X2"-"1" "es5/X3"-"1" "es5/X4"-"1" "et0/EXT1"-"2" "et0/EXT1"-"5" "et0/EXT1"-"6" "et1/EXT1"-"2" "et1/EXT1"-"5" "et1/EXT1"-"6" "et2/EXT1"-"2" "et2/EXT1"-"5" "et2/EXT1"-"6" "et3/EXT1"-"2" "et3/EXT1"-"5" "et3/EXT1"-"6" "et4/EXT1"-"2" "et4/EXT1"-"5" "et4/EXT1"-"6" "et5/EXT1"-"2" "et5/EXT1"-"5" "et5/EXT1"-"6" "IDE1"-"2" "IDE1"-"19" "IDE1"-"22" "IDE1"-"24" "IDE1"-"26" "IDE1"-"30" "IDE1"-"40" "IDE2"-"2" "IDE2"-"19" "IDE2"-"22" "IDE2"-"24" "IDE2"-"26" "IDE2"-"30" "IDE2"-"40" "L1"-"1" "l1/LASER1"-"5" "l1/LASER1"-"6" "R1"-"2" "Vsys1"-"2" "Vsys2"-"2" "Vsys3"-"2" "X1"-"2" "X3"-"2" "X4"-"2" "xl1/LIMIT1"-"6" "xl1/LIMIT1"-"8" "xs1/STEP1"-"2" "xs1/STEP1"-"9" "xs1/X1"-"1" "xs1/X2"-"1" "xs1/X3"-"1" "xs1/X4"-"1" "xs2/STEP1"-"2" "xs2/STEP1"-"9" "xs2/X1"-"1" "xs2/X2"-"1" "xs2/X3"-"1" "xs2/X4"-"1" "yl1/LIMIT1"-"6" "yl1/LIMIT1"-"8" "ys1/STEP1"-"2" "ys1/STEP1"-"9" "ys1/X1"-"1" "ys1/X2"-"1" "ys1/X3"-"1" "ys1/X4"-"1" "ys2/STEP1"-"2" "ys2/STEP1"-"9" "ys2/X1"-"1" "ys2/X2"-"1" "ys2/X3"-"1" "ys2/X4"-"1" "zl1/LIMIT1"-"6" "zl1/LIMIT1"-"8" "zs1/STEP1"-"2" "zs1/STEP1"-"9" "zs1/X1"-"1" "zs1/X2"-"1" "zs1/X3"-"1" "zs1/X4"-"1" "zs2/STEP1"-"2" "zs2/STEP1"-"9" "zs2/X1"-"1" "zs2/X2"-"1" "zs2/X3"-"1" "zs2/X4"-"1")
     )
     (net "Vsys"
-      (pins "a1/ACC"-"3" "IDE1"-"1" "IDE2"-"1" "l1/LASER"-"3" "R1"-"1" "Vcfg"-"2" "Vsys1"-"1" "Vsys2"-"1" "Vsys3"-"1" "X4"-"1" "xl1/LIMIT"-"3" "yl1/LIMIT"-"3" "zl1/LIMIT"-"3")
-    )
-    (net "xl1/GND"
-      (pins "xl1/C1"-"1" "xl1/LIMIT"-"2" "xl1/LIMIT"-"9")
-    )
-    (net "xl1/Vee"
-      (pins "xl1/LIMIT"-"6" "xl1/LIMIT"-"8")
+      (pins "a1/ACC1"-"3" "IDE1"-"1" "IDE2"-"1" "l1/LASER1"-"3" "R1"-"1" "Vcfg1"-"2" "Vsys1"-"1" "Vsys2"-"1" "Vsys3"-"1" "X4"-"1" "xl1/LIMIT1"-"3" "yl1/LIMIT1"-"3" "zl1/LIMIT1"-"3")
     )
     (net "xlNC"
-      (pins "alcc1"-"1" "IDE1"-"17" "xl1/LIMIT"-"4")
+      (pins "alcc1"-"1" "IDE1"-"17" "xl1/LIMIT1"-"4")
     )
     (net "xlNO"
-      (pins "alcc1"-"2" "IDE1"-"18" "xl1/LIMIT"-"5")
+      (pins "alcc1"-"2" "IDE1"-"18" "xl1/LIMIT1"-"5")
     )
     (net "xlPWM"
-      (pins "alcc1"-"4" "IDE1"-"21" "xl1/LIMIT"-"7")
+      (pins "alcc1"-"4" "IDE1"-"21" "xl1/LIMIT1"-"7")
     )
     (net "xs1/Aplus"
-      (pins "xs1/C1"-"2" "xs1/L1"-"2" "xs1/STEP"-"4" "xs1/X1"-"2")
+      (pins "xs1/C1"-"2" "xs1/L1"-"2" "xs1/STEP1"-"4" "xs1/X1"-"2")
     )
     (net "xs1/Bplus"
-      (pins "xs1/C2"-"2" "xs1/L2"-"2" "xs1/STEP"-"3" "xs1/STEP"-"7" "xs1/X3"-"2")
-    )
-    (net "xs1/Vee"
-      (pins "xs1/STEP"-"2" "xs1/STEP"-"9" "xs1/X1"-"1" "xs1/X2"-"1" "xs1/X3"-"1" "xs1/X4"-"1")
+      (pins "xs1/C2"-"2" "xs1/L2"-"2" "xs1/STEP1"-"3" "xs1/STEP1"-"7" "xs1/X3"-"2")
     )
     (net "xs2/Aplus"
-      (pins "xs2/C1"-"2" "xs2/L1"-"2" "xs2/STEP"-"4" "xs2/X1"-"2")
+      (pins "xs2/C1"-"2" "xs2/L1"-"2" "xs2/STEP1"-"4" "xs2/X1"-"2")
     )
     (net "xs2/Bplus"
-      (pins "xs2/C2"-"2" "xs2/L2"-"2" "xs2/STEP"-"3" "xs2/STEP"-"7" "xs2/X3"-"2")
-    )
-    (net "xs2/Vee"
-      (pins "xs2/STEP"-"2" "xs2/STEP"-"9" "xs2/X1"-"1" "xs2/X2"-"1" "xs2/X3"-"1" "xs2/X4"-"1")
+      (pins "xs2/C2"-"2" "xs2/L2"-"2" "xs2/STEP1"-"3" "xs2/STEP1"-"7" "xs2/X3"-"2")
     )
     (net "xsAminus"
-      (pins "ascc1"-"2" "IDE1"-"6" "xs1/C1"-"1" "xs1/STEP"-"5" "xs1/X2"-"2" "xs2/C1"-"1" "xs2/STEP"-"5" "xs2/X2"-"2")
+      (pins "ascc1"-"2" "IDE1"-"6" "xs1/C1"-"1" "xs1/STEP1"-"5" "xs1/X2"-"2" "xs2/C1"-"1" "xs2/STEP1"-"5" "xs2/X2"-"2")
     )
     (net "xsAplus"
       (pins "ascc1"-"1" "IDE1"-"5" "xs1/L1"-"1" "xs2/L1"-"1")
     )
     (net "xsBminus"
-      (pins "ascc1"-"4" "IDE1"-"8" "xs1/C2"-"1" "xs1/STEP"-"6" "xs1/STEP"-"8" "xs1/X4"-"2" "xs2/C2"-"1" "xs2/STEP"-"6" "xs2/STEP"-"8" "xs2/X4"-"2")
+      (pins "ascc1"-"4" "IDE1"-"8" "xs1/C2"-"1" "xs1/STEP1"-"6" "xs1/STEP1"-"8" "xs1/X4"-"2" "xs2/C2"-"1" "xs2/STEP1"-"6" "xs2/STEP1"-"8" "xs2/X4"-"2")
     )
     (net "xsBplus"
       (pins "ascc1"-"3" "IDE1"-"7" "xs1/L2"-"1" "xs2/L2"-"1")
     )
-    (net "yl1/GND"
-      (pins "yl1/C1"-"1" "yl1/LIMIT"-"2" "yl1/LIMIT"-"9")
-    )
-    (net "yl1/Vee"
-      (pins "yl1/LIMIT"-"6" "yl1/LIMIT"-"8")
-    )
     (net "ylNC"
-      (pins "alcc1"-"5" "IDE1"-"23" "yl1/LIMIT"-"4")
+      (pins "alcc1"-"5" "IDE1"-"23" "yl1/LIMIT1"-"4")
     )
     (net "ylNO"
-      (pins "alcc1"-"6" "IDE1"-"25" "yl1/LIMIT"-"5")
+      (pins "alcc1"-"6" "IDE1"-"25" "yl1/LIMIT1"-"5")
     )
     (net "ylPWM"
-      (pins "alcc1"-"8" "IDE1"-"27" "yl1/LIMIT"-"7")
+      (pins "alcc1"-"8" "IDE1"-"27" "yl1/LIMIT1"-"7")
     )
     (net "ys1/Aplus"
-      (pins "ys1/C1"-"2" "ys1/L1"-"2" "ys1/STEP"-"4" "ys1/X1"-"2")
+      (pins "ys1/C1"-"2" "ys1/L1"-"2" "ys1/STEP1"-"4" "ys1/X1"-"2")
     )
     (net "ys1/Bplus"
-      (pins "ys1/C2"-"2" "ys1/L2"-"2" "ys1/STEP"-"3" "ys1/STEP"-"7" "ys1/X3"-"2")
-    )
-    (net "ys1/Vee"
-      (pins "ys1/STEP"-"2" "ys1/STEP"-"9" "ys1/X1"-"1" "ys1/X2"-"1" "ys1/X3"-"1" "ys1/X4"-"1")
+      (pins "ys1/C2"-"2" "ys1/L2"-"2" "ys1/STEP1"-"3" "ys1/STEP1"-"7" "ys1/X3"-"2")
     )
     (net "ys2/Aplus"
-      (pins "ys2/C1"-"2" "ys2/L1"-"2" "ys2/STEP"-"4" "ys2/X1"-"2")
+      (pins "ys2/C1"-"2" "ys2/L1"-"2" "ys2/STEP1"-"4" "ys2/X1"-"2")
     )
     (net "ys2/Bplus"
-      (pins "ys2/C2"-"2" "ys2/L2"-"2" "ys2/STEP"-"3" "ys2/STEP"-"7" "ys2/X3"-"2")
-    )
-    (net "ys2/Vee"
-      (pins "ys2/STEP"-"2" "ys2/STEP"-"9" "ys2/X1"-"1" "ys2/X2"-"1" "ys2/X3"-"1" "ys2/X4"-"1")
+      (pins "ys2/C2"-"2" "ys2/L2"-"2" "ys2/STEP1"-"3" "ys2/STEP1"-"7" "ys2/X3"-"2")
     )
     (net "ysAminus"
-      (pins "ascc1"-"6" "IDE1"-"10" "ys1/C1"-"1" "ys1/STEP"-"5" "ys1/X2"-"2" "ys2/C1"-"1" "ys2/STEP"-"5" "ys2/X2"-"2")
+      (pins "ascc1"-"6" "IDE1"-"10" "ys1/C1"-"1" "ys1/STEP1"-"5" "ys1/X2"-"2" "ys2/C1"-"1" "ys2/STEP1"-"5" "ys2/X2"-"2")
     )
     (net "ysAplus"
       (pins "ascc1"-"5" "IDE1"-"9" "ys1/L1"-"1" "ys2/L1"-"1")
     )
     (net "ysBminus"
-      (pins "ascc1"-"8" "IDE1"-"12" "ys1/C2"-"1" "ys1/STEP"-"6" "ys1/STEP"-"8" "ys1/X4"-"2" "ys2/C2"-"1" "ys2/STEP"-"6" "ys2/STEP"-"8" "ys2/X4"-"2")
+      (pins "ascc1"-"8" "IDE1"-"12" "ys1/C2"-"1" "ys1/STEP1"-"6" "ys1/STEP1"-"8" "ys1/X4"-"2" "ys2/C2"-"1" "ys2/STEP1"-"6" "ys2/STEP1"-"8" "ys2/X4"-"2")
     )
     (net "ysBplus"
       (pins "ascc1"-"7" "IDE1"-"11" "ys1/L2"-"1" "ys2/L2"-"1")
     )
-    (net "zl1/GND"
-      (pins "zl1/C1"-"1" "zl1/LIMIT"-"2" "zl1/LIMIT"-"9")
-    )
-    (net "zl1/Vee"
-      (pins "zl1/LIMIT"-"6" "zl1/LIMIT"-"8")
-    )
     (net "zlNC"
-      (pins "alcc1"-"9" "IDE1"-"28" "zl1/LIMIT"-"4")
+      (pins "alcc1"-"9" "IDE1"-"28" "zl1/LIMIT1"-"4")
     )
     (net "zlNO"
-      (pins "alcc1"-"10" "IDE1"-"29" "zl1/LIMIT"-"5")
+      (pins "alcc1"-"10" "IDE1"-"29" "zl1/LIMIT1"-"5")
     )
     (net "zlPWM"
-      (pins "alcc1"-"12" "IDE1"-"31" "zl1/LIMIT"-"7")
+      (pins "alcc1"-"12" "IDE1"-"31" "zl1/LIMIT1"-"7")
     )
     (net "zs1/Aplus"
-      (pins "zs1/C1"-"2" "zs1/L1"-"2" "zs1/STEP"-"4" "zs1/X1"-"2")
+      (pins "zs1/C1"-"2" "zs1/L1"-"2" "zs1/STEP1"-"4" "zs1/X1"-"2")
     )
     (net "zs1/Bplus"
-      (pins "zs1/C2"-"2" "zs1/L2"-"2" "zs1/STEP"-"3" "zs1/STEP"-"7" "zs1/X3"-"2")
-    )
-    (net "zs1/Vee"
-      (pins "zs1/STEP"-"2" "zs1/STEP"-"9" "zs1/X1"-"1" "zs1/X2"-"1" "zs1/X3"-"1" "zs1/X4"-"1")
+      (pins "zs1/C2"-"2" "zs1/L2"-"2" "zs1/STEP1"-"3" "zs1/STEP1"-"7" "zs1/X3"-"2")
     )
     (net "zs2/Aplus"
-      (pins "zs2/C1"-"2" "zs2/L1"-"2" "zs2/STEP"-"4" "zs2/X1"-"2")
+      (pins "zs2/C1"-"2" "zs2/L1"-"2" "zs2/STEP1"-"4" "zs2/X1"-"2")
     )
     (net "zs2/Bplus"
-      (pins "zs2/C2"-"2" "zs2/L2"-"2" "zs2/STEP"-"3" "zs2/STEP"-"7" "zs2/X3"-"2")
-    )
-    (net "zs2/Vee"
-      (pins "zs2/STEP"-"2" "zs2/STEP"-"9" "zs2/X1"-"1" "zs2/X2"-"1" "zs2/X3"-"1" "zs2/X4"-"1")
+      (pins "zs2/C2"-"2" "zs2/L2"-"2" "zs2/STEP1"-"3" "zs2/STEP1"-"7" "zs2/X3"-"2")
     )
     (net "zsAminus"
-      (pins "ascc1"-"10" "IDE1"-"14" "zs1/C1"-"1" "zs1/STEP"-"5" "zs1/X2"-"2" "zs2/C1"-"1" "zs2/STEP"-"5" "zs2/X2"-"2")
+      (pins "ascc1"-"10" "IDE1"-"14" "zs1/C1"-"1" "zs1/STEP1"-"5" "zs1/X2"-"2" "zs2/C1"-"1" "zs2/STEP1"-"5" "zs2/X2"-"2")
     )
     (net "zsAplus"
       (pins "ascc1"-"9" "IDE1"-"13" "zs1/L1"-"1" "zs2/L1"-"1")
     )
     (net "zsBminus"
-      (pins "ascc1"-"12" "IDE1"-"16" "zs1/C2"-"1" "zs1/STEP"-"6" "zs1/STEP"-"8" "zs1/X4"-"2" "zs2/C2"-"1" "zs2/STEP"-"6" "zs2/STEP"-"8" "zs2/X4"-"2")
+      (pins "ascc1"-"12" "IDE1"-"16" "zs1/C2"-"1" "zs1/STEP1"-"6" "zs1/STEP1"-"8" "zs1/X4"-"2" "zs2/C2"-"1" "zs2/STEP1"-"6" "zs2/STEP1"-"8" "zs2/X4"-"2")
     )
     (net "zsBplus"
       (pins "ascc1"-"11" "IDE1"-"15" "zs1/L2"-"1" "zs2/L2"-"1")
     )
-    (class geda_default "+5V" "+12V" "a1/GND" "a1/Vee" "es0B+" "es0A+" "es0B-" "es0A-" "es0/Aplus" "es0/Bplus" "es0/Vee" "es1B+" "es1A+" "es1B-" "es1A-" "es1/Aplus" "es1/Bplus" "es1/Vee" "es2B+" "es2A+" "es2B-" "es2A-" "es2/Aplus" "es2/Bplus" "es2/Vee" "es3B+" "es3A+" "es3B-" "es3A-" "es3/Aplus" "es3/Bplus" "es3/Vee" "es4B+" "es4A+" "es4B-" "es4A-" "es4/Aplus" "es4/Bplus" "es4/Vee" "es5B+" "es5A+" "es5B-" "es5A-" "es5/Aplus" "es5/Bplus" "es5/Vee" "et0/GND" "et0/Vee" "et1/GND" "et1/Vee" "et2/GND" "et2/Vee" "et3/GND" "et3/Vee" "et4/GND" "et4/Vee" "et5/GND" "et5/Vee" "etcHeat0" "etcHeat1" "etcHeat2" "etcHeat3" "etcHeat4" "etcHeat5" "etcTherm0" "etcTherm1" "etcTherm2" "etcTherm3" "etcTherm4" "etcTherm5" "extFan" "GND" "l1/GND" "l1/Vee" "laser" "Vee" "Vsys" "xl1/GND" "xl1/Vee" "xlNC" "xlNO" "xlPWM" "xs1/Aplus" "xs1/Bplus" "xs1/Vee" "xs2/Aplus" "xs2/Bplus" "xs2/Vee" "xsAminus" "xsAplus" "xsBminus" "xsBplus" "yl1/GND" "yl1/Vee" "ylNC" "ylNO" "ylPWM" "ys1/Aplus" "ys1/Bplus" "ys1/Vee" "ys2/Aplus" "ys2/Bplus" "ys2/Vee" "ysAminus" "ysAplus" "ysBminus" "ysBplus" "zl1/GND" "zl1/Vee" "zlNC" "zlNO" "zlPWM" "zs1/Aplus" "zs1/Bplus" "zs1/Vee" "zs2/Aplus" "zs2/Bplus" "zs2/Vee" "zsAminus" "zsAplus" "zsBminus" "zsBplus"
+    (class geda_default "+5V" "+12V" "a1/GND" "a1/Vee" "es0B+" "es0A+" "es0B-" "es0A-" "es0/Aplus" "es0/Bplus" "es1B+" "es1A+" "es1B-" "es1A-" "es1/Aplus" "es1/Bplus" "es2B+" "es2A+" "es2B-" "es2A-" "es2/Aplus" "es2/Bplus" "es3B+" "es3A+" "es3B-" "es3A-" "es3/Aplus" "es3/Bplus" "es4B+" "es4A+" "es4B-" "es4A-" "es4/Aplus" "es4/Bplus" "es5B+" "es5A+" "es5B-" "es5A-" "es5/Aplus" "es5/Bplus" "etcHeat0" "etcHeat1" "etcHeat2" "etcHeat3" "etcHeat4" "etcHeat5" "etcTherm0" "etcTherm1" "etcTherm2" "etcTherm3" "etcTherm4" "etcTherm5" "extFan" "GND" "laser" "Vee" "Vsys" "xlNC" "xlNO" "xlPWM" "xs1/Aplus" "xs1/Bplus" "xs2/Aplus" "xs2/Bplus" "xsAminus" "xsAplus" "xsBminus" "xsBplus" "ylNC" "ylNO" "ylPWM" "ys1/Aplus" "ys1/Bplus" "ys2/Aplus" "ys2/Bplus" "ysAminus" "ysAplus" "ysBminus" "ysBplus" "zlNC" "zlNO" "zlPWM" "zs1/Aplus" "zs1/Bplus" "zs2/Aplus" "zs2/Bplus" "zsAminus" "zsAplus" "zsBminus" "zsBplus"
       (circuit
         (use_via via_685800_330200)
       )
