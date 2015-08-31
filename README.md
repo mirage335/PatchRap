@@ -16,7 +16,7 @@ RJ45/8P8C connectors are among most convenient, cheapest connectors designed to 
 
 Besides 'patch panel' functions, surge suppressors and EMI filters are supported.
 
-USA companies provide all parts in these schematics.
+USA companies provide all parts in these schematics, excepting the optional terminal blocks from TE Connectivity, a Swiss company.
 
 Pinouts are as follows, numbering by T568A standard.
 

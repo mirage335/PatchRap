@@ -435,9 +435,9 @@ device=CONNECTOR_12
 T 63050 54600 5 10 0 0 90 2 1
 footprint=termStrip
 T 57600 54300 5 10 0 0 0 0 1
-description=$4.00 MOUSER 538-38700-6112
+description=$4.23 MOUSER 571-1-282834-2
 T 57600 54300 5 10 0 0 0 0 1
-value=15A
+value=6A
 }
 N 50200 44300 50200 45600 4
 N 50600 44300 50600 45600 4
@@ -1429,9 +1429,9 @@ device=CONNECTOR_12
 T 69550 54600 5 10 0 0 90 2 1
 footprint=termStrip
 T 64100 54300 5 10 0 0 0 0 1
-description=$4.00 MOUSER 538-38700-6112
+description=$4.23 MOUSER 571-1-282834-2
 T 64100 54300 5 10 0 0 0 0 1
-value=15A
+value=6A
 }
 C 62800 58200 1 90 1 connector12-2.sym
 {
@@ -1442,9 +1442,9 @@ device=CONNECTOR_12
 T 57350 57900 5 10 0 0 270 2 1
 footprint=termStrip
 T 62800 58200 5 10 0 0 180 0 1
-description=$4.00 MOUSER 538-38700-6112
+description=$4.23 MOUSER 538-38700-6112
 T 62800 58200 5 10 0 0 180 0 1
-value=15A
+value=6A
 }
 C 69300 58200 1 90 1 connector12-2.sym
 {
@@ -1455,9 +1455,9 @@ device=CONNECTOR_12
 T 63850 57900 5 10 0 0 270 2 1
 footprint=termStrip
 T 69300 58200 5 10 0 0 180 0 1
-description=$4.00 MOUSER 538-38700-6112
+description=$4.23 MOUSER 571-1-282834-2 
 T 69300 58200 5 10 0 0 180 0 1
-value=15A
+value=6A
 }
 C 70800 53800 1 0 1 connector12-2.sym
 {
@@ -1468,9 +1468,9 @@ device=CONNECTOR_12
 T 70500 59250 5 10 0 0 180 2 1
 footprint=termStrip
 T 70800 53800 5 10 0 0 90 0 1
-description=$4.00 MOUSER 538-38700-6112
+description=$4.23 MOUSER 571-1-282834-2 
 T 70800 53800 5 10 0 0 90 0 1
-value=15A
+value=6A
 }
 C 47600 53900 1 0 0 connector2-2.sym
 {
