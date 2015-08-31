@@ -8,10 +8,10 @@ PCB["" 5600.00mil 4300.00mil]
 Grid[1000.000000 0.0000 0.0000 1]
 PolyArea[200000000.000000]
 Thermal[0.500000]
-DRC[8.00mil 0.10mil 8.00mil 0.10mil 13.00mil 7.00mil]
+DRC[10.00mil 0.10mil 8.00mil 0.10mil 13.00mil 7.00mil]
 Flags("nameonpcb,clearnew,newfullpoly,snappin,locknames")
 Groups("1,c:2,s:3")
-Styles["Signal,10.00mil,36.00mil,20.00mil,10.00mil:Power,25.00mil,60.00mil,35.00mil,10.00mil:Fat,40.00mil,60.00mil,35.00mil,10.00mil:Skinny,6.00mil,24.02mil,11.81mil,6.00mil"]
+Styles["Signal,12.00mil,27.00mil,13.00mil,10.00mil:Power,25.00mil,60.00mil,35.00mil,10.00mil:Fat,40.00mil,60.00mil,35.00mil,10.00mil:Skinny,6.00mil,24.02mil,11.81mil,6.00mil"]
 
 Symbol[' ' 18.00mil]
 (
@@ -826,7 +826,6 @@ Via[71.7447mm 3746.90mil 27.00mil 20.00mil 0.0000 13.00mil "" "auto"]
 Via[72.8770mm 3878.20mil 27.00mil 20.00mil 0.0000 13.00mil "" "auto"]
 Via[1475.00mil 3878.20mil 27.00mil 20.00mil 0.0000 13.00mil "" "auto"]
 Via[21.4327mm 57.2180mm 27.00mil 20.00mil 0.0000 13.00mil "" "auto"]
-Via[79.7217mm 83.7503mm 27.00mil 20.00mil 0.0000 13.00mil "" "auto"]
 Via[46.2577mm 32.7303mm 27.00mil 20.00mil 0.0000 13.00mil "" "auto"]
 Via[2250.00mil 11.4279mm 27.00mil 20.00mil 0.0000 13.00mil "" "auto"]
 Via[58.8500mm 24.7790mm 27.00mil 20.00mil 0.0000 13.00mil "" "auto"]
@@ -858,6 +857,17 @@ Via[119.7113mm 44.5631mm 27.00mil 20.00mil 0.0000 13.00mil "" "auto"]
 Via[94.0344mm 49.2275mm 27.00mil 20.00mil 0.0000 13.00mil "" "auto"]
 Via[49.0768mm 26.6292mm 27.00mil 20.00mil 0.0000 13.00mil "" "auto"]
 Via[28.1568mm 28.0318mm 27.00mil 20.00mil 0.0000 13.00mil "" "auto"]
+Via[410.00mil 2390.00mil 27.00mil 20.00mil 0.0000 13.00mil "" ""]
+Via[410.00mil 2280.00mil 27.00mil 20.00mil 0.0000 13.00mil "" ""]
+Via[410.00mil 1850.00mil 27.00mil 20.00mil 0.0000 13.00mil "" ""]
+Via[410.00mil 1770.00mil 27.00mil 20.00mil 0.0000 13.00mil "" ""]
+Via[410.00mil 1090.00mil 27.00mil 20.00mil 0.0000 13.00mil "" ""]
+Via[410.00mil 1010.00mil 27.00mil 20.00mil 0.0000 13.00mil "" ""]
+Via[3600.00mil 1680.00mil 27.00mil 20.00mil 0.0000 13.00mil "" ""]
+Via[80.00mil 80.00mil 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,1X)"]
+Via[5520.00mil 80.00mil 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,1X)"]
+Via[80.00mil 4230.00mil 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,1X)"]
+Via[5520.00mil 4230.00mil 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,1X)"]
 
 Element["" "XT60" "Vsys1" "60A" 175.00mil 900.00mil -100.00mil 75.00mil 3 100 ""]
 (
@@ -867,7 +877,7 @@ Element["" "XT60" "Vsys1" "60A" 175.00mil 900.00mil -100.00mil 75.00mil 3 100 ""
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 6.0000mm 20.00mil 6.1524mm 4.7500mm "1" "1" ""]
-	Pin[0.0000 7.2000mm 6.0000mm 20.00mil 6.1524mm 4.7500mm "2" "2" ""]
+	Pin[0.0000 7.2000mm 6.0000mm 20.00mil 6.1524mm 4.7500mm "2" "2" "thermal(0X,1X)"]
 	ElementLine [-4.1000mm -4.3000mm 4.0000mm -4.3000mm 10.00mil]
 	ElementLine [-4.1000mm -4.3000mm -4.1000mm 11.4000mm 10.00mil]
 	ElementLine [-4.1000mm 11.4000mm 4.0000mm 11.4000mm 10.00mil]
@@ -888,7 +898,7 @@ Element["" "XT60" "Vsys3" "60A" 175.00mil 2200.00mil -100.00mil 50.00mil 3 100 "
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 6.0000mm 20.00mil 6.1524mm 4.7500mm "1" "1" ""]
-	Pin[0.0000 7.2000mm 6.0000mm 20.00mil 6.1524mm 4.7500mm "2" "2" ""]
+	Pin[0.0000 7.2000mm 6.0000mm 20.00mil 6.1524mm 4.7500mm "2" "2" "thermal(0X,1X)"]
 	ElementLine [-4.1000mm -4.3000mm 4.0000mm -4.3000mm 10.00mil]
 	ElementLine [-4.1000mm -4.3000mm -4.1000mm 11.4000mm 10.00mil]
 	ElementLine [-4.1000mm 11.4000mm 4.0000mm 11.4000mm 10.00mil]
@@ -909,7 +919,7 @@ Element["" "XT60" "Vsys2" "60A" 175.00mil 1550.00mil -100.00mil 50.00mil 3 100 "
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 6.0000mm 20.00mil 6.1524mm 4.7500mm "1" "1" ""]
-	Pin[0.0000 7.2000mm 6.0000mm 20.00mil 6.1524mm 4.7500mm "2" "2" ""]
+	Pin[0.0000 7.2000mm 6.0000mm 20.00mil 6.1524mm 4.7500mm "2" "2" "thermal(0X,1X)"]
 	ElementLine [-4.1000mm -4.3000mm 4.0000mm -4.3000mm 10.00mil]
 	ElementLine [-4.1000mm -4.3000mm -4.1000mm 11.4000mm 10.00mil]
 	ElementLine [-4.1000mm 11.4000mm 4.0000mm 11.4000mm 10.00mil]
@@ -970,8 +980,8 @@ Element["hidename,onsolder" "SRN8040.fp" "es5/L2" "10uH" 1625.00mil 65.8500mm 75
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
-	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 16.00mil 106.61mil "1" "1" "onsolder,square"]
+	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 16.00mil 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -982,8 +992,8 @@ Element["hidename,onsolder" "SRN8040.fp" "es5/L1" "10uH" 1300.00mil 65.8500mm 95
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
-	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 16.00mil 106.61mil "1" "1" "onsolder,square"]
+	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 16.00mil 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -994,7 +1004,7 @@ Element["" "538-95540-2881" "es5/STEP1" "-" 1375.00mil 3375.00mil 102.00mil 87.0
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[100.00mil -350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "2" "2" "thermal(0X)"]
+	Pin[100.00mil -350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "2" "2" "thermal(0X,1X)"]
 	Pin[200.00mil -350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "4" "4" ""]
 	Pin[300.00mil -350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "6" "6" ""]
 	Pin[400.00mil -350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "8" "8" ""]
@@ -1002,10 +1012,10 @@ Element["" "538-95540-2881" "es5/STEP1" "-" 1375.00mil 3375.00mil 102.00mil 87.0
 	Pin[150.00mil -250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "3" "3" ""]
 	Pin[250.00mil -250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "5" "5" ""]
 	Pin[350.00mil -250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "7" "7" ""]
-	Pin[0.0000 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X)"]
-	Pin[450.00mil 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X)"]
-	Pin[-2.1700mm 3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X)"]
-	Pin[13.5800mm 3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X)"]
+	Pin[0.0000 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X,1X)"]
+	Pin[450.00mil 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X,1X)"]
+	Pin[-2.1700mm 3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X,1X)"]
+	Pin[13.5800mm 3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X,1X)"]
 	ElementLine [0.0000 -10.4000mm 450.00mil -10.4000mm 10.00mil]
 	ElementLine [-3.2400mm -10.4000mm 0.2600mm -10.4000mm 10.00mil]
 	ElementLine [14.6600mm -10.4000mm 14.6600mm -3.0400mm 10.00mil]
@@ -1024,7 +1034,7 @@ Element["" "538-95540-2881" "es4/STEP1" "-" 2100.00mil 3375.00mil 102.00mil 87.0
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[100.00mil -350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "2" "2" "thermal(0X)"]
+	Pin[100.00mil -350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "2" "2" "thermal(0X,1X)"]
 	Pin[200.00mil -350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "4" "4" ""]
 	Pin[300.00mil -350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "6" "6" ""]
 	Pin[400.00mil -350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "8" "8" ""]
@@ -1032,10 +1042,10 @@ Element["" "538-95540-2881" "es4/STEP1" "-" 2100.00mil 3375.00mil 102.00mil 87.0
 	Pin[150.00mil -250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "3" "3" ""]
 	Pin[250.00mil -250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "5" "5" ""]
 	Pin[350.00mil -250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "7" "7" ""]
-	Pin[0.0000 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X)"]
-	Pin[450.00mil 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X)"]
-	Pin[-2.1700mm 3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X)"]
-	Pin[13.5800mm 3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X)"]
+	Pin[0.0000 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X,1X)"]
+	Pin[450.00mil 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X,1X)"]
+	Pin[-2.1700mm 3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X,1X)"]
+	Pin[13.5800mm 3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X,1X)"]
 	ElementLine [0.0000 -10.4000mm 450.00mil -10.4000mm 10.00mil]
 	ElementLine [-3.2400mm -10.4000mm 0.2600mm -10.4000mm 10.00mil]
 	ElementLine [14.6600mm -10.4000mm 14.6600mm -3.0400mm 10.00mil]
@@ -1054,8 +1064,8 @@ Element["hidename,onsolder" "SRN8040.fp" "es4/L1" "10uH" 2025.00mil 65.8500mm 95
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
-	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 16.00mil 106.61mil "1" "1" "onsolder,square"]
+	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 16.00mil 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1066,8 +1076,8 @@ Element["hidename,onsolder" "SRN8040.fp" "es4/L2" "10uH" 2350.00mil 65.8500mm 75
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
-	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 16.00mil 106.61mil "1" "1" "onsolder,square"]
+	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 16.00mil 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1102,7 +1112,7 @@ Element["" "538-95540-2881" "es2/STEP1" "-" 3550.00mil 3375.00mil 102.00mil 87.0
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[100.00mil -350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "2" "2" "thermal(0X)"]
+	Pin[100.00mil -350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "2" "2" "thermal(0X,1X)"]
 	Pin[200.00mil -350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "4" "4" ""]
 	Pin[300.00mil -350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "6" "6" ""]
 	Pin[400.00mil -350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "8" "8" ""]
@@ -1110,10 +1120,10 @@ Element["" "538-95540-2881" "es2/STEP1" "-" 3550.00mil 3375.00mil 102.00mil 87.0
 	Pin[150.00mil -250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "3" "3" ""]
 	Pin[250.00mil -250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "5" "5" ""]
 	Pin[350.00mil -250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "7" "7" ""]
-	Pin[0.0000 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X)"]
-	Pin[450.00mil 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X)"]
-	Pin[-2.1700mm 3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X)"]
-	Pin[13.5800mm 3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X)"]
+	Pin[0.0000 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X,1X)"]
+	Pin[450.00mil 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X,1X)"]
+	Pin[-2.1700mm 3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X,1X)"]
+	Pin[13.5800mm 3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X,1X)"]
 	ElementLine [0.0000 -10.4000mm 450.00mil -10.4000mm 10.00mil]
 	ElementLine [-3.2400mm -10.4000mm 0.2600mm -10.4000mm 10.00mil]
 	ElementLine [14.6600mm -10.4000mm 14.6600mm -3.0400mm 10.00mil]
@@ -1132,8 +1142,8 @@ Element["hidename,onsolder" "SRN8040.fp" "es2/L1" "10uH" 3475.00mil 65.8500mm 95
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
-	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 16.00mil 106.61mil "1" "1" "onsolder,square"]
+	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 16.00mil 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1144,8 +1154,8 @@ Element["hidename,onsolder" "SRN8040.fp" "es2/L2" "10uH" 3800.00mil 65.8500mm 75
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
-	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 16.00mil 106.61mil "1" "1" "onsolder,square"]
+	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 16.00mil 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1180,7 +1190,7 @@ Element["" "538-95540-2881" "es1/STEP1" "-" 4275.00mil 3375.00mil 102.00mil 87.0
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[100.00mil -350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "2" "2" "thermal(0X)"]
+	Pin[100.00mil -350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "2" "2" "thermal(0X,1X)"]
 	Pin[200.00mil -350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "4" "4" ""]
 	Pin[300.00mil -350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "6" "6" ""]
 	Pin[400.00mil -350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "8" "8" ""]
@@ -1188,10 +1198,10 @@ Element["" "538-95540-2881" "es1/STEP1" "-" 4275.00mil 3375.00mil 102.00mil 87.0
 	Pin[150.00mil -250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "3" "3" ""]
 	Pin[250.00mil -250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "5" "5" ""]
 	Pin[350.00mil -250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "7" "7" ""]
-	Pin[0.0000 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X)"]
-	Pin[450.00mil 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X)"]
-	Pin[-2.1700mm 3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X)"]
-	Pin[13.5800mm 3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X)"]
+	Pin[0.0000 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X,1X)"]
+	Pin[450.00mil 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X,1X)"]
+	Pin[-2.1700mm 3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X,1X)"]
+	Pin[13.5800mm 3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X,1X)"]
 	ElementLine [0.0000 -10.4000mm 450.00mil -10.4000mm 10.00mil]
 	ElementLine [-3.2400mm -10.4000mm 0.2600mm -10.4000mm 10.00mil]
 	ElementLine [14.6600mm -10.4000mm 14.6600mm -3.0400mm 10.00mil]
@@ -1210,8 +1220,8 @@ Element["hidename,onsolder" "SRN8040.fp" "es1/L1" "10uH" 4200.00mil 65.8500mm 95
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
-	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 16.00mil 106.61mil "1" "1" "onsolder,square"]
+	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 16.00mil 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1222,8 +1232,8 @@ Element["hidename,onsolder" "SRN8040.fp" "es1/L2" "10uH" 4525.00mil 65.8500mm 75
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
-	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 16.00mil 106.61mil "1" "1" "onsolder,square"]
+	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 16.00mil 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1258,7 +1268,7 @@ Element["" "538-95540-2881" "es0/STEP1" "-" 5000.00mil 3375.00mil 102.00mil 87.0
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[100.00mil -350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "2" "2" "thermal(0X)"]
+	Pin[100.00mil -350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "2" "2" "thermal(0X,1X)"]
 	Pin[200.00mil -350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "4" "4" ""]
 	Pin[300.00mil -350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "6" "6" ""]
 	Pin[400.00mil -350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "8" "8" ""]
@@ -1266,10 +1276,10 @@ Element["" "538-95540-2881" "es0/STEP1" "-" 5000.00mil 3375.00mil 102.00mil 87.0
 	Pin[150.00mil -250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "3" "3" ""]
 	Pin[250.00mil -250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "5" "5" ""]
 	Pin[350.00mil -250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "7" "7" ""]
-	Pin[0.0000 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X)"]
-	Pin[450.00mil 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X)"]
-	Pin[-2.1700mm 3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X)"]
-	Pin[13.5800mm 3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X)"]
+	Pin[0.0000 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X,1X)"]
+	Pin[450.00mil 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X,1X)"]
+	Pin[-2.1700mm 3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X,1X)"]
+	Pin[13.5800mm 3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X,1X)"]
 	ElementLine [0.0000 -10.4000mm 450.00mil -10.4000mm 10.00mil]
 	ElementLine [-3.2400mm -10.4000mm 0.2600mm -10.4000mm 10.00mil]
 	ElementLine [14.6600mm -10.4000mm 14.6600mm -3.0400mm 10.00mil]
@@ -1288,8 +1298,8 @@ Element["hidename,onsolder" "SRN8040.fp" "es0/L1" "10uH" 4925.00mil 65.8500mm 95
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
-	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 16.00mil 106.61mil "1" "1" "onsolder,square"]
+	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 16.00mil 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1300,8 +1310,8 @@ Element["hidename,onsolder" "SRN8040.fp" "es0/L2" "10uH" 5250.00mil 65.8500mm 75
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
-	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 16.00mil 106.61mil "1" "1" "onsolder,square"]
+	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 16.00mil 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1516,8 +1526,8 @@ Element["hidename,onsolder" "SRN8040.fp" "es3/L1" "10uH" 2750.00mil 65.8500mm 0.
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
-	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 16.00mil 106.61mil "1" "1" "onsolder,square"]
+	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 16.00mil 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1540,8 +1550,8 @@ Element["onsolder" "SRN8040.fp" "es3/L2" "10uH" 3075.00mil 65.8500mm 0.0000 0.00
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
-	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 16.00mil 106.61mil "1" "1" "onsolder,square"]
+	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 16.00mil 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1564,7 +1574,7 @@ Element["" "538-95540-2881" "es3/STEP1" "-" 2825.00mil 3375.00mil 95.00mil 85.00
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[100.00mil -350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "2" "2" "thermal(0X)"]
+	Pin[100.00mil -350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "2" "2" "thermal(0X,1X)"]
 	Pin[200.00mil -350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "4" "4" ""]
 	Pin[300.00mil -350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "6" "6" ""]
 	Pin[400.00mil -350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "8" "8" ""]
@@ -1572,10 +1582,10 @@ Element["" "538-95540-2881" "es3/STEP1" "-" 2825.00mil 3375.00mil 95.00mil 85.00
 	Pin[150.00mil -250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "3" "3" ""]
 	Pin[250.00mil -250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "5" "5" ""]
 	Pin[350.00mil -250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "7" "7" ""]
-	Pin[0.0000 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X)"]
-	Pin[450.00mil 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X)"]
-	Pin[-2.1700mm 3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X)"]
-	Pin[13.5800mm 3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X)"]
+	Pin[0.0000 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X,1X)"]
+	Pin[450.00mil 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X,1X)"]
+	Pin[-2.1700mm 3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X,1X)"]
+	Pin[13.5800mm 3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X,1X)"]
 	ElementLine [0.0000 -10.4000mm 450.00mil -10.4000mm 10.00mil]
 	ElementLine [-3.2400mm -10.4000mm 0.2600mm -10.4000mm 10.00mil]
 	ElementLine [14.6600mm -3.0400mm 14.6600mm -10.4000mm 10.00mil]
@@ -1675,7 +1685,7 @@ Element["" "538-95540-2881" "xs1/STEP1" "-" 1825.00mil 925.00mil -102.00mil -87.
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[-100.00mil 350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "2" "2" "thermal(0X)"]
+	Pin[-100.00mil 350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "2" "2" "thermal(0X,1X)"]
 	Pin[-200.00mil 350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "4" "4" ""]
 	Pin[-300.00mil 350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "6" "6" ""]
 	Pin[-400.00mil 350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "8" "8" ""]
@@ -1683,10 +1693,10 @@ Element["" "538-95540-2881" "xs1/STEP1" "-" 1825.00mil 925.00mil -102.00mil -87.
 	Pin[-150.00mil 250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "3" "3" ""]
 	Pin[-250.00mil 250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "5" "5" ""]
 	Pin[-350.00mil 250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "7" "7" ""]
-	Pin[0.0000 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X)"]
-	Pin[-450.00mil 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X)"]
-	Pin[2.1700mm -3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X)"]
-	Pin[-13.5800mm -3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X)"]
+	Pin[0.0000 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X,1X)"]
+	Pin[-450.00mil 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X,1X)"]
+	Pin[2.1700mm -3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X,1X)"]
+	Pin[-13.5800mm -3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X,1X)"]
 	ElementLine [-450.00mil 10.4000mm 0.0000 10.4000mm 10.00mil]
 	ElementLine [-0.2600mm 10.4000mm 3.2400mm 10.4000mm 10.00mil]
 	ElementLine [-14.6600mm 3.0400mm -14.6600mm 10.4000mm 10.00mil]
@@ -1705,8 +1715,8 @@ Element["hidename,onsolder" "SRN8040.fp" "xs1/L1" "10uH" 1900.00mil 43.3700mm -9
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
-	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 16.00mil 106.61mil "1" "1" "onsolder,square"]
+	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 16.00mil 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1717,8 +1727,8 @@ Element["hidename,onsolder" "SRN8040.fp" "xs1/L2" "10uH" 1575.00mil 43.3700mm -7
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
-	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 16.00mil 106.61mil "1" "1" "onsolder,square"]
+	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 16.00mil 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1753,7 +1763,7 @@ Element["" "538-95540-2881" "xs2/STEP1" "-" 2550.00mil 925.00mil -102.00mil -87.
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[-100.00mil 350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "2" "2" "thermal(0X)"]
+	Pin[-100.00mil 350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "2" "2" "thermal(0X,1X)"]
 	Pin[-200.00mil 350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "4" "4" ""]
 	Pin[-300.00mil 350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "6" "6" ""]
 	Pin[-400.00mil 350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "8" "8" ""]
@@ -1761,10 +1771,10 @@ Element["" "538-95540-2881" "xs2/STEP1" "-" 2550.00mil 925.00mil -102.00mil -87.
 	Pin[-150.00mil 250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "3" "3" ""]
 	Pin[-250.00mil 250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "5" "5" ""]
 	Pin[-350.00mil 250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "7" "7" ""]
-	Pin[0.0000 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X)"]
-	Pin[-450.00mil 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X)"]
-	Pin[2.1700mm -3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X)"]
-	Pin[-13.5800mm -3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X)"]
+	Pin[0.0000 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X,1X)"]
+	Pin[-450.00mil 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X,1X)"]
+	Pin[2.1700mm -3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X,1X)"]
+	Pin[-13.5800mm -3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X,1X)"]
 	ElementLine [-450.00mil 10.4000mm 0.0000 10.4000mm 10.00mil]
 	ElementLine [-0.2600mm 10.4000mm 3.2400mm 10.4000mm 10.00mil]
 	ElementLine [-14.6600mm 3.0400mm -14.6600mm 10.4000mm 10.00mil]
@@ -1783,8 +1793,8 @@ Element["hidename,onsolder" "SRN8040.fp" "xs2/L1" "10uH" 2625.00mil 43.3700mm -9
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
-	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 16.00mil 106.61mil "1" "1" "onsolder,square"]
+	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 16.00mil 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1795,8 +1805,8 @@ Element["hidename,onsolder" "SRN8040.fp" "xs2/L2" "10uH" 2300.00mil 43.3700mm -7
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
-	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 16.00mil 106.61mil "1" "1" "onsolder,square"]
+	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 16.00mil 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1831,7 +1841,7 @@ Element["" "538-95540-2881" "ys1/STEP1" "-" 3275.00mil 925.00mil -102.00mil -87.
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[-100.00mil 350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "2" "2" "thermal(0X)"]
+	Pin[-100.00mil 350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "2" "2" "thermal(0X,1X)"]
 	Pin[-200.00mil 350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "4" "4" ""]
 	Pin[-300.00mil 350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "6" "6" ""]
 	Pin[-400.00mil 350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "8" "8" ""]
@@ -1839,10 +1849,10 @@ Element["" "538-95540-2881" "ys1/STEP1" "-" 3275.00mil 925.00mil -102.00mil -87.
 	Pin[-150.00mil 250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "3" "3" ""]
 	Pin[-250.00mil 250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "5" "5" ""]
 	Pin[-350.00mil 250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "7" "7" ""]
-	Pin[0.0000 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X)"]
-	Pin[-450.00mil 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X)"]
-	Pin[2.1700mm -3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X)"]
-	Pin[-13.5800mm -3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X)"]
+	Pin[0.0000 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X,1X)"]
+	Pin[-450.00mil 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X,1X)"]
+	Pin[2.1700mm -3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X,1X)"]
+	Pin[-13.5800mm -3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X,1X)"]
 	ElementLine [-450.00mil 10.4000mm 0.0000 10.4000mm 10.00mil]
 	ElementLine [-0.2600mm 10.4000mm 3.2400mm 10.4000mm 10.00mil]
 	ElementLine [-14.6600mm 3.0400mm -14.6600mm 10.4000mm 10.00mil]
@@ -1861,8 +1871,8 @@ Element["hidename,onsolder" "SRN8040.fp" "ys1/L1" "10uH" 3350.00mil 43.3700mm -9
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
-	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 16.00mil 106.61mil "1" "1" "onsolder,square"]
+	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 16.00mil 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1873,8 +1883,8 @@ Element["hidename,onsolder" "SRN8040.fp" "ys1/L2" "10uH" 3025.00mil 43.3700mm -7
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
-	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 16.00mil 106.61mil "1" "1" "onsolder,square"]
+	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 16.00mil 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1909,7 +1919,7 @@ Element["" "538-95540-2881" "ys2/STEP1" "-" 4000.00mil 925.00mil -102.00mil -87.
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[-100.00mil 350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "2" "2" "thermal(0X)"]
+	Pin[-100.00mil 350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "2" "2" "thermal(0X,1X)"]
 	Pin[-200.00mil 350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "4" "4" ""]
 	Pin[-300.00mil 350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "6" "6" ""]
 	Pin[-400.00mil 350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "8" "8" ""]
@@ -1917,10 +1927,10 @@ Element["" "538-95540-2881" "ys2/STEP1" "-" 4000.00mil 925.00mil -102.00mil -87.
 	Pin[-150.00mil 250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "3" "3" ""]
 	Pin[-250.00mil 250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "5" "5" ""]
 	Pin[-350.00mil 250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "7" "7" ""]
-	Pin[0.0000 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X)"]
-	Pin[-450.00mil 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X)"]
-	Pin[2.1700mm -3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X)"]
-	Pin[-13.5800mm -3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X)"]
+	Pin[0.0000 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X,1X)"]
+	Pin[-450.00mil 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X,1X)"]
+	Pin[2.1700mm -3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X,1X)"]
+	Pin[-13.5800mm -3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X,1X)"]
 	ElementLine [-450.00mil 10.4000mm 0.0000 10.4000mm 10.00mil]
 	ElementLine [-0.2600mm 10.4000mm 3.2400mm 10.4000mm 10.00mil]
 	ElementLine [-14.6600mm 3.0400mm -14.6600mm 10.4000mm 10.00mil]
@@ -1939,8 +1949,8 @@ Element["hidename,onsolder" "SRN8040.fp" "ys2/L1" "10uH" 4075.00mil 43.3700mm -9
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
-	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 16.00mil 106.61mil "1" "1" "onsolder,square"]
+	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 16.00mil 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1951,8 +1961,8 @@ Element["hidename,onsolder" "SRN8040.fp" "ys2/L2" "10uH" 3750.00mil 43.3700mm -7
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
-	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 16.00mil 106.61mil "1" "1" "onsolder,square"]
+	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 16.00mil 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1987,7 +1997,7 @@ Element["" "538-95540-2881" "zs1/STEP1" "-" 4725.00mil 925.00mil -102.00mil -87.
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[-100.00mil 350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "2" "2" "thermal(0X)"]
+	Pin[-100.00mil 350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "2" "2" "thermal(0X,1X)"]
 	Pin[-200.00mil 350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "4" "4" ""]
 	Pin[-300.00mil 350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "6" "6" ""]
 	Pin[-400.00mil 350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "8" "8" ""]
@@ -1995,10 +2005,10 @@ Element["" "538-95540-2881" "zs1/STEP1" "-" 4725.00mil 925.00mil -102.00mil -87.
 	Pin[-150.00mil 250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "3" "3" ""]
 	Pin[-250.00mil 250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "5" "5" ""]
 	Pin[-350.00mil 250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "7" "7" ""]
-	Pin[0.0000 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X)"]
-	Pin[-450.00mil 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X)"]
-	Pin[2.1700mm -3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X)"]
-	Pin[-13.5800mm -3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X)"]
+	Pin[0.0000 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X,1X)"]
+	Pin[-450.00mil 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X,1X)"]
+	Pin[2.1700mm -3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X,1X)"]
+	Pin[-13.5800mm -3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X,1X)"]
 	ElementLine [-450.00mil 10.4000mm 0.0000 10.4000mm 10.00mil]
 	ElementLine [-0.2600mm 10.4000mm 3.2400mm 10.4000mm 10.00mil]
 	ElementLine [-14.6600mm 3.0400mm -14.6600mm 10.4000mm 10.00mil]
@@ -2017,8 +2027,8 @@ Element["hidename,onsolder" "SRN8040.fp" "zs1/L1" "10uH" 4800.00mil 43.3700mm -9
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
-	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 16.00mil 106.61mil "1" "1" "onsolder,square"]
+	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 16.00mil 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -2029,8 +2039,8 @@ Element["hidename,onsolder" "SRN8040.fp" "zs1/L2" "10uH" 4475.00mil 43.3700mm -7
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
-	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 16.00mil 106.61mil "1" "1" "onsolder,square"]
+	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 16.00mil 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -2065,7 +2075,7 @@ Element["" "538-95540-2881" "zs2/STEP1" "-" 5450.00mil 925.00mil -102.00mil -87.
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[-100.00mil 350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "2" "2" "thermal(0X)"]
+	Pin[-100.00mil 350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "2" "2" "thermal(0X,1X)"]
 	Pin[-200.00mil 350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "4" "4" ""]
 	Pin[-300.00mil 350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "6" "6" ""]
 	Pin[-400.00mil 350.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "8" "8" ""]
@@ -2073,10 +2083,10 @@ Element["" "538-95540-2881" "zs2/STEP1" "-" 5450.00mil 925.00mil -102.00mil -87.
 	Pin[-150.00mil 250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "3" "3" ""]
 	Pin[-250.00mil 250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "5" "5" ""]
 	Pin[-350.00mil 250.00mil 1.4000mm 20.00mil 1.5524mm 0.9000mm "7" "7" ""]
-	Pin[0.0000 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X)"]
-	Pin[-450.00mil 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X)"]
-	Pin[2.1700mm -3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X)"]
-	Pin[-13.5800mm -3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X)"]
+	Pin[0.0000 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X,1X)"]
+	Pin[-450.00mil 0.0000 3.7500mm 20.00mil 3.9024mm 3.2500mm "9" "9" "thermal(0X,1X)"]
+	Pin[2.1700mm -3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X,1X)"]
+	Pin[-13.5800mm -3.0500mm 2.1000mm 20.00mil 2.2524mm 1.6000mm "9" "9" "thermal(0X,1X)"]
 	ElementLine [-450.00mil 10.4000mm 0.0000 10.4000mm 10.00mil]
 	ElementLine [-0.2600mm 10.4000mm 3.2400mm 10.4000mm 10.00mil]
 	ElementLine [-14.6600mm 3.0400mm -14.6600mm 10.4000mm 10.00mil]
@@ -2095,8 +2105,8 @@ Element["hidename,onsolder" "SRN8040.fp" "zs2/L1" "10uH" 5525.00mil 43.3700mm -9
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
-	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 16.00mil 106.61mil "1" "1" "onsolder,square"]
+	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 16.00mil 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -2107,8 +2117,8 @@ Element["hidename,onsolder" "SRN8040.fp" "zs2/L2" "10uH" 5200.00mil 43.3700mm -7
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
-	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 16.00mil 106.61mil "1" "1" "onsolder,square"]
+	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 16.00mil 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -2269,8 +2279,8 @@ Element["onsolder" "SRN8040.fp" "L1" "10uH" 1300.00mil 217.52mil 75.00mil 175.00
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
-	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 16.00mil 106.61mil "1" "1" "onsolder,square"]
+	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 16.00mil 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -2537,7 +2547,7 @@ Element["" "SIP2" "12V" "-" 250.00mil 400.00mil -25.00mil -125.00mil 0 100 ""]
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "1" "1" "square"]
-	Pin[0.0000 100.00mil 60.00mil 30.00mil 66.00mil 28.00mil "2" "2" ""]
+	Pin[0.0000 100.00mil 60.00mil 30.00mil 66.00mil 28.00mil "2" "2" "thermal(0X,1X)"]
 	ElementLine [-50.00mil 0.0000 -50.00mil 100.00mil 20.00mil]
 	ElementLine [50.00mil 0.0000 50.00mil 100.00mil 20.00mil]
 	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
@@ -3052,35 +3062,32 @@ Layer(1 "top")
 	Line[99.1706mm 95.7744mm 82.3837mm 95.7744mm 12.00mil 20.00mil "clearline,auto"]
 	Line[82.3837mm 95.7744mm 3225.00mil 95.3057mm 12.00mil 20.00mil "clearline,auto"]
 	Line[3225.00mil 95.3057mm 3225.00mil 3725.00mil 12.00mil 20.00mil "clearline,auto"]
-	Line[3350.00mil 1800.00mil 3301.90mil 1848.10mil 12.00mil 20.00mil "clearline,auto"]
 	Line[3301.90mil 1848.10mil 2998.10mil 1848.10mil 12.00mil 20.00mil "clearline,auto"]
 	Line[2998.10mil 1848.10mil 2950.00mil 1800.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[32.7750mm 104.0150mm 32.6500mm 4100.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[32.6500mm 4100.00mil 950.00mil 4100.00mil 12.00mil 20.00mil "clearline,auto"]
-	Line[950.00mil 4100.00mil 900.00mil 4150.00mil 12.00mil 20.00mil "clearline,auto"]
-	Line[2875.00mil 3625.00mil 2875.00mil 90.4470mm 12.00mil 20.00mil "clearline,auto"]
-	Line[2875.00mil 90.4470mm 79.7217mm 83.7503mm 12.00mil 20.00mil "clearline,auto"]
+	Line[950.00mil 4100.00mil 900.00mil 4150.00mil 22.00mil 20.00mil "clearline,auto"]
 	Line[75.00mil 500.00mil 3.1431mm 11.4619mm 12.00mil 20.00mil "clearline,auto"]
 	Line[3.1431mm 11.4619mm 6.9033mm 11.4619mm 12.00mil 20.00mil "clearline,auto"]
 	Line[6.9033mm 11.4619mm 13.2214mm 700.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[13.2214mm 700.00mil 1045.20mil 700.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[1045.20mil 700.00mil 1070.20mil 675.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[1070.20mil 675.00mil 2200.00mil 675.00mil 12.00mil 20.00mil "clearline,auto"]
-	Line[103.7500mm 5.2050mm 124.8300mm 5.2050mm 12.00mil 20.00mil "clearline,auto"]
-	Line[5000.00mil 3975.00mil 5450.00mil 3975.00mil 12.00mil 20.00mil "clearline,auto"]
-	Line[4000.00mil 3975.00mil 3550.00mil 3975.00mil 12.00mil 20.00mil "clearline,auto"]
-	Line[1825.00mil 3975.00mil 1375.00mil 3975.00mil 12.00mil 20.00mil "clearline,auto"]
-	Line[2550.00mil 3975.00mil 2100.00mil 3975.00mil 12.00mil 20.00mil "clearline,auto"]
-	Line[51.1900mm 104.0150mm 48.5250mm 104.0150mm 12.00mil 20.00mil "clearline,auto"]
-	Line[3275.00mil 3975.00mil 2825.00mil 3975.00mil 12.00mil 20.00mil "clearline,auto"]
-	Line[69.6050mm 104.0150mm 66.9400mm 104.0150mm 12.00mil 20.00mil "clearline,auto"]
-	Line[88.0200mm 104.0150mm 85.3550mm 104.0150mm 12.00mil 20.00mil "clearline,auto"]
-	Line[106.4350mm 104.0150mm 103.7700mm 104.0150mm 12.00mil 20.00mil "clearline,auto"]
-	Line[124.8500mm 104.0150mm 122.1850mm 104.0150mm 12.00mil 20.00mil "clearline,auto"]
-	Line[88.0000mm 5.2050mm 66.9200mm 5.2050mm 12.00mil 20.00mil "clearline,auto"]
-	Line[550.00mil 3025.00mil 12.8126mm 77.9924mm 12.00mil 20.00mil "clearline,auto"]
+	Line[103.7500mm 5.2050mm 124.8300mm 5.2050mm 62.00mil 20.00mil "clearline,auto"]
+	Line[5000.00mil 3975.00mil 5450.00mil 3975.00mil 62.00mil 20.00mil "clearline,auto"]
+	Line[4000.00mil 3975.00mil 3550.00mil 3975.00mil 62.00mil 20.00mil "clearline,auto"]
+	Line[1825.00mil 3975.00mil 1375.00mil 3975.00mil 62.00mil 20.00mil "clearline,auto"]
+	Line[2550.00mil 3975.00mil 2100.00mil 3975.00mil 32.00mil 20.00mil "clearline,auto"]
+	Line[51.1900mm 104.0150mm 48.5250mm 104.0150mm 62.00mil 20.00mil "clearline,auto"]
+	Line[3275.00mil 3975.00mil 2825.00mil 3975.00mil 62.00mil 20.00mil "clearline,auto"]
+	Line[69.6050mm 104.0150mm 66.9400mm 104.0150mm 62.00mil 20.00mil "clearline,auto"]
+	Line[88.0200mm 104.0150mm 85.3550mm 104.0150mm 62.00mil 20.00mil "clearline,auto"]
+	Line[106.4350mm 104.0150mm 103.7700mm 104.0150mm 62.00mil 20.00mil "clearline,auto"]
+	Line[124.8500mm 104.0150mm 122.1850mm 104.0150mm 62.00mil 20.00mil "clearline,auto"]
+	Line[88.0000mm 5.2050mm 66.9200mm 5.2050mm 62.00mil 20.00mil "clearline,auto"]
+	Line[550.00mil 3025.00mil 12.8126mm 77.9924mm 32.00mil 20.00mil "clearline,auto"]
 	Line[12.8126mm 77.9924mm 7.5074mm 77.9924mm 12.00mil 20.00mil "clearline,auto"]
-	Line[7.5074mm 77.9924mm 250.00mil 3025.00mil 12.00mil 20.00mil "clearline,auto"]
+	Line[7.5074mm 77.9924mm 250.00mil 3025.00mil 32.00mil 20.00mil "clearline,auto"]
 	Line[2100.00mil 925.00mil 2150.00mil 925.00mil 12.00mil 20.00mil "auto"]
 	Line[2150.00mil 925.00mil 2400.00mil 675.00mil 12.00mil 20.00mil "auto"]
 	Line[17.5908mm 46.0206mm 17.5908mm 45.4320mm 12.00mil 20.00mil "auto"]
@@ -3509,6 +3516,21 @@ Layer(1 "top")
 	Line[59.8919mm 47.1919mm 2300.00mil 1800.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[28.1568mm 28.0318mm 29.5594mm 26.6292mm 12.00mil 20.00mil "clearline,auto"]
 	Line[29.5594mm 26.6292mm 49.0768mm 26.6292mm 12.00mil 20.00mil "clearline,auto"]
+	Line[250.00mil 3025.00mil 250.00mil 2820.00mil 50.00mil 20.00mil "clearline"]
+	Line[250.00mil 2820.00mil 270.00mil 2800.00mil 50.00mil 20.00mil "clearline"]
+	Line[270.00mil 2800.00mil 370.00mil 2800.00mil 50.00mil 20.00mil "clearline"]
+	Line[370.00mil 2800.00mil 410.00mil 2760.00mil 50.00mil 20.00mil "clearline"]
+	Line[410.00mil 2760.00mil 410.00mil 2390.00mil 50.00mil 20.00mil "clearline"]
+	Line[410.00mil 2280.00mil 410.00mil 1850.00mil 40.00mil 20.00mil "clearline"]
+	Line[410.00mil 1770.00mil 410.00mil 1090.00mil 45.00mil 20.00mil "clearline"]
+	Line[410.00mil 1010.00mil 410.00mil 18.5554mm 45.00mil 20.00mil "clearline"]
+	Line[410.00mil 18.5554mm 12.2054mm 660.00mil 45.00mil 20.00mil "clearline"]
+	Line[9.9127mm 14.4713mm 7.8874mm 490.00mil 25.00mil 20.00mil "clearline"]
+	Line[12.2054mm 660.00mil 13.2214mm 700.00mil 45.00mil 20.00mil "clearline"]
+	Line[13.2214mm 700.00mil 860.00mil 700.00mil 45.00mil 20.00mil "clearline"]
+	Line[3301.90mil 1848.10mil 3410.00mil 1740.00mil 12.00mil 20.00mil "clearline"]
+	Line[3410.00mil 1740.00mil 3540.00mil 1740.00mil 12.00mil 20.00mil "clearline"]
+	Line[3540.00mil 1740.00mil 3600.00mil 1680.00mil 12.00mil 20.00mil "clearline"]
 	Polygon("clearpoly,fullpoly")
 	(
 		[20.00mil 20.00mil] [5580.00mil 20.00mil] [5580.00mil 4280.00mil] [20.00mil 4280.00mil] 
@@ -3850,11 +3872,11 @@ Layer(2 "bottom")
 	Line[16.6499mm 12.3319mm 15.6973mm 11.3793mm 12.00mil 20.00mil "clearline,auto"]
 	Line[15.6973mm 11.3793mm 600.00mil 11.3793mm 12.00mil 20.00mil "clearline,auto"]
 	Line[600.00mil 400.00mil 600.00mil 11.3793mm 12.00mil 20.00mil "clearline,auto"]
-	Line[4275.00mil 3975.00mil 4725.00mil 3975.00mil 12.00mil 20.00mil "clearline,auto"]
+	Line[4275.00mil 3975.00mil 4725.00mil 3975.00mil 62.00mil 20.00mil "clearline,auto"]
 	Line[4275.00mil 3975.00mil 4275.00mil 3675.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[4275.00mil 3675.00mil 4325.00mil 3625.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[106.4350mm 104.0150mm 106.4350mm 103.1150mm 12.00mil 20.00mil "clearline,auto"]
-	Line[106.4350mm 103.1150mm 4275.00mil 3975.00mil 12.00mil 20.00mil "clearline,auto"]
+	Line[106.4350mm 103.1150mm 4275.00mil 3975.00mil 62.00mil 20.00mil "clearline,auto"]
 	Line[94.7144mm 1800.00mil 3750.00mil 1800.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[101.4943mm 11.1559mm 101.4943mm 20.2866mm 12.00mil 20.00mil "clearline,auto"]
 	Line[101.4943mm 20.2866mm 94.0926mm 27.6883mm 12.00mil 20.00mil "clearline,auto"]
@@ -3862,86 +3884,79 @@ Layer(2 "bottom")
 	Line[94.0926mm 30.2269mm 92.6463mm 31.6732mm 12.00mil 20.00mil "clearline,auto"]
 	Line[92.6463mm 31.6732mm 92.6463mm 43.6519mm 12.00mil 20.00mil "clearline,auto"]
 	Line[92.6463mm 43.6519mm 94.7144mm 1800.00mil 12.00mil 20.00mil "clearline,auto"]
-	Line[3600.00mil 48.9945mm 94.7144mm 1800.00mil 12.00mil 20.00mil "clearline,auto"]
-	Line[3600.00mil 48.9945mm 88.3645mm 48.9945mm 12.00mil 20.00mil "clearline,auto"]
-	Line[88.3645mm 48.9945mm 3350.00mil 1800.00mil 12.00mil 20.00mil "clearline,auto"]
-	Line[79.7217mm 83.7503mm 86.3858mm 77.0862mm 12.00mil 20.00mil "clearline,auto"]
-	Line[86.3858mm 77.0862mm 87.8893mm 77.0862mm 12.00mil 20.00mil "clearline,auto"]
-	Line[87.8893mm 77.0862mm 3600.00mil 2895.10mil 12.00mil 20.00mil "clearline,auto"]
-	Line[3600.00mil 2895.10mil 3600.00mil 48.9945mm 12.00mil 20.00mil "clearline,auto"]
 	Line[101.4943mm 11.1559mm 4000.00mil 11.0502mm 12.00mil 20.00mil "clearline,auto"]
-	Line[3650.00mil 11.1559mm 101.4943mm 11.1559mm 12.00mil 20.00mil "clearline,auto"]
-	Line[2100.00mil 3975.00mil 51.1900mm 103.1150mm 12.00mil 20.00mil "clearline,auto"]
+	Line[3650.00mil 11.1559mm 101.4943mm 11.1559mm 62.00mil 20.00mil "clearline,auto"]
+	Line[2100.00mil 3975.00mil 51.1900mm 103.1150mm 62.00mil 20.00mil "clearline,auto"]
 	Line[51.1900mm 103.1150mm 51.1900mm 104.0150mm 12.00mil 20.00mil "clearline,auto"]
 	Line[2150.00mil 3625.00mil 2100.00mil 3675.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[2100.00mil 3675.00mil 2100.00mil 3975.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[5100.00mil 375.00mil 5100.00mil 675.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[5100.00mil 675.00mil 5050.00mil 675.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[3650.00mil 675.00mil 3600.00mil 675.00mil 12.00mil 20.00mil "clearline,auto"]
-	Line[5400.00mil 375.00mil 5450.00mil 325.00mil 12.00mil 20.00mil "clearline,auto"]
-	Line[5000.00mil 325.00mil 5050.00mil 375.00mil 12.00mil 20.00mil "clearline,auto"]
-	Line[5400.00mil 375.00mil 5050.00mil 375.00mil 12.00mil 20.00mil "clearline,auto"]
-	Line[3550.00mil 325.00mil 3650.00mil 425.00mil 12.00mil 20.00mil "clearline,auto"]
+	Line[5400.00mil 375.00mil 5450.00mil 325.00mil 62.00mil 20.00mil "clearline,auto"]
+	Line[5000.00mil 325.00mil 5050.00mil 375.00mil 62.00mil 20.00mil "clearline,auto"]
+	Line[5400.00mil 375.00mil 5050.00mil 375.00mil 62.00mil 20.00mil "clearline,auto"]
+	Line[3550.00mil 325.00mil 3650.00mil 425.00mil 62.00mil 20.00mil "clearline,auto"]
 	Line[3650.00mil 675.00mil 3650.00mil 425.00mil 12.00mil 20.00mil "clearline,auto"]
-	Line[17.3900mm 99.7857mm 900.00mil 105.2557mm 12.00mil 20.00mil "clearline,auto"]
+	Line[17.3900mm 99.7857mm 900.00mil 105.2557mm 22.00mil 20.00mil "clearline,auto"]
 	Line[900.00mil 105.2557mm 900.00mil 4150.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[3600.00mil 3625.00mil 90.0594mm 93.4556mm 12.00mil 20.00mil "clearline,auto"]
 	Line[90.0594mm 93.4556mm 90.0594mm 100.8544mm 12.00mil 20.00mil "clearline,auto"]
 	Line[90.0594mm 100.8544mm 3550.00mil 3975.00mil 12.00mil 20.00mil "clearline,auto"]
-	Line[2550.00mil 325.00mil 57.8898mm 325.00mil 12.00mil 20.00mil "clearline,auto"]
-	Line[57.8898mm 325.00mil 55.7674mm 10.3774mm 12.00mil 20.00mil "clearline,auto"]
-	Line[66.9200mm 5.2050mm 2550.00mil 7.3550mm 12.00mil 20.00mil "clearline,auto"]
-	Line[2550.00mil 7.3550mm 2550.00mil 325.00mil 12.00mil 20.00mil "clearline,auto"]
+	Line[2550.00mil 325.00mil 57.8898mm 325.00mil 62.00mil 20.00mil "clearline,auto"]
+	Line[57.8898mm 325.00mil 55.7674mm 10.3774mm 62.00mil 20.00mil "clearline,auto"]
+	Line[66.9200mm 5.2050mm 2550.00mil 7.3550mm 62.00mil 20.00mil "clearline,auto"]
+	Line[2550.00mil 7.3550mm 2550.00mil 325.00mil 62.00mil 20.00mil "clearline,auto"]
 	Line[55.7674mm 10.3774mm 55.4624mm 10.3774mm 12.00mil 20.00mil "clearline,auto"]
-	Line[55.4624mm 10.3774mm 2100.00mil 325.00mil 12.00mil 20.00mil "clearline,auto"]
+	Line[55.4624mm 10.3774mm 2100.00mil 325.00mil 62.00mil 20.00mil "clearline,auto"]
 	Line[55.7674mm 675.00mil 55.7674mm 10.3774mm 12.00mil 20.00mil "clearline,auto"]
 	Line[2200.00mil 675.00mil 2150.00mil 675.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[1375.00mil 3975.00mil 1375.00mil 3675.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[1375.00mil 3675.00mil 1425.00mil 3625.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[32.7750mm 104.0150mm 32.7750mm 103.1150mm 12.00mil 20.00mil "clearline,auto"]
-	Line[32.7750mm 103.1150mm 1375.00mil 3975.00mil 12.00mil 20.00mil "clearline,auto"]
+	Line[32.7750mm 103.1150mm 1375.00mil 3975.00mil 72.00mil 20.00mil "clearline,auto"]
 	Line[2875.00mil 3625.00mil 2868.00mil 3625.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[2868.00mil 3625.00mil 70.3348mm 94.5874mm 12.00mil 20.00mil "clearline,auto"]
 	Line[70.3348mm 94.5874mm 70.3348mm 99.5448mm 12.00mil 20.00mil "clearline,auto"]
 	Line[70.3348mm 99.5448mm 2825.00mil 3975.00mil 12.00mil 20.00mil "clearline,auto"]
-	Line[600.00mil 3375.00mil 600.00mil 3075.00mil 12.00mil 20.00mil "clearline,auto"]
-	Line[600.00mil 3075.00mil 550.00mil 3025.00mil 12.00mil 20.00mil "clearline,auto"]
-	Line[17.3900mm 99.7857mm 17.3900mm 87.8750mm 12.00mil 20.00mil "clearline,auto"]
-	Line[17.3900mm 87.8750mm 600.00mil 3375.00mil 12.00mil 20.00mil "clearline,auto"]
+	Line[600.00mil 3375.00mil 600.00mil 3075.00mil 72.00mil 20.00mil "clearline,auto"]
+	Line[600.00mil 3075.00mil 550.00mil 3025.00mil 62.00mil 20.00mil "clearline,auto"]
+	Line[17.3900mm 99.7857mm 17.3900mm 87.8750mm 22.00mil 20.00mil "clearline,auto"]
+	Line[17.3900mm 87.8750mm 600.00mil 3375.00mil 82.00mil 20.00mil "clearline,auto"]
 	Line[88.0200mm 104.0150mm 88.0200mm 103.1150mm 12.00mil 20.00mil "clearline,auto"]
-	Line[88.0200mm 103.1150mm 3550.00mil 3975.00mil 12.00mil 20.00mil "clearline,auto"]
-	Line[103.7500mm 5.2050mm 4000.00mil 7.3550mm 12.00mil 20.00mil "clearline,auto"]
-	Line[4000.00mil 11.0502mm 4000.00mil 7.3550mm 12.00mil 20.00mil "clearline,auto"]
-	Line[88.0000mm 5.2050mm 3550.00mil 7.3750mm 12.00mil 20.00mil "clearline,auto"]
+	Line[88.0200mm 103.1150mm 3550.00mil 3975.00mil 62.00mil 20.00mil "clearline,auto"]
+	Line[103.7500mm 5.2050mm 4000.00mil 7.3550mm 62.00mil 20.00mil "clearline,auto"]
+	Line[4000.00mil 11.0502mm 4000.00mil 7.3550mm 62.00mil 20.00mil "clearline,auto"]
+	Line[88.0000mm 5.2050mm 3550.00mil 7.3750mm 62.00mil 20.00mil "clearline,auto"]
 	Line[3550.00mil 7.3750mm 3550.00mil 325.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[75.00mil 500.00mil 1.7404mm 506.48mil 12.00mil 20.00mil "clearline,auto"]
 	Line[1.7404mm 506.48mil 1.7404mm 575.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[38.7200mm 375.00mil 38.7200mm 3.9678mm 12.00mil 20.00mil "clearline,auto"]
-	Line[48.5250mm 104.0150mm 1825.00mil 101.8450mm 12.00mil 20.00mil "clearline,auto"]
+	Line[48.5250mm 104.0150mm 1825.00mil 101.8450mm 62.00mil 20.00mil "clearline,auto"]
 	Line[1825.00mil 101.8450mm 1825.00mil 3975.00mil 12.00mil 20.00mil "clearline,auto"]
-	Line[66.9400mm 104.0150mm 2550.00mil 101.8450mm 12.00mil 20.00mil "clearline,auto"]
+	Line[66.9400mm 104.0150mm 2550.00mil 101.8450mm 62.00mil 20.00mil "clearline,auto"]
 	Line[2550.00mil 101.8450mm 2550.00mil 3975.00mil 12.00mil 20.00mil "clearline,auto"]
-	Line[2825.00mil 3975.00mil 69.6050mm 103.1150mm 12.00mil 20.00mil "clearline,auto"]
+	Line[2825.00mil 3975.00mil 69.6050mm 103.1150mm 62.00mil 20.00mil "clearline,auto"]
 	Line[69.6050mm 103.1150mm 69.6050mm 104.0150mm 12.00mil 20.00mil "clearline,auto"]
-	Line[85.3550mm 104.0150mm 3275.00mil 101.8450mm 12.00mil 20.00mil "clearline,auto"]
+	Line[85.3550mm 104.0150mm 3275.00mil 101.8450mm 62.00mil 20.00mil "clearline,auto"]
 	Line[3275.00mil 101.8450mm 3275.00mil 3975.00mil 12.00mil 20.00mil "clearline,auto"]
-	Line[103.7700mm 104.0150mm 4000.00mil 101.8450mm 12.00mil 20.00mil "clearline,auto"]
+	Line[103.7700mm 104.0150mm 4000.00mil 101.8450mm 62.00mil 20.00mil "clearline,auto"]
 	Line[4000.00mil 101.8450mm 4000.00mil 3975.00mil 12.00mil 20.00mil "clearline,auto"]
-	Line[122.1850mm 104.0150mm 4725.00mil 101.8450mm 12.00mil 20.00mil "clearline,auto"]
+	Line[122.1850mm 104.0150mm 4725.00mil 101.8450mm 62.00mil 20.00mil "clearline,auto"]
 	Line[4725.00mil 101.8450mm 4725.00mil 3975.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[5050.00mil 3625.00mil 5000.00mil 3675.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[5000.00mil 3675.00mil 5000.00mil 3975.00mil 12.00mil 20.00mil "clearline,auto"]
-	Line[5000.00mil 3975.00mil 124.8500mm 103.1150mm 12.00mil 20.00mil "clearline,auto"]
+	Line[5000.00mil 3975.00mil 124.8500mm 103.1150mm 62.00mil 20.00mil "clearline,auto"]
 	Line[124.8500mm 103.1150mm 124.8500mm 104.0150mm 12.00mil 20.00mil "clearline,auto"]
-	Line[140.6000mm 104.0150mm 5450.00mil 101.8450mm 12.00mil 20.00mil "clearline,auto"]
+	Line[140.6000mm 104.0150mm 5450.00mil 101.8450mm 62.00mil 20.00mil "clearline,auto"]
 	Line[5450.00mil 101.8450mm 5450.00mil 3975.00mil 12.00mil 20.00mil "clearline,auto"]
-	Line[2100.00mil 7.3750mm 2100.00mil 325.00mil 12.00mil 20.00mil "clearline,auto"]
-	Line[38.7200mm 3.9678mm 49.9328mm 3.9678mm 12.00mil 20.00mil "clearline,auto"]
-	Line[2100.00mil 7.3750mm 49.9328mm 3.9678mm 12.00mil 20.00mil "clearline,auto"]
-	Line[124.8300mm 5.2050mm 5000.00mil 7.3750mm 12.00mil 20.00mil "clearline,auto"]
-	Line[5000.00mil 7.3750mm 5000.00mil 325.00mil 12.00mil 20.00mil "clearline,auto"]
-	Line[140.5800mm 5.2050mm 5450.00mil 7.3550mm 12.00mil 20.00mil "clearline,auto"]
-	Line[5450.00mil 7.3550mm 5450.00mil 325.00mil 12.00mil 20.00mil "clearline,auto"]
+	Line[2100.00mil 7.3750mm 2100.00mil 325.00mil 62.00mil 20.00mil "clearline,auto"]
+	Line[38.7200mm 3.9678mm 49.9328mm 3.9678mm 62.00mil 20.00mil "clearline,auto"]
+	Line[2100.00mil 7.3750mm 49.9328mm 3.9678mm 62.00mil 20.00mil "clearline,auto"]
+	Line[124.8300mm 5.2050mm 5000.00mil 7.3750mm 62.00mil 20.00mil "clearline,auto"]
+	Line[5000.00mil 7.3750mm 5000.00mil 325.00mil 62.00mil 20.00mil "clearline,auto"]
+	Line[140.5800mm 5.2050mm 5450.00mil 7.3550mm 62.00mil 20.00mil "clearline,auto"]
+	Line[5450.00mil 7.3550mm 5450.00mil 325.00mil 62.00mil 20.00mil "clearline,auto"]
 	Line[150.00mil 78.9408mm 5.9158mm 3025.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[5.9158mm 3025.00mil 250.00mil 3025.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[1.6400mm 88.7750mm 150.00mil 86.6050mm 12.00mil 20.00mil "clearline,auto"]
@@ -4372,6 +4387,11 @@ Layer(2 "bottom")
 	Line[27.2887mm 27.1637mm 28.1568mm 28.0318mm 12.00mil 20.00mil "clearline,auto"]
 	Line[4475.00mil 44.9272mm 4475.00mil 1550.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[5200.00mil 1550.00mil 5200.00mil 44.9272mm 12.00mil 20.00mil "clearline,auto"]
+	Line[410.00mil 2390.00mil 410.00mil 2280.00mil 50.00mil 20.00mil "clearline"]
+	Line[410.00mil 1850.00mil 410.00mil 1770.00mil 45.00mil 20.00mil "clearline"]
+	Line[410.00mil 1090.00mil 410.00mil 1010.00mil 45.00mil 20.00mil "clearline"]
+	Line[3600.00mil 1680.00mil 92.5826mm 1680.00mil 12.00mil 20.00mil "clearline"]
+	Line[92.5826mm 1680.00mil 92.6463mm 42.6083mm 12.00mil 20.00mil "clearline"]
 	Polygon("clearpoly,fullpoly")
 	(
 		[20.00mil 20.00mil] [5580.00mil 20.00mil] [5580.00mil 4280.00mil] [20.00mil 4280.00mil] 
