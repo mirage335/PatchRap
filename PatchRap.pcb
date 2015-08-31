@@ -804,7 +804,7 @@ Via[73.0440mm 66.4503mm 27.00mil 20.00mil 0.0000 13.00mil "" "auto"]
 Via[79.8666mm 69.7620mm 27.00mil 20.00mil 0.0000 13.00mil "" "auto"]
 Via[54.9315mm 66.7456mm 27.00mil 20.00mil 0.0000 13.00mil "" "auto"]
 Via[49.2050mm 70.4650mm 27.00mil 20.00mil 0.0000 13.00mil "" "auto"]
-Via[34.8088mm 3183.70mil 27.00mil 20.00mil 0.0000 13.00mil "" "auto"]
+Via[34.8088mm 80.8660mm 27.00mil 20.00mil 0.0000 13.00mil "" "auto"]
 Via[35.1036mm 67.9168mm 27.00mil 20.00mil 0.0000 13.00mil "" "auto"]
 Via[32.5217mm 76.2318mm 27.00mil 20.00mil 0.0000 13.00mil "" "auto"]
 Via[36.6809mm 70.2686mm 27.00mil 20.00mil 0.0000 13.00mil "" "auto"]
@@ -970,8 +970,8 @@ Element["hidename,onsolder" "SRN8040.fp" "es5/L2" "10uH" 1625.00mil 65.8500mm 75
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.20mil 106.61mil "1" "1" "onsolder,square"]
-	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.20mil 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
+	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -982,8 +982,8 @@ Element["hidename,onsolder" "SRN8040.fp" "es5/L1" "10uH" 1300.00mil 65.8500mm 95
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.20mil 106.61mil "1" "1" "onsolder,square"]
-	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.20mil 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
+	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1054,8 +1054,8 @@ Element["hidename,onsolder" "SRN8040.fp" "es4/L1" "10uH" 2025.00mil 65.8500mm 95
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.20mil 106.61mil "1" "1" "onsolder,square"]
-	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.20mil 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
+	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1066,8 +1066,8 @@ Element["hidename,onsolder" "SRN8040.fp" "es4/L2" "10uH" 2350.00mil 65.8500mm 75
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.20mil 106.61mil "1" "1" "onsolder,square"]
-	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.20mil 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
+	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1132,8 +1132,8 @@ Element["hidename,onsolder" "SRN8040.fp" "es2/L1" "10uH" 3475.00mil 65.8500mm 95
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.20mil 106.61mil "1" "1" "onsolder,square"]
-	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.20mil 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
+	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1144,8 +1144,8 @@ Element["hidename,onsolder" "SRN8040.fp" "es2/L2" "10uH" 3800.00mil 65.8500mm 75
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.20mil 106.61mil "1" "1" "onsolder,square"]
-	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.20mil 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
+	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1210,8 +1210,8 @@ Element["hidename,onsolder" "SRN8040.fp" "es1/L1" "10uH" 4200.00mil 65.8500mm 95
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.20mil 106.61mil "1" "1" "onsolder,square"]
-	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.20mil 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
+	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1222,8 +1222,8 @@ Element["hidename,onsolder" "SRN8040.fp" "es1/L2" "10uH" 4525.00mil 65.8500mm 75
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.20mil 106.61mil "1" "1" "onsolder,square"]
-	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.20mil 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
+	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1288,8 +1288,8 @@ Element["hidename,onsolder" "SRN8040.fp" "es0/L1" "10uH" 4925.00mil 65.8500mm 95
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.20mil 106.61mil "1" "1" "onsolder,square"]
-	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.20mil 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
+	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1300,8 +1300,8 @@ Element["hidename,onsolder" "SRN8040.fp" "es0/L2" "10uH" 5250.00mil 65.8500mm 75
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.20mil 106.61mil "1" "1" "onsolder,square"]
-	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.20mil 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
+	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1516,8 +1516,8 @@ Element["hidename,onsolder" "SRN8040.fp" "es3/L1" "10uH" 2750.00mil 65.8500mm 0.
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.20mil 106.61mil "1" "1" "onsolder,square"]
-	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.20mil 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
+	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1540,8 +1540,8 @@ Element["onsolder" "SRN8040.fp" "es3/L2" "10uH" 3075.00mil 65.8500mm 0.0000 0.00
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.20mil 106.61mil "1" "1" "onsolder,square"]
-	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.20mil 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
+	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1705,8 +1705,8 @@ Element["hidename,onsolder" "SRN8040.fp" "xs1/L1" "10uH" 1900.00mil 43.3700mm -9
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.20mil 106.61mil "1" "1" "onsolder,square"]
-	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.20mil 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
+	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1717,8 +1717,8 @@ Element["hidename,onsolder" "SRN8040.fp" "xs1/L2" "10uH" 1575.00mil 43.3700mm -7
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.20mil 106.61mil "1" "1" "onsolder,square"]
-	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.20mil 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
+	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1783,8 +1783,8 @@ Element["hidename,onsolder" "SRN8040.fp" "xs2/L1" "10uH" 2625.00mil 43.3700mm -9
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.20mil 106.61mil "1" "1" "onsolder,square"]
-	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.20mil 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
+	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1795,8 +1795,8 @@ Element["hidename,onsolder" "SRN8040.fp" "xs2/L2" "10uH" 2300.00mil 43.3700mm -7
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.20mil 106.61mil "1" "1" "onsolder,square"]
-	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.20mil 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
+	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1861,8 +1861,8 @@ Element["hidename,onsolder" "SRN8040.fp" "ys1/L1" "10uH" 3350.00mil 43.3700mm -9
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.20mil 106.61mil "1" "1" "onsolder,square"]
-	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.20mil 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
+	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1873,8 +1873,8 @@ Element["hidename,onsolder" "SRN8040.fp" "ys1/L2" "10uH" 3025.00mil 43.3700mm -7
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.20mil 106.61mil "1" "1" "onsolder,square"]
-	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.20mil 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
+	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1939,8 +1939,8 @@ Element["hidename,onsolder" "SRN8040.fp" "ys2/L1" "10uH" 4075.00mil 43.3700mm -9
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.20mil 106.61mil "1" "1" "onsolder,square"]
-	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.20mil 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
+	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -1951,8 +1951,8 @@ Element["hidename,onsolder" "SRN8040.fp" "ys2/L2" "10uH" 3750.00mil 43.3700mm -7
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.20mil 106.61mil "1" "1" "onsolder,square"]
-	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.20mil 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
+	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -2017,8 +2017,8 @@ Element["hidename,onsolder" "SRN8040.fp" "zs1/L1" "10uH" 4800.00mil 43.3700mm -9
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.20mil 106.61mil "1" "1" "onsolder,square"]
-	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.20mil 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
+	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -2029,8 +2029,8 @@ Element["hidename,onsolder" "SRN8040.fp" "zs1/L2" "10uH" 4475.00mil 43.3700mm -7
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.20mil 106.61mil "1" "1" "onsolder,square"]
-	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.20mil 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
+	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -2095,8 +2095,8 @@ Element["hidename,onsolder" "SRN8040.fp" "zs2/L1" "10uH" 5525.00mil 43.3700mm -9
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.20mil 106.61mil "1" "1" "onsolder,square"]
-	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.20mil 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
+	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -2107,8 +2107,8 @@ Element["hidename,onsolder" "SRN8040.fp" "zs2/L2" "10uH" 5200.00mil 43.3700mm -7
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.20mil 106.61mil "1" "1" "onsolder,square"]
-	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.20mil 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 -314.96mil 0.0000 0.0000 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
+	Pad[-224.41mil -314.96mil -224.41mil 0.0000 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -2269,8 +2269,8 @@ Element["onsolder" "SRN8040.fp" "L1" "10uH" 1300.00mil 217.52mil 75.00mil 175.00
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.20mil 106.61mil "1" "1" "onsolder,square"]
-	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.20mil 106.61mil "2" "2" "onsolder,square"]
+	Pad[0.0000 0.0000 0.0000 314.96mil 86.61mil 0.4064mm 106.61mil "1" "1" "onsolder,square"]
+	Pad[224.41mil 0.0000 224.41mil 314.96mil 86.61mil 0.4064mm 106.61mil "2" "2" "onsolder,square"]
 
 	)
 
@@ -2889,7 +2889,7 @@ Layer(1 "top")
 	Line[64.6754mm 72.4137mm 64.6754mm 3045.20mil 12.00mil 20.00mil "clearline,auto"]
 	Line[64.6754mm 3045.20mil 62.6486mm 3125.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[62.6486mm 3125.00mil 2450.00mil 3125.00mil 12.00mil 20.00mil "clearline,auto"]
-	Line[34.8088mm 3183.70mil 29.3149mm 3400.00mil 12.00mil 20.00mil "clearline,auto"]
+	Line[34.8088mm 80.8660mm 29.3149mm 3400.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[29.3149mm 3400.00mil 950.00mil 3400.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[950.00mil 3400.00mil 900.00mil 3450.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[900.00mil 3250.00mil 950.00mil 3200.00mil 12.00mil 20.00mil "clearline,auto"]
@@ -3357,9 +3357,9 @@ Layer(1 "top")
 	Line[56.5857mm 13.4476mm 62.7776mm 13.4476mm 12.00mil 20.00mil "clearline,auto"]
 	Line[62.7776mm 13.4476mm 2570.10mil 15.9505mm 12.00mil 20.00mil "clearline,auto"]
 	Line[2570.10mil 15.9505mm 2570.10mil 19.3460mm 12.00mil 20.00mil "clearline,auto"]
-	Line[2570.10mil 19.3460mm 2457.60mil 874.15mil 12.00mil 20.00mil "clearline,auto"]
-	Line[2457.60mil 874.15mil 2457.60mil 24.9782mm 12.00mil 20.00mil "clearline,auto"]
-	Line[2457.60mil 24.9782mm 62.5833mm 25.1384mm 12.00mil 20.00mil "clearline,auto"]
+	Line[2570.10mil 19.3460mm 62.4230mm 874.15mil 12.00mil 20.00mil "clearline,auto"]
+	Line[62.4230mm 874.15mil 62.4230mm 24.9782mm 12.00mil 20.00mil "clearline,auto"]
+	Line[62.4230mm 24.9782mm 62.5833mm 25.1384mm 12.00mil 20.00mil "clearline,auto"]
 	Line[2975.00mil 1275.00mil 3022.30mil 1227.70mil 12.00mil 20.00mil "clearline,auto"]
 	Line[3022.30mil 1227.70mil 3552.70mil 1227.70mil 12.00mil 20.00mil "clearline,auto"]
 	Line[3552.70mil 1227.70mil 3600.00mil 1275.00mil 12.00mil 20.00mil "clearline,auto"]
@@ -3668,8 +3668,8 @@ Layer(2 "bottom")
 	Line[24.1806mm 74.4146mm 24.9352mm 2900.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[24.9352mm 2900.00mil 25.8682mm 2900.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[25.8682mm 2900.00mil 29.8736mm 69.6546mm 12.00mil 20.00mil "clearline,auto"]
-	Line[29.8736mm 69.6546mm 29.8736mm 2553.70mil 12.00mil 20.00mil "clearline,auto"]
-	Line[29.8736mm 2553.70mil 33.7421mm 60.9954mm 12.00mil 20.00mil "clearline,auto"]
+	Line[29.8736mm 69.6546mm 29.8736mm 64.8640mm 12.00mil 20.00mil "clearline,auto"]
+	Line[29.8736mm 64.8640mm 33.7421mm 60.9954mm 12.00mil 20.00mil "clearline,auto"]
 	Line[33.7421mm 60.9954mm 43.3232mm 60.9954mm 12.00mil 20.00mil "clearline,auto"]
 	Line[43.3232mm 60.9954mm 1800.00mil 63.3922mm 12.00mil 20.00mil "clearline,auto"]
 	Line[1800.00mil 63.3922mm 1800.00mil 2500.00mil 12.00mil 20.00mil "clearline,auto"]
@@ -3694,7 +3694,7 @@ Layer(2 "bottom")
 	Line[65.3900mm 2750.00mil 65.3900mm 75.4072mm 12.00mil 20.00mil "clearline,auto"]
 	Line[35.9039mm 2500.00mil 35.9039mm 69.9124mm 12.00mil 20.00mil "clearline,auto"]
 	Line[35.9039mm 69.9124mm 34.8088mm 71.0075mm 12.00mil 20.00mil "clearline,auto"]
-	Line[34.8088mm 71.0075mm 34.8088mm 3183.70mil 12.00mil 20.00mil "clearline,auto"]
+	Line[34.8088mm 71.0075mm 34.8088mm 80.8660mm 12.00mil 20.00mil "clearline,auto"]
 	Line[1625.00mil 2750.00mil 1650.00mil 2725.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[1650.00mil 2725.00mil 1650.00mil 63.0043mm 12.00mil 20.00mil "clearline,auto"]
 	Line[1650.00mil 63.0043mm 41.1239mm 62.2182mm 12.00mil 20.00mil "clearline,auto"]
@@ -4088,8 +4088,8 @@ Layer(2 "bottom")
 	Line[425.00mil 486.74mil 425.00mil 650.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[425.00mil 650.00mil 175.00mil 900.00mil 12.00mil 20.00mil "clearline,auto"]
 	Line[2750.00mil 1800.00mil 69.3744mm 45.2444mm 12.00mil 20.00mil "clearline,auto"]
-	Line[69.3744mm 45.2444mm 69.3744mm 1272.40mil 12.00mil 20.00mil "clearline,auto"]
-	Line[69.3744mm 1272.40mil 63.5648mm 26.5093mm 12.00mil 20.00mil "clearline,auto"]
+	Line[69.3744mm 45.2444mm 69.3744mm 32.3190mm 12.00mil 20.00mil "clearline,auto"]
+	Line[69.3744mm 32.3190mm 63.5648mm 26.5093mm 12.00mil 20.00mil "clearline,auto"]
 	Line[63.5648mm 26.5093mm 62.8227mm 26.5093mm 12.00mil 20.00mil "clearline,auto"]
 	Line[62.8227mm 26.5093mm 2300.00mil 22.1066mm 12.00mil 20.00mil "clearline,auto"]
 	Line[2300.00mil 22.1066mm 2300.00mil 675.00mil 12.00mil 20.00mil "clearline,auto"]
