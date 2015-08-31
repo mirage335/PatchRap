@@ -1,0 +1,23 @@
+G04 start of page 4 for group 2 idx 2 *
+G04 Title: (unknown), outline *
+G04 Creator: pcb 1.99z *
+G04 CreationDate: Mon Aug 31 22:19:22 2015 UTC *
+G04 For: commonadmin *
+G04 Format: Gerber/RS-274X *
+G04 PCB-Dimensions (mil): 1300.00 1100.00 *
+G04 PCB-Coordinate-Origin: lower left *
+%MOIN*%
+%FSLAX25Y25*%
+%LNOUTLINE*%
+%ADD35C,0.0120*%
+G54D35*X1000Y109000D02*X126000D01*
+Y89000D01*
+X124000Y87000D01*
+X85000D01*
+X3000Y6000D02*Y87000D01*
+X1000Y89000D01*
+Y109000D01*
+X85000Y87000D02*X79000Y81000D01*
+Y6000D01*
+X3000D01*
+M02*

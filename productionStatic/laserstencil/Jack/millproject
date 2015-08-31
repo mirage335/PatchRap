@@ -1,0 +1,30 @@
+# You may want to uncomment and change those in local project files
+front=front.gbr
+back=back.gbr
+#outline=
+
+# The board outline is 10mil wide, no holes
+fill-outline = yes
+outline-width = 0.0001	#laser
+
+# parameters for isolation routing / engraving / etching
+offset=0		#laser
+zwork=0			#laser
+zsafe=0.25		#laser
+mill-feed=2000		#~35mm/sec
+mill-speed=10000	#laser
+
+
+# parameters for cutting out boards
+cutter-diameter=0.0001	#laser
+zcut=0			#laser
+cut-feed=2000		#~35mm/sec
+cut-speed=10000		#laser
+cut-infeed=1		#laser
+
+# drilling parameters
+zdrill=0		#laser
+zchange=0.25		#laser
+drill-feed=2000		#~35mm/sec
+drill-speed=10000	#laser
+drill-front=true	#laser
