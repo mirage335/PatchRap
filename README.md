@@ -117,6 +117,9 @@ ClassIV lasers are extraordinarily hazardous. Backscatter from the projected spo
 
 No claim of liability is made by anyone. Your accident is your accident. Use common sense, and follow all regulations. If you don't understand the safety features and limitations, don't use this circuitry or anything similar.
 
+#FutureWork
+Limit switch common terminals should be used as outputs. NO should grounded instead, NC can be used to carry logic (3.3V) power (active LOW switch).
+
 #Reference
 https://www.inventables.com/technologies/stepper-motor-nema-17
 http://www.rcgroups.com/forums/showthread.php?t=2387201
