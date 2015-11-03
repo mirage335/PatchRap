@@ -106,6 +106,8 @@ Partly inspired the above pinouts. See https://github.com/mirage335/LinearPSU/bl
 	4 / 7 - 3.3V
 	4 \ 8 - Vee
 
+Please note that peripherials directly interacting with logic signals (ie. limit switches) are expected to use 5V power. For use with 3.3V logic, a 3.3V regulator may be provided onboard or by an inline RJ45 connectorized PCB.
+
 #Safety
 Not Ethernet compatible, will destroy network hardware.
 
@@ -118,7 +120,8 @@ ClassIV lasers are extraordinarily hazardous. Backscatter from the projected spo
 No claim of liability is made by anyone. Your accident is your accident. Use common sense, and follow all regulations. If you don't understand the safety features and limitations, don't use this circuitry or anything similar.
 
 #FutureWork
-Limit switch common terminals should be used as outputs. NO should grounded instead, NC can be used to carry logic (3.3V) power (active LOW switch).
+*) Header connectors should use larger VIA holes for easier assembly.
+*) Limit switch common terminals should be used as outputs. NO should grounded instead, NC can be used to carry logic (3.3V) power (active LOW switch).
 
 #Reference
 https://www.inventables.com/technologies/stepper-motor-nema-17
