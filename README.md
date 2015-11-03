@@ -121,7 +121,7 @@ No claim of liability is made by anyone. Your accident is your accident. Use com
 
 #FutureWork
 *) Header connectors should use larger VIA holes for easier assembly.
-*) Limit switch common terminals should be used as outputs. NO should grounded instead, NC can be used to carry logic (3.3V) power (active LOW switch).
+*) Limit switch common terminals should be used as outputs. A three-terminal limit switch NO pin can be wired to Ethernet/T568A pin2 (sGND). The entire NC line (pin4) can then be wired to 3.3V, with the currently assigned NO line (pin5) wired to common output. In summary, pin2 becomes NO/GND, pin4 HIGH, pin5 SIGNAL.
 
 #Reference
 https://www.inventables.com/technologies/stepper-motor-nema-17
