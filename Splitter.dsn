@@ -10,22 +10,7 @@
     (layer "top"
       (type signal)
     )
-    (layer "ground"
-      (type signal)
-    )
-    (layer "signal2"
-      (type signal)
-    )
-    (layer "signal3"
-      (type signal)
-    )
-    (layer "power"
-      (type signal)
-    )
     (layer "outline"
-      (type signal)
-    )
-    (layer "spare"
       (type signal)
     )
     (layer "bottom"
@@ -45,27 +30,27 @@
     )
   )
   (placement
-    (component 2353
+    (component 6
       (place "J3" 13.333333 97.028333 back 0 (PN 0))
     )
-    (component 2377
+    (component 30
       (place "J2" 13.336666 112.903333 front 0 (PN 0))
     )
-    (component 2401
+    (component 54
       (place "J1" 13.336666 78.866666 back 0 (PN 0))
     )
-    (component 2425
+    (component 78
       (place "J0" 13.333333 63.626666 front 0 (PN 0))
     )
-    (component 2449
-      (place "T2" 24.130000 86.360000 front 0 (PN 0))
+    (component 102
+      (place "T2" 24.130000 86.995000 front 0 (PN 0))
     )
-    (component 2470
-      (place "T1" 2.540000 86.360000 front 0 (PN 0))
+    (component 124
+      (place "T1" 2.540000 86.995000 front 0 (PN 0))
     )
   )
   (library
-    (image 2353
+    (image 6
       (pin Th_round_1400000 "2" 3.173333 -4.318333)
       (pin Th_round_1400000 "4" 0.633333 -4.318333)
       (pin Th_round_1400000 "6" -1.906667 -4.318333)
@@ -79,7 +64,7 @@
       (pin Th_round_2100000 "9" 7.883333 7.621667)
       (pin Th_round_2100000 "9" -7.866667 7.621667)
     )
-    (image 2377
+    (image 30
       (pin Th_round_1400000 "2" 3.173334 -4.318333)
       (pin Th_round_1400000 "4" 0.633334 -4.318333)
       (pin Th_round_1400000 "6" -1.906666 -4.318333)
@@ -93,7 +78,7 @@
       (pin Th_round_2100000 "9" 7.883334 7.621667)
       (pin Th_round_2100000 "9" -7.866666 7.621667)
     )
-    (image 2401
+    (image 54
       (pin Th_round_1400000 "2" -3.173334 4.318334)
       (pin Th_round_1400000 "4" -0.633334 4.318334)
       (pin Th_round_1400000 "6" 1.906666 4.318334)
@@ -107,7 +92,7 @@
       (pin Th_round_2100000 "9" -7.883334 -7.621666)
       (pin Th_round_2100000 "9" 7.866666 -7.621666)
     )
-    (image 2425
+    (image 78
       (pin Th_round_1400000 "2" -3.173333 4.318334)
       (pin Th_round_1400000 "4" -0.633333 4.318334)
       (pin Th_round_1400000 "6" 1.906667 4.318334)
@@ -121,21 +106,7 @@
       (pin Th_round_2100000 "9" -7.883333 -7.621666)
       (pin Th_round_2100000 "9" 7.866667 -7.621666)
     )
-    (image 2449
-      (pin Th_square_1524000 "1" 0.000000 13.970000)
-      (pin Th_round_1524000 "2" 0.000000 11.430000)
-      (pin Th_round_1524000 "3" 0.000000 8.890000)
-      (pin Th_round_1524000 "4" 0.000000 6.350000)
-      (pin Th_round_1524000 "5" 0.000000 3.810000)
-      (pin Th_round_1524000 "6" 0.000000 1.270000)
-      (pin Th_round_1524000 "7" 0.000000 -1.270000)
-      (pin Th_round_1524000 "8" 0.000000 -3.810000)
-      (pin Th_round_1524000 "9" 0.000000 -6.350000)
-      (pin Th_round_1524000 "10" 0.000000 -8.890000)
-      (pin Th_round_1524000 "11" 0.000000 -11.430000)
-      (pin Th_round_1524000 "12" 0.000000 -13.970000)
-    )
-    (image 2470
+    (image 102
       (pin Th_square_1524000 "1" 0.000000 -13.970000)
       (pin Th_round_1524000 "2" 0.000000 -11.430000)
       (pin Th_round_1524000 "3" 0.000000 -8.890000)
@@ -148,6 +119,20 @@
       (pin Th_round_1524000 "10" 0.000000 8.890000)
       (pin Th_round_1524000 "11" 0.000000 11.430000)
       (pin Th_round_1524000 "12" 0.000000 13.970000)
+    )
+    (image 124
+      (pin Th_square_1524000 "1" 0.000000 13.970000)
+      (pin Th_round_1524000 "2" 0.000000 11.430000)
+      (pin Th_round_1524000 "3" 0.000000 8.890000)
+      (pin Th_round_1524000 "4" 0.000000 6.350000)
+      (pin Th_round_1524000 "5" 0.000000 3.810000)
+      (pin Th_round_1524000 "6" 0.000000 1.270000)
+      (pin Th_round_1524000 "7" 0.000000 -1.270000)
+      (pin Th_round_1524000 "8" 0.000000 -3.810000)
+      (pin Th_round_1524000 "9" 0.000000 -6.350000)
+      (pin Th_round_1524000 "10" 0.000000 -8.890000)
+      (pin Th_round_1524000 "11" 0.000000 -11.430000)
+      (pin Th_round_1524000 "12" 0.000000 -13.970000)
     )
     (padstack Th_round_1400000
       (shape (circle signal 1.400000))
