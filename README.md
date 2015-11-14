@@ -94,6 +94,17 @@ Continious cooling fans, lighting, etc.
 	4 / 7 - pGND
 	4 \ 8 - pGND
 
+##Probe
+Recommended pinout for David Crocker's optical probe. Not currently integrated with PatchRap. 
+	3 / 1 - 3.3V
+	3 \ 2 - sGND
+	2 - 3 - 
+	1 / 4 - sGND
+	1 \ 5 - SIG
+	2 - 6 - sGND
+	4 / 7 - 
+	4 \ 8 - sGND
+
 
 ##LinearPSU
 Partly inspired the above pinouts. See https://github.com/mirage335/LinearPSU/blob/master/Photo.jpg .
