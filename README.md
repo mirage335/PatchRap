@@ -134,6 +134,10 @@ No claim of liability is made by anyone. Your accident is your accident. Use com
 *) Header connectors should use larger VIA holes for easier assembly.
 *) Limit switch common terminals should be used as outputs. A three-terminal limit switch NO pin can be wired to Ethernet/T568A pin2 (sGND). The entire NC line (pin4) can then be wired to 3.3V, with the currently assigned NO line (pin5) wired to common output. In summary, pin2 becomes NO/GND, pin4 HIGH, pin5 SIGNAL.
 
+*) Extruder power should be jumper-configurable to Vsys/12V/5V.
+*) Extruder heater pair should be jumper-configurable to include pGND/Vsys.
+*) Extruder thermistor pair should be jumper-configurable to include sGND/Vsys.
+
 #Reference
 https://www.inventables.com/technologies/stepper-motor-nema-17
 http://www.rcgroups.com/forums/showthread.php?t=2387201
