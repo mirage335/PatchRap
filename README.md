@@ -74,6 +74,7 @@ Laser drive electronic designs may wish to follow similar standards.
 
 ##Extruder
 In addition to a dedicated cable for stepper motor operation, extruders require an auxiliary connection as follows.
+
 	3 / 1 - PWMfan
 	3 \ 2 - pGND
 	2 - 3 - 12V
@@ -85,6 +86,7 @@ In addition to a dedicated cable for stepper motor operation, extruders require 
 
 ##Accessory
 Continious cooling fans, lighting, etc.
+
 	3 / 1 - 5V
 	3 \ 2 - sGND
 	2 - 3 - Vsys
@@ -96,6 +98,7 @@ Continious cooling fans, lighting, etc.
 
 ##Probe
 Recommended pinout for David Crocker's optical probe. Not currently integrated with PatchRap. 
+
 	3 / 1 - 3.3V
 	3 \ 2 - sGND
 	2 - 3 - 
@@ -108,6 +111,7 @@ Recommended pinout for David Crocker's optical probe. Not currently integrated w
 
 ##LinearPSU
 Partly inspired the above pinouts. See https://github.com/mirage335/LinearPSU/blob/master/Photo.jpg .
+
 	3 / 1 - 5V
 	3 \ 2 - Vee
 	2 - 3 - Vcc
