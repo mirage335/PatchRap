@@ -99,7 +99,7 @@ Continious cooling fans, lighting, etc.
 ##Probe
 Recommended pinout for David Crocker's optical probe. Not currently integrated with PatchRap. 
 
-	3 / 1 - 3.3V
+	3 / 1 - 3.3V-5V
 	3 \ 2 - sGND
 	2 - 3 - 
 	1 / 4 - sGND
