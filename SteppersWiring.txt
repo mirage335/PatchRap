@@ -1,0 +1,31 @@
+
+
+_Pinouts_
+
+#Steppers
+A+ = 1A = Green/Blue
+A- = 1B = Black/Yellow
+B+ = 2A = Blue/Red
+B- = 2B = Red/White
+
+	pair	line	load	code		patch #		patch code
+	3 / 	1 	12V	
+	3 \ 	2 	pGND	
+	2 - 	3 	B+	Blue/Red		3		B/Br
+	1 / 	4 	A+	Green/Blue		1		G/O
+	1 \ 	5 	A-	Black/Yellow		2		WG/WO
+	2 - 	6 	B-	Red/White		4		WB/WBr
+	4 / 	7 	B+	Blue/Red
+	4 \ 	8 	B-	Red/White
+
+_Reference_
+http://reprap.org/wiki/Duet
+
+https://miscsolutions.wordpress.com/paneldue/
+http://blog.think3dprint3d.com/2015/04/duex4-v02a-minor-updates.html
+http://blog.think3dprint3d.com/2015/02/reprapfirmware-config-files.html
+
+http://blog.think3dprint3d.com/
+
+http://www.linengineering.com/resources/wiring_connections.aspx
+
