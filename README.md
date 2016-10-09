@@ -20,7 +20,7 @@ USA companies provide all parts in these schematics, excepting the optional term
 
 Pinouts are as follows, numbering by T568A standard.
 
-##GenericIO
+##GenericIO	(Limit Switch, Depth Probe, Extruder, Stepper Driver)
 	3 \/ 1 - Vsys
 	3 \\ 2 - pGND
 	2 - 3 - Vext			(NC)
@@ -50,7 +50,7 @@ Pinouts are as follows, numbering by T568A standard.
 	4 \/ 7 - SCK			(I2C, UART)
 	4 \\ 8 - CS
 
-##Steppers
+##Steppers	(Stepper Motor)
 	3 / 1 - Vsys
 	3 \ 2 - pGND
 	2 - 3 - B+
