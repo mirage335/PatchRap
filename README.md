@@ -20,8 +20,38 @@ USA companies provide all parts in these schematics, excepting the optional term
 
 Pinouts are as follows, numbering by T568A standard.
 
+##GenericIO
+	3 \/ 1 - Vsys
+	3 \\ 2 - pGND
+	2 - 3 - Vext			(NC)
+	1 \/ 4 - Sig+			(COM,ANA,Probe)	(Step)		(I2C,UART)
+	1 \\ 5 - Sig-			(sGND)		(Dir)		(I2C,UART)
+	2 - 6 - sGND			(NO)
+	4 \/ 7 - PWMalternate		(Control, Servo, Heater)
+	4 \\ 8 - PWMdirect		(Fan)
+	
+##AnalogIO
+	3 \/ 1 - Vcc
+	3 \\ 2 - sGND
+	2 - 3 - Vmid/AVcc/SigAlt	(LO)
+	1 \/ 4 - SigRx+			(RF)
+	1 \\ 5 - SigRx-/sGND
+	2 - 6 - sGND
+	4 \/ 7 - SigTx+			(IF)
+	4 \\ 8 - SigTx-/sGND
+
+##DigitalIO
+	3 \/ 1 - A0
+	3 \\ 2 - dRST
+	2 - 3 - Vext
+	1 \/ 4 - MOSI			(I2C, UART)
+	1 \\ 5 - MISO			(I2C, UART)
+	2 - 6 - pGND
+	4 \/ 7 - SCK			(I2C, UART)
+	4 \\ 8 - CS
+
 ##Steppers
-	3 / 1 - 12V
+	3 / 1 - Vsys
 	3 \ 2 - pGND
 	2 - 3 - B+
 	1 / 4 - A+
@@ -30,88 +60,8 @@ Pinouts are as follows, numbering by T568A standard.
 	4 / 7 - B+
 	4 \ 8 - B-
 
-##Limit Switches
-	3 / 1 - 5V
-	3 \ 2 - sGND
-	2 - 3 - Vsys
-	1 / 4 - NC
-	1 \ 5 - NO
-	2 - 6 - pGND
-	4 / 7 - PWM (Servo)
-	4 \ 8 - pGND
-
-##Laser
-	3 / 1 - 5V
-	3 \ 2 - sGND
-	2 - 3 - Vsys
-	1 / 4 - 12V (Must be powered internally or externally.)
-	1 \ 5 - pGND
-	2 - 6 - pGND
-	4 / 7 - PWM (Control)
-	4 \ 8 - sGND
-
-###Drive
-Laser drive electronic designs may wish to follow similar standards.
-####Tool
-	3 / 1 - 5V
-	3 \ 2 - sGND
-	2 - 3 - Vsys
-	1 / 4 - 12V
-	1 \ 5 - pGND
-	2 - 6 - pGND
-	4 / 7 - PWR (Laser)
-	4 \ 8 - pGND
-
-####Interface
-	3 / 1 - 5V
-	3 \ 2 - sGND
-	2 - 3 - Emitter (Enable, Ammeter)
-	1 / 4 - 10k Emitter (Voltmeter, BNC)
-	1 \ 5 - 10k sGND
-	2 - 6 - pGND
-	4 / 7 - Emitter (Enable, Ammeter)
-	4 \ 8 - pGND
-
-##Extruder
-In addition to a dedicated cable for stepper motor operation, extruders require an auxiliary connection as follows.
-
-	3 / 1 - PWMfan
-	3 \ 2 - pGND
-	2 - 3 - 12V
-	1 / 4 - PWMheater
-	1 \ 5 - pGND
-	2 - 6 - pGND
-	4 / 7 - Thermistor
-	4 \ 8 - sGND
-
-##Accessory
-Continious cooling fans, lighting, etc.
-
-	3 / 1 - 5V
-	3 \ 2 - sGND
-	2 - 3 - Vsys
-	1 / 4 - 12V
-	1 \ 5 - pGND
-	2 - 6 - pGND
-	4 / 7 - pGND
-	4 \ 8 - pGND
-
-##Probe
-Recommended pinout for David Crocker's optical probe. Not currently integrated with PatchRap. 
-
-	3 / 1 - 3.3V-5V
-	3 \ 2 - sGND
-	2 - 3 - 
-	1 / 4 - sGND
-	1 \ 5 - SIG
-	2 - 6 - sGND
-	4 / 7 - 
-	4 \ 8 - sGND
-
-
 ##LinearPSU
 Partly inspired the above pinouts. See https://github.com/mirage335/LinearPSU/blob/master/Photo.jpg .
-
 	3 / 1 - 5V
 	3 \ 2 - Vee
 	2 - 3 - Vcc
@@ -121,7 +71,14 @@ Partly inspired the above pinouts. See https://github.com/mirage335/LinearPSU/bl
 	4 / 7 - 3.3V
 	4 \ 8 - Vee
 
-Please note that peripherials directly interacting with logic signals (ie. limit switches) are expected to use 5V power. For use with 3.3V logic, a 3.3V regulator may be provided onboard or by an inline RJ45 connectorized PCB.
+Please beware the following ratings.
+*) Vext is intended as logic power, and must never exceed 5.5V. Recommend 3.3V||5V depending on system needs.
+*) Vext may be used as a diode (eg. CDBU0530) OR-gated power bus if all connected devices can operate at 2.8V-5V.
+*) Vsys is intended for high-power delivery, and may be any voltage all attached devices are configured to tolerate. Recommend 12V||24V.
+*) Ground-referenced voltage (ie. wall current) should only be considered for Vsys. Earth-ground and neutral may be bound to pGND/sGND.
+*) Maximum current into an RJ45 socket or breadboard is typically around 3A/pin. Consider using high-quality header/jumpers, and redundant pins, as appropriate.
+*) Voltage drops can be significant, especially across pGND/sGND. Take care to follow star-toplogy grounding to the greatest extent possible when accuracy counts.
+*) Rough changes to voltages can be made (eg. for fans) by high-power zener diodes (ie. 863-1N5919BG).
 
 #Safety
 Not Ethernet compatible, will destroy network hardware.
@@ -135,12 +92,22 @@ ClassIV lasers are extraordinarily hazardous. Backscatter from the projected spo
 No claim of liability is made by anyone. Your accident is your accident. Use common sense, and follow all regulations. If you don't understand the safety features and limitations, don't use this circuitry or anything similar.
 
 #FutureWork
+##Modules
+*) Modular, breadboard compatible PCB architecture for more flexibility.
+
+##Mainboard
+*) New modular standards should be integrated.
+
 *) Header connectors should use larger VIA holes for easier assembly.
 *) Limit switch common terminals should be used as outputs. A three-terminal limit switch NO pin can be wired to Ethernet/T568A pin2 (sGND). The entire NC line (pin4) can then be wired to 3.3V, with the currently assigned NO line (pin5) wired to common output. In summary, pin2 becomes NO/GND, pin4 HIGH, pin5 SIGNAL.
 
-*) Extruder power should be jumper-configurable to Vsys/12V/5V.
+*) Extruder power should be jumper-configurable to Vsys/12V/Vlogic.
 *) Extruder heater pair should be jumper-configurable to include pGND/Vsys.
 *) Extruder thermistor pair should be jumper-configurable to include sGND/Vsys.
+
+*) Filter inductors bridged by default.
+
+*) Zener diode, 863-1N5919BG, option for adapting 24V/12V/5V fans.
 
 #Reference
 https://www.inventables.com/technologies/stepper-motor-nema-17

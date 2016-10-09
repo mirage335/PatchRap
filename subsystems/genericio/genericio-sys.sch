@@ -1,0 +1,94 @@
+v 20130925 2
+C 61300 49000 1 0 0 connector9-2.sym
+{
+T 61600 53050 5 10 0 0 0 0 1
+device=CONNECTOR_9
+T 61300 49000 5 10 0 0 0 0 1
+footprint=538-95540-2881
+T 61300 49000 5 10 0 0 0 0 1
+value=-
+T 61300 49000 5 10 0 0 0 0 1
+description=$1.75 MOUSER 538-95540-2881
+T 62000 53100 5 10 1 1 0 6 1
+refdes=G1
+}
+T 62600 50300 9 10 1 0 0 0 8
+3 \/ 1 - Vsys
+3 \\ 2 - pGND
+2 - 3 - Vext			(NC)
+1 \/ 4 - Sig+			(COM,ANA,Probe)	(Step)		(I2C,UART)
+1 \\ 5 - Sig-			(sGND)		(Dir)		(I2C,UART)
+2 - 6 - sGND			(NO)
+4 \/ 7 - PWMalternate	(Control, Servo, Heater)
+4 \\ 8 - PWMdirect		(Fan)
+C 61000 49500 1 270 0 gnd-1.sym
+C 60300 52600 1 0 0 generic-power.sym
+{
+T 60500 52850 5 10 1 1 0 3 1
+net=Vsys:1
+}
+C 58400 52500 1 0 0 in-1.sym
+{
+T 58400 52800 5 10 0 0 0 0 1
+device=INPUT
+T 58500 52600 5 10 1 1 0 0 1
+refdes=+5V
+}
+C 59900 52500 1 0 0 in-1.sym
+{
+T 59900 52800 5 10 0 0 0 0 1
+device=INPUT
+T 60000 52600 5 10 1 1 0 0 1
+refdes=Vsys
+}
+C 58900 51400 1 0 0 gnd-1.sym
+C 58400 51600 1 0 0 in-1.sym
+{
+T 58400 51900 5 10 0 0 0 0 1
+device=INPUT
+T 58500 51700 5 10 1 1 0 0 1
+refdes=sGND
+}
+N 61300 50800 61300 50600 4
+C 59500 51400 1 0 0 in-1.sym
+{
+T 59500 51700 5 10 0 0 0 0 1
+device=INPUT
+T 59600 51500 5 10 1 1 0 0 1
+refdes=NC
+}
+C 61300 52000 1 90 0 vee-1.sym
+N 60500 52600 61300 52600 4
+C 59500 52600 1 90 1 capacitor-1.sym
+{
+T 58800 52400 5 10 0 0 270 2 1
+device=CAPACITOR
+T 59200 52000 5 10 1 1 270 2 1
+refdes=C6
+T 58600 52400 5 10 0 0 270 2 1
+symversion=0.1
+T 59300 51700 5 10 1 1 270 6 1
+value=0.1uF
+T 59500 52600 5 10 0 0 180 6 1
+footprint=0201
+T 59500 52600 5 10 0 0 180 6 1
+description=$0.013 MOUSER 80-C0201C104K9PAC
+T 59500 52600 5 10 0 0 90 0 1
+cost=0.013
+T 59500 52600 5 10 0 0 90 0 1
+mfr=Kemet
+T 59500 52600 5 10 0 0 90 0 1
+mfrpn=C0201C104K9PAC
+T 59500 52600 5 10 0 0 90 0 1
+dst=Mouser
+T 59500 52600 5 10 0 0 90 0 1
+dstpn=80-C0201C104K9PAC
+T 59500 52600 5 10 0 0 90 0 1
+link=www.mouser.com/ds/2/212/KEM_C1006_X5R_SMD-348855.pdf
+T 59500 52600 5 10 0 0 90 0 1
+link_page=2
+T 59500 52600 5 10 0 0 90 0 1
+supplier=c
+T 59500 52600 5 10 0 0 90 0 1
+kitting=tape-no-leader
+}

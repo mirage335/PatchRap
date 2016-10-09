@@ -96,7 +96,6 @@ description=$0.10 MOUSER 538-22-28-5023
 T 46100 52000 5 10 0 0 0 0 1
 value=-
 }
-C 45900 52800 1 0 0 5V-plus-1.sym
 C 46100 50600 1 90 0 vee-1.sym
 C 46000 52100 1 0 0 gnd-1.sym
 C 45900 51200 1 0 0 generic-power.sym
@@ -301,7 +300,6 @@ device=LIMIT
 T 50500 69500 5 10 1 1 90 0 1
 refdes=xl1
 }
-C 50500 68300 1 90 0 5V-plus-1.sym
 C 50500 68500 1 270 0 gnd-1.sym
 C 51400 68200 1 90 0 generic-power.sym
 {
@@ -325,7 +323,6 @@ device=LIMIT
 T 57500 69500 5 10 1 1 90 0 1
 refdes=yl1
 }
-C 57500 68300 1 90 0 5V-plus-1.sym
 C 57500 68500 1 270 0 gnd-1.sym
 C 58400 68200 1 90 0 generic-power.sym
 {
@@ -349,7 +346,6 @@ device=LIMIT
 T 64500 69500 5 10 1 1 90 0 1
 refdes=zl1
 }
-C 64500 68300 1 90 0 5V-plus-1.sym
 C 64500 68500 1 270 0 gnd-1.sym
 C 65400 68200 1 90 0 generic-power.sym
 {
@@ -380,7 +376,6 @@ device=LASER
 T 48200 47800 5 10 1 1 0 0 1
 refdes=l1
 }
-C 47000 47800 1 0 0 5V-plus-1.sym
 C 46900 47600 1 270 0 gnd-1.sym
 C 46900 46900 1 0 0 generic-power.sym
 {
@@ -391,7 +386,6 @@ C 46600 46600 1 0 0 12V-plus-1.sym
 N 46800 46600 47200 46600 4
 N 47100 46900 47200 46900 4
 C 47200 46100 1 90 0 vee-1.sym
-C 47000 44800 1 0 0 5V-plus-1.sym
 C 46900 44600 1 270 0 gnd-1.sym
 C 46900 43900 1 0 0 generic-power.sym
 {
@@ -433,7 +427,7 @@ refdes=escc2
 T 62850 54600 5 10 0 1 90 2 1
 device=CONNECTOR_12
 T 63050 54600 5 10 0 0 90 2 1
-footprint=SIP12
+footprint=JUMPER12
 T 57600 54300 5 10 0 0 0 0 1
 description=$4.23 MOUSER 571-1-282834-2
 T 57600 54300 5 10 0 0 0 0 1
@@ -1427,7 +1421,7 @@ refdes=escc1
 T 69350 54600 5 10 0 1 90 2 1
 device=CONNECTOR_12
 T 69550 54600 5 10 0 0 90 2 1
-footprint=SIP12
+footprint=JUMPER12
 T 64100 54300 5 10 0 0 0 0 1
 description=$4.23 MOUSER 571-1-282834-2
 T 64100 54300 5 10 0 0 0 0 1
@@ -1440,7 +1434,7 @@ refdes=ascc1
 T 57550 57900 5 10 0 1 270 2 1
 device=CONNECTOR_12
 T 57350 57900 5 10 0 0 270 2 1
-footprint=SIP12
+footprint=JUMPER12
 T 62800 58200 5 10 0 0 180 0 1
 description=$4.23 MOUSER 571-1-282834-2
 T 62800 58200 5 10 0 0 180 0 1
@@ -1453,7 +1447,7 @@ refdes=alcc1
 T 64050 57900 5 10 0 1 270 2 1
 device=CONNECTOR_12
 T 63850 57900 5 10 0 0 270 2 1
-footprint=SIP12
+footprint=JUMPER12
 T 69300 58200 5 10 0 0 180 0 1
 description=$4.23 MOUSER 571-1-282834-2 
 T 69300 58200 5 10 0 0 180 0 1
@@ -1466,7 +1460,7 @@ refdes=etcc1
 T 70500 59050 5 10 0 1 180 2 1
 device=CONNECTOR_12
 T 70500 59250 5 10 0 0 180 2 1
-footprint=SIP12
+footprint=JUMPER12
 T 70800 53800 5 10 0 0 90 0 1
 description=$4.23 MOUSER 571-1-282834-2 
 T 70800 53800 5 10 0 0 90 0 1
@@ -2191,7 +2185,6 @@ C 45800 62600 1 90 1 vee-1.sym
 C 45800 61800 1 90 1 vee-1.sym
 C 45800 60200 1 90 1 vee-1.sym
 C 45800 56200 1 90 1 vee-1.sym
-C 45800 70600 1 90 1 5V-plus-1.sym
 C 45800 71000 1 90 1 12V-plus-1.sym
 C 47900 40800 1 90 0 capacitor-1.sym
 {
@@ -2223,10 +2216,8 @@ refdes=L1
 T 47100 40700 5 10 1 1 0 0 1
 value=10uH
 }
-C 47500 41700 1 0 0 5V-plus-1.sym
 C 47800 40500 1 0 1 gnd-1.sym
 C 46800 40600 1 90 0 vee-1.sym
-C 48000 41700 1 0 0 5V-plus-1.sym
 C 48300 40500 1 0 1 gnd-1.sym
 C 47000 41700 1 90 1 glow-lamp-1.sym
 {
@@ -2243,7 +2234,6 @@ value=~2kV
 T 46800 41400 5 10 1 1 90 6 1
 refdes=X1
 }
-C 46600 41700 1 0 0 5V-plus-1.sym
 C 48400 41700 1 90 1 glow-lamp-1.sym
 {
 T 47800 41500 5 10 0 0 90 6 1
@@ -2400,4 +2390,54 @@ T 66400 60500 5 10 1 0 90 2 1
 net=zsBplus:1
 T 66300 61000 5 10 1 1 90 7 1
 value=INPUT
+}
+C 50500 68300 1 90 0 generic-power.sym
+{
+T 50250 68500 5 10 1 1 90 3 1
+net=Vl:1
+}
+C 57500 68300 1 90 0 generic-power.sym
+{
+T 57250 68500 5 10 1 1 90 3 1
+net=Vl:1
+}
+C 64500 68300 1 90 0 generic-power.sym
+{
+T 64250 68500 5 10 1 1 90 3 1
+net=Vl:1
+}
+C 45900 52800 1 0 0 generic-power.sym
+{
+T 46100 53050 5 10 1 1 0 3 1
+net=Vl:1
+}
+C 47000 44800 1 0 0 generic-power.sym
+{
+T 47200 45050 5 10 1 1 0 3 1
+net=Vl:1
+}
+C 47000 47800 1 0 0 generic-power.sym
+{
+T 47200 48050 5 10 1 1 0 3 1
+net=Vl:1
+}
+C 46600 41700 1 0 0 generic-power.sym
+{
+T 46800 41950 5 10 1 1 0 3 1
+net=Vl:1
+}
+C 47500 41700 1 0 0 generic-power.sym
+{
+T 47700 41950 5 10 1 1 0 3 1
+net=Vl:1
+}
+C 48000 41700 1 0 0 generic-power.sym
+{
+T 48200 41950 5 10 1 1 0 3 1
+net=Vl:1
+}
+C 45800 70200 1 90 0 generic-power.sym
+{
+T 45550 70400 5 10 1 1 90 3 1
+net=Vl:1
 }
