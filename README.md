@@ -20,27 +20,17 @@ USA companies provide all parts in these schematics, excepting the RJ45 jacks an
 
 Pinouts are as follows, numbering by T568A standard.
 
-##GenericIO	(Limit Switch, Depth Probe, Extruder, Stepper Driver)
-	3 \/ 1 - Vsys
-	3 \\ 2 - pGND
-	2 - 3 - Vext			(NC)
-	1 \/ 4 - Sig+			(COM,ANA,Probe)	(Step)		(I2C, UART)
-	1 \\ 5 - Sig-			(sGND)		(Dir)		(I2C, UART)
+##GenericIO	(Limit Switch, Depth Probe, Extruder, Stepper Driver, Radio)
+	3 \/ 1 - Vsys/Vcc
+	3 \\ 2 - pGND/sGnd
+	2 - 3 - Vext/Avcc/SigAlt	(NC)								(LO)
+	1 \/ 4 - Sig-/SigTx-		(sGND)				(Dir)		(I2C, UART)	
+	1 \\ 5 - Sig+/SigTx+		(COM,ANA,Probe)			(Step)		(I2C, UART)	(IF)
 	2 - 6 - sGND			(NO)
-	4 \/ 7 - PWMalternate		(Control, Servo, Heater)
-	4 \\ 8 - PWMdirect		(Fan)
-	
-##AnalogIO
-	3 \/ 1 - Vcc
-	3 \\ 2 - sGND
-	2 - 3 - Vmid/AVcc/SigAlt	(LO)
-	1 \/ 4 - SigRx+			(RF)
-	1 \\ 5 - SigRx-/sGND
-	2 - 6 - sGND
-	4 \/ 7 - SigTx+			(IF)
-	4 \\ 8 - SigTx-/sGND
+	4 \/ 7 - PWMalternate/SigRx+	(Control, Servo, Heater)	(I2C,UART)			(RF)
+	4 \\ 8 - PWMdirect/SigRx-	(Fan)				(I2C,UART)
 
-##DigitalIO
+##DigitalIO	(Display, SDCard, SPI)
 	3 \/ 1 - A0
 	3 \\ 2 - dRST
 	2 - 3 - Vext
