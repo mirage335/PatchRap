@@ -1,0 +1,4 @@
+elements-dir ../../gedasymbols/footprints
+elements-dir ../../customParts/footprints
+schematics genericio-sys.sch
+output-name genericio-sys

@@ -16,7 +16,7 @@ RJ45/8P8C connectors are among most convenient, cheapest connectors designed to 
 
 Besides 'patch panel' functions, surge suppressors and EMI filters are supported.
 
-USA companies provide all parts in these schematics, excepting the optional terminal blocks from TE Connectivity, a Swiss company.
+USA companies provide all parts in these schematics, excepting the RJ45 jacks and optional terminal blocks from TE Connectivity, a Swiss company.
 
 Pinouts are as follows, numbering by T568A standard.
 
@@ -24,8 +24,8 @@ Pinouts are as follows, numbering by T568A standard.
 	3 \/ 1 - Vsys
 	3 \\ 2 - pGND
 	2 - 3 - Vext			(NC)
-	1 \/ 4 - Sig+			(COM,ANA,Probe)	(Step)		(I2C,UART)
-	1 \\ 5 - Sig-			(sGND)		(Dir)		(I2C,UART)
+	1 \/ 4 - Sig+			(COM,ANA,Probe)	(Step)		(I2C, UART)
+	1 \\ 5 - Sig-			(sGND)		(Dir)		(I2C, UART)
 	2 - 6 - sGND			(NO)
 	4 \/ 7 - PWMalternate		(Control, Servo, Heater)
 	4 \\ 8 - PWMdirect		(Fan)
@@ -79,6 +79,7 @@ Please beware the following ratings.
 *) Maximum current into an RJ45 socket or breadboard is typically around 3A/pin. Consider using high-quality header/jumpers, and redundant pins, as appropriate.
 *) Voltage drops can be significant, especially across pGND/sGND. Take care to follow star-toplogy grounding to the greatest extent possible when accuracy counts.
 *) Rough changes to voltages can be made (eg. for fans) by high-power zener diodes (ie. 863-1N5919BG).
+*) Pins 7/8 of GenericIO may be repurposed for digital I2C/UART if needed, specifically for digital control of stepper driver.
 
 #Safety
 Not Ethernet compatible, will destroy network hardware.
