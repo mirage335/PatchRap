@@ -4,7 +4,7 @@ P 0 3200 300 3200 1 0 0
 T 0 3200 5 10 0 0 0 0 1
 pintype=pwr
 T 355 3195 5 10 1 1 0 0 1
-pinlabel=+5V
+pinlabel=Vsys
 T 205 3245 5 10 1 1 0 6 1
 pinnumber=1
 T 0 3200 5 10 0 0 0 0 1
@@ -17,25 +17,25 @@ pintype=pwr
 T 0 2900 5 10 0 0 0 0 1
 pinseq=2
 T 355 2895 5 10 1 1 0 0 1
-pinlabel=sGND
+pinlabel=pGND-sGND
 T 205 2945 5 10 1 1 0 6 1
 pinnumber=2
 }
 B 200 0 1300 3700 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 T 400 3500 8 10 1 1 0 0 1
-device=LIMIT
+device=GENERIC
 T 1000 3200 8 10 1 1 0 0 1
 refdes=X?
 T 1100 1500 8 10 0 1 0 0 1
-source=limit-sys.sch
+source=genericio-sys.sch
 P 0 2300 300 2300 1 0 0
 {
 T 0 2300 5 10 0 0 0 0 1
-pintype=pwr
+pintype=io
 T 0 2300 5 10 0 0 0 0 1
 pinseq=3
 T 355 2295 5 10 1 1 0 0 1
-pinlabel=Vsys
+pinlabel=Vext-SigAlt
 T 205 2345 5 10 1 1 0 6 1
 pinnumber=3
 }
@@ -46,7 +46,7 @@ pintype=out
 T 0 1900 5 10 0 0 0 0 1
 pinseq=4
 T 355 1895 5 10 1 1 0 0 1
-pinlabel=NC
+pinlabel=SigM
 T 205 1945 5 10 1 1 0 6 1
 pinnumber=4
 }
@@ -57,7 +57,7 @@ pintype=out
 T 0 1600 5 10 0 0 0 0 1
 pinseq=5
 T 355 1595 5 10 1 1 0 0 1
-pinlabel=NO
+pinlabel=SigP
 T 205 1645 5 10 1 1 0 6 1
 pinnumber=5
 }
@@ -68,20 +68,29 @@ pintype=pwr
 T 0 1100 5 10 0 0 0 0 1
 pinseq=6
 T 355 1095 5 10 1 1 0 0 1
-pinlabel=pGND
+pinlabel=sGND
 T 205 1145 5 10 1 1 0 6 1
 pinnumber=6
 }
 P 0 500 300 500 1 0 0
 {
 T 0 500 5 10 0 0 0 0 1
-pintype=in
+pintype=io
 T 355 495 5 10 1 1 0 0 1
-pinlabel=PWM
+pinlabel=PWMa
 T 205 545 5 10 1 1 0 6 1
 pinnumber=7
 T 0 500 5 10 0 0 0 0 1
 pinseq=7
 }
-T 900 500 9 10 1 0 0 0 1
-(Servo)
+P 0 200 300 200 1 0 0
+{
+T 0 200 5 10 0 0 0 0 1
+pintype=io
+T 355 195 5 10 1 1 0 0 1
+pinlabel=PWMd
+T 205 245 5 10 1 1 0 6 1
+pinnumber=8
+T 0 200 5 10 0 0 0 0 1
+pinseq=8
+}
