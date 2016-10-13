@@ -23,7 +23,7 @@ Pinouts are as follows, numbering by T568A standard.
 ##GenericIO	(Limit Switch, Depth Probe, Extruder, Stepper Driver, Radio)
 	3 \/ 1 - Vsys/Vcc
 	3 \\ 2 - pGND/sGnd
-	2 - 3 - Vext/Avcc/SigAlt	(NC)								(LO)
+	2 - 3 - Vext/Vmid/Avcc/SigAlt	(NC)								(LO)
 	1 \/ 4 - Sig-/SigTx-		(sGND)				(Dir)		(I2C, UART)	
 	1 \\ 5 - Sig+/SigTx+		(COM,ANA,Probe)			(Step)		(I2C, UART)	(IF)
 	2 - 6 - sGND			(NO)
@@ -64,6 +64,7 @@ Partly inspired the above pinouts. See https://github.com/mirage335/LinearPSU/bl
 Please beware the following ratings.
 *) Vext is intended as logic power, and must never exceed 5.5V. Recommend 3.3V||5V depending on system needs.
 *) Vext may be used as a diode (eg. CDBU0530) OR-gated power bus if all connected devices can operate at 2.8V-5V.
+*) Vmid/Avcc are alternate uses for the Vext line, and may exceed 5.5V as appropriate.
 *) Vsys is intended for high-power delivery, and may be any voltage all attached devices are configured to tolerate. Recommend 12V||24V.
 *) Ground-referenced voltage (ie. wall current) should only be considered for Vsys. Earth-ground and neutral may be bound to pGND/sGND.
 *) Maximum current into an RJ45 socket or breadboard is typically around 3A/pin. Consider using high-quality header/jumpers, and redundant pins, as appropriate.

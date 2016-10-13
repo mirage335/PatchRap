@@ -2,7 +2,7 @@ v 20130925 2
 T 41200 47200 9 10 1 0 0 0 8
 3 \/ 1 - Vsys/Vcc
 3 \\ 2 - pGND/sGnd
-2 - 3 - Vext/Avcc/SigAlt			(NC)										(LO)
+2 - 3 - Vext/Vmid/Avcc/SigAlt		(NC)										(LO)
 1 \/ 4 - Sig-/SigTx-				(sGND)				(Dir)		(I2C, UART)	
 1 \\ 5 - Sig+/SigTx+				(COM,ANA,Probe)		(Step)	(I2C, UART)		(IF)
 2 - 6 - sGND					(NO)
@@ -14,9 +14,27 @@ C 43600 51700 1 270 0 SP3003-08ATG.sym
 T 45800 50400 5 10 1 1 270 6 1
 refdes=U?
 T 46400 51300 5 10 0 0 270 0 1
-device=SP3003-08ATG
+device=Suppressor
 T 46600 51300 5 10 0 0 270 0 1
 footprint=MSOP10
+T 43600 51700 5 10 0 0 0 0 1
+cost=1.17
+T 43600 51700 5 10 0 0 0 0 1
+mfr=Littlefuse
+T 43600 51700 5 10 0 0 0 0 1
+mfrpn=SP3003-08ATG
+T 43600 51700 5 10 0 0 0 0 1
+dst=Mouser
+T 43600 51700 5 10 0 0 0 0 1
+dstpn=576-SP3003-08ATG
+T 43600 51700 5 10 0 0 0 0 1
+link=http://www.mouser.com/ds/2/240/Littelfuse_TVS_Diode_Array_SP3003_Datasheet.pdf-709348.pdf
+T 43600 51700 5 10 0 0 0 0 1
+link_page=5
+T 43600 51700 5 10 0 0 0 0 1
+supplier=c
+T 43600 51700 5 10 0 0 0 0 1
+kitting=tape-no-leader
 }
 C 40300 49000 1 0 0 connector9-2.sym
 {

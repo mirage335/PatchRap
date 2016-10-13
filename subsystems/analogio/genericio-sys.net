@@ -1,7 +1,0 @@
-unnamed_net3	PWM-1 LIMIT-7 
-Vee	LIMIT-8 LIMIT-6 
-unnamed_net2	NO-1 LIMIT-5 
-unnamed_net1	NC-1 LIMIT-4 
-Vsys	Vsys-1 LIMIT-3 
-GND	C1-1 LIMIT-9 LIMIT-2 
-+5V	C1-2 +5V-1 LIMIT-1 
