@@ -40,39 +40,6 @@ N 59800 51100 59800 50300 4
 N 59900 50700 59900 52300 4
 N 59300 50700 59900 50700 4
 N 59300 50300 59800 50300 4
-C 59300 49500 1 0 0 connector9-2.sym
-{
-T 59600 53550 5 10 0 0 0 0 1
-device=CONNECTOR_9
-T 59300 49500 5 10 0 0 0 0 1
-footprint=eth_538-95540-2881
-T 59300 49500 5 10 0 0 0 0 1
-value=-
-T 59300 49500 5 10 0 0 0 0 1
-description=$0.95 MOUSER 571-1734795-1
-T 59300 49500 5 10 0 0 0 0 1
-cost=0.95
-T 59300 49500 5 10 0 0 0 0 1
-mfr=TE Connectivity
-T 59300 49500 5 10 0 0 0 0 1
-mfrpn=1734795-1
-T 59300 49500 5 10 0 0 0 0 1
-dst=Mouser
-T 59300 49500 5 10 0 0 0 0 1
-dstpn=571-1734795-1
-T 59300 49500 5 10 0 0 0 0 1
-link=http://www.mouser.com/ds/2/418/NG_CD_1734795_E_C_1734795_E-658761.pdf
-T 59300 49500 5 10 0 0 0 0 1
-link_page=1
-T 59300 49500 5 10 0 0 0 0 1
-supplier=c
-T 59300 49500 5 10 0 0 0 0 1
-kitting=other
-T 59300 49500 5 10 0 0 0 0 1
-kitting_d=not known to be available in machine usable format
-T 60000 53600 5 10 1 1 0 6 1
-refdes=STEP
-}
 N 59300 52300 59900 52300 4
 N 59300 51100 59800 51100 4
 C 59300 52500 1 90 0 vee-1.sym
@@ -691,4 +658,37 @@ T 64600 55600 5 10 0 0 0 0 1
 device=INPUT
 T 64700 55400 5 10 1 1 0 0 1
 refdes=PWMa
+}
+C 59300 49500 1 0 0 connector9-2.sym
+{
+T 59600 53550 5 10 0 0 0 0 1
+device=CONNECTOR_9
+T 59300 49500 5 10 0 0 0 0 1
+footprint=eth_571-1734795-1
+T 59300 49500 5 10 0 0 0 0 1
+value=-
+T 59300 49500 5 10 0 0 0 0 1
+description=$0.95 MOUSER 571-1734795-1
+T 60000 53600 5 10 1 1 0 6 1
+refdes=STEP
+T 59300 49500 5 10 0 0 0 0 1
+cost=0.95
+T 59300 49500 5 10 0 0 0 0 1
+mfr=TE Connectivity
+T 59300 49500 5 10 0 0 0 0 1
+mfrpn=1734795-1
+T 59300 49500 5 10 0 0 0 0 1
+dst=Mouser
+T 59300 49500 5 10 0 0 0 0 1
+dstpn=571-1734795-1
+T 59300 49500 5 10 0 0 0 0 1
+link=http://www.mouser.com/ds/2/418/NG_CD_1734795_E_C_1734795_E-658761.pdf
+T 59300 49500 5 10 0 0 0 0 1
+link_page=1
+T 59300 49500 5 10 0 0 0 0 1
+supplier=c
+T 59300 49500 5 10 0 0 0 0 1
+kitting=other
+T 59300 49500 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
 }

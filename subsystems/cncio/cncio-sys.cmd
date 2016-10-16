@@ -1,5 +1,16 @@
 # Pin name action command file
 
+# Start of element STEP
+ChangePinName(STEP, 9, 9)
+ChangePinName(STEP, 8, 8)
+ChangePinName(STEP, 7, 7)
+ChangePinName(STEP, 6, 6)
+ChangePinName(STEP, 5, 5)
+ChangePinName(STEP, 4, 4)
+ChangePinName(STEP, 3, 3)
+ChangePinName(STEP, 2, 2)
+ChangePinName(STEP, 1, 1)
+
 # Start of element PWMa
 ChangePinName(PWMa, 1, 1)
 
@@ -95,14 +106,3 @@ ChangePinName(POL1, 4, 4)
 ChangePinName(POL1, 3, 3)
 ChangePinName(POL1, 2, 2)
 ChangePinName(POL1, 1, 1)
-
-# Start of element STEP
-ChangePinName(STEP, 9, 9)
-ChangePinName(STEP, 8, 8)
-ChangePinName(STEP, 7, 7)
-ChangePinName(STEP, 6, 6)
-ChangePinName(STEP, 5, 5)
-ChangePinName(STEP, 4, 4)
-ChangePinName(STEP, 3, 3)
-ChangePinName(STEP, 2, 2)
-ChangePinName(STEP, 1, 1)

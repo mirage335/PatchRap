@@ -12,7 +12,7 @@ C 40000 49500 1 270 0 gnd-1.sym
 C 43600 51700 1 270 0 SP3003-08ATG.sym
 {
 T 45800 50400 5 10 1 1 270 6 1
-refdes=U?
+refdes=U1
 T 46400 51300 5 10 0 0 270 0 1
 device=Suppressor
 T 46600 51300 5 10 0 0 270 0 1
@@ -41,7 +41,7 @@ C 40300 49000 1 0 0 connector9-2.sym
 T 40600 53050 5 10 0 0 0 0 1
 device=CONNECTOR_9
 T 40300 49000 5 10 0 0 0 0 1
-footprint=eth_538-95540-2881
+footprint=eth_571-1734795-1
 T 40300 49000 5 10 0 0 0 0 1
 value=-
 T 40300 49000 5 10 0 0 0 0 1
@@ -78,10 +78,8 @@ N 44900 50200 44900 49600 4
 N 45300 51000 45300 49600 4
 N 45700 51400 45700 49600 4
 N 44500 51600 44500 52200 4
-N 45700 51600 45700 52200 4
 N 44900 51600 44900 52600 4
 N 40300 51800 47000 51800 4
-N 45300 51600 45300 51800 4
 N 40300 52600 47000 52600 4
 N 40300 52200 47000 52200 4
 C 47600 51300 1 0 1 in-1.sym
@@ -175,7 +173,7 @@ nobom=true
 T 41200 52100 5 10 0 0 0 0 1
 noplace=true
 T 41400 52300 5 10 1 1 0 0 1
-refdes=T1
+refdes=T2
 T 41600 52100 5 10 1 1 0 0 1
 value=2kV
 }
@@ -194,7 +192,7 @@ nobom=true
 T 41200 51700 5 10 0 0 0 0 1
 noplace=true
 T 41400 51900 5 10 1 1 0 0 1
-refdes=T1
+refdes=T3
 T 41600 51700 5 10 1 1 0 0 1
 value=2kV
 }
@@ -216,7 +214,7 @@ nobom=true
 T 41200 51300 5 10 0 0 0 0 1
 noplace=true
 T 41400 51500 5 10 1 1 0 0 1
-refdes=T1
+refdes=T4
 T 41600 51300 5 10 1 1 0 0 1
 value=2kV
 }
@@ -236,7 +234,7 @@ nobom=true
 T 41200 50900 5 10 0 0 0 0 1
 noplace=true
 T 41400 51100 5 10 1 1 0 0 1
-refdes=T1
+refdes=T5
 T 41600 50900 5 10 1 1 0 0 1
 value=2kV
 }
@@ -255,7 +253,7 @@ nobom=true
 T 41200 50100 5 10 0 0 0 0 1
 noplace=true
 T 41400 50300 5 10 1 1 0 0 1
-refdes=T1
+refdes=T6
 T 41600 50100 5 10 1 1 0 0 1
 value=2kV
 }
@@ -276,7 +274,7 @@ nobom=true
 T 41200 49700 5 10 0 0 0 0 1
 noplace=true
 T 41400 49900 5 10 1 1 0 0 1
-refdes=T1
+refdes=T7
 T 41600 49700 5 10 1 1 0 0 1
 value=2kV
 }
@@ -319,7 +317,7 @@ supplier=c
 T 42600 52200 5 10 0 0 90 0 1
 kitting=tape-no-leader
 T 42700 52400 5 10 1 1 0 0 1
-refdes=C2
+refdes=C1
 T 42700 52200 5 10 1 1 0 0 1
 value=4.7uF
 }
@@ -341,7 +339,7 @@ nobom=true
 T 44100 51500 5 10 0 0 180 0 1
 noplace=true
 T 43700 51500 5 10 1 1 90 0 1
-refdes=J1
+refdes=J2
 }
 C 42800 51500 1 270 1 gnd-1.sym
 C 42600 51800 1 0 0 capacitor-1.sym
@@ -442,3 +440,5 @@ If pGND-sGND is connected to
 ground, netlists will show this
 jumper shorted, effectively setting
 minimum impedance grounding.
+N 45700 51600 45700 51800 4
+N 45300 51600 45300 52200 4
