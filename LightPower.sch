@@ -1,0 +1,660 @@
+v 20130925 2
+C 54800 59000 1 0 0 connector2-2.sym
+{
+T 55100 60250 5 10 0 0 0 0 1
+device=CONNECTOR_2
+T 55100 60450 5 10 0 0 0 0 1
+footprint=XT60
+T 55500 60000 5 10 1 1 0 6 1
+refdes=Vsys1
+T 54800 59000 5 10 0 0 0 0 1
+description=$0.80 HobbyKing XT60
+T 54800 59000 5 10 0 0 0 0 1
+value=60A
+}
+C 60000 59000 1 0 0 breadpwr-sys.sym
+{
+T 60300 61200 5 10 1 1 0 0 1
+device=BREADPWR
+T 61100 61000 5 10 1 1 0 0 1
+refdes=X?
+}
+C 54800 60500 1 0 0 connector2-2.sym
+{
+T 55100 61750 5 10 0 0 0 0 1
+device=CONNECTOR_2
+T 55100 61950 5 10 0 0 0 0 1
+footprint=XT60
+T 55500 61500 5 10 1 1 0 6 1
+refdes=Vsys2
+T 54800 60500 5 10 0 0 0 0 1
+description=$0.80 HobbyKing XT60
+T 54800 60500 5 10 0 0 0 0 1
+value=60A
+}
+C 60000 64000 1 0 0 breadpwr-sys.sym
+{
+T 60300 66200 5 10 1 1 0 0 1
+device=BREADPWR
+T 61100 66000 5 10 1 1 0 0 1
+refdes=X?
+}
+C 54700 64000 1 0 0 connector2-2.sym
+{
+T 55000 65250 5 10 0 0 0 0 1
+device=CONNECTOR_2
+T 55000 65450 5 10 0 0 0 0 1
+footprint=XT60
+T 55400 65000 5 10 1 1 0 6 1
+refdes=Vsys3
+T 54700 64000 5 10 0 0 0 0 1
+description=$0.80 HobbyKing XT60
+T 54700 64000 5 10 0 0 0 0 1
+value=60A
+}
+C 54700 66000 1 0 0 connector2-2.sym
+{
+T 55000 67250 5 10 0 0 0 0 1
+device=CONNECTOR_2
+T 55000 67450 5 10 0 0 0 0 1
+footprint=XT60
+T 55400 67000 5 10 1 1 0 6 1
+refdes=Vsys4
+T 54700 66000 5 10 0 0 0 0 1
+description=$0.80 HobbyKing XT60
+T 54700 66000 5 10 0 0 0 0 1
+value=60A
+}
+C 54700 66200 1 90 0 vee-1.sym
+C 54700 64200 1 90 0 vee-1.sym
+C 54800 60700 1 90 0 vee-1.sym
+C 54800 59200 1 90 0 vee-1.sym
+T 52300 56200 9 10 1 0 0 0 7
+Jumpers for pGND/sGND binding should
+be bridged if necessary and appropriate,
+which should be the case only if no other
+common point is used for signal grounding.
+
+Ground should only be bound in one place,
+perhaps close to a battery terminal.
+N 52600 59800 54800 59800 4
+N 52600 61300 54800 61300 4
+N 52600 64800 54700 64800 4
+C 59700 64400 1 270 1 gnd-1.sym
+C 59700 59400 1 270 1 gnd-1.sym
+T 48000 56200 9 10 1 0 0 0 8
+Regenerative UPS or float battery may be
+applied to either side. Use caution employing
+Lithium batteries under float voltage . At
+minimum, voltage must be maintained within
+(2.7V<Vcell<4.2) including hysteresis.
+Recommend (3V<Vcell<4V).
+
+Protection circuitry is necessary.
+C 60000 65200 1 90 0 vee-1.sym
+C 60000 60200 1 90 0 vee-1.sym
+C 52800 62900 1 90 1 diode-3.sym
+{
+T 52250 62450 5 10 0 0 90 6 1
+device=DIODE
+T 52800 62900 5 10 0 0 90 6 1
+description=$0.26 MOUSER 750-CDBU0530
+T 52800 62900 5 10 0 0 90 6 1
+footprint=SMD_DIODE 60 30
+T 52800 62900 5 10 0 0 90 0 1
+cost=0.26
+T 52800 62900 5 10 0 0 90 0 1
+mfr=Comchip Technology
+T 52800 62900 5 10 0 0 90 0 1
+mfrpn=CDBU0530
+T 52800 62900 5 10 0 0 90 0 1
+dst=Mouser
+T 52800 62900 5 10 0 0 90 0 1
+dstpn=750-CDBU0530
+T 52800 62900 5 10 0 0 90 0 1
+link=www.mouser.com/ds/2/80/CDBU0530-RevA791919-16389.pdf
+T 52800 62900 5 10 0 0 90 0 1
+link_page=1
+T 52800 62900 5 10 0 0 90 0 1
+supplier=c
+T 52800 62900 5 10 0 0 90 0 1
+kitting=tape-no-leader
+T 52550 62550 5 10 1 1 90 6 1
+refdes=D1
+T 52800 62900 5 10 1 1 90 6 1
+value=0.4V
+}
+N 52600 59800 52600 62000 4
+N 52600 62900 52600 67400 4
+N 53800 66800 53800 67500 4
+N 53800 67500 59100 67500 4
+N 59100 67500 59100 65700 4
+N 60000 59800 62000 59800 4
+N 62000 58800 62000 62000 4
+C 62200 62900 1 90 1 diode-3.sym
+{
+T 61650 62450 5 10 0 0 90 6 1
+device=DIODE
+T 62200 62900 5 10 0 0 90 6 1
+description=$0.26 MOUSER 750-CDBU0530
+T 62200 62900 5 10 0 0 90 6 1
+footprint=SMD_DIODE 60 30
+T 62200 62900 5 10 0 0 90 0 1
+cost=0.26
+T 62200 62900 5 10 0 0 90 0 1
+mfr=Comchip Technology
+T 62200 62900 5 10 0 0 90 0 1
+mfrpn=CDBU0530
+T 62200 62900 5 10 0 0 90 0 1
+dst=Mouser
+T 62200 62900 5 10 0 0 90 0 1
+dstpn=750-CDBU0530
+T 62200 62900 5 10 0 0 90 0 1
+link=www.mouser.com/ds/2/80/CDBU0530-RevA791919-16389.pdf
+T 62200 62900 5 10 0 0 90 0 1
+link_page=1
+T 62200 62900 5 10 0 0 90 0 1
+supplier=c
+T 62200 62900 5 10 0 0 90 0 1
+kitting=tape-no-leader
+T 61950 62550 5 10 1 1 90 6 1
+refdes=D1
+T 62200 62900 5 10 1 1 90 6 1
+value=0.4V
+}
+N 62000 62900 62000 66800 4
+L 48000 62500 66100 62500 3 0 0 0 -1 -1
+N 60000 60700 59500 60700 4
+N 59500 60700 59500 58800 4
+N 59500 58800 54000 58800 4
+N 54000 58800 54000 59800 4
+T 56500 62700 9 10 1 0 0 0 4
+Light loads, dependent on lower noise
+and/or operation after power failure.
+Typically control systems - stepper motors,
+servos, sensors, communications, and logic.
+T 56500 61600 9 10 1 0 0 0 4
+Heavy loads, noise and/or power failure tolerant.
+Typically non-essential tooling or thermal/mechanical
+platforms with inherent reserve - thermally massive
+heaters, flywheel buffered motors, etc.
+C 61100 62700 1 0 0 capacitor-1.sym
+{
+T 61300 63400 5 10 0 0 0 0 1
+device=CAPACITOR
+T 61300 63600 5 10 0 0 0 0 1
+symversion=0.1
+T 61100 62700 5 10 0 0 270 0 1
+description=$0.093 MOUSER 603-CC402MRX5R5BB475
+T 61100 62700 5 10 0 0 270 0 1
+footprint=0402
+T 61100 62700 5 10 0 0 180 0 1
+nationality=Taiwan
+T 61100 62700 5 10 0 0 90 0 1
+cost=0.093
+T 61100 62700 5 10 0 0 90 0 1
+mfr=Yageo
+T 61100 62700 5 10 0 0 90 0 1
+mfrpn=CC0402MRX5R5BB475
+T 61100 62700 5 10 0 0 90 0 1
+dst=Mouser
+T 61100 62700 5 10 0 0 90 0 1
+dstpn=CC0402MRX5R5BB475
+T 61100 62700 5 10 0 0 90 0 1
+link=www.mouser.com/ds/2/447/UPY-GPHC_X5R_4V-to-50V_14_0717-202131.pdf
+T 61100 62700 5 10 0 0 90 0 1
+link_page=4
+T 61100 62700 5 10 0 0 90 0 1
+supplier=c
+T 61100 62700 5 10 0 0 90 0 1
+kitting=tape-no-leader
+T 61200 62900 5 10 1 1 0 0 1
+refdes=C2
+T 61200 62700 5 10 1 1 0 0 1
+value=4.7uF
+}
+C 60800 62800 1 270 1 gnd-1.sym
+T 62200 63900 9 10 1 0 0 0 3
+Vext capacitor should be omitted if
+any downstream peripherials are to
+sink Vext current to pGND.
+C 52100 58500 1 0 1 genericio-sys.sym
+{
+T 51700 62000 5 10 1 1 0 6 1
+device=GENERIC
+T 51100 61700 5 10 1 1 0 6 1
+refdes=X?
+}
+C 52000 63300 1 0 1 genericio-sys.sym
+{
+T 51600 66800 5 10 1 1 0 6 1
+device=GENERIC
+T 51000 66500 5 10 1 1 0 6 1
+refdes=X?
+}
+C 52000 66400 1 270 0 vee-1.sym
+C 52300 64500 1 90 1 gnd-1.sym
+N 54700 64400 55600 64400 4
+N 55600 64400 55600 60900 4
+N 55600 60900 54800 60900 4
+N 55000 62900 55000 63200 4
+N 54000 62900 55000 62900 4
+C 55000 63300 1 90 1 jumper-1.sym
+{
+T 54600 63300 5 10 1 1 270 2 1
+refdes=J1
+T 54500 63000 5 8 0 0 270 2 1
+device=JUMPER
+T 55000 63300 5 10 0 0 180 6 1
+footprint=0201
+T 55000 63300 5 10 0 0 180 6 1
+description=-
+T 55000 63300 5 10 0 0 180 6 1
+value=-
+T 55000 63300 5 10 0 0 0 6 1
+nobom=true
+T 55000 63300 5 10 0 0 0 6 1
+noplace=true
+}
+N 54000 63200 54000 62900 4
+C 53700 63100 1 270 1 gnd-1.sym
+N 55000 63200 55600 63200 4
+N 52100 61700 52600 61700 4
+C 52100 61600 1 270 0 vee-1.sym
+C 52400 59700 1 90 1 gnd-1.sym
+N 62000 58800 52500 58800 4
+N 52500 58800 52500 60800 4
+N 52500 60800 52100 60800 4
+N 62000 66800 60100 66800 4
+N 60100 66800 60100 67600 4
+N 60100 67600 50300 67600 4
+N 50300 65600 52000 65600 4
+T 62500 62600 9 10 1 0 0 0 2
+Thin traces should be used between heavy yet
+separate ground planes on both sides of this isolator.
+N 52100 60400 50000 60400 4
+N 50000 60400 50000 61200 4
+N 49700 60100 49700 61200 4
+N 49700 60100 52100 60100 4
+N 48500 59000 48500 61200 4
+N 48500 59000 52100 59000 4
+N 48200 58700 48200 61200 4
+N 48200 58700 52100 58700 4
+N 48500 63000 48500 63800 4
+N 48500 63800 52000 63800 4
+N 48200 63000 48200 63500 4
+N 48200 63500 52000 63500 4
+N 49700 63000 49700 64900 4
+N 49700 64900 52000 64900 4
+N 50000 63000 50000 65200 4
+N 50000 65200 52000 65200 4
+C 48100 63000 1 270 0 inductor-1.sym
+{
+T 48600 62800 5 10 0 0 270 0 1
+device=INDUCTOR
+T 48800 62800 5 10 0 0 270 0 1
+symversion=0.1
+T 48100 63000 5 10 0 0 270 0 1
+description_alt=$0.44 MOUSER 80-L0603B220KDWFT
+T 48100 63000 5 10 0 0 270 0 1
+footprint_alt=0603
+T 48100 63000 5 10 0 0 0 0 1
+description=$0.23 MOUSER 710-742792095
+T 48100 63000 5 10 0 0 0 0 1
+footprint_enabled=0805
+T 48100 63000 5 10 0 0 0 0 1
+cost=0.23
+T 48100 63000 5 10 0 0 0 0 1
+mfr=Wurth Electronics
+T 48100 63000 5 10 0 0 0 0 1
+mfrpn=742792095
+T 48100 63000 5 10 0 0 0 0 1
+dst=Mouser
+T 48100 63000 5 10 0 0 0 0 1
+dstpn=710-742792095
+T 48100 63000 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/445/742792095-538626.pdf
+T 48100 63000 5 10 0 0 0 0 1
+link_page=1
+T 48100 63000 5 10 0 0 0 0 1
+supplier=c
+T 48100 63000 5 10 0 0 0 0 1
+kitting=tape-no-leader
+T 48100 63000 5 10 0 0 0 0 1
+footprint=none
+T 48100 63000 5 10 0 0 0 0 1
+nobom=true
+T 48100 63000 5 10 0 0 0 0 1
+noplace=true
+T 48200 62900 5 10 1 1 270 0 1
+refdes=L2
+T 48100 62700 5 10 1 1 270 0 1
+value=10Ohm
+}
+C 48400 63000 1 270 0 inductor-1.sym
+{
+T 48900 62800 5 10 0 0 270 0 1
+device=INDUCTOR
+T 49100 62800 5 10 0 0 270 0 1
+symversion=0.1
+T 48400 63000 5 10 0 0 270 0 1
+description_alt=$0.44 MOUSER 80-L0603B220KDWFT
+T 48400 63000 5 10 0 0 270 0 1
+footprint_alt=0603
+T 48400 63000 5 10 0 0 0 0 1
+description=$0.23 MOUSER 710-742792095
+T 48400 63000 5 10 0 0 0 0 1
+footprint_enabled=0805
+T 48400 63000 5 10 0 0 0 0 1
+cost=0.23
+T 48400 63000 5 10 0 0 0 0 1
+mfr=Wurth Electronics
+T 48400 63000 5 10 0 0 0 0 1
+mfrpn=742792095
+T 48400 63000 5 10 0 0 0 0 1
+dst=Mouser
+T 48400 63000 5 10 0 0 0 0 1
+dstpn=710-742792095
+T 48400 63000 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/445/742792095-538626.pdf
+T 48400 63000 5 10 0 0 0 0 1
+link_page=1
+T 48400 63000 5 10 0 0 0 0 1
+supplier=c
+T 48400 63000 5 10 0 0 0 0 1
+kitting=tape-no-leader
+T 48400 63000 5 10 0 0 0 0 1
+footprint=none
+T 48400 63000 5 10 0 0 0 0 1
+nobom=true
+T 48400 63000 5 10 0 0 0 0 1
+noplace=true
+T 48500 62900 5 10 1 1 270 0 1
+refdes=L2
+T 48400 62700 5 10 1 1 270 0 1
+value=10Ohm
+}
+C 49600 63000 1 270 0 inductor-1.sym
+{
+T 50100 62800 5 10 0 0 270 0 1
+device=INDUCTOR
+T 50300 62800 5 10 0 0 270 0 1
+symversion=0.1
+T 49600 63000 5 10 0 0 270 0 1
+description_alt=$0.44 MOUSER 80-L0603B220KDWFT
+T 49600 63000 5 10 0 0 270 0 1
+footprint_alt=0603
+T 49600 63000 5 10 0 0 0 0 1
+description=$0.23 MOUSER 710-742792095
+T 49600 63000 5 10 0 0 0 0 1
+footprint_enabled=0805
+T 49600 63000 5 10 0 0 0 0 1
+cost=0.23
+T 49600 63000 5 10 0 0 0 0 1
+mfr=Wurth Electronics
+T 49600 63000 5 10 0 0 0 0 1
+mfrpn=742792095
+T 49600 63000 5 10 0 0 0 0 1
+dst=Mouser
+T 49600 63000 5 10 0 0 0 0 1
+dstpn=710-742792095
+T 49600 63000 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/445/742792095-538626.pdf
+T 49600 63000 5 10 0 0 0 0 1
+link_page=1
+T 49600 63000 5 10 0 0 0 0 1
+supplier=c
+T 49600 63000 5 10 0 0 0 0 1
+kitting=tape-no-leader
+T 49600 63000 5 10 0 0 0 0 1
+footprint=none
+T 49600 63000 5 10 0 0 0 0 1
+nobom=true
+T 49600 63000 5 10 0 0 0 0 1
+noplace=true
+T 49700 62900 5 10 1 1 270 0 1
+refdes=L2
+T 49600 62700 5 10 1 1 270 0 1
+value=10Ohm
+}
+C 49900 63000 1 270 0 inductor-1.sym
+{
+T 50400 62800 5 10 0 0 270 0 1
+device=INDUCTOR
+T 50600 62800 5 10 0 0 270 0 1
+symversion=0.1
+T 49900 63000 5 10 0 0 270 0 1
+description_alt=$0.44 MOUSER 80-L0603B220KDWFT
+T 49900 63000 5 10 0 0 270 0 1
+footprint_alt=0603
+T 49900 63000 5 10 0 0 0 0 1
+description=$0.23 MOUSER 710-742792095
+T 49900 63000 5 10 0 0 0 0 1
+footprint_enabled=0805
+T 49900 63000 5 10 0 0 0 0 1
+cost=0.23
+T 49900 63000 5 10 0 0 0 0 1
+mfr=Wurth Electronics
+T 49900 63000 5 10 0 0 0 0 1
+mfrpn=742792095
+T 49900 63000 5 10 0 0 0 0 1
+dst=Mouser
+T 49900 63000 5 10 0 0 0 0 1
+dstpn=710-742792095
+T 49900 63000 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/445/742792095-538626.pdf
+T 49900 63000 5 10 0 0 0 0 1
+link_page=1
+T 49900 63000 5 10 0 0 0 0 1
+supplier=c
+T 49900 63000 5 10 0 0 0 0 1
+kitting=tape-no-leader
+T 49900 63000 5 10 0 0 0 0 1
+footprint=none
+T 49900 63000 5 10 0 0 0 0 1
+nobom=true
+T 49900 63000 5 10 0 0 0 0 1
+noplace=true
+T 50000 62900 5 10 1 1 270 0 1
+refdes=L2
+T 49900 62700 5 10 1 1 270 0 1
+value=10Ohm
+}
+C 48100 62100 1 270 0 resistor-1.sym
+{
+T 48500 61800 5 10 0 0 270 0 1
+device=RESISTOR
+T 48100 62100 5 10 0 0 180 0 1
+footprint=0201
+T 48100 62100 5 10 0 0 180 0 1
+description=$0.029 MOUSER 603-RC0201FR-071KL
+T 48100 61700 5 10 1 1 270 0 1
+value=1k
+T 48000 61500 5 10 1 1 270 0 1
+refdes=R7
+T 48100 62100 5 10 0 0 270 0 1
+nationality=Taiwan
+T 48100 62100 5 10 0 0 270 0 1
+cost=0.029
+T 48100 62100 5 10 0 0 270 0 1
+mfr=Yageo
+T 48100 62100 5 10 0 0 270 0 1
+mfrpn=RC0201FR-071KL
+T 48100 62100 5 10 0 0 270 0 1
+dst=Mouser
+T 48100 62100 5 10 0 0 270 0 1
+dstpn=603-RC0201FR-071KL
+T 48100 62100 5 10 0 0 270 0 1
+link=www.mouser.com/ds/2/447/RC0201-559633.pdf
+T 48100 62100 5 10 0 0 270 0 1
+link_page=2
+T 48100 62100 5 10 0 0 270 0 1
+supplier=c
+T 48100 62100 5 10 0 0 270 0 1
+kitting=tape-no-leader
+}
+C 48400 62100 1 270 0 resistor-1.sym
+{
+T 48800 61800 5 10 0 0 270 0 1
+device=RESISTOR
+T 48400 62100 5 10 0 0 180 0 1
+footprint=0201
+T 48400 62100 5 10 0 0 180 0 1
+description=$0.029 MOUSER 603-RC0201FR-071KL
+T 48400 61700 5 10 1 1 270 0 1
+value=1k
+T 48300 61500 5 10 1 1 270 0 1
+refdes=R7
+T 48400 62100 5 10 0 0 270 0 1
+nationality=Taiwan
+T 48400 62100 5 10 0 0 270 0 1
+cost=0.029
+T 48400 62100 5 10 0 0 270 0 1
+mfr=Yageo
+T 48400 62100 5 10 0 0 270 0 1
+mfrpn=RC0201FR-071KL
+T 48400 62100 5 10 0 0 270 0 1
+dst=Mouser
+T 48400 62100 5 10 0 0 270 0 1
+dstpn=603-RC0201FR-071KL
+T 48400 62100 5 10 0 0 270 0 1
+link=www.mouser.com/ds/2/447/RC0201-559633.pdf
+T 48400 62100 5 10 0 0 270 0 1
+link_page=2
+T 48400 62100 5 10 0 0 270 0 1
+supplier=c
+T 48400 62100 5 10 0 0 270 0 1
+kitting=tape-no-leader
+}
+C 49600 62100 1 270 0 resistor-1.sym
+{
+T 50000 61800 5 10 0 0 270 0 1
+device=RESISTOR
+T 49600 62100 5 10 0 0 180 0 1
+footprint=0201
+T 49600 62100 5 10 0 0 180 0 1
+description=$0.029 MOUSER 603-RC0201FR-071KL
+T 49600 61700 5 10 1 1 270 0 1
+value=1k
+T 49500 61500 5 10 1 1 270 0 1
+refdes=R7
+T 49600 62100 5 10 0 0 270 0 1
+nationality=Taiwan
+T 49600 62100 5 10 0 0 270 0 1
+cost=0.029
+T 49600 62100 5 10 0 0 270 0 1
+mfr=Yageo
+T 49600 62100 5 10 0 0 270 0 1
+mfrpn=RC0201FR-071KL
+T 49600 62100 5 10 0 0 270 0 1
+dst=Mouser
+T 49600 62100 5 10 0 0 270 0 1
+dstpn=603-RC0201FR-071KL
+T 49600 62100 5 10 0 0 270 0 1
+link=www.mouser.com/ds/2/447/RC0201-559633.pdf
+T 49600 62100 5 10 0 0 270 0 1
+link_page=2
+T 49600 62100 5 10 0 0 270 0 1
+supplier=c
+T 49600 62100 5 10 0 0 270 0 1
+kitting=tape-no-leader
+}
+C 49900 62100 1 270 0 resistor-1.sym
+{
+T 50300 61800 5 10 0 0 270 0 1
+device=RESISTOR
+T 49900 62100 5 10 0 0 180 0 1
+footprint=0201
+T 49900 62100 5 10 0 0 180 0 1
+description=$0.029 MOUSER 603-RC0201FR-071KL
+T 49900 61700 5 10 1 1 270 0 1
+value=1k
+T 49800 61500 5 10 1 1 270 0 1
+refdes=R7
+T 49900 62100 5 10 0 0 270 0 1
+nationality=Taiwan
+T 49900 62100 5 10 0 0 270 0 1
+cost=0.029
+T 49900 62100 5 10 0 0 270 0 1
+mfr=Yageo
+T 49900 62100 5 10 0 0 270 0 1
+mfrpn=RC0201FR-071KL
+T 49900 62100 5 10 0 0 270 0 1
+dst=Mouser
+T 49900 62100 5 10 0 0 270 0 1
+dstpn=603-RC0201FR-071KL
+T 49900 62100 5 10 0 0 270 0 1
+link=www.mouser.com/ds/2/447/RC0201-559633.pdf
+T 49900 62100 5 10 0 0 270 0 1
+link_page=2
+T 49900 62100 5 10 0 0 270 0 1
+supplier=c
+T 49900 62100 5 10 0 0 270 0 1
+kitting=tape-no-leader
+}
+C 59100 64800 1 0 0 fuse-1.sym
+{
+T 59300 65200 5 10 0 0 0 0 1
+device=FUSE
+T 59300 65400 5 10 0 0 0 0 1
+symversion=0.1
+T 59300 64800 5 10 1 1 0 0 1
+refdes=F?
+}
+N 62000 65000 59100 65000 4
+N 59100 65000 59100 64800 4
+T 55000 68400 9 10 1 0 0 0 3
+For maximum reliability, all light-side devices should have
+their own independent resettable polyfuses with internal
+battery backup. Hub PCB provisions this for RJ45 connections.
+N 60000 64800 59100 64800 4
+C 59100 65700 1 0 0 fuse-1.sym
+{
+T 59300 66100 5 10 0 0 0 0 1
+device=FUSE
+T 59300 66300 5 10 0 0 0 0 1
+symversion=0.1
+T 59300 65700 5 10 1 1 0 0 1
+refdes=F?
+}
+N 60000 65700 59100 65700 4
+C 52000 66500 1 90 0 fuse-1.sym
+{
+T 51600 66700 5 10 0 0 90 0 1
+device=FUSE
+T 51400 66700 5 10 0 0 90 0 1
+symversion=0.1
+T 52000 66700 5 10 1 1 90 0 1
+refdes=F?
+}
+N 52000 67400 52600 67400 4
+N 52000 67400 52000 66500 4
+C 50300 65600 1 90 0 fuse-1.sym
+{
+T 49900 65800 5 10 0 0 90 0 1
+device=FUSE
+T 49700 65800 5 10 0 0 90 0 1
+symversion=0.1
+T 50300 65800 5 10 1 1 90 0 1
+refdes=F?
+}
+N 50300 65600 50300 67600 4
+C 53800 66800 1 0 0 fuse-1.sym
+{
+T 54000 67200 5 10 0 0 0 0 1
+device=FUSE
+T 54000 67400 5 10 0 0 0 0 1
+symversion=0.1
+T 54000 66800 5 10 1 1 0 0 1
+refdes=F?
+}
+C 53800 64800 1 0 0 fuse-1.sym
+{
+T 54000 65200 5 10 0 0 0 0 1
+device=FUSE
+T 54000 65400 5 10 0 0 0 0 1
+symversion=0.1
+T 54000 64800 5 10 1 1 0 0 1
+refdes=F?
+}
+N 54700 66800 53800 66800 4

@@ -1,0 +1,8 @@
+(component-library "../../customParts")
+(component-library "../../gedasymbols")
+
+(component-library-search ".")
+(source-library ".")
+
+(component-library-search "../../subsystems")
+(source-library-search "../../subsystems")

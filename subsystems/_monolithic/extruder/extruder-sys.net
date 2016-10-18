@@ -1,0 +1,6 @@
+GND	EXT-9 EXT-8 
+unnamed_net4	therm-1 EXT-7 
+unnamed_net3	heater-1 EXT-4 
+unnamed_net2	+12V-1 EXT-3 
+Vee	EXT-6 EXT-5 EXT-2 
+unnamed_net1	fan-1 EXT-1 
