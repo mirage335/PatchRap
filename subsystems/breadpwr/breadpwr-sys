@@ -1,4 +1,4 @@
 elements-dir ../../gedasymbols/footprints
 elements-dir ../../customParts/footprints
-schematics extruder-sys.sch
-output-name extruder-sys
+schematics breadpwr-sys.sch
+output-name breadpwr-sys

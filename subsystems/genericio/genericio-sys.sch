@@ -442,3 +442,7 @@ jumper shorted, effectively setting
 minimum impedance grounding.
 N 45700 51600 45700 51800 4
 N 45300 51600 45300 52200 4
+T 37300 52500 9 10 1 0 0 0 3
+Vext capacitor should be omitted if
+any downstream peripherials are to
+sink Vext current to pGND.

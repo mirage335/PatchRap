@@ -1,0 +1,1 @@
+Breadboards typically have 0.1" spacing, leading to a 1.7in distance between inner power rails, as reflected in silkscreen lines. Measured breadboards have shown a -0.050in (-50mil) delta from this, as reflected in the actual PCB layout spacing.
