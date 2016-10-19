@@ -61,7 +61,7 @@ C 62000 54100 1 0 0 analog-sys.sym
 T 62300 58300 5 10 1 1 0 0 1
 device=ANALOG
 T 63100 58100 5 10 1 1 0 0 1
-refdes=X2
+refdes=X3
 }
 C 62000 56900 1 180 0 io-1.sym
 {
