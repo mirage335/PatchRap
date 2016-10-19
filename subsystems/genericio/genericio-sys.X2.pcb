@@ -1032,7 +1032,7 @@ Element["" "eth_571-1734795-1" "X2/GEN" "-" 42.1600mm 1000.00mil -100.00mil -200
 	Pin[-7.0000mm -6.6000mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "" "13" "edge2"]
 	Pin[7.0000mm -6.6000mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "" "10" "edge2"]
 	Pin[-3.5700mm -0.9000mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "8" "8" "edge2"]
-	Pin[-1.5300mm -0.9000mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "6" "6" "edge2,thermal(5X)"]
+	Pin[-1.5300mm -0.9000mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "6" "6" "edge2,thermal(0X,5X)"]
 	Pin[2.5500mm -0.9000mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "2" "2" "edge2"]
 	Pin[0.5100mm -0.9000mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "4" "4" "edge2"]
 	Pin[3.5700mm 0.9000mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "1" "1" "edge2"]

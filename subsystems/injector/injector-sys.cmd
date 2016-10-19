@@ -1,5 +1,21 @@
 # Pin name action command file
 
+# Start of element REG
+ChangePinName(REG, 8, 8)
+ChangePinName(REG, 7, 7)
+ChangePinName(REG, 6, 6)
+ChangePinName(REG, 5, 5)
+ChangePinName(REG, 4, 4)
+ChangePinName(REG, 3, 3)
+ChangePinName(REG, 2, 2)
+ChangePinName(REG, 1, 1)
+ChangePinName(REG, 6, 6)
+ChangePinName(REG, 5, 5)
+ChangePinName(REG, 4, 4)
+ChangePinName(REG, 3, 3)
+ChangePinName(REG, 2, 2)
+ChangePinName(REG, 1, 1)
+
 # Start of element B1
 ChangePinName(B1, 2, -)
 ChangePinName(B1, 1, +)
@@ -54,16 +70,6 @@ ChangePinName(J1, 2, 2)
 # Start of element D1
 ChangePinName(D1, 1, 1)
 ChangePinName(D1, 2, 2)
-
-# Start of element REG
-ChangePinName(REG, 8, 8)
-ChangePinName(REG, 7, 7)
-ChangePinName(REG, 6, 6)
-ChangePinName(REG, 5, 5)
-ChangePinName(REG, 4, 4)
-ChangePinName(REG, 3, 3)
-ChangePinName(REG, 2, 2)
-ChangePinName(REG, 1, 1)
 
 # Start of element X2/PWR1
 ChangePinName(X2/PWR1, 4, 4)

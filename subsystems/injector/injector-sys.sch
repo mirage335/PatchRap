@@ -114,56 +114,16 @@ N 46400 65800 49800 65800 4
 N 43300 61300 44300 61300 4
 N 43600 60100 44300 60100 4
 C 43400 60100 1 0 0 3.3V-plus-1.sym
-C 51900 64400 1 0 0 connector8-2.sym
-{
-T 52200 68050 5 10 0 0 0 0 1
-device=CONNECTOR_8
-T 52200 68250 5 10 0 0 0 0 1
-footprint=JUMPER8
-T 51900 64400 5 10 0 0 0 0 1
-value=-
-T 51900 64400 5 10 0 0 0 0 1
-description=$0.42 MOUSER 538-22-28-5084
-T 51900 64400 5 10 0 0 0 0 1
-cost=0.42
-T 51900 64400 5 10 0 0 0 0 1
-mfr=Molex
-T 51900 64400 5 10 0 0 0 0 1
-mfrpn=22-28-5084
-T 51900 64400 5 10 0 0 0 0 1
-dst=Mouser
-T 51900 64400 5 10 0 0 0 0 1
-dstpn=538-22-28-5084
-T 51900 64400 5 10 0 0 0 0 1
-link=http://www.mouser.com/ds/2/276/0022285084_PCB_HEADERS-228315.pdf
-T 51900 64400 5 10 0 0 0 0 1
-link_page=http://www.molex.com/pdm_docs/sd/022285084_sd.pdf
-T 51900 64400 5 10 0 0 0 0 1
-supplier=c
-T 51900 64400 5 10 0 0 0 0 1
-kitting=other
-T 51900 64400 5 10 0 0 0 0 1
-kitting_d=not known to be available in machine usable format
-T 52600 68100 5 10 1 1 0 6 1
-refdes=REG
-}
 C 51600 67400 1 90 0 generic-power.sym
 {
 T 51350 67600 5 10 1 1 90 3 1
 net=Vsys:1
 }
 C 51900 67000 1 90 0 vee-1.sym
-C 51500 65800 1 90 0 generic-power.sym
-{
-T 51250 66000 5 10 1 1 90 3 1
-net=Vsys:1
-}
-C 51900 65400 1 90 0 vee-1.sym
-N 51500 66000 51900 66000 4
 N 51600 67600 51900 67600 4
-L 51500 66200 53300 66200 3 0 0 0 -1 -1
-L 51500 64600 53300 64600 3 0 0 0 -1 -1
-T 52800 66600 9 10 1 0 0 0 3
+L 51500 66600 53300 66600 3 0 0 0 -1 -1
+L 51500 65400 53300 65400 3 0 0 0 -1 -1
+T 52800 67000 9 10 1 0 0 0 3
 Normally only one regulator would
 be used, connected to Vext by diode
 or solder bridge.
@@ -576,9 +536,82 @@ T 47800 68350 5 10 1 1 0 3 1
 net=Vsys:1
 }
 C 47600 67000 1 180 1 vee-1.sym
-T 52900 66200 9 10 1 0 0 0 1
+T 52900 66600 9 10 1 0 0 0 1
 3.3V
 C 51900 66600 1 90 0 3.3V-plus-1.sym
-C 51900 65000 1 90 0 5V-plus-1.sym
-T 53000 64600 9 10 1 0 0 0 1
+T 53000 65400 9 10 1 0 0 0 1
 5V
+C 51500 66200 1 90 0 generic-power.sym
+{
+T 51250 66400 5 10 1 1 90 3 1
+net=Vsys:1
+}
+N 51500 66400 51900 66400 4
+C 51900 65800 1 90 0 vee-1.sym
+C 51900 65400 1 90 0 5V-plus-1.sym
+C 51900 65200 1 0 0 connector6-2.sym
+{
+T 52600 68100 5 10 1 1 0 6 1
+refdes=REG
+T 52200 68050 5 10 0 0 0 0 1
+device=CONNECTOR_6
+T 52200 68250 5 10 0 0 0 0 1
+footprint=JUMPER6
+T 51900 65200 5 10 0 0 0 0 1
+value=-
+T 51900 65200 5 10 0 0 0 0 1
+description=$0.21 MOUSER 571-6404556
+T 51900 65200 5 10 0 0 0 0 1
+cost=0.21
+T 51900 65200 5 10 0 0 0 0 1
+mfr=TE Connectivity
+T 51900 65200 5 10 0 0 0 0 1
+mfrpn=640455-6
+T 51900 65200 5 10 0 0 0 0 1
+dst=Mouser
+T 51900 65200 5 10 0 0 0 0 1
+dstpn=571-6404556
+T 51900 65200 5 10 0 0 0 0 1
+link=http://www.mouser.com/ds/2/418/NG_DS_82056_MTA_0708-815240.pdf
+T 51900 65200 5 10 0 0 0 0 1
+link_page=23
+T 51900 65200 5 10 0 0 0 0 1
+supplier=c
+T 51900 65200 5 10 0 0 0 0 1
+kitting=other
+T 51900 65200 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+}
+C 56800 68500 1 0 0 connector8-2.sym
+{
+T 57100 72150 5 10 0 0 0 0 1
+device=CONNECTOR_8
+T 57100 72350 5 10 0 0 0 0 1
+footprint=JUMPER6
+T 56800 68500 5 10 0 0 0 0 1
+value=-
+T 56800 68500 5 10 0 0 0 0 1
+description=$0.21 MOUSER 571-6404556
+T 56800 68500 5 10 0 0 0 0 1
+cost=0.21
+T 56800 68500 5 10 0 0 0 0 1
+mfr=TE Connectivity
+T 56800 68500 5 10 0 0 0 0 1
+mfrpn=640455-6
+T 56800 68500 5 10 0 0 0 0 1
+dst=Mouser
+T 56800 68500 5 10 0 0 0 0 1
+dstpn=571-6404556
+T 56800 68500 5 10 0 0 0 0 1
+link=http://www.mouser.com/ds/2/418/NG_DS_82056_MTA_0708-815240.pdf
+T 56800 68500 5 10 0 0 0 0 1
+link_page=23
+T 56800 68500 5 10 0 0 0 0 1
+supplier=c
+T 56800 68500 5 10 0 0 0 0 1
+kitting=other
+T 56800 68500 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+T 57500 72200 5 10 1 1 0 6 1
+refdes=REG
+}
