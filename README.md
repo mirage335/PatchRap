@@ -73,6 +73,8 @@ Please beware the following ratings.
 *) Pins 7/8 of GenericIO may be repurposed for digital I2C/UART if needed, specifically for digital control of stepper driver.
 
 #Safety
+Use external balancer with LiPo batteries. Cheaply available from HobbyKing among other places.
+
 Not Ethernet compatible, will destroy network hardware.
 
 Do not unplug powered steppers.
@@ -86,6 +88,7 @@ No claim of liability is made by anyone. Your accident is your accident. Use com
 #FutureWork
 ##Modules
 *) Modular, breadboard compatible PCB architecture for more flexibility.
+*) Cell balancing and protection circuitry for regenerator.
 
 ##Mainboard
 *) New modular standards should be integrated.
@@ -106,6 +109,11 @@ https://www.inventables.com/technologies/stepper-motor-nema-17
 http://www.rcgroups.com/forums/showthread.php?t=2387201
 https://en.wikipedia.org/wiki/Parallel_ATA
 
+http://electronut.in/attiny10-hello/
+
+http://www.hobbyking.com/hobbyking/store/__26136__Turnigy_DLUX_LIPO_Battery_Cell_Display_and_Balancer_2S_6S_.html
+
+https://www.youtube.com/watch?v=EnanV3dLPJ0
 
 #Copyright
 This file is part of PatchRap.

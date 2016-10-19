@@ -11,7 +11,6 @@ C 61800 63300 1 0 0 generic-power.sym
 T 62000 63550 5 10 1 1 0 3 1
 net=Vsys:1
 }
-N 62000 63300 62300 63300 4
 C 61300 63100 1 0 0 vee-1.sym
 N 62300 63100 61500 63100 4
 C 62100 62900 1 90 1 Vext.sym
@@ -62,7 +61,7 @@ C 62000 54100 1 0 0 analog-sys.sym
 T 62300 58300 5 10 1 1 0 0 1
 device=ANALOG
 T 63100 58100 5 10 1 1 0 0 1
-refdes=X?
+refdes=X2
 }
 C 62000 56900 1 180 0 io-1.sym
 {
@@ -96,7 +95,7 @@ C 57500 57500 1 0 0 injector-sys.sym
 T 57800 61200 5 10 1 1 0 0 1
 device=INJECTOR
 T 58600 60900 5 10 1 1 0 0 1
-refdes=X?
+refdes=X1
 }
 C 57500 59900 1 90 0 vee-1.sym
 C 57000 60400 1 0 0 generic-power.sym
@@ -158,3 +157,4 @@ net=PWMd:1
 T 56600 58000 5 10 1 1 180 1 1
 value=IO
 }
+N 62000 63300 62300 63300 4

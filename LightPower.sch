@@ -82,15 +82,6 @@ N 52600 61300 54800 61300 4
 N 52600 64800 54700 64800 4
 C 59700 64400 1 270 1 gnd-1.sym
 C 59700 59400 1 270 1 gnd-1.sym
-T 48000 56200 9 10 1 0 0 0 8
-Regenerative UPS or float battery may be
-applied to either side. Use caution employing
-Lithium batteries under float voltage . At
-minimum, voltage must be maintained within
-(2.7V<Vcell<4.2) including hysteresis.
-Recommend (3V<Vcell<4V).
-
-Protection circuitry is necessary.
 C 60000 65200 1 90 0 vee-1.sym
 C 60000 60200 1 90 0 vee-1.sym
 C 52800 62900 1 90 1 diode-3.sym

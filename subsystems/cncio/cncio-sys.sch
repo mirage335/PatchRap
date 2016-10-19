@@ -43,11 +43,6 @@ N 59300 50300 59800 50300 4
 N 59300 52300 59900 52300 4
 N 59300 51100 59800 51100 4
 C 59300 52500 1 90 0 vee-1.sym
-C 59100 53100 1 0 0 generic-power.sym
-{
-T 59300 53350 5 10 1 1 0 3 1
-net=Vsys:1
-}
 T 60300 52200 9 10 1 0 0 0 8
 3 / 1 - Vsys
 3 \\ 2 - pGND
@@ -691,4 +686,9 @@ T 59300 49500 5 10 0 0 0 0 1
 kitting=other
 T 59300 49500 5 10 0 0 0 0 1
 kitting_d=not known to be available in machine usable format
+}
+C 59100 53100 1 0 0 generic-power.sym
+{
+T 59300 53350 5 10 1 1 0 3 1
+net=Vsys:1
 }
