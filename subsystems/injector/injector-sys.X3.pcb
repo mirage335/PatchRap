@@ -808,7 +808,7 @@ Via[1240.00mil 3030.00mil 60.00mil 20.00mil 0.0000 35.00mil "" ""]
 Via[1140.00mil 2750.00mil 60.00mil 20.00mil 0.0000 35.00mil "" ""]
 Via[1390.00mil 2550.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
 
-Element["onsolder" "0201" "J2" "-" 1475.00mil 67.6100mm -31.50mil -31.50mil 1 100 "auto"]
+Element["onsolder" "0201" "X3/J2" "-" 1475.00mil 67.6100mm -31.50mil -31.50mil 1 100 "auto"]
 (
 	Attribute("device" "JUMPER")
 	Attribute("manufacturer" "unknown")
@@ -820,7 +820,7 @@ Element["onsolder" "0201" "J2" "-" 1475.00mil 67.6100mm -31.50mil -31.50mil 1 10
 
 	)
 
-Element["hidename,onsolder" "SparkGapPCB" "X1/T1" "2kV" 1500.00mil 3195.00mil 0.0000 0.0000 2 100 "auto"]
+Element["hidename,onsolder" "SparkGapPCB" "X3/X1/T1" "2kV" 1500.00mil 3195.00mil 0.0000 0.0000 2 100 "auto"]
 (
 	Attribute("device" "SparkGap")
 	Attribute("manufacturer" "unknown")
@@ -855,7 +855,7 @@ Element["hidename,onsolder" "SparkGapPCB" "X1/T1" "2kV" 1500.00mil 3195.00mil 0.
 
 	)
 
-Element["hidename,onsolder" "SparkGapPCB" "X1/T3" "2kV" 1524.50mil 3068.00mil 0.0000 0.0000 2 100 "auto"]
+Element["hidename,onsolder" "SparkGapPCB" "X3/X1/T3" "2kV" 1524.50mil 3068.00mil 0.0000 0.0000 2 100 "auto"]
 (
 	Attribute("device" "SparkGap")
 	Attribute("manufacturer" "unknown")
@@ -890,7 +890,7 @@ Element["hidename,onsolder" "SparkGapPCB" "X1/T3" "2kV" 1524.50mil 3068.00mil 0.
 
 	)
 
-Element["hidename,onsolder" "MSOP10" "X1/U1" "unknown" 1635.00mil 3062.00mil -9.00mil -53.00mil 3 100 "auto"]
+Element["hidename,onsolder" "MSOP10" "X3/X1/U1" "unknown" 1635.00mil 3062.00mil -9.00mil -53.00mil 3 100 "auto"]
 (
 	Attribute("device" "Suppressor")
 	Attribute("manufacturer" "unknown")
@@ -916,7 +916,7 @@ Element["hidename,onsolder" "MSOP10" "X1/U1" "unknown" 1635.00mil 3062.00mil -9.
 
 	)
 
-Element["" "eth_571-1734795-1" "X1/GEN" "-" 1400.00mil 75.8150mm -230.00mil -100.00mil 3 100 ""]
+Element["" "eth_571-1734795-1" "X3/X1/GEN" "-" 1400.00mil 75.8150mm -230.00mil -100.00mil 3 100 ""]
 (
 	Attribute("device" "CONNECTOR_9")
 	Attribute("manufacturer" "unknown")
@@ -970,7 +970,7 @@ Element["" "eth_571-1734795-1" "X1/GEN" "-" 1400.00mil 75.8150mm -230.00mil -100
 
 	)
 
-Element["hidename,onsolder" "SparkGapPCB" "X1/T2" "2kV" 1515.00mil 3131.00mil 0.0000 0.0000 2 100 "auto"]
+Element["hidename,onsolder" "SparkGapPCB" "X3/X1/T2" "2kV" 1515.00mil 3131.00mil 0.0000 0.0000 2 100 "auto"]
 (
 	Attribute("device" "SparkGap")
 	Attribute("manufacturer" "unknown")
@@ -1005,7 +1005,7 @@ Element["hidename,onsolder" "SparkGapPCB" "X1/T2" "2kV" 1515.00mil 3131.00mil 0.
 
 	)
 
-Element["hidename,onsolder" "SparkGapPCB" "X1/T4" "2kV" 1523.50mil 3011.00mil 0.0000 0.0000 2 100 "auto"]
+Element["hidename,onsolder" "SparkGapPCB" "X3/X1/T4" "2kV" 1523.50mil 3011.00mil 0.0000 0.0000 2 100 "auto"]
 (
 	Attribute("device" "SparkGap")
 	Attribute("manufacturer" "unknown")
@@ -1040,7 +1040,7 @@ Element["hidename,onsolder" "SparkGapPCB" "X1/T4" "2kV" 1523.50mil 3011.00mil 0.
 
 	)
 
-Element["hidename,onsolder" "SparkGapPCB" "X1/T5" "2kV" 1520.00mil 2956.00mil 0.0000 0.0000 2 100 "auto"]
+Element["hidename,onsolder" "SparkGapPCB" "X3/X1/T5" "2kV" 1520.00mil 2956.00mil 0.0000 0.0000 2 100 "auto"]
 (
 	Attribute("device" "SparkGap")
 	Attribute("manufacturer" "unknown")
@@ -1075,7 +1075,7 @@ Element["hidename,onsolder" "SparkGapPCB" "X1/T5" "2kV" 1520.00mil 2956.00mil 0.
 
 	)
 
-Element["hidename,onsolder" "SparkGapPCB" "X1/T6" "2kV" 1513.50mil 2891.00mil 0.0000 0.0000 2 100 "auto"]
+Element["hidename,onsolder" "SparkGapPCB" "X3/X1/T6" "2kV" 1513.50mil 2891.00mil 0.0000 0.0000 2 100 "auto"]
 (
 	Attribute("device" "SparkGap")
 	Attribute("manufacturer" "unknown")
@@ -1110,7 +1110,7 @@ Element["hidename,onsolder" "SparkGapPCB" "X1/T6" "2kV" 1513.50mil 2891.00mil 0.
 
 	)
 
-Element["hidename,onsolder" "SparkGapPCB" "X1/T7" "2kV" 1533.50mil 2828.00mil 0.0000 0.0000 2 100 "auto"]
+Element["hidename,onsolder" "SparkGapPCB" "X3/X1/T7" "2kV" 1533.50mil 2828.00mil 0.0000 0.0000 2 100 "auto"]
 (
 	Attribute("device" "SparkGap")
 	Attribute("manufacturer" "unknown")
@@ -1145,7 +1145,7 @@ Element["hidename,onsolder" "SparkGapPCB" "X1/T7" "2kV" 1533.50mil 2828.00mil 0.
 
 	)
 
-Element["hidename,onsolder" "0402" "X1/C1" "4.7uF" 40.0238mm 3120.00mil 26.50mil 58.50mil 2 100 "auto"]
+Element["hidename,onsolder" "0402" "X3/X1/C1" "4.7uF" 40.0238mm 3120.00mil 26.50mil 58.50mil 2 100 "auto"]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1157,7 +1157,7 @@ Element["hidename,onsolder" "0402" "X1/C1" "4.7uF" 40.0238mm 3120.00mil 26.50mil
 
 	)
 
-Element["hidename,onsolder" "0201" "X1/J2" "-" 38.6890mm 3095.00mil 16.50mil 118.50mil 2 100 "auto"]
+Element["hidename,onsolder" "0201" "X3/X1/J2" "-" 38.6890mm 3095.00mil 16.50mil 118.50mil 2 100 "auto"]
 (
 	Attribute("device" "JUMPER")
 	Attribute("manufacturer" "unknown")
@@ -1169,7 +1169,7 @@ Element["hidename,onsolder" "0201" "X1/J2" "-" 38.6890mm 3095.00mil 16.50mil 118
 
 	)
 
-Element["hidename,onsolder" "0402" "X1/C2" "4.7uF" 1675.00mil 77.5782mm 0.76mil 3.1557mm 2 100 "auto"]
+Element["hidename,onsolder" "0402" "X3/X1/C2" "4.7uF" 1675.00mil 77.5782mm 0.76mil 3.1557mm 2 100 "auto"]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1181,7 +1181,7 @@ Element["hidename,onsolder" "0402" "X1/C2" "4.7uF" 1675.00mil 77.5782mm 0.76mil 
 
 	)
 
-Element["hidename,onsolder" "0201" "X1/J1" "-" 1305.00mil 78.6590mm -31.50mil -71.50mil 1 100 "auto"]
+Element["hidename,onsolder" "0201" "X3/X1/J1" "-" 1305.00mil 78.6590mm -31.50mil -71.50mil 1 100 "auto"]
 (
 	Attribute("device" "JUMPER")
 	Attribute("manufacturer" "unknown")
@@ -1193,7 +1193,7 @@ Element["hidename,onsolder" "0201" "X1/J1" "-" 1305.00mil 78.6590mm -31.50mil -7
 
 	)
 
-Element["hidename" "JUMPER6" "REG" "-" 1650.00mil 1275.00mil 50.00mil 110.00mil 2 100 ""]
+Element["hidename" "JUMPER6" "X3/REG" "-" 1650.00mil 1275.00mil 50.00mil 110.00mil 2 100 ""]
 (
 	Attribute("device" "CONNECTOR_6")
 	Attribute("manufacturer" "unknown")
@@ -1215,7 +1215,7 @@ Element["hidename" "JUMPER6" "REG" "-" 1650.00mil 1275.00mil 50.00mil 110.00mil 
 
 	)
 
-Element["hidename,onsolder" "0201" "J1" "-" 37.7650mm 900.00mil -31.50mil 31.50mil 0 100 "auto"]
+Element["hidename,onsolder" "0201" "X3/J1" "-" 37.7650mm 900.00mil -31.50mil 31.50mil 0 100 "auto"]
 (
 	Attribute("device" "JUMPER")
 	Attribute("manufacturer" "unknown")
@@ -1227,7 +1227,7 @@ Element["hidename,onsolder" "0201" "J1" "-" 37.7650mm 900.00mil -31.50mil 31.50m
 
 	)
 
-Element["hidename,onsolder" "SMD_DIODE 60 30" "D1" "0.4V" 1525.00mil 965.00mil 50.00mil 25.00mil 1 100 "auto"]
+Element["hidename,onsolder" "SMD_DIODE 60 30" "X3/D1" "0.4V" 1525.00mil 965.00mil 50.00mil 25.00mil 1 100 "auto"]
 (
 	Attribute("device" "DIODE")
 	Attribute("manufacturer" "unknown")
@@ -1244,7 +1244,7 @@ Element["hidename,onsolder" "SMD_DIODE 60 30" "D1" "0.4V" 1525.00mil 965.00mil 5
 
 	)
 
-Element["hidename,onsolder" "SMD_DIODE 60 30" "D2" "0.4V" 1525.00mil 835.00mil -50.00mil -25.00mil 3 100 "auto"]
+Element["hidename,onsolder" "SMD_DIODE 60 30" "X3/D2" "0.4V" 1525.00mil 835.00mil -50.00mil -25.00mil 3 100 "auto"]
 (
 	Attribute("device" "DIODE")
 	Attribute("manufacturer" "unknown")
@@ -1261,7 +1261,7 @@ Element["hidename,onsolder" "SMD_DIODE 60 30" "D2" "0.4V" 1525.00mil 835.00mil -
 
 	)
 
-Element["" "eth_571-1734795-1" "PSU" "-" 1400.00mil 22.6100mm -225.00mil -50.00mil 3 100 ""]
+Element["" "eth_571-1734795-1" "X3/PSU" "-" 1400.00mil 22.6100mm -225.00mil -50.00mil 3 100 ""]
 (
 	Attribute("device" "CONNECTOR_9")
 	Attribute("manufacturer" "unknown")
@@ -1315,7 +1315,7 @@ Element["" "eth_571-1734795-1" "PSU" "-" 1400.00mil 22.6100mm -225.00mil -50.00m
 
 	)
 
-Element["" "XT60" "Vsys4" "60A" 38.9500mm 2475.00mil 0.0000 0.0000 2 100 ""]
+Element["" "XT60" "X3/Vsys4" "60A" 38.9500mm 2475.00mil 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "CONNECTOR_2")
 	Attribute("manufacturer" "unknown")
@@ -1336,7 +1336,7 @@ Element["" "XT60" "Vsys4" "60A" 38.9500mm 2475.00mil 0.0000 0.0000 2 100 ""]
 
 	)
 
-Element["" "XT60" "Vsys1" "60A" 38.9500mm 1515.00mil 0.0000 0.0000 2 100 ""]
+Element["" "XT60" "X3/Vsys1" "60A" 38.9500mm 1515.00mil 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "CONNECTOR_2")
 	Attribute("manufacturer" "unknown")
@@ -1357,7 +1357,7 @@ Element["" "XT60" "Vsys1" "60A" 38.9500mm 1515.00mil 0.0000 0.0000 2 100 ""]
 
 	)
 
-Element["" "XT60" "Vsys2" "60A" 38.9500mm 1835.00mil 0.0000 0.0000 2 100 ""]
+Element["" "XT60" "X3/Vsys2" "60A" 38.9500mm 1835.00mil 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "CONNECTOR_2")
 	Attribute("manufacturer" "unknown")
@@ -1378,7 +1378,7 @@ Element["" "XT60" "Vsys2" "60A" 38.9500mm 1835.00mil 0.0000 0.0000 2 100 ""]
 
 	)
 
-Element["" "XT60" "Vsys3" "60A" 38.9500mm 2155.00mil 0.0000 0.0000 2 100 ""]
+Element["" "XT60" "X3/Vsys3" "60A" 38.9500mm 2155.00mil 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "CONNECTOR_2")
 	Attribute("manufacturer" "unknown")
@@ -1399,7 +1399,7 @@ Element["" "XT60" "Vsys3" "60A" 38.9500mm 2155.00mil 0.0000 0.0000 2 100 ""]
 
 	)
 
-Element["hidename" "0201" "X2/J2" "-" 49.8300mm 2600.00mil 31.50mil 31.50mil 2 100 ""]
+Element["hidename" "0201" "X3/X2/J2" "-" 49.8300mm 2600.00mil 31.50mil 31.50mil 2 100 ""]
 (
 	Attribute("device" "JUMPER")
 	Attribute("manufacturer" "unknown")
@@ -1411,7 +1411,7 @@ Element["hidename" "0201" "X2/J2" "-" 49.8300mm 2600.00mil 31.50mil 31.50mil 2 1
 
 	)
 
-Element["hidename" "HEADER4_1" "X2/PWR2" "-" 3600.00mil 2475.00mil -50.00mil -50.00mil 3 100 ""]
+Element["hidename" "HEADER4_1" "X3/X2/PWR2" "-" 3600.00mil 2475.00mil -50.00mil -50.00mil 3 100 ""]
 (
 	Attribute("device" "CONNECTOR_4")
 	Attribute("manufacturer" "unknown")
@@ -1431,7 +1431,7 @@ Element["hidename" "HEADER4_1" "X2/PWR2" "-" 3600.00mil 2475.00mil -50.00mil -50
 
 	)
 
-Element["hidename,onsolder" "0201" "X2/J1" "-" 47.9600mm 2600.00mil 31.50mil -31.50mil 2 100 "auto"]
+Element["hidename,onsolder" "0201" "X3/X2/J1" "-" 47.9600mm 2600.00mil 31.50mil -31.50mil 2 100 "auto"]
 (
 	Attribute("device" "JUMPER")
 	Attribute("manufacturer" "unknown")
@@ -1443,7 +1443,7 @@ Element["hidename,onsolder" "0201" "X2/J1" "-" 47.9600mm 2600.00mil 31.50mil -31
 
 	)
 
-Element["hidename" "HEADER4_1" "X2/PWR1" "-" 1825.00mil 2475.00mil -50.00mil -50.00mil 3 100 ""]
+Element["hidename" "HEADER4_1" "X3/X2/PWR1" "-" 1825.00mil 2475.00mil -50.00mil -50.00mil 3 100 ""]
 (
 	Attribute("device" "CONNECTOR_4")
 	Attribute("manufacturer" "unknown")
