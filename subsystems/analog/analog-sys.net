@@ -1,0 +1,6 @@
+PWMa	AIO2-1 PWMa-1 
+PWMd	J1-1 PWMd-1 
+SigAlt	AIO3-1 SigAlt-1 
+SigM	SigP-1 SigM-1 J2-2 
+SigP	AIO1-1 
+SigGND	AIO2-2 AIO3-2 J1-2 sGND-1 J2-1 L1-1 L1-2 AIO1-2 

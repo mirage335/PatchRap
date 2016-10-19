@@ -4,13 +4,33 @@ C 43600 57000 1 0 1 BNC-1.sym
 T 43250 57650 5 10 0 0 0 6 1
 device=BNC
 T 43600 57000 5 10 0 0 0 6 1
-description=$1.74 MOUSER 737-RF1-01-P-00-50
+description=$1.32 MOUSER 571-1-1337543-0
 T 43600 57000 5 10 0 0 0 6 1
 footprint=BNC_LAY
 T 43600 57000 5 10 0 0 0 6 1
 value=-
 T 43700 57700 5 10 1 1 0 6 1
 refdes=AIO1
+T 43600 57000 5 10 0 0 0 0 1
+cost=1.32
+T 43600 57000 5 10 0 0 0 0 1
+mfr=TE Connectivity / AMP
+T 43600 57000 5 10 0 0 0 0 1
+mfrpn=1-1337543-0
+T 43600 57000 5 10 0 0 0 0 1
+dst=Mouser
+T 43600 57000 5 10 0 0 0 0 1
+dstpn=571-1-1337543-0
+T 43600 57000 5 10 0 0 0 0 1
+link=http://www.mouser.com/ds/2/418/NG_DS_6-1773448-5_ZDC_RF_COAX_50-75_OHM_1007-577044.pdf
+T 43600 57000 5 10 0 0 0 0 1
+link_page=4
+T 43600 57000 5 10 0 0 0 0 1
+supplier=c
+T 43600 57000 5 10 0 2 0 0 1
+kitting=other
+T 43600 57000 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
 }
 C 43100 57600 1 180 0 io-1.sym
 {
@@ -20,19 +40,6 @@ T 42200 57400 5 10 1 0 180 0 1
 net=SigP:1
 T 42200 57500 5 10 1 1 180 1 1
 value=IO
-}
-C 43600 58500 1 0 1 BNC-1.sym
-{
-T 43250 59150 5 10 0 0 0 6 1
-device=BNC
-T 43600 58500 5 10 0 0 0 6 1
-description=$1.74 MOUSER 737-RF1-01-P-00-50
-T 43600 58500 5 10 0 0 0 6 1
-footprint=BNC_LAY
-T 43600 58500 5 10 0 0 0 6 1
-value=-
-T 43700 59200 5 10 1 1 0 6 1
-refdes=AIO1
 }
 C 43400 58200 1 0 0 gnd-1.sym
 C 43100 59100 1 180 0 io-1.sym
@@ -53,20 +60,6 @@ net=PWMa:1
 T 42100 54000 5 10 1 1 180 1 1
 value=IO
 }
-C 43500 53500 1 0 1 BNC-1.sym
-{
-T 43150 54150 5 10 0 0 0 6 1
-device=BNC
-T 43500 53500 5 10 0 0 0 6 1
-description=$1.74 MOUSER 737-RF1-01-P-00-50
-T 43500 53500 5 10 0 0 0 6 1
-footprint=BNC_LAY
-T 43500 53500 5 10 0 0 0 6 1
-value=-
-T 43600 54200 5 10 1 1 0 6 1
-refdes=AIO1
-}
-C 43300 53200 1 0 0 gnd-1.sym
 C 43500 56000 1 90 1 inductor-1.sym
 {
 T 43000 55800 5 10 0 0 270 2 1
@@ -80,7 +73,7 @@ footprint_alt=0603
 T 43500 56000 5 10 0 0 0 6 1
 description=$0.23 MOUSER 710-742792095
 T 43500 56000 5 10 0 0 0 6 1
-footprint_enabled=0805
+footprint=0805
 T 43500 56000 5 10 0 0 0 6 1
 cost=0.23
 T 43500 56000 5 10 0 0 0 6 1
@@ -99,14 +92,8 @@ T 43500 56000 5 10 0 0 0 6 1
 supplier=c
 T 43500 56000 5 10 0 0 0 6 1
 kitting=tape-no-leader
-T 43500 56000 5 10 0 0 0 6 1
-footprint=none
-T 43500 56000 5 10 0 0 0 6 1
-nobom=true
-T 43500 56000 5 10 0 0 0 6 1
-noplace=true
 T 43400 55900 5 10 1 1 270 2 1
-refdes=L2
+refdes=L1
 T 43500 55700 5 10 1 1 270 2 1
 value=10Ohm
 }
@@ -126,7 +113,7 @@ nobom=true
 T 43400 56100 5 10 0 0 0 6 1
 noplace=true
 T 43000 56100 5 10 1 1 270 2 1
-refdes=J1
+refdes=J2
 }
 C 42400 56100 1 180 0 io-1.sym
 {
@@ -268,3 +255,78 @@ T 38300 53700 5 10 1 1 0 2 1
 refdes=J1
 }
 C 38300 52800 1 0 0 gnd-1.sym
+C 43600 58500 1 0 1 BNC-1.sym
+{
+T 43250 59150 5 10 0 0 0 6 1
+device=BNC
+T 43600 58500 5 10 0 0 0 6 1
+description=$1.32 MOUSER 571-1-1337543-0
+T 43600 58500 5 10 0 0 0 6 1
+footprint=BNC_LAY
+T 43600 58500 5 10 0 0 0 6 1
+value=-
+T 43700 59200 5 10 1 1 0 6 1
+refdes=AIO3
+T 43600 58500 5 10 0 0 0 0 1
+cost=1.32
+T 43600 58500 5 10 0 0 0 0 1
+mfr=TE Connectivity / AMP
+T 43600 58500 5 10 0 0 0 0 1
+mfrpn=1-1337543-0
+T 43600 58500 5 10 0 0 0 0 1
+dst=Mouser
+T 43600 58500 5 10 0 0 0 0 1
+dstpn=571-1-1337543-0
+T 43600 58500 5 10 0 0 0 0 1
+link=http://www.mouser.com/ds/2/418/NG_DS_6-1773448-5_ZDC_RF_COAX_50-75_OHM_1007-577044.pdf
+T 43600 58500 5 10 0 0 0 0 1
+link_page=4
+T 43600 58500 5 10 0 0 0 0 1
+supplier=c
+T 43600 58500 5 10 0 2 0 0 1
+kitting=other
+T 43600 58500 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+}
+C 43500 53500 1 0 1 BNC-1.sym
+{
+T 43150 54150 5 10 0 0 0 6 1
+device=BNC
+T 43500 53500 5 10 0 0 0 6 1
+description=$1.32 MOUSER 571-1-1337543-0
+T 43500 53500 5 10 0 0 0 6 1
+footprint=BNC_LAY
+T 43500 53500 5 10 0 0 0 6 1
+value=-
+T 43600 54200 5 10 1 1 0 6 1
+refdes=AIO2
+T 43500 53500 5 10 0 0 0 0 1
+cost=1.32
+T 43500 53500 5 10 0 0 0 0 1
+mfr=TE Connectivity / AMP
+T 43500 53500 5 10 0 0 0 0 1
+mfrpn=1-1337543-0
+T 43500 53500 5 10 0 0 0 0 1
+dst=Mouser
+T 43500 53500 5 10 0 0 0 0 1
+dstpn=571-1-1337543-0
+T 43500 53500 5 10 0 0 0 0 1
+link=http://www.mouser.com/ds/2/418/NG_DS_6-1773448-5_ZDC_RF_COAX_50-75_OHM_1007-577044.pdf
+T 43500 53500 5 10 0 0 0 0 1
+link_page=4
+T 43500 53500 5 10 0 0 0 0 1
+supplier=c
+T 43500 53500 5 10 0 2 0 0 1
+kitting=other
+T 43500 53500 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+}
+C 42200 53300 1 180 0 io-1.sym
+{
+T 42000 52700 5 10 0 0 180 0 1
+device=none
+T 41300 53100 5 10 1 0 180 0 1
+net=PWMd:1
+T 41300 53200 5 10 1 1 180 1 1
+value=IO
+}
