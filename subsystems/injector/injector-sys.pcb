@@ -1255,7 +1255,7 @@ Element["hidename" "HEADER4_1" "X2/PWR2" "-" 3600.00mil 2725.00mil -50.00mil -50
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square"]
 	Pin[0.0000 100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" ""]
-	Pin[100.00mil 100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "3" "3" ""]
+	Pin[100.00mil 100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "3" "3" "thermal(0X,5X)"]
 	Pin[100.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "4" "4" ""]
 	ElementLine [-50.00mil -50.00mil -50.00mil 150.00mil 10.00mil]
 	ElementLine [-50.00mil 150.00mil 150.00mil 150.00mil 10.00mil]
@@ -1449,6 +1449,18 @@ Element["" "XT60" "Vsys3" "60A" 38.9500mm 2155.00mil 0.0000 0.0000 2 100 ""]
 	ElementLine [-11.4000mm 0.0000 4.3000mm 0.0000 10.00mil]
 
 	)
+
+Element["hidename" "0201" "X2/J2" "-" 49.8300mm 2850.00mil 31.50mil 31.50mil 2 100 ""]
+(
+	Attribute("device" "JUMPER")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[11.81mil 0.0000 11.81mil 0.0000 15.74mil 20.00mil 21.74mil "1" "1" "square,edge2"]
+	Pad[-11.81mil 0.0000 -11.81mil 0.0000 15.74mil 20.00mil 21.74mil "2" "2" "square"]
+
+	)
 Layer(1 "top")
 (
 	Line[1825.00mil 2725.00mil 1825.00mil 2825.00mil 25.00mil 20.00mil "clearline"]
@@ -1508,9 +1520,6 @@ Layer(1 "top")
 	Line[1680.00mil 2660.00mil 1680.00mil 50.3310mm 25.00mil 20.00mil "clearline"]
 	Line[1680.00mil 50.3310mm 38.9500mm 1835.00mil 25.00mil 20.00mil "clearline"]
 	Line[1995.00mil 2725.00mil 1975.00mil 2745.00mil 10.00mil 20.00mil "clearline"]
-	Line[1975.00mil 2745.00mil 1975.00mil 2855.00mil 10.00mil 20.00mil "clearline"]
-	Line[1975.00mil 2855.00mil 1955.00mil 2875.00mil 10.00mil 20.00mil "clearline"]
-	Line[1955.00mil 2875.00mil 1795.00mil 2875.00mil 10.00mil 20.00mil "clearline"]
 	Line[1795.00mil 2875.00mil 1775.00mil 2855.00mil 10.00mil 20.00mil "clearline"]
 	Line[1775.00mil 2855.00mil 1775.00mil 2820.00mil 10.00mil 20.00mil "clearline"]
 	Line[1775.00mil 2820.00mil 1760.00mil 2805.00mil 10.00mil 20.00mil "clearline"]
@@ -1535,6 +1544,9 @@ Layer(1 "top")
 	Line[1250.00mil 2475.00mil 1250.00mil 2535.00mil 25.00mil 20.00mil ""]
 	Line[1140.00mil 2645.00mil 1250.00mil 2535.00mil 25.00mil 20.00mil ""]
 	Line[1760.00mil 2805.00mil 1715.00mil 2805.00mil 10.00mil 20.00mil "clearline"]
+	Line[1975.00mil 2745.00mil 1975.00mil 2865.00mil 10.00mil 20.00mil "clearline"]
+	Line[1975.00mil 2865.00mil 1965.00mil 2875.00mil 10.00mil 20.00mil "clearline"]
+	Line[1795.00mil 2875.00mil 1965.00mil 2875.00mil 10.00mil 20.00mil "clearline"]
 	Polygon("clearpoly,fullpoly")
 	(
 		[1695.00mil 2665.00mil] [1695.00mil 3305.00mil] [1105.00mil 3305.00mil] [1105.00mil 2665.00mil] 
@@ -1546,6 +1558,10 @@ Layer(1 "top")
 	Polygon("clearpoly,fullpoly")
 	(
 		[1110.00mil 575.00mil] [1695.00mil 575.00mil] [1695.00mil 2655.00mil] [1110.00mil 2655.00mil] 
+	)
+	Polygon("clearpoly,fullpoly")
+	(
+		[3750.00mil 2675.00mil] [1775.00mil 2675.00mil] [1775.00mil 2875.00mil] [3750.00mil 2875.00mil] 
 	)
 )
 Layer(2 "ground")
@@ -1677,11 +1693,11 @@ Layer(6 "bottom")
 	Line[1875.00mil 2825.00mil 1875.00mil 2800.00mil 25.00mil 20.00mil "clearline"]
 	Line[1875.00mil 2800.00mil 1850.00mil 2775.00mil 25.00mil 20.00mil "clearline"]
 	Line[3700.00mil 2825.00mil 3700.00mil 2725.00mil 25.00mil 20.00mil "clearline"]
-	Line[3700.00mil 2825.00mil 3650.00mil 2775.00mil 25.00mil 20.00mil "clearline"]
-	Line[3650.00mil 2775.00mil 3555.00mil 2775.00mil 25.00mil 20.00mil "clearline"]
-	Line[3555.00mil 2775.00mil 3505.00mil 2725.00mil 25.00mil 20.00mil "clearline"]
-	Line[3505.00mil 2725.00mil 2020.00mil 2725.00mil 25.00mil 20.00mil "clearline"]
-	Line[2020.00mil 2725.00mil 1995.00mil 2725.00mil 10.00mil 20.00mil "clearline"]
+	Line[3700.00mil 2825.00mil 3650.00mil 2775.00mil 25.00mil 20.00mil ""]
+	Line[3650.00mil 2775.00mil 3555.00mil 2775.00mil 25.00mil 20.00mil ""]
+	Line[3555.00mil 2775.00mil 3505.00mil 2725.00mil 25.00mil 20.00mil ""]
+	Line[3505.00mil 2725.00mil 2020.00mil 2725.00mil 25.00mil 20.00mil ""]
+	Line[2020.00mil 2725.00mil 1995.00mil 2725.00mil 10.00mil 20.00mil ""]
 	Line[1250.00mil 1515.00mil 1250.00mil 2475.00mil 40.00mil 20.00mil "clearline"]
 	Line[32.5510mm 39.2820mm 1250.00mil 1515.00mil 40.00mil 20.00mil "clearline"]
 	Line[30.7730mm 39.4580mm 1250.00mil 1515.00mil 40.00mil 20.00mil "clearline"]
@@ -1785,9 +1801,6 @@ Layer(6 "bottom")
 	Line[1680.00mil 2625.00mil 1660.00mil 2605.00mil 25.00mil 20.00mil ""]
 	Line[1660.00mil 2605.00mil 1630.00mil 2605.00mil 25.00mil 20.00mil ""]
 	Line[1995.00mil 2725.00mil 1975.00mil 2745.00mil 10.00mil 20.00mil "clearline"]
-	Line[1975.00mil 2745.00mil 1975.00mil 2855.00mil 10.00mil 20.00mil "clearline"]
-	Line[1975.00mil 2855.00mil 1955.00mil 2875.00mil 10.00mil 20.00mil "clearline"]
-	Line[1955.00mil 2875.00mil 1795.00mil 2875.00mil 10.00mil 20.00mil "clearline"]
 	Line[1795.00mil 2875.00mil 1775.00mil 2855.00mil 10.00mil 20.00mil "clearline"]
 	Line[1672.50mil 2762.50mil 1437.50mil 2762.50mil 10.00mil 20.00mil ""]
 	Line[1437.50mil 2762.50mil 1400.00mil 2725.00mil 10.00mil 20.00mil "clearline"]
@@ -1827,6 +1840,9 @@ Layer(6 "bottom")
 	Line[1715.00mil 2855.00mil 1710.00mil 2850.00mil 10.00mil 20.00mil "clearline"]
 	Line[1710.00mil 2850.00mil 1710.00mil 2800.00mil 10.00mil 20.00mil "clearline"]
 	Line[1710.00mil 2800.00mil 1672.50mil 2762.50mil 10.00mil 20.00mil "clearline"]
+	Line[1975.00mil 2745.00mil 1975.00mil 2865.00mil 10.00mil 20.00mil "clearline"]
+	Line[1975.00mil 2865.00mil 1965.00mil 2875.00mil 10.00mil 20.00mil "clearline"]
+	Line[1795.00mil 2875.00mil 1965.00mil 2875.00mil 10.00mil 20.00mil "clearline"]
 	Polygon("clearpoly,fullpoly")
 	(
 		[1695.00mil 2665.00mil] [1695.00mil 3305.00mil] [1105.00mil 3305.00mil] [1105.00mil 2665.00mil] 
@@ -1838,6 +1854,10 @@ Layer(6 "bottom")
 	Polygon("clearpoly,fullpoly")
 	(
 		[1110.00mil 575.00mil] [1695.00mil 575.00mil] [1695.00mil 2655.00mil] [1110.00mil 2655.00mil] 
+	)
+	Polygon("clearpoly,fullpoly")
+	(
+		[3750.00mil 2675.00mil] [1775.00mil 2675.00mil] [1775.00mil 2875.00mil] [3750.00mil 2875.00mil] 
 	)
 )
 Layer(7 "outline")
@@ -1944,6 +1964,7 @@ NetList()
 		Connect("X1/U1-4")
 		Connect("X2/J1-1")
 		Connect("X2/J1-2")
+		Connect("X2/J2-2")
 		Connect("X2/PWR1-3")
 		Connect("X2/PWR1-4")
 	)
@@ -1957,6 +1978,7 @@ NetList()
 		Connect("X1/GEN-3")
 		Connect("X1/T3-1")
 		Connect("X1/U1-1")
+		Connect("X2/J2-1")
 		Connect("X2/PWR2-1")
 		Connect("X2/PWR2-2")
 	)

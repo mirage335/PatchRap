@@ -788,7 +788,7 @@ Symbol['~' 12.00mil]
 Attribute("PCB::grid::unit" "mil")
 Attribute("PCB::grid::size" "25.00mil")
 
-Element["" "HEADER4_1" "X1/PWR1" "-" 600.00mil 200.00mil -50.00mil -50.00mil 3 100 ""]
+Element["hidename" "HEADER4_1" "X1/PWR1" "-" 600.00mil 200.00mil -50.00mil -50.00mil 3 100 ""]
 (
 	Attribute("device" "CONNECTOR_4")
 	Attribute("manufacturer" "unknown")
@@ -808,7 +808,7 @@ Element["" "HEADER4_1" "X1/PWR1" "-" 600.00mil 200.00mil -50.00mil -50.00mil 3 1
 
 	)
 
-Element["onsolder" "0201" "X1/J1" "-" 16.8450mm 325.00mil 31.50mil -31.50mil 2 100 "auto"]
+Element["hidename,onsolder" "0201" "X1/J1" "-" 16.8450mm 325.00mil 31.50mil -31.50mil 2 100 "auto"]
 (
 	Attribute("device" "JUMPER")
 	Attribute("manufacturer" "unknown")
@@ -820,7 +820,7 @@ Element["onsolder" "0201" "X1/J1" "-" 16.8450mm 325.00mil 31.50mil -31.50mil 2 1
 
 	)
 
-Element["" "HEADER4_1" "X1/PWR2" "-" 2375.00mil 200.00mil -50.00mil -50.00mil 3 100 ""]
+Element["hidename" "HEADER4_1" "X1/PWR2" "-" 2375.00mil 200.00mil -50.00mil -50.00mil 3 100 ""]
 (
 	Attribute("device" "CONNECTOR_4")
 	Attribute("manufacturer" "unknown")
@@ -839,9 +839,23 @@ Element["" "HEADER4_1" "X1/PWR2" "-" 2375.00mil 200.00mil -50.00mil -50.00mil 3 
 	ElementLine [50.00mil 50.00mil 50.00mil -50.00mil 10.00mil]
 
 	)
+
+Element["hidename" "0201" "X1/J2" "-" 18.7150mm 325.00mil -31.50mil -31.50mil 0 100 ""]
+(
+	Attribute("device" "JUMPER")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-11.81mil 0.0000 -11.81mil 0.0000 15.74mil 20.00mil 21.74mil "1" "1" "square"]
+	Pad[11.81mil 0.0000 11.81mil 0.0000 15.74mil 20.00mil 21.74mil "2" "2" "square,edge2"]
+
+	)
+Rat[725.00mil 325.00mil 5 2475.00mil 300.00mil 5  ""]
 Rat[2475.00mil 300.00mil 5 2475.00mil 200.00mil 5  ""]
-Rat[675.00mil 325.00mil 5 651.38mil 325.00mil 5  ""]
+Rat[675.00mil 325.00mil 5 16.5450mm 325.00mil 5  ""]
 Rat[700.00mil 300.00mil 5 700.00mil 200.00mil 5  ""]
+Rat[675.00mil 325.00mil 5 748.62mil 325.00mil 5  ""]
 Rat[2375.00mil 200.00mil 5 2375.00mil 300.00mil 5  ""]
 Rat[600.00mil 200.00mil 5 600.00mil 300.00mil 5  ""]
 Layer(1 "top")
@@ -882,6 +896,7 @@ NetList()
 (
 	Net("GND" "(unknown)")
 	(
+		Connect("J2-1")
 		Connect("PWR2-3")
 		Connect("PWR2-4")
 		Connect("sGND-1")
@@ -890,6 +905,7 @@ NetList()
 	(
 		Connect("J1-1")
 		Connect("J1-2")
+		Connect("J2-2")
 		Connect("pGND-sGND-1")
 		Connect("PWR1-3")
 		Connect("PWR1-4")

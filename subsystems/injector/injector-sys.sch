@@ -582,36 +582,3 @@ kitting=other
 T 51900 65200 5 10 0 0 0 0 1
 kitting_d=not known to be available in machine usable format
 }
-C 56800 68500 1 0 0 connector8-2.sym
-{
-T 57100 72150 5 10 0 0 0 0 1
-device=CONNECTOR_8
-T 57100 72350 5 10 0 0 0 0 1
-footprint=JUMPER6
-T 56800 68500 5 10 0 0 0 0 1
-value=-
-T 56800 68500 5 10 0 0 0 0 1
-description=$0.21 MOUSER 571-6404556
-T 56800 68500 5 10 0 0 0 0 1
-cost=0.21
-T 56800 68500 5 10 0 0 0 0 1
-mfr=TE Connectivity
-T 56800 68500 5 10 0 0 0 0 1
-mfrpn=640455-6
-T 56800 68500 5 10 0 0 0 0 1
-dst=Mouser
-T 56800 68500 5 10 0 0 0 0 1
-dstpn=571-6404556
-T 56800 68500 5 10 0 0 0 0 1
-link=http://www.mouser.com/ds/2/418/NG_DS_82056_MTA_0708-815240.pdf
-T 56800 68500 5 10 0 0 0 0 1
-link_page=23
-T 56800 68500 5 10 0 0 0 0 1
-supplier=c
-T 56800 68500 5 10 0 0 0 0 1
-kitting=other
-T 56800 68500 5 10 0 0 0 0 1
-kitting_d=not known to be available in machine usable format
-T 57500 72200 5 10 1 1 0 6 1
-refdes=REG
-}
