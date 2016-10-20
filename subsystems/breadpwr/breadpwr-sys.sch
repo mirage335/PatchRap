@@ -167,3 +167,95 @@ C 42300 54700 1 90 0 Vext.sym
 T 42000 54700 5 10 0 1 90 0 1
 device=Vext
 }
+C 43300 52600 1 90 0 header10-1.sym
+{
+T 41300 52600 5 10 0 1 90 0 1
+device=HEADER10
+T 41200 53200 5 10 1 1 90 0 1
+refdes=H1
+T 43300 52600 5 10 0 0 0 0 1
+footprint=HEADER10_2
+T 43300 52600 5 10 0 0 0 0 1
+value=-
+T 43300 52600 5 10 0 0 0 0 1
+description=$0.31 MOUSER 855-M20-9760546
+T 43300 52600 5 10 0 0 0 0 1
+cost=0.31
+T 43300 52600 5 10 0 0 0 0 1
+mfr=Harwin
+T 43300 52600 5 10 0 0 0 0 1
+mfrpn=M20-9760546
+T 43300 52600 5 10 0 0 0 0 1
+dst=Mouser
+T 43300 52600 5 10 0 0 0 0 1
+dstpn=855-M20-9760546
+T 43300 52600 5 10 0 0 0 0 1
+link=http://www.mouser.com/ds/2/181/M20-976-350030.pdf
+T 43300 52600 5 10 0 0 0 0 1
+link_page=1
+T 43300 52600 5 10 0 0 0 0 1
+supplier=c
+T 43300 52600 5 10 0 0 0 0 1
+kitting=other
+T 43300 52600 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+T 43300 52600 5 10 0 0 0 0 1
+nationality=UK
+}
+C 46000 52300 1 0 0 gnd-1.sym
+C 45600 52300 1 0 0 gnd-1.sym
+C 45200 52300 1 0 0 gnd-1.sym
+C 44800 52300 1 0 0 gnd-1.sym
+C 44400 52300 1 0 0 gnd-1.sym
+C 43000 52300 1 0 0 gnd-1.sym
+C 42600 52300 1 0 0 gnd-1.sym
+C 42200 52300 1 0 0 gnd-1.sym
+C 41800 52300 1 0 0 gnd-1.sym
+C 41400 52300 1 0 0 gnd-1.sym
+C 44600 54300 1 180 0 gnd-1.sym
+C 45000 54300 1 180 0 gnd-1.sym
+C 45400 54300 1 180 0 gnd-1.sym
+C 45800 54300 1 180 0 gnd-1.sym
+C 46200 54300 1 180 0 gnd-1.sym
+C 41600 54300 1 180 0 gnd-1.sym
+C 42000 54300 1 180 0 gnd-1.sym
+C 42400 54300 1 180 0 gnd-1.sym
+C 42800 54300 1 180 0 gnd-1.sym
+C 43200 54300 1 180 0 gnd-1.sym
+T 46500 52900 9 10 1 0 0 0 1
+Mechanical supports.
+C 46300 52600 1 90 0 header10-1.sym
+{
+T 44300 52600 5 10 0 1 90 0 1
+device=HEADER10
+T 44200 53200 5 10 1 1 90 0 1
+refdes=H2
+T 46300 52600 5 10 0 0 0 0 1
+footprint=HEADER10_2
+T 46300 52600 5 10 0 0 0 0 1
+value=-
+T 46300 52600 5 10 0 0 0 0 1
+description=$0.31 MOUSER 855-M20-9760546
+T 46300 52600 5 10 0 0 0 0 1
+cost=0.31
+T 46300 52600 5 10 0 0 0 0 1
+mfr=Harwin
+T 46300 52600 5 10 0 0 0 0 1
+mfrpn=M20-9760546
+T 46300 52600 5 10 0 0 0 0 1
+dst=Mouser
+T 46300 52600 5 10 0 0 0 0 1
+dstpn=855-M20-9760546
+T 46300 52600 5 10 0 0 0 0 1
+link=http://www.mouser.com/ds/2/181/M20-976-350030.pdf
+T 46300 52600 5 10 0 0 0 0 1
+link_page=1
+T 46300 52600 5 10 0 0 0 0 1
+supplier=c
+T 46300 52600 5 10 0 0 0 0 1
+kitting=other
+T 46300 52600 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+T 46300 52600 5 10 0 0 0 0 1
+nationality=UK
+}
