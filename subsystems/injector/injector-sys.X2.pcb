@@ -1462,17 +1462,65 @@ Element["onsolder" "0201" "X2/J2" "-" 1480.00mil 2650.00mil -31.50mil -31.50mil 
 	Pad[0.0000 11.81mil 0.0000 11.81mil 15.74mil 20.00mil 21.74mil "2" "2" "onsolder,square"]
 
 	)
+
+Element["" "HEADER10_2" "X2/X2/H2" "-" 2910.00mil 2575.00mil -50.00mil -210.00mil 0 100 ""]
+(
+	Attribute("device" "HEADER10")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square,edge2,thermal(0X,5X)"]
+	Pin[0.0000 -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" "edge2,thermal(0X,5X)"]
+	Pin[100.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "3" "3" "edge2,thermal(0X,5X)"]
+	Pin[100.00mil -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "4" "4" "edge2,thermal(0X,5X)"]
+	Pin[200.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "5" "5" "edge2,thermal(0X,5X)"]
+	Pin[200.00mil -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "6" "6" "edge2,thermal(0X,5X)"]
+	Pin[300.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "7" "7" "edge2,thermal(0X,5X)"]
+	Pin[300.00mil -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "8" "8" "edge2,thermal(0X,5X)"]
+	Pin[400.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "9" "9" "edge2,thermal(0X,5X)"]
+	Pin[400.00mil -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "10" "10" "edge2,thermal(0X,5X)"]
+	ElementLine [-50.00mil 50.00mil 450.00mil 50.00mil 10.00mil]
+	ElementLine [450.00mil -150.00mil 450.00mil 50.00mil 10.00mil]
+	ElementLine [-50.00mil -150.00mil 450.00mil -150.00mil 10.00mil]
+	ElementLine [-50.00mil -150.00mil -50.00mil 50.00mil 10.00mil]
+	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil 50.00mil -50.00mil 10.00mil]
+
+	)
+
+Element["" "HEADER10_2" "X2/X2/H1" "-" 2215.00mil 2575.00mil -50.00mil -210.00mil 0 100 ""]
+(
+	Attribute("device" "HEADER10")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square,edge2,thermal(0X,5X)"]
+	Pin[0.0000 -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" "edge2,thermal(0X,5X)"]
+	Pin[100.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "3" "3" "edge2,thermal(0X,5X)"]
+	Pin[100.00mil -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "4" "4" "edge2,thermal(0X,5X)"]
+	Pin[200.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "5" "5" "edge2,thermal(0X,5X)"]
+	Pin[200.00mil -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "6" "6" "edge2,thermal(0X,5X)"]
+	Pin[300.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "7" "7" "edge2,thermal(0X,5X)"]
+	Pin[300.00mil -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "8" "8" "edge2,thermal(0X,5X)"]
+	Pin[400.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "9" "9" "edge2,thermal(0X,5X)"]
+	Pin[400.00mil -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "10" "10" "edge2,thermal(0X,5X)"]
+	ElementLine [-50.00mil 50.00mil 450.00mil 50.00mil 10.00mil]
+	ElementLine [450.00mil -150.00mil 450.00mil 50.00mil 10.00mil]
+	ElementLine [-50.00mil -150.00mil 450.00mil -150.00mil 10.00mil]
+	ElementLine [-50.00mil -150.00mil -50.00mil 50.00mil 10.00mil]
+	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil 50.00mil -50.00mil 10.00mil]
+
+	)
 Layer(1 "top")
 (
 	Line[1795.00mil 2625.00mil 1965.00mil 2625.00mil 10.00mil 20.00mil "clearline"]
 	Line[1975.00mil 2615.00mil 1965.00mil 2625.00mil 10.00mil 20.00mil "clearline"]
-	Line[1975.00mil 2495.00mil 1975.00mil 2615.00mil 10.00mil 20.00mil "clearline"]
 	Line[1775.00mil 2605.00mil 1775.00mil 2570.00mil 10.00mil 20.00mil "clearline"]
 	Line[1795.00mil 2625.00mil 1775.00mil 2605.00mil 10.00mil 20.00mil "clearline"]
-	Line[1995.00mil 2475.00mil 1975.00mil 2495.00mil 10.00mil 20.00mil "clearline"]
 	Line[1825.00mil 2475.00mil 1790.00mil 2440.00mil 25.00mil 20.00mil "clearline"]
-	Line[2020.00mil 2475.00mil 1995.00mil 2475.00mil 10.00mil 20.00mil "clearline"]
-	Line[3600.00mil 2475.00mil 2020.00mil 2475.00mil 25.00mil 20.00mil "clearline"]
 	Line[3600.00mil 2575.00mil 3600.00mil 2475.00mil 25.00mil 20.00mil "clearline"]
 	Line[1825.00mil 2475.00mil 1825.00mil 2575.00mil 25.00mil 20.00mil "clearline"]
 	Line[1755.00mil 2550.00mil 1775.00mil 2570.00mil 10.00mil 20.00mil "clearline"]
@@ -1563,6 +1611,11 @@ Layer(1 "top")
 	Line[1440.00mil 2440.00mil 1410.00mil 2440.00mil 25.00mil 20.00mil ""]
 	Line[1340.00mil 2440.00mil 1310.00mil 2440.00mil 25.00mil 20.00mil ""]
 	Line[1310.00mil 2440.00mil 1275.00mil 2475.00mil 25.00mil 20.00mil ""]
+	Line[1975.00mil 2615.00mil 1975.00mil 66.0750mm 10.00mil 20.00mil "clearline"]
+	Line[1975.00mil 66.0750mm 50.1300mm 2600.00mil 10.00mil 20.00mil "clearline"]
+	Line[50.1300mm 2600.00mil 50.1300mm 64.8050mm 10.00mil 20.00mil "clearline"]
+	Line[50.1300mm 64.8050mm 2000.00mil 2525.00mil 10.00mil 20.00mil "clearline"]
+	Line[2000.00mil 2525.00mil 3600.00mil 2525.00mil 25.00mil 20.00mil "clearline"]
 	Polygon("clearpoly,fullpoly")
 	(
 		[3750.00mil 2425.00mil] [1775.00mil 2425.00mil] [1775.00mil 2625.00mil] [3750.00mil 2625.00mil] 
@@ -1600,13 +1653,7 @@ Layer(6 "bottom")
 (
 	Line[1795.00mil 2625.00mil 1965.00mil 2625.00mil 10.00mil 20.00mil "clearline"]
 	Line[1975.00mil 2615.00mil 1965.00mil 2625.00mil 10.00mil 20.00mil "clearline"]
-	Line[1975.00mil 2495.00mil 1975.00mil 2615.00mil 10.00mil 20.00mil "clearline"]
 	Line[1795.00mil 2625.00mil 1775.00mil 2605.00mil 10.00mil 20.00mil "clearline"]
-	Line[1995.00mil 2475.00mil 1975.00mil 2495.00mil 10.00mil 20.00mil "clearline"]
-	Line[2020.00mil 2475.00mil 1995.00mil 2475.00mil 10.00mil 20.00mil ""]
-	Line[3505.00mil 2475.00mil 2020.00mil 2475.00mil 25.00mil 20.00mil ""]
-	Line[3555.00mil 2525.00mil 3505.00mil 2475.00mil 25.00mil 20.00mil ""]
-	Line[3650.00mil 2525.00mil 3555.00mil 2525.00mil 25.00mil 20.00mil ""]
 	Line[3700.00mil 2575.00mil 3650.00mil 2525.00mil 25.00mil 20.00mil ""]
 	Line[3700.00mil 2575.00mil 3700.00mil 2475.00mil 25.00mil 20.00mil "clearline"]
 	Line[1875.00mil 2550.00mil 1850.00mil 2525.00mil 25.00mil 20.00mil "clearline"]
@@ -1847,6 +1894,11 @@ Layer(6 "bottom")
 	Line[1239.00mil 2441.00mil 1209.00mil 2441.00mil 25.00mil 20.00mil "clearline"]
 	Line[1209.00mil 2441.00mil 1175.00mil 2475.00mil 25.00mil 20.00mil "clearline"]
 	Line[1295.00mil 2590.00mil 1615.00mil 2590.00mil 25.00mil 20.00mil ""]
+	Line[1975.00mil 2615.00mil 1975.00mil 66.0750mm 10.00mil 20.00mil "clearline"]
+	Line[1975.00mil 66.0750mm 50.1300mm 2600.00mil 10.00mil 20.00mil "clearline"]
+	Line[3650.00mil 2525.00mil 2005.00mil 2525.00mil 25.00mil 20.00mil ""]
+	Line[50.1300mm 2600.00mil 50.1300mm 64.8050mm 10.00mil 20.00mil "clearline"]
+	Line[50.1300mm 64.8050mm 2000.00mil 2525.00mil 10.00mil 20.00mil "clearline"]
 	Polygon("clearpoly,fullpoly")
 	(
 		[3750.00mil 2425.00mil] [1775.00mil 2425.00mil] [1775.00mil 2625.00mil] [3750.00mil 2625.00mil] 
@@ -1919,6 +1971,26 @@ NetList()
 		Connect("X1/T7-2")
 		Connect("X1/U1-5")
 		Connect("X1/U1-6")
+		Connect("X2/H1-1")
+		Connect("X2/H1-2")
+		Connect("X2/H1-3")
+		Connect("X2/H1-4")
+		Connect("X2/H1-5")
+		Connect("X2/H1-6")
+		Connect("X2/H1-7")
+		Connect("X2/H1-8")
+		Connect("X2/H1-9")
+		Connect("X2/H1-10")
+		Connect("X2/H2-1")
+		Connect("X2/H2-2")
+		Connect("X2/H2-3")
+		Connect("X2/H2-4")
+		Connect("X2/H2-5")
+		Connect("X2/H2-6")
+		Connect("X2/H2-7")
+		Connect("X2/H2-8")
+		Connect("X2/H2-9")
+		Connect("X2/H2-10")
 		Connect("X2/PWR2-3")
 		Connect("X2/PWR2-4")
 	)

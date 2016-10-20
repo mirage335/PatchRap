@@ -185,7 +185,7 @@ C 38500 57000 1 180 1 io-1.sym
 T 38700 56400 5 10 0 0 180 6 1
 device=none
 T 39400 56800 5 10 1 0 180 6 1
-net=SigM:1
+net=SigP:1
 T 39400 56900 5 10 1 1 180 7 1
 value=IO
 }
@@ -321,12 +321,12 @@ kitting=other
 T 43500 53500 5 10 0 0 0 0 1
 kitting_d=not known to be available in machine usable format
 }
-C 42200 53300 1 180 0 io-1.sym
+C 43400 53600 1 180 0 io-1.sym
 {
-T 42000 52700 5 10 0 0 180 0 1
+T 43200 53000 5 10 0 0 180 0 1
 device=none
-T 41300 53100 5 10 1 0 180 0 1
+T 42500 53400 5 10 1 0 180 0 1
 net=PWMd:1
-T 41300 53200 5 10 1 1 180 1 1
+T 42500 53500 5 10 1 1 180 1 1
 value=IO
 }
