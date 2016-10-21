@@ -654,41 +654,88 @@ device=INPUT
 T 64700 55400 5 10 1 1 0 0 1
 refdes=PWMa
 }
-C 59300 49500 1 0 0 connector9-2.sym
-{
-T 59600 53550 5 10 0 0 0 0 1
-device=CONNECTOR_9
-T 59300 49500 5 10 0 0 0 0 1
-footprint=eth_571-1734795-1
-T 59300 49500 5 10 0 0 0 0 1
-value=-
-T 59300 49500 5 10 0 0 0 0 1
-description=$0.95 MOUSER 571-1734795-1
-T 60000 53600 5 10 1 1 0 6 1
-refdes=STEP
-T 59300 49500 5 10 0 0 0 0 1
-cost=0.95
-T 59300 49500 5 10 0 0 0 0 1
-mfr=TE Connectivity
-T 59300 49500 5 10 0 0 0 0 1
-mfrpn=1734795-1
-T 59300 49500 5 10 0 0 0 0 1
-dst=Mouser
-T 59300 49500 5 10 0 0 0 0 1
-dstpn=571-1734795-1
-T 59300 49500 5 10 0 0 0 0 1
-link=http://www.mouser.com/ds/2/418/NG_CD_1734795_E_C_1734795_E-658761.pdf
-T 59300 49500 5 10 0 0 0 0 1
-link_page=1
-T 59300 49500 5 10 0 0 0 0 1
-supplier=c
-T 59300 49500 5 10 0 0 0 0 1
-kitting=other
-T 59300 49500 5 10 0 0 0 0 1
-kitting_d=not known to be available in machine usable format
-}
 C 59100 53100 1 0 0 generic-power.sym
 {
 T 59300 53350 5 10 1 1 0 3 1
 net=Vsys:1
 }
+C 59300 47900 1 0 0 connector13-2.sym
+{
+T 60000 53600 5 10 1 1 0 6 1
+refdes=STEP
+T 59600 53550 5 10 0 0 0 0 1
+device=CONNECTOR_13
+T 59600 53750 5 10 0 0 0 0 1
+footprint=eth_571-1734795-1
+T 59300 47900 5 10 0 0 0 0 1
+value=-
+T 59300 47900 5 10 0 0 0 0 1
+description=$0.95 MOUSER 571-1734795-1
+T 59300 47900 5 10 0 0 0 0 1
+cost=0.95
+T 59300 47900 5 10 0 0 0 0 1
+mfr=TE Connectivity
+T 59300 47900 5 10 0 0 0 0 1
+mfrpn=1734795-1
+T 59300 47900 5 10 0 0 0 0 1
+mfrpn_alt=1-1734795-1
+T 59300 47900 5 10 0 0 0 0 1
+dst=Mouser
+T 59300 47900 5 10 0 0 0 0 1
+dstpn=571-1734795-1
+T 59300 47900 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/418/NG_CD_1734795_E_C_1734795_E-658761.pdf
+T 59300 47900 5 10 0 0 0 0 1
+link_page=1
+T 59300 47900 5 10 0 0 0 0 1
+supplier=c
+T 59300 47900 5 10 0 0 0 0 1
+kitting=other
+T 59300 47900 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+}
+C 57000 49400 1 0 0 input-2.sym
+{
+T 57600 50100 5 10 0 0 0 0 1
+device=none
+T 57000 49600 5 10 1 0 0 0 1
+net=Ap:1
+T 57500 49500 5 10 1 1 0 7 1
+value=INPUT
+}
+N 59300 49100 59300 48700 4
+C 59300 48700 1 90 0 vee-1.sym
+N 59900 49500 59900 48300 4
+N 59900 48300 59300 48300 4
+C 58400 49400 1 0 0 resistor-1.sym
+{
+T 58700 49800 5 10 0 0 0 0 1
+device=RESISTOR
+T 58400 49400 5 10 0 0 270 0 1
+footprint=0805
+T 58400 49400 5 10 0 0 270 0 1
+description=$0.148 MOUSER 71-CRCW08052K20JNEAH
+T 58800 49400 5 10 1 1 0 0 1
+value=2.2k
+T 59000 49300 5 10 1 1 0 0 1
+refdes=R1
+T 58400 49400 5 10 0 0 0 0 1
+cost=0.148
+T 58400 49400 5 10 0 0 0 0 1
+mfr=Vishay / Dale
+T 58400 49400 5 10 0 0 0 0 1
+mfrpn=CRCW08052K20JNEAHP
+T 58400 49400 5 10 0 0 0 0 1
+dst=Mouser
+T 58400 49400 5 10 0 0 0 0 1
+dstpn=71-CRCW08052K20JNEAH
+T 58400 49400 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/427/crcwhpe3-46056.pdf
+T 58400 49400 5 10 0 0 0 0 1
+link_page=9
+T 58400 49400 5 10 0 0 0 0 1
+supplier=c
+T 58400 49400 5 10 0 0 0 0 1
+kitting=tape-no-leader
+}
+N 59900 49500 59300 49500 4

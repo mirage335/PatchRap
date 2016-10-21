@@ -36,39 +36,6 @@ supplier=c
 T 43600 51700 5 10 0 0 0 0 1
 kitting=tape-no-leader
 }
-C 40300 49000 1 0 0 connector9-2.sym
-{
-T 40600 53050 5 10 0 0 0 0 1
-device=CONNECTOR_9
-T 40300 49000 5 10 0 0 0 0 1
-footprint=eth_571-1734795-1
-T 40300 49000 5 10 0 0 0 0 1
-value=-
-T 40300 49000 5 10 0 0 0 0 1
-description=$0.95 MOUSER 571-1734795-1
-T 41000 53100 5 10 1 1 0 6 1
-refdes=GEN
-T 40300 49000 5 10 0 0 0 0 1
-cost=0.95
-T 40300 49000 5 10 0 0 0 0 1
-mfr=TE Connectivity
-T 40300 49000 5 10 0 0 0 0 1
-mfrpn=1734795-1
-T 40300 49000 5 10 0 0 0 0 1
-dst=Mouser
-T 40300 49000 5 10 0 0 0 0 1
-dstpn=571-1734795-1
-T 40300 49000 5 10 0 0 0 0 1
-link=http://www.mouser.com/ds/2/418/NG_CD_1734795_E_C_1734795_E-658761.pdf
-T 40300 49000 5 10 0 0 0 0 1
-link_page=1
-T 40300 49000 5 10 0 0 0 0 1
-supplier=c
-T 40300 49000 5 10 0 0 0 0 1
-kitting=other
-T 40300 49000 5 10 0 0 0 0 1
-kitting_d=not known to be available in machine usable format
-}
 N 40300 51400 47000 51400 4
 N 40300 49800 47000 49800 4
 N 40300 50200 47000 50200 4
@@ -435,14 +402,138 @@ T 39900 52100 5 10 1 1 90 0 1
 refdes=J1
 }
 C 46700 50500 1 270 1 gnd-1.sym
-T 37300 51100 9 10 1 0 0 0 4
+T 36900 51100 9 10 1 0 0 0 4
 If pGND-sGND is connected to
 ground, netlists will show this
 jumper shorted, effectively setting
 minimum impedance grounding.
 N 45700 51600 45700 51800 4
 N 45300 51600 45300 52200 4
-T 37300 52500 9 10 1 0 0 0 3
+T 36900 52500 9 10 1 0 0 0 3
 Vext capacitor should be omitted if
 any downstream peripherials are to
 sink Vext current to pGND.
+C 40300 47400 1 0 0 connector13-2.sym
+{
+T 41000 53100 5 10 1 1 0 6 1
+refdes=GEN
+T 40600 53050 5 10 0 0 0 0 1
+device=CONNECTOR_13
+T 40600 53250 5 10 0 0 0 0 1
+footprint=eth_571-1734795-1
+T 40300 47400 5 10 0 0 0 0 1
+value=-
+T 40300 47400 5 10 0 0 0 0 1
+description=$0.95 MOUSER 571-1734795-1
+T 40300 47400 5 10 0 0 0 0 1
+cost=0.95
+T 40300 47400 5 10 0 0 0 0 1
+mfr=TE Connectivity
+T 40300 47400 5 10 0 0 0 0 1
+mfrpn=1734795-1
+T 40300 47400 5 10 0 0 0 0 1
+mfrpn_alt=1-1734795-1
+T 40300 47400 5 10 0 0 0 0 1
+dst=Mouser
+T 40300 47400 5 10 0 0 0 0 1
+dstpn=571-1734795-1
+T 40300 47400 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/418/NG_CD_1734795_E_C_1734795_E-658761.pdf
+T 40300 47400 5 10 0 0 0 0 1
+link_page=1
+T 40300 47400 5 10 0 0 0 0 1
+supplier=c
+T 40300 47400 5 10 0 0 0 0 1
+kitting=other
+T 40300 47400 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+}
+C 40200 51700 1 90 0 vee-1.sym
+N 40200 51900 40300 51900 4
+N 40300 51900 40300 52200 4
+C 40300 48800 1 90 0 vee-1.sym
+C 40000 48300 1 270 0 gnd-1.sym
+C 39400 48500 1 0 0 resistor-1.sym
+{
+T 39700 48900 5 10 0 0 0 0 1
+device=RESISTOR
+T 39400 48500 5 10 0 0 270 0 1
+footprint=0805
+T 39400 48500 5 10 0 0 270 0 1
+description=$0.148 MOUSER 71-CRCW08052K20JNEAH
+T 39800 48500 5 10 1 1 0 0 1
+value=2.2k
+T 40000 48400 5 10 1 1 0 0 1
+refdes=R1
+T 39400 48500 5 10 0 0 0 0 1
+cost=0.148
+T 39400 48500 5 10 0 0 0 0 1
+mfr=Vishay / Dale
+T 39400 48500 5 10 0 0 0 0 1
+mfrpn=CRCW08052K20JNEAHP
+T 39400 48500 5 10 0 0 0 0 1
+dst=Mouser
+T 39400 48500 5 10 0 0 0 0 1
+dstpn=71-CRCW08052K20JNEAH
+T 39400 48500 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/427/crcwhpe3-46056.pdf
+T 39400 48500 5 10 0 0 0 0 1
+link_page=9
+T 39400 48500 5 10 0 0 0 0 1
+supplier=c
+T 39400 48500 5 10 0 0 0 0 1
+kitting=tape-no-leader
+}
+C 40500 52600 1 0 1 generic-power.sym
+{
+T 40300 52850 5 10 1 1 0 3 1
+net=Vsys:1
+}
+C 40000 51500 1 90 0 Vext.sym
+{
+T 39700 51500 5 10 0 1 90 0 1
+device=Vext
+}
+N 40000 51700 40300 51700 4
+N 40300 51700 40300 51800 4
+C 39400 47600 1 90 0 Vext.sym
+{
+T 39100 47600 5 10 0 1 90 0 1
+device=Vext
+}
+C 39400 48800 1 90 1 generic-power.sym
+{
+T 39150 48600 5 10 1 1 90 3 1
+net=Vsys:1
+}
+C 39400 47700 1 0 0 resistor-1.sym
+{
+T 39700 48100 5 10 0 0 0 0 1
+device=RESISTOR
+T 39400 47700 5 10 0 0 270 0 1
+footprint=0805
+T 39400 47700 5 10 0 0 270 0 1
+description=$0.148 MOUSER 71-CRCW08052K20JNEAH
+T 39800 47700 5 10 1 1 0 0 1
+value=2.2k
+T 40000 47600 5 10 1 1 0 0 1
+refdes=R2
+T 39400 47700 5 10 0 0 0 0 1
+cost=0.148
+T 39400 47700 5 10 0 0 0 0 1
+mfr=Vishay / Dale
+T 39400 47700 5 10 0 0 0 0 1
+mfrpn=CRCW08052K20JNEAHP
+T 39400 47700 5 10 0 0 0 0 1
+dst=Mouser
+T 39400 47700 5 10 0 0 0 0 1
+dstpn=71-CRCW08052K20JNEAH
+T 39400 47700 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/427/crcwhpe3-46056.pdf
+T 39400 47700 5 10 0 0 0 0 1
+link_page=9
+T 39400 47700 5 10 0 0 0 0 1
+supplier=c
+T 39400 47700 5 10 0 0 0 0 1
+kitting=tape-no-leader
+}

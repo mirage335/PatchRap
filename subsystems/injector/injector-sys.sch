@@ -225,25 +225,25 @@ C 48800 62500 1 90 0 vee-1.sym
 C 51600 61000 1 90 0 vee-1.sym
 C 51300 60200 1 270 1 gnd-1.sym
 C 48500 60800 1 270 1 gnd-1.sym
-C 43400 58800 1 90 1 jumper-1.sym
+C 43600 56700 1 90 1 jumper-1.sym
 {
-T 42900 58500 5 8 0 0 270 2 1
+T 43100 56400 5 8 0 0 270 2 1
 device=JUMPER
-T 43400 58800 5 10 0 0 180 6 1
+T 43600 56700 5 10 0 0 180 6 1
 footprint=0201
-T 43400 58800 5 10 0 0 180 6 1
+T 43600 56700 5 10 0 0 180 6 1
 description=-
-T 43400 58800 5 10 0 0 180 6 1
+T 43600 56700 5 10 0 0 180 6 1
 value=-
-T 43400 58800 5 10 0 0 0 6 1
+T 43600 56700 5 10 0 0 0 6 1
 nobom=true
-T 43400 58800 5 10 0 0 0 6 1
+T 43600 56700 5 10 0 0 0 6 1
 noplace=true
-T 43000 58800 5 10 1 1 270 2 1
+T 43200 56700 5 10 1 1 270 2 1
 refdes=J2
 }
-C 42100 58600 1 270 1 gnd-1.sym
-C 43400 58900 1 270 0 vee-1.sym
+C 42300 56500 1 270 1 gnd-1.sym
+C 43600 56800 1 270 0 vee-1.sym
 T 50600 63500 9 10 1 0 0 0 4
 Jumpers for pGND/sGND binding should
 be bridged if necessary and appropriate,
@@ -361,39 +361,6 @@ T 50900 62500 9 10 1 0 0 0 2
 Connect to breadboard power rails.
 Ideally should be a breakable extension.
 L 48200 63700 41000 63700 3 0 0 0 -1 -1
-C 44300 58900 1 0 0 connector9-2.sym
-{
-T 44600 62950 5 10 0 0 0 0 1
-device=CONNECTOR_9
-T 44300 58900 5 10 0 0 0 0 1
-footprint=eth_571-1734795-1
-T 44300 58900 5 10 0 0 0 0 1
-value=-
-T 44300 58900 5 10 0 0 0 0 1
-description=$0.95 MOUSER 571-1734795-1
-T 45000 63000 5 10 1 1 0 6 1
-refdes=PSU
-T 44300 58900 5 10 0 0 0 0 1
-cost=0.95
-T 44300 58900 5 10 0 0 0 0 1
-mfr=TE Connectivity
-T 44300 58900 5 10 0 0 0 0 1
-mfrpn=1734795-1
-T 44300 58900 5 10 0 0 0 0 1
-dst=Mouser
-T 44300 58900 5 10 0 0 0 0 1
-dstpn=571-1734795-1
-T 44300 58900 5 10 0 0 0 0 1
-link=http://www.mouser.com/ds/2/418/NG_CD_1734795_E_C_1734795_E-658761.pdf
-T 44300 58900 5 10 0 0 0 0 1
-link_page=1
-T 44300 58900 5 10 0 0 0 0 1
-supplier=c
-T 44300 58900 5 10 0 0 0 0 1
-kitting=other
-T 44300 58900 5 10 0 0 0 0 1
-kitting_d=not known to be available in machine usable format
-}
 C 47500 65000 1 0 1 connector2-2.sym
 {
 T 47200 66250 5 10 0 0 0 6 1
@@ -582,3 +549,112 @@ kitting=other
 T 51900 65200 5 10 0 0 0 0 1
 kitting_d=not known to be available in machine usable format
 }
+C 44300 57300 1 0 0 connector13-2.sym
+{
+T 45000 63000 5 10 1 1 0 6 1
+refdes=PSU
+T 44600 62950 5 10 0 0 0 0 1
+device=CONNECTOR_13
+T 44600 63150 5 10 0 0 0 0 1
+footprint=eth_571-1734795-1
+T 44300 57300 5 10 0 0 0 0 1
+value=-
+T 44300 57300 5 10 0 0 0 0 1
+description=$0.95 MOUSER 571-1734795-1
+T 44300 57300 5 10 0 0 0 0 1
+cost=0.95
+T 44300 57300 5 10 0 0 0 0 1
+mfr=TE Connectivity
+T 44300 57300 5 10 0 0 0 0 1
+mfrpn=1734795-1
+T 44300 57300 5 10 0 0 0 0 1
+mfrpn_alt=1-1734795-1
+T 44300 57300 5 10 0 0 0 0 1
+dst=Mouser
+T 44300 57300 5 10 0 0 0 0 1
+dstpn=571-1734795-1
+T 44300 57300 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/418/NG_CD_1734795_E_C_1734795_E-658761.pdf
+T 44300 57300 5 10 0 0 0 0 1
+link_page=1
+T 44300 57300 5 10 0 0 0 0 1
+supplier=c
+T 44300 57300 5 10 0 0 0 0 1
+kitting=other
+T 44300 57300 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+}
+C 43400 58400 1 0 0 resistor-1.sym
+{
+T 43700 58800 5 10 0 0 0 0 1
+device=RESISTOR
+T 43400 58400 5 10 0 0 270 0 1
+footprint=0805
+T 43400 58400 5 10 0 0 270 0 1
+description=$0.148 MOUSER 71-CRCW08052K20JNEAH
+T 43800 58400 5 10 1 1 0 0 1
+value=2.2k
+T 44000 58300 5 10 1 1 0 0 1
+refdes=R1
+T 43400 58400 5 10 0 0 0 0 1
+cost=0.148
+T 43400 58400 5 10 0 0 0 0 1
+mfr=Vishay / Dale
+T 43400 58400 5 10 0 0 0 0 1
+mfrpn=CRCW08052K20JNEAHP
+T 43400 58400 5 10 0 0 0 0 1
+dst=Mouser
+T 43400 58400 5 10 0 0 0 0 1
+dstpn=71-CRCW08052K20JNEAH
+T 43400 58400 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/427/crcwhpe3-46056.pdf
+T 43400 58400 5 10 0 0 0 0 1
+link_page=9
+T 43400 58400 5 10 0 0 0 0 1
+supplier=c
+T 43400 58400 5 10 0 0 0 0 1
+kitting=tape-no-leader
+}
+C 43400 57600 1 0 0 resistor-1.sym
+{
+T 43700 58000 5 10 0 0 0 0 1
+device=RESISTOR
+T 43400 57600 5 10 0 0 270 0 1
+footprint=0805
+T 43400 57600 5 10 0 0 270 0 1
+description=$0.148 MOUSER 71-CRCW08052K20JNEAH
+T 43800 57600 5 10 1 1 0 0 1
+value=2.2k
+T 44000 57500 5 10 1 1 0 0 1
+refdes=R2
+T 43400 57600 5 10 0 0 0 0 1
+cost=0.148
+T 43400 57600 5 10 0 0 0 0 1
+mfr=Vishay / Dale
+T 43400 57600 5 10 0 0 0 0 1
+mfrpn=CRCW08052K20JNEAHP
+T 43400 57600 5 10 0 0 0 0 1
+dst=Mouser
+T 43400 57600 5 10 0 0 0 0 1
+dstpn=71-CRCW08052K20JNEAH
+T 43400 57600 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/427/crcwhpe3-46056.pdf
+T 43400 57600 5 10 0 0 0 0 1
+link_page=9
+T 43400 57600 5 10 0 0 0 0 1
+supplier=c
+T 43400 57600 5 10 0 0 0 0 1
+kitting=tape-no-leader
+}
+C 43400 57500 1 90 0 Vext.sym
+{
+T 43100 57500 5 10 0 1 90 0 1
+device=Vext
+}
+C 43400 58700 1 90 1 generic-power.sym
+{
+T 43150 58500 5 10 1 1 90 3 1
+net=Vsys:1
+}
+C 44300 58700 1 90 0 vee-1.sym
+C 44300 57900 1 90 0 vee-1.sym
