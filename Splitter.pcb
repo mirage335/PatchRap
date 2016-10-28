@@ -1276,7 +1276,7 @@ Element["" "eth_571-1734795-1" "X1/ETH1" "-" 350.00mil 28.9600mm -230.00mil -55.
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[6.6000mm -4.4500mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "12" "12" "thermal(5X)"]
+	Pin[6.6000mm -4.4500mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "12" "12" ""]
 	Pin[6.6000mm 4.4500mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "11" "11" ""]
 	Pin[6.6000mm -7.0000mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "13" "13" ""]
 	Pin[6.6000mm 7.0000mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "10" "10" ""]
@@ -1756,7 +1756,7 @@ Element["" "eth_571-1734795-1" "X2/ETH1" "-" 1450.00mil 28.9600mm 230.00mil 55.0
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[-6.6000mm 4.4500mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "12" "12" "thermal(5X)"]
+	Pin[-6.6000mm 4.4500mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "12" "12" ""]
 	Pin[-6.6000mm -4.4500mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "11" "11" ""]
 	Pin[-6.6000mm 7.0000mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "13" "13" ""]
 	Pin[-6.6000mm -7.0000mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "10" "10" ""]
@@ -2236,7 +2236,7 @@ Element["" "eth_571-1734795-1" "X4/ETH1" "-" 350.00mil 9.6560mm -230.00mil -55.0
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[6.6000mm -4.4500mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "12" "12" "thermal(5X)"]
+	Pin[6.6000mm -4.4500mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "12" "12" ""]
 	Pin[6.6000mm 4.4500mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "11" "11" ""]
 	Pin[6.6000mm -7.0000mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "13" "13" ""]
 	Pin[6.6000mm 7.0000mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "10" "10" ""]
@@ -2716,7 +2716,7 @@ Element["" "eth_571-1734795-1" "X3/ETH1" "-" 1450.00mil 9.6560mm 230.00mil 55.00
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[-6.6000mm 4.4500mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "12" "12" "thermal(5X)"]
+	Pin[-6.6000mm 4.4500mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "12" "12" ""]
 	Pin[-6.6000mm -4.4500mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "11" "11" ""]
 	Pin[-6.6000mm 7.0000mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "13" "13" ""]
 	Pin[-6.6000mm -7.0000mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "10" "10" ""]

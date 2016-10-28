@@ -5,7 +5,7 @@ FileVersion[20091103]
 
 PCB["" 4000.00mil 3000.00mil]
 
-Grid[2500.000000 0.0000 0.0000 1]
+Grid[100.000000 0.0000 0.0000 1]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[6.00mil 0.10mil 6.00mil 0.10mil 13.00mil 7.00mil]
@@ -786,7 +786,7 @@ Symbol['~' 12.00mil]
 	SymbolLine[20.00mil 35.00mil 25.00mil 30.00mil 8.00mil]
 )
 Attribute("PCB::grid::unit" "mil")
-Attribute("PCB::grid::size" "25.00mil")
+Attribute("PCB::grid::size" "1.00mil")
 Via[590.00mil 66.1590mm 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,5X)"]
 Via[495.00mil 62.3490mm 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,5X)"]
 Via[435.00mil 62.0950mm 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,5X)"]
@@ -1205,7 +1205,7 @@ Element["hidename,onsolder" "SparkGapPCB" "X1/X1/T7" "2kV" 483.50mil 61.5362mm 0
 
 	)
 
-Element["hidename,onsolder" "0402" "X1/X1/C1" "4.7uF" 525.74mil 68.9530mm 26.50mil 58.50mil 2 100 "auto"]
+Element["hidename,onsolder" "0402" "X1/X1/C1" "4.7uF" 525.74mil 2722.00mil 26.50mil 58.50mil 2 100 "auto"]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1948,6 +1948,18 @@ Element["hidename" "JUMPER6" "X3/TERM" "-" 1760.00mil 58.9200mm 110.00mil -50.00
 	ElementLine [50.00mil 50.00mil 50.00mil -50.00mil 10.00mil]
 
 	)
+
+Element["hidename,onsolder" "0201" "X1/X1/J3" "-" 545.00mil 68.6768mm -31.50mil -31.50mil 1 100 "auto"]
+(
+	Attribute("device" "JUMPER")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[0.0000 -11.81mil 0.0000 -11.81mil 15.74mil 20.00mil 21.74mil "1" "1" "onsolder,square"]
+	Pad[0.0000 11.81mil 0.0000 11.81mil 15.74mil 20.00mil 21.74mil "2" "2" "onsolder,square"]
+
+	)
 Layer(1 "top")
 (
 	Line[745.00mil 56.3800mm 915.00mil 56.3800mm 10.00mil 20.00mil "clearline"]
@@ -2269,7 +2281,6 @@ Layer(6 "bottom")
 	Line[585.00mil 66.9210mm 585.00mil 67.5560mm 6.00mil 20.00mil "clearline"]
 	Line[565.00mil 68.6990mm 580.00mil 69.0800mm 6.00mil 20.00mil "clearline"]
 	Line[565.00mil 67.0480mm 565.00mil 68.6990mm 6.00mil 20.00mil "clearline"]
-	Line[541.48mil 68.9530mm 541.48mil 68.9906mm 6.00mil 20.00mil "clearline"]
 	Line[610.00mil 61.9680mm 615.00mil 62.0950mm 6.00mil 20.00mil "clearline"]
 	Line[560.00mil 61.9680mm 610.00mil 61.9680mm 6.00mil 20.00mil "clearline"]
 	Line[525.00mil 62.8570mm 560.00mil 61.9680mm 6.00mil 20.00mil "clearline"]
@@ -2290,8 +2301,6 @@ Layer(6 "bottom")
 	Line[10.3562mm 61.3838mm 435.00mil 61.3838mm 6.00mil 20.00mil "clearline"]
 	Line[9.1139mm 72.1200mm 401.50mil 71.0358mm 6.00mil 20.00mil "clearline"]
 	Line[350.00mil 72.1200mm 9.1139mm 72.1200mm 6.00mil 20.00mil "clearline"]
-	Line[505.00mil 69.0800mm 510.00mil 68.9530mm 6.00mil 20.00mil "clearline"]
-	Line[470.00mil 69.0800mm 505.00mil 69.0800mm 6.00mil 20.00mil "clearline"]
 	Line[9.7900mm 68.2909mm 416.50mil 69.0800mm 6.00mil 20.00mil "clearline"]
 	Line[9.7900mm 68.0700mm 9.7900mm 68.2909mm 6.00mil 20.00mil "clearline"]
 	Line[416.50mil 69.5499mm 410.00mil 69.7150mm 6.00mil 20.00mil "clearline"]
@@ -2307,7 +2316,6 @@ Layer(6 "bottom")
 	Line[399.00mil 70.7056mm 8.5190mm 69.0900mm 6.00mil 20.00mil "clearline"]
 	Line[7.9900mm 69.0900mm 8.5190mm 69.0900mm 6.00mil 20.00mil "clearline"]
 	Line[399.00mil 70.7056mm 401.50mil 70.7056mm 6.00mil 20.00mil "clearline"]
-	Line[541.48mil 68.9530mm 541.48mil 2733.20mil 6.00mil 20.00mil "clearline"]
 	Line[565.00mil 66.4130mm 577.50mil 66.7305mm 6.00mil 20.00mil "clearline"]
 	Line[530.00mil 66.4130mm 565.00mil 66.4130mm 6.00mil 20.00mil "clearline"]
 	Line[518.00mil 66.7178mm 530.00mil 66.4130mm 6.00mil 20.00mil "clearline"]
@@ -2323,10 +2331,6 @@ Layer(6 "bottom")
 	Line[431.00mil 67.9370mm 431.00mil 68.2418mm 6.00mil 20.00mil "clearline"]
 	Line[506.00mil 68.0386mm 495.00mil 68.3180mm 6.00mil 20.00mil "clearline"]
 	Line[506.00mil 67.5560mm 506.00mil 68.0386mm 6.00mil 20.00mil "clearline"]
-	Line[526.00mil 68.2926mm 510.00mil 68.6990mm 6.00mil 20.00mil "clearline"]
-	Line[510.00mil 68.6990mm 510.00mil 68.9530mm 6.00mil 20.00mil "clearline"]
-	Line[545.00mil 68.8636mm 541.48mil 68.9530mm 6.00mil 20.00mil "clearline"]
-	Line[545.00mil 67.5560mm 545.00mil 68.8636mm 6.00mil 20.00mil "clearline"]
 	Line[255.00mil 68.0640mm 9.7840mm 68.0640mm 6.00mil 20.00mil "clearline"]
 	Line[417.00mil 67.4798mm 10.1620mm 67.0500mm 6.00mil 20.00mil "clearline"]
 	Line[7.9900mm 67.0500mm 10.1620mm 67.0500mm 6.00mil 20.00mil "clearline"]
@@ -2603,9 +2607,6 @@ Layer(6 "bottom")
 	Line[2200.00mil 67.8100mm 2050.00mil 71.6200mm 10.00mil 20.00mil "clearline"]
 	Line[2550.00mil 58.9200mm 2550.00mil 67.4290mm 10.00mil 20.00mil "clearline"]
 	Line[463.00mil 70.7056mm 471.00mil 70.7056mm 6.00mil 20.00mil "clearline"]
-	Line[471.00mil 70.7056mm 515.00mil 69.5880mm 6.00mil 20.00mil "clearline"]
-	Line[515.00mil 69.5880mm 535.00mil 69.5880mm 6.00mil 20.00mil "clearline"]
-	Line[535.00mil 69.5880mm 541.48mil 2733.20mil 6.00mil 20.00mil "clearline"]
 	Line[580.00mil 69.0800mm 635.00mil 69.0800mm 6.00mil 20.00mil "clearline"]
 	Line[635.00mil 69.0800mm 647.50mil 69.3975mm 6.00mil 20.00mil "clearline"]
 	Line[647.50mil 69.3975mm 647.50mil 71.5635mm 6.00mil 20.00mil "clearline"]
@@ -2613,10 +2614,6 @@ Layer(6 "bottom")
 	Line[540.00mil 72.8900mm 595.00mil 71.4930mm 6.00mil 20.00mil "clearline"]
 	Line[595.00mil 71.4930mm 595.00mil 70.3470mm 6.00mil 20.00mil "clearline"]
 	Line[595.00mil 70.3470mm 15.4900mm 69.9700mm 6.00mil 20.00mil "clearline"]
-	Line[541.48mil 68.9530mm 541.48mil 69.1176mm 6.00mil 20.00mil "clearline"]
-	Line[541.48mil 69.1176mm 555.00mil 69.4610mm 6.00mil 20.00mil "clearline"]
-	Line[555.00mil 69.4610mm 555.00mil 70.7092mm 6.00mil 20.00mil "clearline"]
-	Line[555.00mil 70.7092mm 540.00mil 71.0902mm 6.00mil 20.00mil "clearline"]
 	Line[395.00mil 60.3170mm 540.00mil 60.3170mm 10.00mil 20.00mil "clearline"]
 	Line[540.00mil 58.5390mm 15.4710mm 58.5390mm 10.00mil 20.00mil "clearline"]
 	Line[15.4710mm 58.5390mm 15.4900mm 58.5200mm 10.00mil 20.00mil "clearline"]
@@ -2841,6 +2838,17 @@ Layer(6 "bottom")
 	Line[2630.00mil 61.9680mm 2625.00mil 61.8410mm 15.00mil 20.00mil "clearline"]
 	Line[2770.00mil 62.7300mm 2635.00mil 62.7300mm 15.00mil 20.00mil "clearline"]
 	Line[2635.00mil 62.7300mm 2625.00mil 62.9840mm 15.00mil 20.00mil "clearline"]
+	Line[470.00mil 69.0800mm 12.8952mm 69.0800mm 6.00mil 12.00mil "clearline"]
+	Line[12.8952mm 69.0800mm 510.00mil 2722.00mil 6.00mil 12.00mil "clearline"]
+	Line[541.48mil 2722.00mil 541.48mil 71.0526mm 6.00mil 12.00mil "clearline"]
+	Line[541.48mil 71.0526mm 540.00mil 71.0902mm 6.00mil 12.00mil "clearline"]
+	Line[510.00mil 2722.00mil 510.00mil 2705.00mil 6.00mil 12.00mil "clearline"]
+	Line[510.00mil 2705.00mil 526.00mil 2689.00mil 6.00mil 12.00mil "clearline"]
+	Line[11.9808mm 70.7056mm 13.3314mm 70.7056mm 6.00mil 12.00mil "clearline"]
+	Line[13.3314mm 70.7056mm 540.00mil 71.0902mm 6.00mil 12.00mil "clearline"]
+	Line[545.00mil 68.9767mm 545.00mil 69.0494mm 6.00mil 12.00mil "clearline"]
+	Line[545.00mil 69.0494mm 541.48mil 2722.00mil 6.00mil 12.00mil "clearline"]
+	Line[545.00mil 2692.00mil 545.00mil 67.5560mm 6.00mil 12.00mil "clearline"]
 	Polygon("clearpoly,fullpoly")
 	(
 		[645.00mil 57.3960mm] [645.00mil 73.6520mm] [55.00mil 73.6520mm] [55.00mil 57.3960mm] 
@@ -3080,9 +3088,9 @@ NetList()
 		Connect("X1/Vsys4-1")
 		Connect("X1/X1/C1-1")
 		Connect("X1/X1/GEN-1")
+		Connect("X1/X1/J3-2")
 		Connect("X1/X1/R1-1")
 		Connect("X1/X1/T1-1")
-		Connect("X1/X1/U1-3")
 		Connect("X1/X2/PWR1-1")
 		Connect("X1/X2/PWR1-2")
 		Connect("X2/EX-3")
@@ -3102,12 +3110,12 @@ NetList()
 		Connect("X1/PSU-1")
 		Connect("X1/REG-6")
 	)
-	Net("X1/unnamed_net13" "(unknown)")
+	Net("X1/unnamed_net14" "(unknown)")
 	(
 		Connect("X1/PSU-11")
 		Connect("X1/R1-2")
 	)
-	Net("X1/unnamed_net14" "(unknown)")
+	Net("X1/unnamed_net15" "(unknown)")
 	(
 		Connect("X1/PSU-13")
 		Connect("X1/R2-2")
@@ -3117,12 +3125,17 @@ NetList()
 		Connect("X1/J1-1")
 		Connect("X1/PSU-4")
 	)
-	Net("X1/X1/unnamed_net11" "(unknown)")
+	Net("X1/X1/unnamed_net7" "(unknown)")
+	(
+		Connect("X1/X1/J3-1")
+		Connect("X1/X1/U1-3")
+	)
+	Net("X1/X1/unnamed_net12" "(unknown)")
 	(
 		Connect("X1/X1/GEN-11")
 		Connect("X1/X1/R1-2")
 	)
-	Net("X1/X1/unnamed_net12" "(unknown)")
+	Net("X1/X1/unnamed_net13" "(unknown)")
 	(
 		Connect("X1/X1/GEN-13")
 		Connect("X1/X1/R2-2")

@@ -190,676 +190,32 @@ T 56600 58900 5 10 0 0 0 0 1
 kitting=tape-no-leader
 }
 C 57500 61500 1 90 0 vee-1.sym
-C 62500 58800 1 0 0 genericio-sys.sym
+C 56800 63500 1 0 0 connector2-2.sym
 {
-T 62900 62300 5 10 1 1 0 0 1
-device=GENERIC
-T 63500 62000 5 10 1 1 0 0 1
-refdes=X?
-}
-C 61600 61300 1 90 1 Vext.sym
-{
-T 61300 61300 5 10 0 1 270 2 1
-device=Vext
-}
-C 61600 60500 1 180 0 io-1.sym
-{
-T 61400 59900 5 10 0 0 180 0 1
-device=none
-T 60700 60300 5 10 1 0 180 0 1
-net=SigP:1
-T 60700 60400 5 10 1 1 180 1 1
-value=IO
-}
-C 61600 60800 1 180 0 io-1.sym
-{
-T 61400 60200 5 10 0 0 180 0 1
-device=none
-T 60700 60600 5 10 1 0 180 0 1
-net=SigM:1
-T 60700 60700 5 10 1 1 180 1 1
-value=IO
-}
-C 61600 59100 1 180 0 io-1.sym
-{
-T 61400 58500 5 10 0 0 180 0 1
-device=none
-T 60700 58900 5 10 1 0 180 0 1
-net=PWMd:1
-T 60700 59000 5 10 1 1 180 1 1
-value=IO
-}
-C 61600 59400 1 180 0 io-1.sym
-{
-T 61400 58800 5 10 0 0 180 0 1
-device=none
-T 60700 59200 5 10 1 0 180 0 1
-net=PWMa:1
-T 60700 59300 5 10 1 1 180 1 1
-value=IO
-}
-C 62200 60000 1 270 0 gnd-1.sym
-C 61600 61100 1 0 0 fuse-1.sym
-{
-T 61800 61500 5 10 0 0 0 0 1
-device=FUSE
-T 61800 61700 5 10 0 0 0 0 1
-symversion=0.1
-T 61800 61100 5 10 1 1 0 0 1
-refdes=F?
-}
-C 61600 60600 1 0 0 resistor-1.sym
-{
-T 61900 61000 5 10 0 0 0 0 1
-device=RESISTOR
-T 61600 60600 5 10 0 0 270 0 1
-footprint=0201
-T 61600 60600 5 10 0 0 270 0 1
-description=$0.029 MOUSER 603-RC0201FR-071KL
-T 61600 60600 5 10 0 0 0 0 1
-nationality=Taiwan
-T 61600 60600 5 10 0 0 0 0 1
-cost=0.029
-T 61600 60600 5 10 0 0 0 0 1
-mfr=Yageo
-T 61600 60600 5 10 0 0 0 0 1
-mfrpn=RC0201FR-071KL
-T 61600 60600 5 10 0 0 0 0 1
-dst=Mouser
-T 61600 60600 5 10 0 0 0 0 1
-dstpn=603-RC0201FR-071KL
-T 61600 60600 5 10 0 0 0 0 1
-link=www.mouser.com/ds/2/447/RC0201-559633.pdf
-T 61600 60600 5 10 0 0 0 0 1
-link_page=2
-T 61600 60600 5 10 0 0 0 0 1
-supplier=c
-T 61600 60600 5 10 0 0 0 0 1
-kitting=tape-no-leader
-T 62000 60600 5 10 1 1 0 0 1
-value=1k
-T 62200 60500 5 10 1 1 0 0 1
-refdes=R7
-}
-C 61600 60300 1 0 0 resistor-1.sym
-{
-T 61900 60700 5 10 0 0 0 0 1
-device=RESISTOR
-T 61600 60300 5 10 0 0 270 0 1
-footprint=0201
-T 61600 60300 5 10 0 0 270 0 1
-description=$0.029 MOUSER 603-RC0201FR-071KL
-T 61600 60300 5 10 0 0 0 0 1
-nationality=Taiwan
-T 61600 60300 5 10 0 0 0 0 1
-cost=0.029
-T 61600 60300 5 10 0 0 0 0 1
-mfr=Yageo
-T 61600 60300 5 10 0 0 0 0 1
-mfrpn=RC0201FR-071KL
-T 61600 60300 5 10 0 0 0 0 1
-dst=Mouser
-T 61600 60300 5 10 0 0 0 0 1
-dstpn=603-RC0201FR-071KL
-T 61600 60300 5 10 0 0 0 0 1
-link=www.mouser.com/ds/2/447/RC0201-559633.pdf
-T 61600 60300 5 10 0 0 0 0 1
-link_page=2
-T 61600 60300 5 10 0 0 0 0 1
-supplier=c
-T 61600 60300 5 10 0 0 0 0 1
-kitting=tape-no-leader
-T 62000 60300 5 10 1 1 0 0 1
-value=1k
-T 62200 60200 5 10 1 1 0 0 1
-refdes=R7
-}
-C 61600 59200 1 0 0 resistor-1.sym
-{
-T 61900 59600 5 10 0 0 0 0 1
-device=RESISTOR
-T 61600 59200 5 10 0 0 270 0 1
-footprint=0201
-T 61600 59200 5 10 0 0 270 0 1
-description=$0.029 MOUSER 603-RC0201FR-071KL
-T 61600 59200 5 10 0 0 0 0 1
-nationality=Taiwan
-T 61600 59200 5 10 0 0 0 0 1
-cost=0.029
-T 61600 59200 5 10 0 0 0 0 1
-mfr=Yageo
-T 61600 59200 5 10 0 0 0 0 1
-mfrpn=RC0201FR-071KL
-T 61600 59200 5 10 0 0 0 0 1
-dst=Mouser
-T 61600 59200 5 10 0 0 0 0 1
-dstpn=603-RC0201FR-071KL
-T 61600 59200 5 10 0 0 0 0 1
-link=www.mouser.com/ds/2/447/RC0201-559633.pdf
-T 61600 59200 5 10 0 0 0 0 1
-link_page=2
-T 61600 59200 5 10 0 0 0 0 1
-supplier=c
-T 61600 59200 5 10 0 0 0 0 1
-kitting=tape-no-leader
-T 62000 59200 5 10 1 1 0 0 1
-value=1k
-T 62200 59100 5 10 1 1 0 0 1
-refdes=R7
-}
-C 61600 58900 1 0 0 resistor-1.sym
-{
-T 61900 59300 5 10 0 0 0 0 1
-device=RESISTOR
-T 61600 58900 5 10 0 0 270 0 1
-footprint=0201
-T 61600 58900 5 10 0 0 270 0 1
-description=$0.029 MOUSER 603-RC0201FR-071KL
-T 61600 58900 5 10 0 0 0 0 1
-nationality=Taiwan
-T 61600 58900 5 10 0 0 0 0 1
-cost=0.029
-T 61600 58900 5 10 0 0 0 0 1
-mfr=Yageo
-T 61600 58900 5 10 0 0 0 0 1
-mfrpn=RC0201FR-071KL
-T 61600 58900 5 10 0 0 0 0 1
-dst=Mouser
-T 61600 58900 5 10 0 0 0 0 1
-dstpn=603-RC0201FR-071KL
-T 61600 58900 5 10 0 0 0 0 1
-link=www.mouser.com/ds/2/447/RC0201-559633.pdf
-T 61600 58900 5 10 0 0 0 0 1
-link_page=2
-T 61600 58900 5 10 0 0 0 0 1
-supplier=c
-T 61600 58900 5 10 0 0 0 0 1
-kitting=tape-no-leader
-T 62000 58900 5 10 1 1 0 0 1
-value=1k
-T 62200 58800 5 10 1 1 0 0 1
-refdes=R7
-}
-C 62500 61500 1 90 0 vee-1.sym
-C 67300 58800 1 0 0 genericio-sys.sym
-{
-T 67700 62300 5 10 1 1 0 0 1
-device=GENERIC
-T 68300 62000 5 10 1 1 0 0 1
-refdes=X?
-}
-C 66400 61300 1 90 1 Vext.sym
-{
-T 66100 61300 5 10 0 1 270 2 1
-device=Vext
-}
-C 66400 60500 1 180 0 io-1.sym
-{
-T 66200 59900 5 10 0 0 180 0 1
-device=none
-T 65500 60300 5 10 1 0 180 0 1
-net=SigP:1
-T 65500 60400 5 10 1 1 180 1 1
-value=IO
-}
-C 66400 60800 1 180 0 io-1.sym
-{
-T 66200 60200 5 10 0 0 180 0 1
-device=none
-T 65500 60600 5 10 1 0 180 0 1
-net=SigM:1
-T 65500 60700 5 10 1 1 180 1 1
-value=IO
-}
-C 66400 59100 1 180 0 io-1.sym
-{
-T 66200 58500 5 10 0 0 180 0 1
-device=none
-T 65500 58900 5 10 1 0 180 0 1
-net=PWMd:1
-T 65500 59000 5 10 1 1 180 1 1
-value=IO
-}
-C 66400 59400 1 180 0 io-1.sym
-{
-T 66200 58800 5 10 0 0 180 0 1
-device=none
-T 65500 59200 5 10 1 0 180 0 1
-net=PWMa:1
-T 65500 59300 5 10 1 1 180 1 1
-value=IO
-}
-C 67000 60000 1 270 0 gnd-1.sym
-C 66400 61100 1 0 0 fuse-1.sym
-{
-T 66600 61500 5 10 0 0 0 0 1
-device=FUSE
-T 66600 61700 5 10 0 0 0 0 1
-symversion=0.1
-T 66600 61100 5 10 1 1 0 0 1
-refdes=F?
-}
-C 66400 60600 1 0 0 resistor-1.sym
-{
-T 66700 61000 5 10 0 0 0 0 1
-device=RESISTOR
-T 66400 60600 5 10 0 0 270 0 1
-footprint=0201
-T 66400 60600 5 10 0 0 270 0 1
-description=$0.029 MOUSER 603-RC0201FR-071KL
-T 66400 60600 5 10 0 0 0 0 1
-nationality=Taiwan
-T 66400 60600 5 10 0 0 0 0 1
-cost=0.029
-T 66400 60600 5 10 0 0 0 0 1
-mfr=Yageo
-T 66400 60600 5 10 0 0 0 0 1
-mfrpn=RC0201FR-071KL
-T 66400 60600 5 10 0 0 0 0 1
-dst=Mouser
-T 66400 60600 5 10 0 0 0 0 1
-dstpn=603-RC0201FR-071KL
-T 66400 60600 5 10 0 0 0 0 1
-link=www.mouser.com/ds/2/447/RC0201-559633.pdf
-T 66400 60600 5 10 0 0 0 0 1
-link_page=2
-T 66400 60600 5 10 0 0 0 0 1
-supplier=c
-T 66400 60600 5 10 0 0 0 0 1
-kitting=tape-no-leader
-T 66800 60600 5 10 1 1 0 0 1
-value=1k
-T 67000 60500 5 10 1 1 0 0 1
-refdes=R7
-}
-C 66400 60300 1 0 0 resistor-1.sym
-{
-T 66700 60700 5 10 0 0 0 0 1
-device=RESISTOR
-T 66400 60300 5 10 0 0 270 0 1
-footprint=0201
-T 66400 60300 5 10 0 0 270 0 1
-description=$0.029 MOUSER 603-RC0201FR-071KL
-T 66400 60300 5 10 0 0 0 0 1
-nationality=Taiwan
-T 66400 60300 5 10 0 0 0 0 1
-cost=0.029
-T 66400 60300 5 10 0 0 0 0 1
-mfr=Yageo
-T 66400 60300 5 10 0 0 0 0 1
-mfrpn=RC0201FR-071KL
-T 66400 60300 5 10 0 0 0 0 1
-dst=Mouser
-T 66400 60300 5 10 0 0 0 0 1
-dstpn=603-RC0201FR-071KL
-T 66400 60300 5 10 0 0 0 0 1
-link=www.mouser.com/ds/2/447/RC0201-559633.pdf
-T 66400 60300 5 10 0 0 0 0 1
-link_page=2
-T 66400 60300 5 10 0 0 0 0 1
-supplier=c
-T 66400 60300 5 10 0 0 0 0 1
-kitting=tape-no-leader
-T 66800 60300 5 10 1 1 0 0 1
-value=1k
-T 67000 60200 5 10 1 1 0 0 1
-refdes=R7
-}
-C 66400 59200 1 0 0 resistor-1.sym
-{
-T 66700 59600 5 10 0 0 0 0 1
-device=RESISTOR
-T 66400 59200 5 10 0 0 270 0 1
-footprint=0201
-T 66400 59200 5 10 0 0 270 0 1
-description=$0.029 MOUSER 603-RC0201FR-071KL
-T 66400 59200 5 10 0 0 0 0 1
-nationality=Taiwan
-T 66400 59200 5 10 0 0 0 0 1
-cost=0.029
-T 66400 59200 5 10 0 0 0 0 1
-mfr=Yageo
-T 66400 59200 5 10 0 0 0 0 1
-mfrpn=RC0201FR-071KL
-T 66400 59200 5 10 0 0 0 0 1
-dst=Mouser
-T 66400 59200 5 10 0 0 0 0 1
-dstpn=603-RC0201FR-071KL
-T 66400 59200 5 10 0 0 0 0 1
-link=www.mouser.com/ds/2/447/RC0201-559633.pdf
-T 66400 59200 5 10 0 0 0 0 1
-link_page=2
-T 66400 59200 5 10 0 0 0 0 1
-supplier=c
-T 66400 59200 5 10 0 0 0 0 1
-kitting=tape-no-leader
-T 66800 59200 5 10 1 1 0 0 1
-value=1k
-T 67000 59100 5 10 1 1 0 0 1
-refdes=R7
-}
-C 66400 58900 1 0 0 resistor-1.sym
-{
-T 66700 59300 5 10 0 0 0 0 1
-device=RESISTOR
-T 66400 58900 5 10 0 0 270 0 1
-footprint=0201
-T 66400 58900 5 10 0 0 270 0 1
-description=$0.029 MOUSER 603-RC0201FR-071KL
-T 66400 58900 5 10 0 0 0 0 1
-nationality=Taiwan
-T 66400 58900 5 10 0 0 0 0 1
-cost=0.029
-T 66400 58900 5 10 0 0 0 0 1
-mfr=Yageo
-T 66400 58900 5 10 0 0 0 0 1
-mfrpn=RC0201FR-071KL
-T 66400 58900 5 10 0 0 0 0 1
-dst=Mouser
-T 66400 58900 5 10 0 0 0 0 1
-dstpn=603-RC0201FR-071KL
-T 66400 58900 5 10 0 0 0 0 1
-link=www.mouser.com/ds/2/447/RC0201-559633.pdf
-T 66400 58900 5 10 0 0 0 0 1
-link_page=2
-T 66400 58900 5 10 0 0 0 0 1
-supplier=c
-T 66400 58900 5 10 0 0 0 0 1
-kitting=tape-no-leader
-T 66800 58900 5 10 1 1 0 0 1
-value=1k
-T 67000 58800 5 10 1 1 0 0 1
-refdes=R7
-}
-C 66400 61800 1 90 0 generic-power.sym
-{
-T 66150 62000 5 10 1 1 90 3 1
-net=Vsys:1
-}
-N 66400 62000 67300 62000 4
-C 67300 61500 1 90 0 vee-1.sym
-C 72300 58800 1 0 0 genericio-sys.sym
-{
-T 72700 62300 5 10 1 1 0 0 1
-device=GENERIC
-T 73300 62000 5 10 1 1 0 0 1
-refdes=X?
-}
-C 71400 61300 1 90 1 Vext.sym
-{
-T 71100 61300 5 10 0 1 270 2 1
-device=Vext
-}
-C 71400 60500 1 180 0 io-1.sym
-{
-T 71200 59900 5 10 0 0 180 0 1
-device=none
-T 70500 60300 5 10 1 0 180 0 1
-net=SigP:1
-T 70500 60400 5 10 1 1 180 1 1
-value=IO
-}
-C 71400 60800 1 180 0 io-1.sym
-{
-T 71200 60200 5 10 0 0 180 0 1
-device=none
-T 70500 60600 5 10 1 0 180 0 1
-net=SigM:1
-T 70500 60700 5 10 1 1 180 1 1
-value=IO
-}
-C 71400 59100 1 180 0 io-1.sym
-{
-T 71200 58500 5 10 0 0 180 0 1
-device=none
-T 70500 58900 5 10 1 0 180 0 1
-net=PWMd:1
-T 70500 59000 5 10 1 1 180 1 1
-value=IO
-}
-C 71400 59400 1 180 0 io-1.sym
-{
-T 71200 58800 5 10 0 0 180 0 1
-device=none
-T 70500 59200 5 10 1 0 180 0 1
-net=PWMa:1
-T 70500 59300 5 10 1 1 180 1 1
-value=IO
-}
-C 72000 60000 1 270 0 gnd-1.sym
-C 71400 61100 1 0 0 fuse-1.sym
-{
-T 71600 61500 5 10 0 0 0 0 1
-device=FUSE
-T 71600 61700 5 10 0 0 0 0 1
-symversion=0.1
-T 71600 61100 5 10 1 1 0 0 1
-refdes=F?
-}
-C 71400 60600 1 0 0 resistor-1.sym
-{
-T 71700 61000 5 10 0 0 0 0 1
-device=RESISTOR
-T 71400 60600 5 10 0 0 270 0 1
-footprint=0201
-T 71400 60600 5 10 0 0 270 0 1
-description=$0.029 MOUSER 603-RC0201FR-071KL
-T 71400 60600 5 10 0 0 0 0 1
-nationality=Taiwan
-T 71400 60600 5 10 0 0 0 0 1
-cost=0.029
-T 71400 60600 5 10 0 0 0 0 1
-mfr=Yageo
-T 71400 60600 5 10 0 0 0 0 1
-mfrpn=RC0201FR-071KL
-T 71400 60600 5 10 0 0 0 0 1
-dst=Mouser
-T 71400 60600 5 10 0 0 0 0 1
-dstpn=603-RC0201FR-071KL
-T 71400 60600 5 10 0 0 0 0 1
-link=www.mouser.com/ds/2/447/RC0201-559633.pdf
-T 71400 60600 5 10 0 0 0 0 1
-link_page=2
-T 71400 60600 5 10 0 0 0 0 1
-supplier=c
-T 71400 60600 5 10 0 0 0 0 1
-kitting=tape-no-leader
-T 71800 60600 5 10 1 1 0 0 1
-value=1k
-T 72000 60500 5 10 1 1 0 0 1
-refdes=R7
-}
-C 71400 60300 1 0 0 resistor-1.sym
-{
-T 71700 60700 5 10 0 0 0 0 1
-device=RESISTOR
-T 71400 60300 5 10 0 0 270 0 1
-footprint=0201
-T 71400 60300 5 10 0 0 270 0 1
-description=$0.029 MOUSER 603-RC0201FR-071KL
-T 71400 60300 5 10 0 0 0 0 1
-nationality=Taiwan
-T 71400 60300 5 10 0 0 0 0 1
-cost=0.029
-T 71400 60300 5 10 0 0 0 0 1
-mfr=Yageo
-T 71400 60300 5 10 0 0 0 0 1
-mfrpn=RC0201FR-071KL
-T 71400 60300 5 10 0 0 0 0 1
-dst=Mouser
-T 71400 60300 5 10 0 0 0 0 1
-dstpn=603-RC0201FR-071KL
-T 71400 60300 5 10 0 0 0 0 1
-link=www.mouser.com/ds/2/447/RC0201-559633.pdf
-T 71400 60300 5 10 0 0 0 0 1
-link_page=2
-T 71400 60300 5 10 0 0 0 0 1
-supplier=c
-T 71400 60300 5 10 0 0 0 0 1
-kitting=tape-no-leader
-T 71800 60300 5 10 1 1 0 0 1
-value=1k
-T 72000 60200 5 10 1 1 0 0 1
-refdes=R7
-}
-C 71400 59200 1 0 0 resistor-1.sym
-{
-T 71700 59600 5 10 0 0 0 0 1
-device=RESISTOR
-T 71400 59200 5 10 0 0 270 0 1
-footprint=0201
-T 71400 59200 5 10 0 0 270 0 1
-description=$0.029 MOUSER 603-RC0201FR-071KL
-T 71400 59200 5 10 0 0 0 0 1
-nationality=Taiwan
-T 71400 59200 5 10 0 0 0 0 1
-cost=0.029
-T 71400 59200 5 10 0 0 0 0 1
-mfr=Yageo
-T 71400 59200 5 10 0 0 0 0 1
-mfrpn=RC0201FR-071KL
-T 71400 59200 5 10 0 0 0 0 1
-dst=Mouser
-T 71400 59200 5 10 0 0 0 0 1
-dstpn=603-RC0201FR-071KL
-T 71400 59200 5 10 0 0 0 0 1
-link=www.mouser.com/ds/2/447/RC0201-559633.pdf
-T 71400 59200 5 10 0 0 0 0 1
-link_page=2
-T 71400 59200 5 10 0 0 0 0 1
-supplier=c
-T 71400 59200 5 10 0 0 0 0 1
-kitting=tape-no-leader
-T 71800 59200 5 10 1 1 0 0 1
-value=1k
-T 72000 59100 5 10 1 1 0 0 1
-refdes=R7
-}
-C 71400 58900 1 0 0 resistor-1.sym
-{
-T 71700 59300 5 10 0 0 0 0 1
-device=RESISTOR
-T 71400 58900 5 10 0 0 270 0 1
-footprint=0201
-T 71400 58900 5 10 0 0 270 0 1
-description=$0.029 MOUSER 603-RC0201FR-071KL
-T 71400 58900 5 10 0 0 0 0 1
-nationality=Taiwan
-T 71400 58900 5 10 0 0 0 0 1
-cost=0.029
-T 71400 58900 5 10 0 0 0 0 1
-mfr=Yageo
-T 71400 58900 5 10 0 0 0 0 1
-mfrpn=RC0201FR-071KL
-T 71400 58900 5 10 0 0 0 0 1
-dst=Mouser
-T 71400 58900 5 10 0 0 0 0 1
-dstpn=603-RC0201FR-071KL
-T 71400 58900 5 10 0 0 0 0 1
-link=www.mouser.com/ds/2/447/RC0201-559633.pdf
-T 71400 58900 5 10 0 0 0 0 1
-link_page=2
-T 71400 58900 5 10 0 0 0 0 1
-supplier=c
-T 71400 58900 5 10 0 0 0 0 1
-kitting=tape-no-leader
-T 71800 58900 5 10 1 1 0 0 1
-value=1k
-T 72000 58800 5 10 1 1 0 0 1
-refdes=R7
-}
-C 72300 61500 1 90 0 vee-1.sym
-C 68800 63500 1 0 0 connector2-2.sym
-{
-T 69100 64750 5 10 0 0 0 0 1
+T 57100 64750 5 10 0 0 0 0 1
 device=CONNECTOR_2
-T 69100 64950 5 10 0 0 0 0 1
+T 57100 64950 5 10 0 0 0 0 1
 footprint=XT60
-T 69500 64500 5 10 1 1 0 6 1
-refdes=Vsys1
-T 68800 63500 5 10 0 0 0 0 1
+T 56800 63500 5 10 0 0 0 0 1
 description=$0.80 HobbyKing XT60
-T 68800 63500 5 10 0 0 0 0 1
+T 56800 63500 5 10 0 0 0 0 1
 value=60A
-}
-C 68800 63700 1 90 0 vee-1.sym
-C 67700 64300 1 0 0 generic-power.sym
-{
-T 67900 64550 5 10 1 1 0 3 1
-net=Vsys:1
-}
-C 67900 64300 1 0 0 fuse-1.sym
-{
-T 68100 64700 5 10 0 0 0 0 1
-device=FUSE
-T 68100 64900 5 10 0 0 0 0 1
-symversion=0.1
-T 68100 64300 5 10 1 1 0 0 1
-refdes=F?
-}
-C 71300 63500 1 0 0 connector2-2.sym
-{
-T 71600 64750 5 10 0 0 0 0 1
-device=CONNECTOR_2
-T 71600 64950 5 10 0 0 0 0 1
-footprint=XT60
-T 71300 63500 5 10 0 0 0 0 1
-description=$0.80 HobbyKing XT60
-T 71300 63500 5 10 0 0 0 0 1
-value=60A
-T 72000 64500 5 10 1 1 0 6 1
+T 57500 64500 5 10 1 1 0 6 1
 refdes=Vsys1
 }
-C 71300 63700 1 90 0 vee-1.sym
-C 70200 64300 1 0 0 generic-power.sym
+C 56800 63700 1 90 0 vee-1.sym
+C 55700 64300 1 0 0 generic-power.sym
 {
-T 70400 64550 5 10 1 1 0 3 1
+T 55900 64550 5 10 1 1 0 3 1
 net=Vsys:1
 }
-C 70400 64300 1 0 0 fuse-1.sym
+C 55900 64300 1 0 0 fuse-1.sym
 {
-T 70600 64700 5 10 0 0 0 0 1
+T 56100 64700 5 10 0 0 0 0 1
 device=FUSE
-T 70600 64900 5 10 0 0 0 0 1
+T 56100 64900 5 10 0 0 0 0 1
 symversion=0.1
-T 70600 64300 5 10 1 1 0 0 1
-refdes=F?
-}
-C 66300 63500 1 0 0 connector2-2.sym
-{
-T 66600 64750 5 10 0 0 0 0 1
-device=CONNECTOR_2
-T 66600 64950 5 10 0 0 0 0 1
-footprint=XT60
-T 66300 63500 5 10 0 0 0 0 1
-description=$0.80 HobbyKing XT60
-T 66300 63500 5 10 0 0 0 0 1
-value=60A
-T 67000 64500 5 10 1 1 0 6 1
-refdes=Vsys1
-}
-C 66300 63700 1 90 0 vee-1.sym
-C 65200 64300 1 0 0 generic-power.sym
-{
-T 65400 64550 5 10 1 1 0 3 1
-net=Vsys:1
-}
-C 65400 64300 1 0 0 fuse-1.sym
-{
-T 65600 64700 5 10 0 0 0 0 1
-device=FUSE
-T 65600 64900 5 10 0 0 0 0 1
-symversion=0.1
-T 65600 64300 5 10 1 1 0 0 1
-refdes=F?
-}
-C 66400 62000 1 0 0 fuse-1.sym
-{
-T 66600 62400 5 10 0 0 0 0 1
-device=FUSE
-T 66600 62600 5 10 0 0 0 0 1
-symversion=0.1
-T 66600 62000 5 10 1 1 0 0 1
+T 56100 64300 5 10 1 1 0 0 1
 refdes=F?
 }
 C 56600 61800 1 90 0 generic-power.sym
@@ -876,40 +232,781 @@ symversion=0.1
 T 56800 62000 5 10 1 1 0 0 1
 refdes=F?
 }
-C 61600 61800 1 90 0 generic-power.sym
-{
-T 61350 62000 5 10 1 1 90 3 1
-net=Vsys:1
-}
-C 61600 62000 1 0 0 fuse-1.sym
-{
-T 61800 62400 5 10 0 0 0 0 1
-device=FUSE
-T 61800 62600 5 10 0 0 0 0 1
-symversion=0.1
-T 61800 62000 5 10 1 1 0 0 1
-refdes=F?
-}
-C 71400 61800 1 90 0 generic-power.sym
-{
-T 71150 62000 5 10 1 1 90 3 1
-net=Vsys:1
-}
-C 71400 62000 1 0 0 fuse-1.sym
-{
-T 71600 62400 5 10 0 0 0 0 1
-device=FUSE
-T 71600 62600 5 10 0 0 0 0 1
-symversion=0.1
-T 71600 62000 5 10 1 1 0 0 1
-refdes=F?
-}
 N 56600 62000 57500 62000 4
-N 61600 62000 62500 62000 4
-N 65400 64300 66300 64300 4
-N 67900 64300 68800 64300 4
-N 70400 64300 71300 64300 4
-T 58100 63100 9 10 1 0 0 0 3
+N 55900 64300 56800 64300 4
+T 55400 62800 9 10 1 0 0 0 3
 For maximum reliability, each client of this hub
 should include its own battery-backup OR-gated
 to Vext.
+C 58800 63500 1 0 0 connector2-2.sym
+{
+T 59100 64750 5 10 0 0 0 0 1
+device=CONNECTOR_2
+T 59100 64950 5 10 0 0 0 0 1
+footprint=XT60
+T 58800 63500 5 10 0 0 0 0 1
+description=$0.80 HobbyKing XT60
+T 58800 63500 5 10 0 0 0 0 1
+value=60A
+T 59500 64500 5 10 1 1 0 6 1
+refdes=Vsys1
+}
+C 58800 63700 1 90 0 vee-1.sym
+C 57700 64300 1 0 0 generic-power.sym
+{
+T 57900 64550 5 10 1 1 0 3 1
+net=Vsys:1
+}
+C 57900 64300 1 0 0 fuse-1.sym
+{
+T 58100 64700 5 10 0 0 0 0 1
+device=FUSE
+T 58100 64900 5 10 0 0 0 0 1
+symversion=0.1
+T 58100 64300 5 10 1 1 0 0 1
+refdes=F?
+}
+N 57900 64300 58800 64300 4
+C 65000 63600 1 0 0 breadpwr-sys.sym
+{
+T 65300 65800 5 10 1 1 0 0 1
+device=BREADPWR
+T 66100 65600 5 10 1 1 0 0 1
+refdes=X?
+}
+C 64500 65100 1 90 0 generic-power.sym
+{
+T 64250 65300 5 10 1 1 90 3 1
+net=Vsys:1
+}
+C 65000 64800 1 90 0 vee-1.sym
+N 64500 65300 65000 65300 4
+C 65000 64600 1 90 1 Vext.sym
+{
+T 64700 64600 5 10 0 1 270 2 1
+device=Vext
+}
+C 64700 64200 1 270 0 gnd-1.sym
+C 62800 63500 1 0 0 connector8-2.sym
+{
+T 63100 67150 5 10 0 0 0 0 1
+device=CONNECTOR_8
+T 63100 67350 5 10 0 0 0 0 1
+footprint=JUMPER8
+T 62800 63500 5 10 0 0 0 0 1
+value=-
+T 62800 63500 5 10 0 0 0 0 1
+description=$0.42 MOUSER 538-22-28-5084
+T 62800 63500 5 10 0 0 0 0 1
+cost=0.42
+T 62800 63500 5 10 0 0 0 0 1
+mfr=Molex
+T 62800 63500 5 10 0 0 0 0 1
+mfrpn=22-28-5084
+T 62800 63500 5 10 0 0 0 0 1
+dst=Mouser
+T 62800 63500 5 10 0 0 0 0 1
+dstpn=538-22-28-5084
+T 62800 63500 5 10 0 0 0 0 1
+link=http://www.mouser.com/ds/2/276/0022285084_PCB_HEADERS-228315.pdf
+T 62800 63500 5 10 0 0 0 0 1
+link_page=http://www.molex.com/pdm_docs/sd/022285084_sd.pdf
+T 62800 63500 5 10 0 0 0 0 1
+supplier=c
+T 62800 63500 5 10 0 0 0 0 1
+kitting=other
+T 62800 63500 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+T 63500 67200 5 10 1 1 0 6 1
+refdes=H1
+}
+C 62800 64800 1 180 0 io-1.sym
+{
+T 62600 64200 5 10 0 0 180 0 1
+device=none
+T 61900 64600 5 10 1 0 180 0 1
+net=SigP:1
+T 61900 64700 5 10 1 1 180 1 1
+value=IO
+}
+C 62800 65200 1 180 0 io-1.sym
+{
+T 62600 64600 5 10 0 0 180 0 1
+device=none
+T 61900 65000 5 10 1 0 180 0 1
+net=SigM:1
+T 61900 65100 5 10 1 1 180 1 1
+value=IO
+}
+C 62800 64400 1 180 0 io-1.sym
+{
+T 62600 63800 5 10 0 0 180 0 1
+device=none
+T 61900 64200 5 10 1 0 180 0 1
+net=PWMa:1
+T 61900 64300 5 10 1 1 180 1 1
+value=IO
+}
+C 62800 64000 1 180 0 io-1.sym
+{
+T 62600 63400 5 10 0 0 180 0 1
+device=none
+T 61900 63800 5 10 1 0 180 0 1
+net=PWMd:1
+T 61900 63900 5 10 1 1 180 1 1
+value=IO
+}
+C 62800 66400 1 180 0 io-1.sym
+{
+T 62600 65800 5 10 0 0 180 0 1
+device=none
+T 61900 66200 5 10 1 0 180 0 1
+net=SigP:1
+T 61900 66300 5 10 1 1 180 1 1
+value=IO
+}
+C 62800 66800 1 180 0 io-1.sym
+{
+T 62600 66200 5 10 0 0 180 0 1
+device=none
+T 61900 66600 5 10 1 0 180 0 1
+net=SigM:1
+T 61900 66700 5 10 1 1 180 1 1
+value=IO
+}
+C 62800 66000 1 180 0 io-1.sym
+{
+T 62600 65400 5 10 0 0 180 0 1
+device=none
+T 61900 65800 5 10 1 0 180 0 1
+net=PWMa:1
+T 61900 65900 5 10 1 1 180 1 1
+value=IO
+}
+C 62800 65600 1 180 0 io-1.sym
+{
+T 62600 65000 5 10 0 0 180 0 1
+device=none
+T 61900 65400 5 10 1 0 180 0 1
+net=PWMd:1
+T 61900 65500 5 10 1 1 180 1 1
+value=IO
+}
+C 57500 54800 1 0 0 genericio-sys.sym
+{
+T 57900 58300 5 10 1 1 0 0 1
+device=GENERIC
+T 58500 58000 5 10 1 1 0 0 1
+refdes=X?
+}
+C 56600 57300 1 90 1 Vext.sym
+{
+T 56300 57300 5 10 0 1 270 2 1
+device=Vext
+}
+C 56600 56500 1 180 0 io-1.sym
+{
+T 56400 55900 5 10 0 0 180 0 1
+device=none
+T 55700 56300 5 10 1 0 180 0 1
+net=SigP:1
+T 55700 56400 5 10 1 1 180 1 1
+value=IO
+}
+C 56600 56800 1 180 0 io-1.sym
+{
+T 56400 56200 5 10 0 0 180 0 1
+device=none
+T 55700 56600 5 10 1 0 180 0 1
+net=SigM:1
+T 55700 56700 5 10 1 1 180 1 1
+value=IO
+}
+C 56600 55100 1 180 0 io-1.sym
+{
+T 56400 54500 5 10 0 0 180 0 1
+device=none
+T 55700 54900 5 10 1 0 180 0 1
+net=PWMd:1
+T 55700 55000 5 10 1 1 180 1 1
+value=IO
+}
+C 56600 55400 1 180 0 io-1.sym
+{
+T 56400 54800 5 10 0 0 180 0 1
+device=none
+T 55700 55200 5 10 1 0 180 0 1
+net=PWMa:1
+T 55700 55300 5 10 1 1 180 1 1
+value=IO
+}
+C 57200 56000 1 270 0 gnd-1.sym
+C 56600 57100 1 0 0 fuse-1.sym
+{
+T 56800 57500 5 10 0 0 0 0 1
+device=FUSE
+T 56800 57700 5 10 0 0 0 0 1
+symversion=0.1
+T 56800 57100 5 10 1 1 0 0 1
+refdes=F?
+}
+C 56600 56600 1 0 0 resistor-1.sym
+{
+T 56900 57000 5 10 0 0 0 0 1
+device=RESISTOR
+T 56600 56600 5 10 0 0 270 0 1
+footprint=0201
+T 56600 56600 5 10 0 0 270 0 1
+description=$0.029 MOUSER 603-RC0201FR-071KL
+T 56600 56600 5 10 0 0 0 0 1
+nationality=Taiwan
+T 56600 56600 5 10 0 0 0 0 1
+cost=0.029
+T 56600 56600 5 10 0 0 0 0 1
+mfr=Yageo
+T 56600 56600 5 10 0 0 0 0 1
+mfrpn=RC0201FR-071KL
+T 56600 56600 5 10 0 0 0 0 1
+dst=Mouser
+T 56600 56600 5 10 0 0 0 0 1
+dstpn=603-RC0201FR-071KL
+T 56600 56600 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/447/RC0201-559633.pdf
+T 56600 56600 5 10 0 0 0 0 1
+link_page=2
+T 56600 56600 5 10 0 0 0 0 1
+supplier=c
+T 56600 56600 5 10 0 0 0 0 1
+kitting=tape-no-leader
+T 57000 56600 5 10 1 1 0 0 1
+value=1k
+T 57200 56500 5 10 1 1 0 0 1
+refdes=R7
+}
+C 56600 56300 1 0 0 resistor-1.sym
+{
+T 56900 56700 5 10 0 0 0 0 1
+device=RESISTOR
+T 56600 56300 5 10 0 0 270 0 1
+footprint=0201
+T 56600 56300 5 10 0 0 270 0 1
+description=$0.029 MOUSER 603-RC0201FR-071KL
+T 56600 56300 5 10 0 0 0 0 1
+nationality=Taiwan
+T 56600 56300 5 10 0 0 0 0 1
+cost=0.029
+T 56600 56300 5 10 0 0 0 0 1
+mfr=Yageo
+T 56600 56300 5 10 0 0 0 0 1
+mfrpn=RC0201FR-071KL
+T 56600 56300 5 10 0 0 0 0 1
+dst=Mouser
+T 56600 56300 5 10 0 0 0 0 1
+dstpn=603-RC0201FR-071KL
+T 56600 56300 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/447/RC0201-559633.pdf
+T 56600 56300 5 10 0 0 0 0 1
+link_page=2
+T 56600 56300 5 10 0 0 0 0 1
+supplier=c
+T 56600 56300 5 10 0 0 0 0 1
+kitting=tape-no-leader
+T 57000 56300 5 10 1 1 0 0 1
+value=1k
+T 57200 56200 5 10 1 1 0 0 1
+refdes=R7
+}
+C 56600 55200 1 0 0 resistor-1.sym
+{
+T 56900 55600 5 10 0 0 0 0 1
+device=RESISTOR
+T 56600 55200 5 10 0 0 270 0 1
+footprint=0201
+T 56600 55200 5 10 0 0 270 0 1
+description=$0.029 MOUSER 603-RC0201FR-071KL
+T 56600 55200 5 10 0 0 0 0 1
+nationality=Taiwan
+T 56600 55200 5 10 0 0 0 0 1
+cost=0.029
+T 56600 55200 5 10 0 0 0 0 1
+mfr=Yageo
+T 56600 55200 5 10 0 0 0 0 1
+mfrpn=RC0201FR-071KL
+T 56600 55200 5 10 0 0 0 0 1
+dst=Mouser
+T 56600 55200 5 10 0 0 0 0 1
+dstpn=603-RC0201FR-071KL
+T 56600 55200 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/447/RC0201-559633.pdf
+T 56600 55200 5 10 0 0 0 0 1
+link_page=2
+T 56600 55200 5 10 0 0 0 0 1
+supplier=c
+T 56600 55200 5 10 0 0 0 0 1
+kitting=tape-no-leader
+T 57000 55200 5 10 1 1 0 0 1
+value=1k
+T 57200 55100 5 10 1 1 0 0 1
+refdes=R7
+}
+C 56600 54900 1 0 0 resistor-1.sym
+{
+T 56900 55300 5 10 0 0 0 0 1
+device=RESISTOR
+T 56600 54900 5 10 0 0 270 0 1
+footprint=0201
+T 56600 54900 5 10 0 0 270 0 1
+description=$0.029 MOUSER 603-RC0201FR-071KL
+T 56600 54900 5 10 0 0 0 0 1
+nationality=Taiwan
+T 56600 54900 5 10 0 0 0 0 1
+cost=0.029
+T 56600 54900 5 10 0 0 0 0 1
+mfr=Yageo
+T 56600 54900 5 10 0 0 0 0 1
+mfrpn=RC0201FR-071KL
+T 56600 54900 5 10 0 0 0 0 1
+dst=Mouser
+T 56600 54900 5 10 0 0 0 0 1
+dstpn=603-RC0201FR-071KL
+T 56600 54900 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/447/RC0201-559633.pdf
+T 56600 54900 5 10 0 0 0 0 1
+link_page=2
+T 56600 54900 5 10 0 0 0 0 1
+supplier=c
+T 56600 54900 5 10 0 0 0 0 1
+kitting=tape-no-leader
+T 57000 54900 5 10 1 1 0 0 1
+value=1k
+T 57200 54800 5 10 1 1 0 0 1
+refdes=R7
+}
+C 57500 57500 1 90 0 vee-1.sym
+C 56600 57800 1 90 0 generic-power.sym
+{
+T 56350 58000 5 10 1 1 90 3 1
+net=Vsys:1
+}
+C 56600 58000 1 0 0 fuse-1.sym
+{
+T 56800 58400 5 10 0 0 0 0 1
+device=FUSE
+T 56800 58600 5 10 0 0 0 0 1
+symversion=0.1
+T 56800 58000 5 10 1 1 0 0 1
+refdes=F?
+}
+N 56600 58000 57500 58000 4
+C 62000 54800 1 0 0 genericio-sys.sym
+{
+T 62400 58300 5 10 1 1 0 0 1
+device=GENERIC
+T 63000 58000 5 10 1 1 0 0 1
+refdes=X?
+}
+C 61100 57300 1 90 1 Vext.sym
+{
+T 60800 57300 5 10 0 1 270 2 1
+device=Vext
+}
+C 61100 56500 1 180 0 io-1.sym
+{
+T 60900 55900 5 10 0 0 180 0 1
+device=none
+T 60200 56300 5 10 1 0 180 0 1
+net=SigP:1
+T 60200 56400 5 10 1 1 180 1 1
+value=IO
+}
+C 61100 56800 1 180 0 io-1.sym
+{
+T 60900 56200 5 10 0 0 180 0 1
+device=none
+T 60200 56600 5 10 1 0 180 0 1
+net=SigM:1
+T 60200 56700 5 10 1 1 180 1 1
+value=IO
+}
+C 61100 55100 1 180 0 io-1.sym
+{
+T 60900 54500 5 10 0 0 180 0 1
+device=none
+T 60200 54900 5 10 1 0 180 0 1
+net=PWMd:1
+T 60200 55000 5 10 1 1 180 1 1
+value=IO
+}
+C 61100 55400 1 180 0 io-1.sym
+{
+T 60900 54800 5 10 0 0 180 0 1
+device=none
+T 60200 55200 5 10 1 0 180 0 1
+net=PWMa:1
+T 60200 55300 5 10 1 1 180 1 1
+value=IO
+}
+C 61700 56000 1 270 0 gnd-1.sym
+C 61100 57100 1 0 0 fuse-1.sym
+{
+T 61300 57500 5 10 0 0 0 0 1
+device=FUSE
+T 61300 57700 5 10 0 0 0 0 1
+symversion=0.1
+T 61300 57100 5 10 1 1 0 0 1
+refdes=F?
+}
+C 61100 56600 1 0 0 resistor-1.sym
+{
+T 61400 57000 5 10 0 0 0 0 1
+device=RESISTOR
+T 61100 56600 5 10 0 0 270 0 1
+footprint=0201
+T 61100 56600 5 10 0 0 270 0 1
+description=$0.029 MOUSER 603-RC0201FR-071KL
+T 61100 56600 5 10 0 0 0 0 1
+nationality=Taiwan
+T 61100 56600 5 10 0 0 0 0 1
+cost=0.029
+T 61100 56600 5 10 0 0 0 0 1
+mfr=Yageo
+T 61100 56600 5 10 0 0 0 0 1
+mfrpn=RC0201FR-071KL
+T 61100 56600 5 10 0 0 0 0 1
+dst=Mouser
+T 61100 56600 5 10 0 0 0 0 1
+dstpn=603-RC0201FR-071KL
+T 61100 56600 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/447/RC0201-559633.pdf
+T 61100 56600 5 10 0 0 0 0 1
+link_page=2
+T 61100 56600 5 10 0 0 0 0 1
+supplier=c
+T 61100 56600 5 10 0 0 0 0 1
+kitting=tape-no-leader
+T 61500 56600 5 10 1 1 0 0 1
+value=1k
+T 61700 56500 5 10 1 1 0 0 1
+refdes=R7
+}
+C 61100 56300 1 0 0 resistor-1.sym
+{
+T 61400 56700 5 10 0 0 0 0 1
+device=RESISTOR
+T 61100 56300 5 10 0 0 270 0 1
+footprint=0201
+T 61100 56300 5 10 0 0 270 0 1
+description=$0.029 MOUSER 603-RC0201FR-071KL
+T 61100 56300 5 10 0 0 0 0 1
+nationality=Taiwan
+T 61100 56300 5 10 0 0 0 0 1
+cost=0.029
+T 61100 56300 5 10 0 0 0 0 1
+mfr=Yageo
+T 61100 56300 5 10 0 0 0 0 1
+mfrpn=RC0201FR-071KL
+T 61100 56300 5 10 0 0 0 0 1
+dst=Mouser
+T 61100 56300 5 10 0 0 0 0 1
+dstpn=603-RC0201FR-071KL
+T 61100 56300 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/447/RC0201-559633.pdf
+T 61100 56300 5 10 0 0 0 0 1
+link_page=2
+T 61100 56300 5 10 0 0 0 0 1
+supplier=c
+T 61100 56300 5 10 0 0 0 0 1
+kitting=tape-no-leader
+T 61500 56300 5 10 1 1 0 0 1
+value=1k
+T 61700 56200 5 10 1 1 0 0 1
+refdes=R7
+}
+C 61100 55200 1 0 0 resistor-1.sym
+{
+T 61400 55600 5 10 0 0 0 0 1
+device=RESISTOR
+T 61100 55200 5 10 0 0 270 0 1
+footprint=0201
+T 61100 55200 5 10 0 0 270 0 1
+description=$0.029 MOUSER 603-RC0201FR-071KL
+T 61100 55200 5 10 0 0 0 0 1
+nationality=Taiwan
+T 61100 55200 5 10 0 0 0 0 1
+cost=0.029
+T 61100 55200 5 10 0 0 0 0 1
+mfr=Yageo
+T 61100 55200 5 10 0 0 0 0 1
+mfrpn=RC0201FR-071KL
+T 61100 55200 5 10 0 0 0 0 1
+dst=Mouser
+T 61100 55200 5 10 0 0 0 0 1
+dstpn=603-RC0201FR-071KL
+T 61100 55200 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/447/RC0201-559633.pdf
+T 61100 55200 5 10 0 0 0 0 1
+link_page=2
+T 61100 55200 5 10 0 0 0 0 1
+supplier=c
+T 61100 55200 5 10 0 0 0 0 1
+kitting=tape-no-leader
+T 61500 55200 5 10 1 1 0 0 1
+value=1k
+T 61700 55100 5 10 1 1 0 0 1
+refdes=R7
+}
+C 61100 54900 1 0 0 resistor-1.sym
+{
+T 61400 55300 5 10 0 0 0 0 1
+device=RESISTOR
+T 61100 54900 5 10 0 0 270 0 1
+footprint=0201
+T 61100 54900 5 10 0 0 270 0 1
+description=$0.029 MOUSER 603-RC0201FR-071KL
+T 61100 54900 5 10 0 0 0 0 1
+nationality=Taiwan
+T 61100 54900 5 10 0 0 0 0 1
+cost=0.029
+T 61100 54900 5 10 0 0 0 0 1
+mfr=Yageo
+T 61100 54900 5 10 0 0 0 0 1
+mfrpn=RC0201FR-071KL
+T 61100 54900 5 10 0 0 0 0 1
+dst=Mouser
+T 61100 54900 5 10 0 0 0 0 1
+dstpn=603-RC0201FR-071KL
+T 61100 54900 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/447/RC0201-559633.pdf
+T 61100 54900 5 10 0 0 0 0 1
+link_page=2
+T 61100 54900 5 10 0 0 0 0 1
+supplier=c
+T 61100 54900 5 10 0 0 0 0 1
+kitting=tape-no-leader
+T 61500 54900 5 10 1 1 0 0 1
+value=1k
+T 61700 54800 5 10 1 1 0 0 1
+refdes=R7
+}
+C 62000 57500 1 90 0 vee-1.sym
+C 61100 57800 1 90 0 generic-power.sym
+{
+T 60850 58000 5 10 1 1 90 3 1
+net=Vsys:1
+}
+C 61100 58000 1 0 0 fuse-1.sym
+{
+T 61300 58400 5 10 0 0 0 0 1
+device=FUSE
+T 61300 58600 5 10 0 0 0 0 1
+symversion=0.1
+T 61300 58000 5 10 1 1 0 0 1
+refdes=F?
+}
+N 61100 58000 62000 58000 4
+C 62000 58800 1 0 0 genericio-sys.sym
+{
+T 62400 62300 5 10 1 1 0 0 1
+device=GENERIC
+T 63000 62000 5 10 1 1 0 0 1
+refdes=X?
+}
+C 61100 61300 1 90 1 Vext.sym
+{
+T 60800 61300 5 10 0 1 270 2 1
+device=Vext
+}
+C 61100 60500 1 180 0 io-1.sym
+{
+T 60900 59900 5 10 0 0 180 0 1
+device=none
+T 60200 60300 5 10 1 0 180 0 1
+net=SigP:1
+T 60200 60400 5 10 1 1 180 1 1
+value=IO
+}
+C 61100 60800 1 180 0 io-1.sym
+{
+T 60900 60200 5 10 0 0 180 0 1
+device=none
+T 60200 60600 5 10 1 0 180 0 1
+net=SigM:1
+T 60200 60700 5 10 1 1 180 1 1
+value=IO
+}
+C 61100 59100 1 180 0 io-1.sym
+{
+T 60900 58500 5 10 0 0 180 0 1
+device=none
+T 60200 58900 5 10 1 0 180 0 1
+net=PWMd:1
+T 60200 59000 5 10 1 1 180 1 1
+value=IO
+}
+C 61100 59400 1 180 0 io-1.sym
+{
+T 60900 58800 5 10 0 0 180 0 1
+device=none
+T 60200 59200 5 10 1 0 180 0 1
+net=PWMa:1
+T 60200 59300 5 10 1 1 180 1 1
+value=IO
+}
+C 61700 60000 1 270 0 gnd-1.sym
+C 61100 61100 1 0 0 fuse-1.sym
+{
+T 61300 61500 5 10 0 0 0 0 1
+device=FUSE
+T 61300 61700 5 10 0 0 0 0 1
+symversion=0.1
+T 61300 61100 5 10 1 1 0 0 1
+refdes=F?
+}
+C 61100 60600 1 0 0 resistor-1.sym
+{
+T 61400 61000 5 10 0 0 0 0 1
+device=RESISTOR
+T 61100 60600 5 10 0 0 270 0 1
+footprint=0201
+T 61100 60600 5 10 0 0 270 0 1
+description=$0.029 MOUSER 603-RC0201FR-071KL
+T 61100 60600 5 10 0 0 0 0 1
+nationality=Taiwan
+T 61100 60600 5 10 0 0 0 0 1
+cost=0.029
+T 61100 60600 5 10 0 0 0 0 1
+mfr=Yageo
+T 61100 60600 5 10 0 0 0 0 1
+mfrpn=RC0201FR-071KL
+T 61100 60600 5 10 0 0 0 0 1
+dst=Mouser
+T 61100 60600 5 10 0 0 0 0 1
+dstpn=603-RC0201FR-071KL
+T 61100 60600 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/447/RC0201-559633.pdf
+T 61100 60600 5 10 0 0 0 0 1
+link_page=2
+T 61100 60600 5 10 0 0 0 0 1
+supplier=c
+T 61100 60600 5 10 0 0 0 0 1
+kitting=tape-no-leader
+T 61500 60600 5 10 1 1 0 0 1
+value=1k
+T 61700 60500 5 10 1 1 0 0 1
+refdes=R7
+}
+C 61100 60300 1 0 0 resistor-1.sym
+{
+T 61400 60700 5 10 0 0 0 0 1
+device=RESISTOR
+T 61100 60300 5 10 0 0 270 0 1
+footprint=0201
+T 61100 60300 5 10 0 0 270 0 1
+description=$0.029 MOUSER 603-RC0201FR-071KL
+T 61100 60300 5 10 0 0 0 0 1
+nationality=Taiwan
+T 61100 60300 5 10 0 0 0 0 1
+cost=0.029
+T 61100 60300 5 10 0 0 0 0 1
+mfr=Yageo
+T 61100 60300 5 10 0 0 0 0 1
+mfrpn=RC0201FR-071KL
+T 61100 60300 5 10 0 0 0 0 1
+dst=Mouser
+T 61100 60300 5 10 0 0 0 0 1
+dstpn=603-RC0201FR-071KL
+T 61100 60300 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/447/RC0201-559633.pdf
+T 61100 60300 5 10 0 0 0 0 1
+link_page=2
+T 61100 60300 5 10 0 0 0 0 1
+supplier=c
+T 61100 60300 5 10 0 0 0 0 1
+kitting=tape-no-leader
+T 61500 60300 5 10 1 1 0 0 1
+value=1k
+T 61700 60200 5 10 1 1 0 0 1
+refdes=R7
+}
+C 61100 59200 1 0 0 resistor-1.sym
+{
+T 61400 59600 5 10 0 0 0 0 1
+device=RESISTOR
+T 61100 59200 5 10 0 0 270 0 1
+footprint=0201
+T 61100 59200 5 10 0 0 270 0 1
+description=$0.029 MOUSER 603-RC0201FR-071KL
+T 61100 59200 5 10 0 0 0 0 1
+nationality=Taiwan
+T 61100 59200 5 10 0 0 0 0 1
+cost=0.029
+T 61100 59200 5 10 0 0 0 0 1
+mfr=Yageo
+T 61100 59200 5 10 0 0 0 0 1
+mfrpn=RC0201FR-071KL
+T 61100 59200 5 10 0 0 0 0 1
+dst=Mouser
+T 61100 59200 5 10 0 0 0 0 1
+dstpn=603-RC0201FR-071KL
+T 61100 59200 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/447/RC0201-559633.pdf
+T 61100 59200 5 10 0 0 0 0 1
+link_page=2
+T 61100 59200 5 10 0 0 0 0 1
+supplier=c
+T 61100 59200 5 10 0 0 0 0 1
+kitting=tape-no-leader
+T 61500 59200 5 10 1 1 0 0 1
+value=1k
+T 61700 59100 5 10 1 1 0 0 1
+refdes=R7
+}
+C 61100 58900 1 0 0 resistor-1.sym
+{
+T 61400 59300 5 10 0 0 0 0 1
+device=RESISTOR
+T 61100 58900 5 10 0 0 270 0 1
+footprint=0201
+T 61100 58900 5 10 0 0 270 0 1
+description=$0.029 MOUSER 603-RC0201FR-071KL
+T 61100 58900 5 10 0 0 0 0 1
+nationality=Taiwan
+T 61100 58900 5 10 0 0 0 0 1
+cost=0.029
+T 61100 58900 5 10 0 0 0 0 1
+mfr=Yageo
+T 61100 58900 5 10 0 0 0 0 1
+mfrpn=RC0201FR-071KL
+T 61100 58900 5 10 0 0 0 0 1
+dst=Mouser
+T 61100 58900 5 10 0 0 0 0 1
+dstpn=603-RC0201FR-071KL
+T 61100 58900 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/447/RC0201-559633.pdf
+T 61100 58900 5 10 0 0 0 0 1
+link_page=2
+T 61100 58900 5 10 0 0 0 0 1
+supplier=c
+T 61100 58900 5 10 0 0 0 0 1
+kitting=tape-no-leader
+T 61500 58900 5 10 1 1 0 0 1
+value=1k
+T 61700 58800 5 10 1 1 0 0 1
+refdes=R7
+}
+C 62000 61500 1 90 0 vee-1.sym
+C 61100 61800 1 90 0 generic-power.sym
+{
+T 60850 62000 5 10 1 1 90 3 1
+net=Vsys:1
+}
+C 61100 62000 1 0 0 fuse-1.sym
+{
+T 61300 62400 5 10 0 0 0 0 1
+device=FUSE
+T 61300 62600 5 10 0 0 0 0 1
+symversion=0.1
+T 61300 62000 5 10 1 1 0 0 1
+refdes=F?
+}
+N 61100 62000 62000 62000 4
