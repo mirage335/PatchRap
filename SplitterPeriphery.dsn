@@ -1,0 +1,287 @@
+(pcb notnamed
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "gEDA PCB")
+    (host_version "1.99z")
+  )
+  (resolution mm 1000000)
+  (structure
+    (layer "top"
+      (type signal)
+    )
+    (layer "ground"
+      (type signal)
+    )
+    (layer "power"
+      (type signal)
+    )
+    (layer "outline"
+      (type signal)
+    )
+    (layer "bottom"
+      (type signal)
+    )
+    (boundary
+      (rect pcb 0.0 0.0 152.400000 127.000000)
+    )
+    (via via_685800_330200)
+    (rule
+      (width 0.1524)
+      (clear 0.1524)
+      (clear 0.1524 (type wire_area))
+      (clear 0.1524 (type via_smd via_pin))
+      (clear 0.1524 (type smd_smd))
+      (clear 0.1524 (type default_smd))
+    )
+  )
+  (placement
+    (component 20
+      (place "H1" 91.440000 75.565000 front 0 (PN 0))
+    )
+    (component 38
+      (place "L2" 99.710000 69.215000 front 0 (PN 0))
+    )
+    (component 44
+      (place "L3" 99.710000 67.945000 front 0 (PN 0))
+    )
+    (component 50
+      (place "L4" 99.710000 66.675000 front 0 (PN 0))
+    )
+    (component 56
+      (place "L5" 99.710000 65.405000 front 0 (PN 0))
+    )
+    (component 62
+      (place "L8" 99.710000 61.595000 front 0 (PN 0))
+    )
+    (component 68
+      (place "L7" 99.710000 62.865000 front 0 (PN 0))
+    )
+    (component 74
+      (place "L6" 99.710000 64.135000 front 0 (PN 0))
+    )
+    (component 80
+      (place "L1" 99.710000 70.485000 front 0 (PN 0))
+    )
+    (component 86
+      (place "ETH2" 80.706250 85.332000 front 0 (PN 0))
+    )
+    (component 134
+      (place "ETH3" 93.283750 85.340000 front 0 (PN 0))
+    )
+    (component 182
+      (place "I2" 92.075000 65.836800 back 0 (PN 0))
+    )
+    (component 524
+      (place "ETH4" 93.283750 65.663000 front 0 (PN 0))
+    )
+  )
+  (library
+    (image 20
+      (pin Th_square_1524000 "1" -8.890000 0.000000)
+      (pin Th_round_1524000 "2" -6.350000 0.000000)
+      (pin Th_round_1524000 "3" -3.810000 0.000000)
+      (pin Th_round_1524000 "4" -1.270000 0.000000)
+      (pin Th_round_1524000 "5" 1.270000 0.000000)
+      (pin Th_round_1524000 "6" 3.810000 0.000000)
+      (pin Th_round_1524000 "7" 6.350000 0.000000)
+      (pin Th_round_1524000 "8" 8.890000 0.000000)
+    )
+    (image 38
+      (pin Smd_rect_749808x999744 "1" -0.649986 0.000000)
+      (pin Smd_rect_749808x999744 "2" 0.649986 0.000000)
+    )
+    (image 44
+      (pin Smd_rect_749808x999744 "1" -0.649986 0.000000)
+      (pin Smd_rect_749808x999744 "2" 0.649986 0.000000)
+    )
+    (image 50
+      (pin Smd_rect_749808x999744 "1" -0.649986 0.000000)
+      (pin Smd_rect_749808x999744 "2" 0.649986 0.000000)
+    )
+    (image 56
+      (pin Smd_rect_749808x999744 "1" -0.649986 0.000000)
+      (pin Smd_rect_749808x999744 "2" 0.649986 0.000000)
+    )
+    (image 62
+      (pin Smd_rect_749808x999744 "1" -0.649986 0.000000)
+      (pin Smd_rect_749808x999744 "2" 0.649986 0.000000)
+    )
+    (image 68
+      (pin Smd_rect_749808x999744 "1" -0.649986 0.000000)
+      (pin Smd_rect_749808x999744 "2" 0.649986 0.000000)
+    )
+    (image 74
+      (pin Smd_rect_749808x999744 "1" -0.649986 0.000000)
+      (pin Smd_rect_749808x999744 "2" 0.649986 0.000000)
+    )
+    (image 80
+      (pin Smd_rect_749808x999744 "1" -0.649986 0.000000)
+      (pin Smd_rect_749808x999744 "2" 0.649986 0.000000)
+    )
+    (image 86
+      (pin Th_round_1300000 "12" 5.268750 4.450000)
+      (pin Th_round_1300000 "11" 5.268750 -4.450000)
+      (pin Th_round_1300000 "13" 5.268750 7.000000)
+      (pin Th_round_1300000 "10" 5.268750 -7.000000)
+      (pin Th_round_1300000 "8" -0.431250 3.570000)
+      (pin Th_round_1300000 "6" -0.431250 1.530000)
+      (pin Th_round_1300000 "2" -0.431250 -2.550000)
+      (pin Th_round_1300000 "4" -0.431250 -0.510000)
+      (pin Th_round_1300000 "1" -2.231250 -3.570000)
+      (pin Th_round_1300000 "3" -2.231250 -1.530000)
+      (pin Th_round_1300000 "7" -2.231250 2.550000)
+      (pin Th_round_1300000 "5" -2.231250 0.510000)
+      (pin Th_round_2800000 "9" -1.331250 6.600000)
+      (pin Th_round_2800000 "9" -1.331250 -6.600000)
+      (pin Th_round_1700000 "9" -3.881250 -6.400000)
+      (pin Th_round_1700000 "9" -3.881250 6.400000)
+    )
+    (image 134
+      (pin Th_round_1300000 "12" -5.268750 -4.450000)
+      (pin Th_round_1300000 "11" -5.268750 4.450000)
+      (pin Th_round_1300000 "13" -5.268750 -7.000000)
+      (pin Th_round_1300000 "10" -5.268750 7.000000)
+      (pin Th_round_1300000 "8" 0.431250 -3.570000)
+      (pin Th_round_1300000 "6" 0.431250 -1.530000)
+      (pin Th_round_1300000 "2" 0.431250 2.550000)
+      (pin Th_round_1300000 "4" 0.431250 0.510000)
+      (pin Th_round_1300000 "1" 2.231250 3.570000)
+      (pin Th_round_1300000 "3" 2.231250 1.530000)
+      (pin Th_round_1300000 "7" 2.231250 -2.550000)
+      (pin Th_round_1300000 "5" 2.231250 -0.510000)
+      (pin Th_round_2800000 "9" 1.331250 -6.600000)
+      (pin Th_round_2800000 "9" 1.331250 6.600000)
+      (pin Th_round_1700000 "9" 3.881250 6.400000)
+      (pin Th_round_1700000 "9" 3.881250 -6.400000)
+    )
+    (image 182
+      (pin Smd_rect_177800x152400 "1" 0.000000 -1.066800)
+      (pin Smd_rect_177800x152400 "2" 0.000000 -0.762000)
+      (pin Smd_rect_177800x152400 "3" 0.000000 -0.457200)
+      (pin Smd_rect_177800x152400 "4" 0.000000 -0.152400)
+      (pin Smd_rect_177800x152400 "5" 0.000000 0.152400)
+      (pin Smd_rect_177800x152400 "6" 0.000000 0.457200)
+      (pin Smd_rect_177800x152400 "7" 0.000000 0.762000)
+      (pin Smd_rect_177800x152400 "8" 0.000000 1.066800)
+    )
+    (image 524
+      (pin Th_round_1300000 "12" -5.268750 -4.450000)
+      (pin Th_round_1300000 "11" -5.268750 4.450000)
+      (pin Th_round_1300000 "13" -5.268750 -7.000000)
+      (pin Th_round_1300000 "10" -5.268750 7.000000)
+      (pin Th_round_1300000 "8" 0.431250 -3.570000)
+      (pin Th_round_1300000 "6" 0.431250 -1.530000)
+      (pin Th_round_1300000 "2" 0.431250 2.550000)
+      (pin Th_round_1300000 "4" 0.431250 0.510000)
+      (pin Th_round_1300000 "1" 2.231250 3.570000)
+      (pin Th_round_1300000 "3" 2.231250 1.530000)
+      (pin Th_round_1300000 "7" 2.231250 -2.550000)
+      (pin Th_round_1300000 "5" 2.231250 -0.510000)
+      (pin Th_round_2800000 "9" 1.331250 -6.600000)
+      (pin Th_round_2800000 "9" 1.331250 6.600000)
+      (pin Th_round_1700000 "9" 3.881250 6.400000)
+      (pin Th_round_1700000 "9" 3.881250 -6.400000)
+    )
+    (padstack Th_square_1524000
+      (shape (rect signal -0.762000 -0.762000 0.762000 0.762000))
+      (attach off)
+    )
+    (padstack Th_round_1524000
+      (shape (circle signal 1.524000))
+      (attach off)
+    )
+    (padstack Smd_rect_749808x999744
+      (shape (rect "top" -0.374904 -0.499872 0.374904 0.499872))
+      (attach off)
+    )
+    (padstack Th_round_1300000
+      (shape (circle signal 1.300000))
+      (attach off)
+    )
+    (padstack Th_round_2800000
+      (shape (circle signal 2.800000))
+      (attach off)
+    )
+    (padstack Th_round_1700000
+      (shape (circle signal 1.700000))
+      (attach off)
+    )
+    (padstack Smd_rect_177800x152400
+      (shape (rect "top" -0.088900 -0.076200 0.088900 0.076200))
+      (attach off)
+    )
+    (padstack via_685800_330200
+      (shape (circle signal 0.685800))
+      (attach off)
+    )
+  )
+  (network
+    (net "GND"
+      (pins "ETH1"-"9" "ETH2"-"9" "ETH3"-"9" "ETH4"-"9" "J1"-"2" "J2"-"2" "L1"-"2" "L2"-"2" "L3"-"2" "L4"-"2" "L5"-"2" "L6"-"2" "L7"-"2" "L8"-"2" "T1"-"2" "T2"-"2" "T3"-"2" "T4"-"2" "T5"-"2" "T6"-"2" "T7"-"2" "T8"-"2" "U1"-"6")
+    )
+    (net "unnamed_net1"
+      (pins "ETH1"-"4" "I1"-"5" "T4"-"1" "U1"-"7")
+    )
+    (net "unnamed_net2"
+      (pins "ETH1"-"5" "I1"-"6" "T5"-"1" "U1"-"8")
+    )
+    (net "unnamed_net3"
+      (pins "ETH1"-"6" "I1"-"4" "J1"-"1" "T6"-"1" "U1"-"4")
+    )
+    (net "unnamed_net4"
+      (pins "ETH1"-"7" "I1"-"7" "T7"-"1" "U1"-"9")
+    )
+    (net "unnamed_net5"
+      (pins "ETH1"-"8" "I1"-"8" "T8"-"1" "U1"-"10")
+    )
+    (net "unnamed_net6"
+      (pins "ETH2"-"1" "ETH3"-"1" "ETH4"-"1" "H1"-"1" "I2"-"1" "L1"-"1")
+    )
+    (net "unnamed_net7"
+      (pins "ETH2"-"2" "ETH3"-"2" "ETH4"-"2" "H1"-"2" "I2"-"2" "L2"-"1")
+    )
+    (net "unnamed_net8"
+      (pins "ETH2"-"3" "ETH3"-"3" "ETH4"-"3" "H1"-"3" "I2"-"3" "L3"-"1")
+    )
+    (net "unnamed_net9"
+      (pins "ETH2"-"4" "ETH3"-"4" "ETH4"-"4" "H1"-"5" "I2"-"5" "L4"-"1")
+    )
+    (net "unnamed_net10"
+      (pins "ETH2"-"5" "ETH3"-"5" "ETH4"-"5" "H1"-"6" "I2"-"6" "L5"-"1")
+    )
+    (net "unnamed_net11"
+      (pins "ETH2"-"6" "ETH3"-"6" "ETH4"-"6" "H1"-"4" "I2"-"4" "L6"-"1")
+    )
+    (net "unnamed_net12"
+      (pins "ETH2"-"7" "ETH3"-"7" "ETH4"-"7" "H1"-"7" "I2"-"7" "L7"-"1")
+    )
+    (net "unnamed_net13"
+      (pins "ETH2"-"8" "ETH3"-"8" "ETH4"-"8" "H1"-"8" "I2"-"8" "L8"-"1")
+    )
+    (net "unnamed_net14"
+      (pins "J3"-"1" "U1"-"1")
+    )
+    (net "unnamed_net15"
+      (pins "J2"-"1" "U1"-"5")
+    )
+    (net "Vee"
+      (pins "ETH1"-"2" "I1"-"2" "T2"-"1" "U1"-"2")
+    )
+    (net "Vext"
+      (pins "ETH1"-"3" "I1"-"3" "T3"-"1" "U1"-"3")
+    )
+    (net "Vsys"
+      (pins "ETH1"-"1" "I1"-"1" "J3"-"2" "T1"-"1")
+    )
+    (class geda_default "GND" "unnamed_net1" "unnamed_net2" "unnamed_net3" "unnamed_net4" "unnamed_net5" "unnamed_net6" "unnamed_net7" "unnamed_net8" "unnamed_net9" "unnamed_net10" "unnamed_net11" "unnamed_net12" "unnamed_net13" "unnamed_net14" "unnamed_net15" "Vee" "Vext" "Vsys"
+      (circuit
+        (use_via via_685800_330200)
+      )
+      (rule (width 0.152400))
+    )
+  )
+    (wiring
+
+    )
+)

@@ -37,133 +37,127 @@
   )
   (placement
     (component 20
-      (place "H1" 28.575000 73.660000 front 0 (PN 0))
+      (place "H1" 91.440000 75.565000 front 0 (PN 0))
     )
     (component 38
-      (place "R2" 28.077900 56.769000 back 0 (PN 0))
+      (place "L2" 99.710000 69.215000 front 0 (PN 0))
     )
-    (component 46
-      (place "R1" 28.077900 68.199000 back 0 (PN 0))
+    (component 44
+      (place "L3" 99.710000 67.945000 front 0 (PN 0))
     )
-    (component 54
-      (place "L2" 36.845000 67.310000 front 0 (PN 0))
+    (component 50
+      (place "L4" 99.710000 66.675000 front 0 (PN 0))
     )
-    (component 60
-      (place "L3" 36.845000 66.040000 front 0 (PN 0))
+    (component 56
+      (place "L5" 99.710000 65.405000 front 0 (PN 0))
     )
-    (component 66
-      (place "L4" 36.845000 64.770000 front 0 (PN 0))
+    (component 62
+      (place "L8" 99.710000 61.595000 front 0 (PN 0))
     )
-    (component 72
-      (place "L5" 36.845000 63.500000 front 0 (PN 0))
+    (component 68
+      (place "L7" 99.710000 62.865000 front 0 (PN 0))
     )
-    (component 78
-      (place "L8" 36.845000 59.690000 front 0 (PN 0))
+    (component 74
+      (place "L6" 99.710000 64.135000 front 0 (PN 0))
     )
-    (component 84
-      (place "L7" 36.845000 60.960000 front 0 (PN 0))
+    (component 80
+      (place "L1" 99.710000 70.485000 front 0 (PN 0))
     )
-    (component 90
-      (place "L6" 36.845000 62.230000 front 0 (PN 0))
+    (component 86
+      (place "ETH2" 80.706250 85.332000 front 0 (PN 0))
     )
-    (component 96
-      (place "L1" 36.845000 68.580000 front 0 (PN 0))
+    (component 134
+      (place "ETH3" 93.283750 85.340000 front 0 (PN 0))
     )
-    (component 102
-      (place "ETH2" 17.841250 83.427000 front 0 (PN 0))
+    (component 182
+      (place "I2" 92.075000 65.836800 back 0 (PN 0))
     )
-    (component 150
-      (place "ETH3" 30.418750 83.435000 front 0 (PN 0))
+    (component 194
+      (place "T3" 82.495189 63.786084 back 0 (PN 0))
     )
-    (component 198
-      (place "I2" 29.210000 63.931800 back 0 (PN 0))
+    (component 223
+      (place "T2" 82.495189 62.389084 back 0 (PN 0))
     )
-    (component 210
-      (place "ETH4" 30.418750 63.758000 front 0 (PN 0))
+    (component 252
+      (place "T1" 82.495189 60.992084 back 0 (PN 0))
     )
-    (component 258
-      (place "T3" 19.630189 61.881084 back 0 (PN 0))
+    (component 281
+      (place "T8" 82.495189 70.644084 back 0 (PN 0))
     )
-    (component 287
-      (place "T2" 19.630189 60.484084 back 0 (PN 0))
+    (component 310
+      (place "T7" 82.495189 69.247084 back 0 (PN 0))
     )
-    (component 316
-      (place "T1" 19.630189 59.087084 back 0 (PN 0))
+    (component 339
+      (place "T6" 82.495189 67.977084 back 0 (PN 0))
     )
-    (component 345
-      (place "T8" 19.630189 68.739084 back 0 (PN 0))
+    (component 368
+      (place "T5" 82.495189 66.580084 back 0 (PN 0))
     )
-    (component 374
-      (place "T7" 19.630189 67.342084 back 0 (PN 0))
+    (component 397
+      (place "T4" 82.495189 65.183084 back 0 (PN 0))
     )
-    (component 403
-      (place "T6" 19.630189 66.072084 back 0 (PN 0))
+    (component 426
+      (place "J3" 88.092000 64.008000 back 0 (PN 0))
     )
     (component 432
-      (place "T5" 19.630189 64.675084 back 0 (PN 0))
+      (place "J1" 77.678000 67.183000 back 0 (PN 0))
     )
-    (component 461
-      (place "T4" 19.630189 63.278084 back 0 (PN 0))
+    (component 438
+      (place "I1" 89.916000 65.824100 back 0 (PN 0))
     )
-    (component 490
-      (place "J3" 25.227000 62.103000 back 0 (PN 0))
+    (component 450
+      (place "U1" 86.258400 65.849500 back 0 (PN 0))
     )
-    (component 496
-      (place "J1" 14.813000 65.278000 back 0 (PN 0))
+    (component 470
+      (place "ETH1" 80.706250 65.655000 front 0 (PN 0))
     )
-    (component 502
-      (place "I1" 27.051000 63.919100 back 0 (PN 0))
+    (component 518
+      (place "J2" 84.536000 63.881000 back 0 (PN 0))
     )
-    (component 514
-      (place "U1" 23.393400 63.944500 back 0 (PN 0))
-    )
-    (component 534
-      (place "ETH1" 17.841250 63.750000 front 0 (PN 0))
-    )
-    (component 582
-      (place "J2" 21.671000 61.976000 back 0 (PN 0))
+    (component 524
+      (place "ETH4" 93.283750 65.663000 front 0 (PN 0))
     )
     (component 3
-      (place 3 23.368000 65.151000 front 0 (PN 0))
+      (place 3 86.233000 67.056000 front 0 (PN 0))
     )
     (component 4
-      (place 4 22.860000 62.738000 front 0 (PN 0))
+      (place 4 85.725000 64.643000 front 0 (PN 0))
     )
     (component 5
-      (place 5 20.447000 65.659000 front 0 (PN 0))
+      (place 5 83.312000 67.564000 front 0 (PN 0))
     )
     (component 6
-      (place 6 18.923000 59.563000 front 0 (PN 0))
+      (place 6 81.788000 61.468000 front 0 (PN 0))
     )
     (component 7
-      (place 7 18.923000 60.960000 front 0 (PN 0))
+      (place 7 81.788000 62.865000 front 0 (PN 0))
     )
     (component 8
-      (place 8 18.923000 62.357000 front 0 (PN 0))
+      (place 8 81.788000 64.262000 front 0 (PN 0))
     )
     (component 9
-      (place 9 18.923000 63.754000 front 0 (PN 0))
+      (place 9 81.788000 65.659000 front 0 (PN 0))
     )
     (component 10
-      (place 10 18.923000 65.151000 front 0 (PN 0))
+      (place 10 81.788000 67.056000 front 0 (PN 0))
     )
     (component 11
-      (place 11 18.923000 66.548000 front 0 (PN 0))
+      (place 11 81.788000 68.453000 front 0 (PN 0))
     )
     (component 12
-      (place 12 18.923000 67.818000 front 0 (PN 0))
+      (place 12 81.788000 69.723000 front 0 (PN 0))
     )
     (component 13
-      (place 13 18.923000 69.215000 front 0 (PN 0))
+      (place 13 81.788000 71.120000 front 0 (PN 0))
     )
     (component 14
-      (place 14 14.097000 65.278000 front 0 (PN 0))
+      (place 14 76.962000 67.183000 front 0 (PN 0))
     )
     (component 15
-      (place 15 22.098000 65.405000 front 0 (PN 0))
+      (place 15 84.963000 67.310000 front 0 (PN 0))
     )
     (component 16
-      (place 16 21.209000 62.484000 front 0 (PN 0))
+      (place 16 84.074000 64.389000 front 0 (PN 0))
     )
   )
   (library
@@ -178,46 +172,38 @@
       (pin Th_round_1524000 "8" 8.890000 0.000000)
     )
     (image 38
-      (pin Smd_rect_1299972x1499616 "1" -0.899922 0.000000)
-      (pin Smd_rect_1299972x1499616 "2" 0.899922 0.000000)
-    )
-    (image 46
-      (pin Smd_rect_1299972x1499616 "1" -0.899922 0.000000)
-      (pin Smd_rect_1299972x1499616 "2" 0.899922 0.000000)
-    )
-    (image 54
       (pin Smd_rect_749808x999744 "1" -0.649986 0.000000)
       (pin Smd_rect_749808x999744 "2" 0.649986 0.000000)
     )
-    (image 60
+    (image 44
       (pin Smd_rect_749808x999744 "1" -0.649986 0.000000)
       (pin Smd_rect_749808x999744 "2" 0.649986 0.000000)
     )
-    (image 66
+    (image 50
       (pin Smd_rect_749808x999744 "1" -0.649986 0.000000)
       (pin Smd_rect_749808x999744 "2" 0.649986 0.000000)
     )
-    (image 72
+    (image 56
       (pin Smd_rect_749808x999744 "1" -0.649986 0.000000)
       (pin Smd_rect_749808x999744 "2" 0.649986 0.000000)
     )
-    (image 78
+    (image 62
       (pin Smd_rect_749808x999744 "1" -0.649986 0.000000)
       (pin Smd_rect_749808x999744 "2" 0.649986 0.000000)
     )
-    (image 84
+    (image 68
       (pin Smd_rect_749808x999744 "1" -0.649986 0.000000)
       (pin Smd_rect_749808x999744 "2" 0.649986 0.000000)
     )
-    (image 90
+    (image 74
       (pin Smd_rect_749808x999744 "1" -0.649986 0.000000)
       (pin Smd_rect_749808x999744 "2" 0.649986 0.000000)
     )
-    (image 96
+    (image 80
       (pin Smd_rect_749808x999744 "1" -0.649986 0.000000)
       (pin Smd_rect_749808x999744 "2" 0.649986 0.000000)
     )
-    (image 102
+    (image 86
       (pin Th_round_1300000 "12" 5.268750 4.450000)
       (pin Th_round_1300000 "11" 5.268750 -4.450000)
       (pin Th_round_1300000 "13" 5.268750 7.000000)
@@ -235,7 +221,7 @@
       (pin Th_round_1700000 "9" -3.881250 -6.400000)
       (pin Th_round_1700000 "9" -3.881250 6.400000)
     )
-    (image 150
+    (image 134
       (pin Th_round_1300000 "12" -5.268750 -4.450000)
       (pin Th_round_1300000 "11" -5.268750 4.450000)
       (pin Th_round_1300000 "13" -5.268750 -7.000000)
@@ -253,7 +239,7 @@
       (pin Th_round_1700000 "9" 3.881250 6.400000)
       (pin Th_round_1700000 "9" 3.881250 -6.400000)
     )
-    (image 198
+    (image 182
       (pin Smd_rect_177800x152400 "1" 0.000000 -1.066800)
       (pin Smd_rect_177800x152400 "2" 0.000000 -0.762000)
       (pin Smd_rect_177800x152400 "3" 0.000000 -0.457200)
@@ -263,25 +249,7 @@
       (pin Smd_rect_177800x152400 "7" 0.000000 0.762000)
       (pin Smd_rect_177800x152400 "8" 0.000000 1.066800)
     )
-    (image 210
-      (pin Th_round_1300000 "12" -5.268750 -4.450000)
-      (pin Th_round_1300000 "11" -5.268750 4.450000)
-      (pin Th_round_1300000 "13" -5.268750 -7.000000)
-      (pin Th_round_1300000 "10" -5.268750 7.000000)
-      (pin Th_round_1300000 "8" 0.431250 -3.570000)
-      (pin Th_round_1300000 "6" 0.431250 -1.530000)
-      (pin Th_round_1300000 "2" 0.431250 2.550000)
-      (pin Th_round_1300000 "4" 0.431250 0.510000)
-      (pin Th_round_1300000 "1" 2.231250 3.570000)
-      (pin Th_round_1300000 "3" 2.231250 1.530000)
-      (pin Th_round_1300000 "7" 2.231250 -2.550000)
-      (pin Th_round_1300000 "5" 2.231250 -0.510000)
-      (pin Th_round_2800000 "9" 1.331250 -6.600000)
-      (pin Th_round_2800000 "9" 1.331250 6.600000)
-      (pin Th_round_1700000 "9" 3.881250 6.400000)
-      (pin Th_round_1700000 "9" 3.881250 -6.400000)
-    )
-    (image 258
+    (image 194
       (pin Smd_rect_914400x152400 "2" -0.029411 0.348916)
       (pin Smd_rect_330200x152400 "2" -0.499311 0.260016)
       (pin Smd_rect_330200x152400 "2" 0.440489 0.260016)
@@ -302,7 +270,7 @@
       (pin Smd_rect_330200x152400 "1" -0.092911 -0.222584)
       (pin Smd_rect_330200x152400 "1" -0.270711 -0.222584)
     )
-    (image 287
+    (image 223
       (pin Smd_rect_914400x152400 "2" -0.029411 0.348916)
       (pin Smd_rect_330200x152400 "2" -0.499311 0.260016)
       (pin Smd_rect_330200x152400 "2" 0.440489 0.260016)
@@ -323,7 +291,7 @@
       (pin Smd_rect_330200x152400 "1" -0.092911 -0.222584)
       (pin Smd_rect_330200x152400 "1" -0.270711 -0.222584)
     )
-    (image 316
+    (image 252
       (pin Smd_rect_914400x152400 "2" -0.029411 0.348916)
       (pin Smd_rect_330200x152400 "2" -0.499311 0.260016)
       (pin Smd_rect_330200x152400 "2" 0.440489 0.260016)
@@ -344,7 +312,7 @@
       (pin Smd_rect_330200x152400 "1" -0.092911 -0.222584)
       (pin Smd_rect_330200x152400 "1" -0.270711 -0.222584)
     )
-    (image 345
+    (image 281
       (pin Smd_rect_914400x152400 "2" -0.029411 0.348916)
       (pin Smd_rect_330200x152400 "2" -0.499311 0.260016)
       (pin Smd_rect_330200x152400 "2" 0.440489 0.260016)
@@ -365,7 +333,7 @@
       (pin Smd_rect_330200x152400 "1" -0.092911 -0.222584)
       (pin Smd_rect_330200x152400 "1" -0.270711 -0.222584)
     )
-    (image 374
+    (image 310
       (pin Smd_rect_914400x152400 "2" -0.029411 0.348916)
       (pin Smd_rect_330200x152400 "2" -0.499311 0.260016)
       (pin Smd_rect_330200x152400 "2" 0.440489 0.260016)
@@ -386,7 +354,7 @@
       (pin Smd_rect_330200x152400 "1" -0.092911 -0.222584)
       (pin Smd_rect_330200x152400 "1" -0.270711 -0.222584)
     )
-    (image 403
+    (image 339
       (pin Smd_rect_914400x152400 "2" -0.029411 0.348916)
       (pin Smd_rect_330200x152400 "2" -0.499311 0.260016)
       (pin Smd_rect_330200x152400 "2" 0.440489 0.260016)
@@ -407,7 +375,7 @@
       (pin Smd_rect_330200x152400 "1" -0.092911 -0.222584)
       (pin Smd_rect_330200x152400 "1" -0.270711 -0.222584)
     )
-    (image 432
+    (image 368
       (pin Smd_rect_914400x152400 "2" -0.029411 0.348916)
       (pin Smd_rect_330200x152400 "2" -0.499311 0.260016)
       (pin Smd_rect_330200x152400 "2" 0.440489 0.260016)
@@ -428,7 +396,7 @@
       (pin Smd_rect_330200x152400 "1" -0.092911 -0.222584)
       (pin Smd_rect_330200x152400 "1" -0.270711 -0.222584)
     )
-    (image 461
+    (image 397
       (pin Smd_rect_914400x152400 "2" -0.029411 0.348916)
       (pin Smd_rect_330200x152400 "2" -0.499311 0.260016)
       (pin Smd_rect_330200x152400 "2" 0.440489 0.260016)
@@ -449,15 +417,15 @@
       (pin Smd_rect_330200x152400 "1" -0.092911 -0.222584)
       (pin Smd_rect_330200x152400 "1" -0.270711 -0.222584)
     )
-    (image 490
+    (image 426
       (pin Smd_rect_399796x399796 "1" 0.299974 0.000000)
       (pin Smd_rect_399796x399796 "2" -0.299974 0.000000)
     )
-    (image 496
+    (image 432
       (pin Smd_rect_399796x399796 "1" -0.299974 0.000000)
       (pin Smd_rect_399796x399796 "2" 0.299974 0.000000)
     )
-    (image 502
+    (image 438
       (pin Smd_rect_177800x152400 "1" 0.000000 -1.066800)
       (pin Smd_rect_177800x152400 "2" 0.000000 -0.762000)
       (pin Smd_rect_177800x152400 "3" 0.000000 -0.457200)
@@ -467,7 +435,7 @@
       (pin Smd_rect_177800x152400 "7" 0.000000 0.762000)
       (pin Smd_rect_177800x152400 "8" 0.000000 1.066800)
     )
-    (image 514
+    (image 450
       (pin Smd_rect_304800x965200 "1" -1.016000 -2.095500)
       (pin Smd_rect_304800x965200 "2" -0.508000 -2.095500)
       (pin Smd_rect_304800x965200 "3" 0.000000 -2.095500)
@@ -479,7 +447,7 @@
       (pin Smd_rect_304800x965200 "9" -0.482600 2.095500)
       (pin Smd_rect_304800x965200 "10" -0.990600 2.095500)
     )
-    (image 534
+    (image 470
       (pin Th_round_1300000 "12" 5.268750 4.450000)
       (pin Th_round_1300000 "11" 5.268750 -4.450000)
       (pin Th_round_1300000 "13" 5.268750 7.000000)
@@ -497,9 +465,27 @@
       (pin Th_round_1700000 "9" -3.881250 -6.400000)
       (pin Th_round_1700000 "9" -3.881250 6.400000)
     )
-    (image 582
+    (image 518
       (pin Smd_rect_399796x399796 "1" -0.299974 0.000000)
       (pin Smd_rect_399796x399796 "2" 0.299974 0.000000)
+    )
+    (image 524
+      (pin Th_round_1300000 "12" -5.268750 -4.450000)
+      (pin Th_round_1300000 "11" -5.268750 4.450000)
+      (pin Th_round_1300000 "13" -5.268750 -7.000000)
+      (pin Th_round_1300000 "10" -5.268750 7.000000)
+      (pin Th_round_1300000 "8" 0.431250 -3.570000)
+      (pin Th_round_1300000 "6" 0.431250 -1.530000)
+      (pin Th_round_1300000 "2" 0.431250 2.550000)
+      (pin Th_round_1300000 "4" 0.431250 0.510000)
+      (pin Th_round_1300000 "1" 2.231250 3.570000)
+      (pin Th_round_1300000 "3" 2.231250 1.530000)
+      (pin Th_round_1300000 "7" 2.231250 -2.550000)
+      (pin Th_round_1300000 "5" 2.231250 -0.510000)
+      (pin Th_round_2800000 "9" 1.331250 -6.600000)
+      (pin Th_round_2800000 "9" 1.331250 6.600000)
+      (pin Th_round_1700000 "9" 3.881250 6.400000)
+      (pin Th_round_1700000 "9" 3.881250 -6.400000)
     )
     (image 3
       (pin Th_round_990600 1 0 0)
@@ -549,10 +535,6 @@
     )
     (padstack Th_round_1524000
       (shape (circle signal 1.524000))
-      (attach off)
-    )
-    (padstack Smd_rect_1299972x1499616
-      (shape (rect "top" -0.649986 -0.749808 0.649986 0.749808))
       (attach off)
     )
     (padstack Smd_rect_749808x999744
@@ -641,51 +623,45 @@
       (pins "ETH1"-"8" "I1"-"8" "T8"-"1" "U1"-"10")
     )
     (net "unnamed_net6"
-      (pins "ETH1"-"11" "ETH2"-"11" "ETH3"-"11" "ETH4"-"11" "R1"-"2")
-    )
-    (net "unnamed_net7"
-      (pins "ETH1"-"13" "ETH2"-"13" "ETH3"-"13" "ETH4"-"13" "R2"-"2")
-    )
-    (net "unnamed_net8"
       (pins "ETH2"-"1" "ETH3"-"1" "ETH4"-"1" "H1"-"1" "I2"-"1" "L1"-"1")
     )
-    (net "unnamed_net9"
+    (net "unnamed_net7"
       (pins "ETH2"-"2" "ETH3"-"2" "ETH4"-"2" "H1"-"2" "I2"-"2" "L2"-"1")
     )
-    (net "unnamed_net10"
+    (net "unnamed_net8"
       (pins "ETH2"-"3" "ETH3"-"3" "ETH4"-"3" "H1"-"3" "I2"-"3" "L3"-"1")
     )
-    (net "unnamed_net11"
+    (net "unnamed_net9"
       (pins "ETH2"-"4" "ETH3"-"4" "ETH4"-"4" "H1"-"5" "I2"-"5" "L4"-"1")
     )
-    (net "unnamed_net12"
+    (net "unnamed_net10"
       (pins "ETH2"-"5" "ETH3"-"5" "ETH4"-"5" "H1"-"6" "I2"-"6" "L5"-"1")
     )
-    (net "unnamed_net13"
+    (net "unnamed_net11"
       (pins "ETH2"-"6" "ETH3"-"6" "ETH4"-"6" "H1"-"4" "I2"-"4" "L6"-"1")
     )
-    (net "unnamed_net14"
+    (net "unnamed_net12"
       (pins "ETH2"-"7" "ETH3"-"7" "ETH4"-"7" "H1"-"7" "I2"-"7" "L7"-"1")
     )
-    (net "unnamed_net15"
+    (net "unnamed_net13"
       (pins "ETH2"-"8" "ETH3"-"8" "ETH4"-"8" "H1"-"8" "I2"-"8" "L8"-"1")
     )
-    (net "unnamed_net16"
+    (net "unnamed_net14"
       (pins "J3"-"1" "U1"-"1")
     )
-    (net "unnamed_net17"
+    (net "unnamed_net15"
       (pins "J2"-"1" "U1"-"5")
     )
     (net "Vee"
-      (pins "ETH1"-"2" "ETH1"-"10" "ETH2"-"10" "ETH3"-"10" "ETH4"-"10" "I1"-"2" "T2"-"1" "U1"-"2")
+      (pins "ETH1"-"2" "I1"-"2" "T2"-"1" "U1"-"2")
     )
     (net "Vext"
-      (pins "ETH1"-"3" "I1"-"3" "R2"-"1" "T3"-"1" "U1"-"3")
+      (pins "ETH1"-"3" "I1"-"3" "T3"-"1" "U1"-"3")
     )
     (net "Vsys"
-      (pins "ETH1"-"1" "I1"-"1" "J3"-"2" "R1"-"1" "T1"-"1")
+      (pins "ETH1"-"1" "I1"-"1" "J3"-"2" "T1"-"1")
     )
-    (class geda_default "unnamed_net1" "unnamed_net2" "unnamed_net3" "unnamed_net4" "unnamed_net5" "unnamed_net6" "unnamed_net7" "unnamed_net8" "unnamed_net9" "unnamed_net10" "unnamed_net11" "unnamed_net12" "unnamed_net13" "unnamed_net14" "unnamed_net15" "unnamed_net16" "unnamed_net17" "Vee" "Vext" "Vsys"
+    (class geda_default "unnamed_net1" "unnamed_net2" "unnamed_net3" "unnamed_net4" "unnamed_net5" "unnamed_net6" "unnamed_net7" "unnamed_net8" "unnamed_net9" "unnamed_net10" "unnamed_net11" "unnamed_net12" "unnamed_net13" "unnamed_net14" "unnamed_net15" "Vee" "Vext" "Vsys"
       (circuit
         (use_via via_685800_330200)
       )
@@ -693,243 +669,243 @@
     )
   )
     (wiring
-        (wire (path top 0.152400 20.447000 65.659000 20.447000 65.405000)
+        (wire (path top 0.152400 83.312000 67.564000 83.312000 67.310000)
             (type protect))
-        (wire (path top 0.152400 22.860000 62.738000 22.860000 62.992000)
+        (wire (path top 0.152400 85.725000 64.643000 85.725000 64.897000)
             (type protect))
-        (wire (path top 0.152400 20.447000 65.405000 22.860000 62.992000)
+        (wire (path top 0.152400 83.312000 67.310000 85.725000 64.897000)
             (type protect))
-        (wire (path bottom 0.152400 22.910800 61.849000 22.910800 62.687200)
+        (wire (path bottom 0.152400 85.775800 63.754000 85.775800 64.592200)
             (type protect))
-        (wire (path bottom 0.152400 22.910800 62.687200 22.860000 62.738000)
+        (wire (path bottom 0.152400 85.775800 64.592200 85.725000 64.643000)
             (type protect))
-        (wire (path bottom 0.152400 23.393400 65.176400 23.368000 65.151000)
+        (wire (path bottom 0.152400 86.258400 67.081400 86.233000 67.056000)
             (type protect))
-        (wire (path bottom 0.152400 20.447000 65.659000 20.447000 65.747900)
+        (wire (path bottom 0.152400 83.312000 67.564000 83.312000 67.652900)
             (type protect))
-        (wire (path bottom 0.152400 20.447000 65.747900 20.281900 65.913000)
+        (wire (path bottom 0.152400 83.312000 67.652900 83.146900 67.818000)
             (type protect))
-        (wire (path bottom 0.152400 18.923000 65.913000 18.542000 65.913000)
+        (wire (path bottom 0.152400 81.788000 67.818000 81.407000 67.818000)
             (type protect))
-        (wire (path bottom 0.152400 18.542000 65.913000 18.415000 65.786000)
+        (wire (path bottom 0.152400 81.407000 67.818000 81.280000 67.691000)
             (type protect))
-        (wire (path bottom 0.152400 18.415000 65.786000 17.916000 65.786000)
+        (wire (path bottom 0.152400 81.280000 67.691000 80.781000 67.691000)
             (type protect))
-        (wire (path bottom 0.152400 17.916000 65.786000 17.410000 65.280000)
+        (wire (path bottom 0.152400 80.781000 67.691000 80.275000 67.185000)
             (type protect))
-        (wire (path bottom 0.152400 14.513000 65.278000 14.097000 65.278000)
+        (wire (path bottom 0.152400 77.378000 67.183000 76.962000 67.183000)
             (type protect))
-        (wire (path bottom 0.152400 22.377400 66.040000 22.377400 65.684400)
+        (wire (path bottom 0.152400 85.242400 67.945000 85.242400 67.589400)
             (type protect))
-        (wire (path bottom 0.152400 22.377400 65.684400 22.098000 65.405000)
+        (wire (path bottom 0.152400 85.242400 67.589400 84.963000 67.310000)
             (type protect))
-        (wire (path bottom 0.152400 18.923000 61.722000 18.288000 61.722000)
+        (wire (path bottom 0.152400 81.788000 63.627000 81.153000 63.627000)
             (type protect))
-        (wire (path bottom 0.152400 18.288000 61.722000 17.780000 62.230000)
+        (wire (path bottom 0.152400 81.153000 63.627000 80.645000 64.135000)
             (type protect))
-        (wire (path bottom 0.152400 17.780000 62.230000 15.620000 62.230000)
+        (wire (path bottom 0.152400 80.645000 64.135000 78.485000 64.135000)
             (type protect))
-        (wire (path bottom 0.152400 15.620000 62.230000 15.610000 62.220000)
+        (wire (path bottom 0.152400 78.485000 64.135000 78.475000 64.125000)
             (type protect))
-        (wire (path bottom 0.152400 18.923000 60.325000 18.285000 60.325000)
+        (wire (path bottom 0.152400 81.788000 62.230000 81.150000 62.230000)
             (type protect))
-        (wire (path bottom 0.152400 18.285000 60.325000 17.410000 61.200000)
+        (wire (path bottom 0.152400 81.150000 62.230000 80.275000 63.105000)
             (type protect))
-        (wire (path bottom 0.152400 18.923000 58.928000 18.415000 58.928000)
+        (wire (path bottom 0.152400 81.788000 60.833000 81.280000 60.833000)
             (type protect))
-        (wire (path bottom 0.152400 18.415000 58.928000 18.034000 59.309000)
+        (wire (path bottom 0.152400 81.280000 60.833000 80.899000 61.214000)
             (type protect))
-        (wire (path bottom 0.152400 18.034000 59.309000 18.034000 59.817000)
+        (wire (path bottom 0.152400 80.899000 61.214000 80.899000 61.722000)
             (type protect))
-        (wire (path bottom 0.152400 18.034000 59.817000 17.653000 60.198000)
+        (wire (path bottom 0.152400 80.899000 61.722000 80.518000 62.103000)
             (type protect))
-        (wire (path bottom 0.152400 17.653000 60.198000 15.628000 60.198000)
+        (wire (path bottom 0.152400 80.518000 62.103000 78.493000 62.103000)
             (type protect))
-        (wire (path bottom 0.152400 15.628000 60.198000 15.610000 60.180000)
+        (wire (path bottom 0.152400 78.493000 62.103000 78.475000 62.085000)
             (type protect))
-        (wire (path bottom 0.152400 18.923000 63.119000 17.531000 63.119000)
+        (wire (path bottom 0.152400 81.788000 65.024000 80.396000 65.024000)
             (type protect))
-        (wire (path bottom 0.152400 17.531000 63.119000 17.410000 63.240000)
+        (wire (path bottom 0.152400 80.396000 65.024000 80.275000 65.145000)
             (type protect))
-        (wire (path bottom 0.152400 18.923000 64.516000 18.415000 64.516000)
+        (wire (path bottom 0.152400 81.788000 66.421000 81.280000 66.421000)
             (type protect))
-        (wire (path bottom 0.152400 18.415000 64.516000 18.161000 64.262000)
+        (wire (path bottom 0.152400 81.280000 66.421000 81.026000 66.167000)
             (type protect))
-        (wire (path bottom 0.152400 18.161000 64.262000 15.612000 64.262000)
+        (wire (path bottom 0.152400 81.026000 66.167000 78.477000 66.167000)
             (type protect))
-        (wire (path bottom 0.152400 15.612000 64.262000 15.610000 64.260000)
+        (wire (path bottom 0.152400 78.477000 66.167000 78.475000 66.165000)
             (type protect))
-        (wire (path bottom 0.152400 18.923000 68.580000 18.670000 68.580000)
+        (wire (path bottom 0.152400 81.788000 70.485000 81.535000 70.485000)
             (type protect))
-        (wire (path bottom 0.152400 18.670000 68.580000 17.410000 67.320000)
+        (wire (path bottom 0.152400 81.535000 70.485000 80.275000 69.225000)
             (type protect))
-        (wire (path bottom 0.152400 18.923000 67.183000 18.542000 67.183000)
+        (wire (path bottom 0.152400 81.788000 69.088000 81.407000 69.088000)
             (type protect))
-        (wire (path bottom 0.152400 15.610000 66.300000 17.659000 66.300000)
+        (wire (path bottom 0.152400 78.475000 68.205000 80.524000 68.205000)
             (type protect))
-        (wire (path bottom 0.152400 18.542000 67.183000 17.659000 66.300000)
+        (wire (path bottom 0.152400 81.407000 69.088000 80.524000 68.205000)
             (type protect))
-        (wire (path bottom 0.152400 17.410000 65.280000 15.115000 65.280000)
+        (wire (path bottom 0.152400 80.275000 67.185000 77.980000 67.185000)
             (type protect))
-        (wire (path bottom 0.152400 15.115000 65.280000 15.113000 65.278000)
+        (wire (path bottom 0.152400 77.980000 67.185000 77.978000 67.183000)
             (type protect))
-        (wire (path bottom 0.152400 20.281900 68.580000 20.701000 68.580000)
+        (wire (path bottom 0.152400 83.146900 70.485000 83.566000 70.485000)
             (type protect))
-        (wire (path bottom 0.152400 20.701000 68.580000 21.717000 69.596000)
+        (wire (path bottom 0.152400 83.566000 70.485000 84.582000 71.501000)
             (type protect))
-        (wire (path bottom 0.152400 20.281900 67.183000 20.701000 67.183000)
+        (wire (path bottom 0.152400 83.146900 69.088000 83.566000 69.088000)
             (type protect))
-        (wire (path bottom 0.152400 20.701000 67.183000 20.955000 67.437000)
+        (wire (path bottom 0.152400 83.566000 69.088000 83.820000 69.342000)
             (type protect))
-        (wire (path bottom 0.152400 20.955000 67.437000 20.955000 68.326000)
+        (wire (path bottom 0.152400 83.820000 69.342000 83.820000 70.231000)
             (type protect))
-        (wire (path bottom 0.152400 20.955000 68.326000 21.717000 69.088000)
+        (wire (path bottom 0.152400 83.820000 70.231000 84.582000 70.993000)
             (type protect))
-        (wire (path bottom 0.152400 21.717000 69.088000 23.622000 69.088000)
+        (wire (path bottom 0.152400 84.582000 70.993000 86.487000 70.993000)
             (type protect))
-        (wire (path bottom 0.152400 23.622000 69.088000 24.003000 68.707000)
+        (wire (path bottom 0.152400 86.487000 70.993000 86.868000 70.612000)
             (type protect))
-        (wire (path bottom 0.152400 24.003000 68.707000 24.003000 67.056000)
+        (wire (path bottom 0.152400 86.868000 70.612000 86.868000 68.961000)
             (type protect))
-        (wire (path bottom 0.152400 24.003000 67.056000 23.876000 66.929000)
+        (wire (path bottom 0.152400 86.868000 68.961000 86.741000 68.834000)
             (type protect))
-        (wire (path bottom 0.152400 21.717000 69.596000 23.622000 69.596000)
+        (wire (path bottom 0.152400 84.582000 71.501000 86.487000 71.501000)
             (type protect))
-        (wire (path bottom 0.152400 23.622000 69.596000 24.384000 68.834000)
+        (wire (path bottom 0.152400 86.487000 71.501000 87.249000 70.739000)
             (type protect))
-        (wire (path bottom 0.152400 22.733000 64.897000 22.733000 65.405000)
+        (wire (path bottom 0.152400 85.598000 66.802000 85.598000 67.310000)
             (type protect))
-        (wire (path bottom 0.152400 22.885400 66.040000 22.885400 65.557400)
+        (wire (path bottom 0.152400 85.750400 67.945000 85.750400 67.462400)
             (type protect))
-        (wire (path bottom 0.152400 22.733000 65.405000 22.885400 65.557400)
+        (wire (path bottom 0.152400 85.598000 67.310000 85.750400 67.462400)
             (type protect))
-        (wire (path bottom 0.152400 27.051000 64.681100 24.472900 64.681100)
+        (wire (path bottom 0.152400 89.916000 66.586100 87.337900 66.586100)
             (type protect))
-        (wire (path bottom 0.152400 24.472900 64.681100 24.003000 65.151000)
+        (wire (path bottom 0.152400 87.337900 66.586100 86.868000 67.056000)
             (type protect))
-        (wire (path bottom 0.152400 27.051000 64.985900 24.676100 64.985900)
+        (wire (path bottom 0.152400 89.916000 66.890900 87.541100 66.890900)
             (type protect))
-        (wire (path bottom 0.152400 24.676100 64.985900 24.384000 65.278000)
+        (wire (path bottom 0.152400 87.541100 66.890900 87.249000 67.183000)
             (type protect))
-        (wire (path bottom 0.152400 24.384000 68.834000 24.384000 65.278000)
+        (wire (path bottom 0.152400 87.249000 70.739000 87.249000 67.183000)
             (type protect))
-        (wire (path bottom 0.152400 23.876000 66.929000 23.876000 65.532000)
+        (wire (path bottom 0.152400 86.741000 68.834000 86.741000 67.437000)
             (type protect))
-        (wire (path bottom 0.152400 23.876000 65.532000 24.003000 65.405000)
+        (wire (path bottom 0.152400 86.741000 67.437000 86.868000 67.310000)
             (type protect))
-        (wire (path bottom 0.152400 24.003000 65.151000 24.003000 65.405000)
+        (wire (path bottom 0.152400 86.868000 67.056000 86.868000 67.310000)
             (type protect))
-        (wire (path bottom 0.152400 27.051000 64.376300 24.269700 64.376300)
+        (wire (path bottom 0.152400 89.916000 66.281300 87.134700 66.281300)
             (type protect))
-        (wire (path bottom 0.152400 23.368000 65.151000 23.495000 65.151000)
+        (wire (path bottom 0.152400 86.233000 67.056000 86.360000 67.056000)
             (type protect))
-        (wire (path bottom 0.152400 24.269700 64.376300 23.495000 65.151000)
+        (wire (path bottom 0.152400 87.134700 66.281300 86.360000 67.056000)
             (type protect))
-        (wire (path bottom 0.152400 23.393400 65.176400 23.393400 66.776600)
+        (wire (path bottom 0.152400 86.258400 67.081400 86.258400 68.681600)
             (type protect))
-        (wire (path bottom 0.152400 23.393400 66.776600 22.987000 67.183000)
+        (wire (path bottom 0.152400 86.258400 68.681600 85.852000 69.088000)
             (type protect))
-        (wire (path bottom 0.152400 22.987000 67.183000 21.971000 67.183000)
+        (wire (path bottom 0.152400 85.852000 69.088000 84.836000 69.088000)
             (type protect))
-        (wire (path bottom 0.152400 21.971000 67.183000 21.336000 66.548000)
+        (wire (path bottom 0.152400 84.836000 69.088000 84.201000 68.453000)
             (type protect))
-        (wire (path bottom 0.152400 21.336000 66.548000 21.336000 64.897000)
+        (wire (path bottom 0.152400 84.201000 68.453000 84.201000 66.802000)
             (type protect))
-        (wire (path bottom 0.152400 21.336000 64.897000 20.955000 64.516000)
+        (wire (path bottom 0.152400 84.201000 66.802000 83.820000 66.421000)
             (type protect))
-        (wire (path bottom 0.152400 20.955000 64.516000 20.281900 64.516000)
+        (wire (path bottom 0.152400 83.820000 66.421000 83.146900 66.421000)
             (type protect))
-        (wire (path bottom 0.152400 22.733000 64.897000 22.606000 64.770000)
+        (wire (path bottom 0.152400 85.598000 66.802000 85.471000 66.675000)
             (type protect))
-        (wire (path bottom 0.152400 22.606000 64.770000 21.717000 64.770000)
+        (wire (path bottom 0.152400 85.471000 66.675000 84.582000 66.675000)
             (type protect))
-        (wire (path bottom 0.152400 21.717000 64.770000 20.955000 64.008000)
+        (wire (path bottom 0.152400 84.582000 66.675000 83.820000 65.913000)
             (type protect))
-        (wire (path bottom 0.152400 20.955000 64.008000 20.955000 63.373000)
+        (wire (path bottom 0.152400 83.820000 65.913000 83.820000 65.278000)
             (type protect))
-        (wire (path bottom 0.152400 20.955000 63.373000 20.701000 63.119000)
+        (wire (path bottom 0.152400 83.820000 65.278000 83.566000 65.024000)
             (type protect))
-        (wire (path bottom 0.152400 20.701000 63.119000 20.281900 63.119000)
+        (wire (path bottom 0.152400 83.566000 65.024000 83.146900 65.024000)
             (type protect))
-        (wire (path bottom 0.152400 27.051000 64.071500 23.304500 64.071500)
+        (wire (path bottom 0.152400 89.916000 65.976500 86.169500 65.976500)
             (type protect))
-        (wire (path bottom 0.152400 23.304500 64.071500 22.606000 64.770000)
+        (wire (path bottom 0.152400 86.169500 65.976500 85.471000 66.675000)
             (type protect))
-        (wire (path bottom 0.152400 27.051000 63.461900 24.345900 63.461900)
+        (wire (path bottom 0.152400 89.916000 65.366900 87.210900 65.366900)
             (type protect))
-        (wire (path bottom 0.152400 24.345900 63.461900 23.393400 62.509400)
+        (wire (path bottom 0.152400 87.210900 65.366900 86.258400 64.414400)
             (type protect))
-        (wire (path bottom 0.152400 27.051000 63.766700 24.142700 63.766700)
+        (wire (path bottom 0.152400 89.916000 65.671700 87.007700 65.671700)
             (type protect))
-        (wire (path bottom 0.152400 22.860000 62.738000 23.114000 62.738000)
+        (wire (path bottom 0.152400 85.725000 64.643000 85.979000 64.643000)
             (type protect))
-        (wire (path bottom 0.152400 24.142700 63.766700 23.114000 62.738000)
+        (wire (path bottom 0.152400 87.007700 65.671700 85.979000 64.643000)
             (type protect))
-        (wire (path bottom 0.152400 27.051000 63.157100 25.565100 63.157100)
+        (wire (path bottom 0.152400 89.916000 65.062100 88.430100 65.062100)
             (type protect))
-        (wire (path bottom 0.152400 25.565100 63.157100 25.146000 62.738000)
+        (wire (path bottom 0.152400 88.430100 65.062100 88.011000 64.643000)
             (type protect))
-        (wire (path bottom 0.152400 25.146000 62.738000 24.130000 62.738000)
+        (wire (path bottom 0.152400 88.011000 64.643000 86.995000 64.643000)
             (type protect))
-        (wire (path bottom 0.152400 24.130000 62.738000 23.901400 62.509400)
+        (wire (path bottom 0.152400 86.995000 64.643000 86.766400 64.414400)
             (type protect))
-        (wire (path bottom 0.152400 27.038300 62.852300 25.768300 62.852300)
+        (wire (path bottom 0.152400 89.903300 64.757300 88.633300 64.757300)
             (type protect))
-        (wire (path bottom 0.152400 25.768300 62.852300 25.527000 62.611000)
+        (wire (path bottom 0.152400 88.633300 64.757300 88.392000 64.516000)
             (type protect))
-        (wire (path bottom 0.152400 24.927052 62.103000 24.663400 62.103000)
+        (wire (path bottom 0.152400 87.792100 64.008000 87.528400 64.008000)
             (type protect))
-        (wire (path bottom 0.152400 24.663400 62.103000 24.409400 61.849000)
+        (wire (path bottom 0.152400 87.528400 64.008000 87.274400 63.754000)
             (type protect))
-        (wire (path bottom 0.152400 21.971000 61.976000 22.275800 61.976000)
+        (wire (path bottom 0.152400 84.836000 63.881000 85.140800 63.881000)
             (type protect))
-        (wire (path bottom 0.152400 22.275800 61.976000 22.402800 61.849000)
+        (wire (path bottom 0.152400 85.140800 63.881000 85.267800 63.754000)
             (type protect))
-        (wire (path bottom 0.152400 21.371052 61.976000 21.371052 62.321900)
+        (wire (path bottom 0.152400 84.236100 63.881000 84.236100 64.226900)
             (type protect))
-        (wire (path bottom 0.152400 21.371052 62.321900 21.209000 62.484000)
+        (wire (path bottom 0.152400 84.236100 64.226900 84.074000 64.389000)
             (type protect))
-        (wire (path bottom 0.152400 23.393400 62.509400 23.393400 61.239400)
+        (wire (path bottom 0.152400 86.258400 64.414400 86.258400 63.144400)
             (type protect))
-        (wire (path bottom 0.152400 23.393400 61.239400 23.114000 60.960000)
+        (wire (path bottom 0.152400 86.258400 63.144400 85.979000 62.865000)
             (type protect))
-        (wire (path bottom 0.152400 20.955000 60.579000 20.701000 60.325000)
+        (wire (path bottom 0.152400 83.820000 62.484000 83.566000 62.230000)
             (type protect))
-        (wire (path bottom 0.152400 20.701000 60.325000 20.281900 60.325000)
+        (wire (path bottom 0.152400 83.566000 62.230000 83.146900 62.230000)
             (type protect))
-        (wire (path bottom 0.152400 20.281900 61.722000 20.701000 61.722000)
+        (wire (path bottom 0.152400 83.146900 63.627000 83.566000 63.627000)
             (type protect))
-        (wire (path bottom 0.152400 20.955000 61.468000 20.701000 61.722000)
+        (wire (path bottom 0.152400 83.820000 63.373000 83.566000 63.627000)
             (type protect))
-        (wire (path bottom 0.152400 23.901400 60.858400 23.622000 60.579000)
+        (wire (path bottom 0.152400 86.766400 62.763400 86.487000 62.484000)
             (type protect))
-        (wire (path bottom 0.152400 25.527000 62.611000 25.527000 61.849000)
+        (wire (path bottom 0.152400 88.392000 64.516000 88.392000 63.754000)
             (type protect))
-        (wire (path bottom 0.152400 25.527000 61.849000 24.765000 61.087000)
+        (wire (path bottom 0.152400 88.392000 63.754000 87.630000 62.992000)
             (type protect))
-        (wire (path bottom 0.152400 24.765000 61.087000 24.638000 61.087000)
+        (wire (path bottom 0.152400 87.630000 62.992000 87.503000 62.992000)
             (type protect))
-        (wire (path bottom 0.152400 24.638000 61.087000 23.812500 60.261500)
+        (wire (path bottom 0.152400 87.503000 62.992000 86.677500 62.166500)
             (type protect))
-        (wire (path bottom 0.152400 23.812500 60.261500 21.145500 60.261500)
+        (wire (path bottom 0.152400 86.677500 62.166500 84.010500 62.166500)
             (type protect))
-        (wire (path bottom 0.152400 23.622000 60.579000 20.955000 60.579000)
+        (wire (path bottom 0.152400 86.487000 62.484000 83.820000 62.484000)
             (type protect))
-        (wire (path bottom 0.152400 21.145500 60.261500 20.955000 60.071000)
+        (wire (path bottom 0.152400 84.010500 62.166500 83.820000 61.976000)
             (type protect))
-        (wire (path bottom 0.152400 20.955000 60.071000 20.955000 59.182000)
+        (wire (path bottom 0.152400 83.820000 61.976000 83.820000 61.087000)
             (type protect))
-        (wire (path bottom 0.152400 20.955000 59.182000 20.701000 58.928000)
+        (wire (path bottom 0.152400 83.820000 61.087000 83.566000 60.833000)
             (type protect))
-        (wire (path bottom 0.152400 20.701000 58.928000 20.281900 58.928000)
+        (wire (path bottom 0.152400 83.566000 60.833000 83.146900 60.833000)
             (type protect))
-        (wire (path bottom 0.152400 23.114000 60.960000 22.225000 60.960000)
+        (wire (path bottom 0.152400 85.979000 62.865000 85.090000 62.865000)
             (type protect))
-        (wire (path bottom 0.152400 20.955000 61.468000 21.717000 61.468000)
+        (wire (path bottom 0.152400 83.820000 63.373000 84.582000 63.373000)
             (type protect))
-        (wire (path bottom 0.152400 22.225000 60.960000 21.717000 61.468000)
+        (wire (path bottom 0.152400 85.090000 62.865000 84.582000 63.373000)
             (type protect))
-        (wire (path bottom 0.152400 23.901400 60.858400 23.901400 62.509400)
+        (wire (path bottom 0.152400 86.766400 62.763400 86.766400 64.414400)
             (type protect))
 
     )
