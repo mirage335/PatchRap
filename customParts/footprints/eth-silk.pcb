@@ -5,7 +5,7 @@ FileVersion[20091103]
 
 PCB["" 20.0000mm 20.0000mm]
 
-Grid[39.370079 0.0000 0.0000 1]
+Grid[2500.000000 0.0000 0.0000 1]
 PolyArea[3100.006200]
 Thermal[0.500000]
 DRC[6.00mil 6.00mil 6.00mil 6.00mil 13.00mil 7.00mil]
@@ -785,8 +785,8 @@ Symbol['~' 12.00mil]
 	SymbolLine[15.00mil 35.00mil 20.00mil 35.00mil 8.00mil]
 	SymbolLine[20.00mil 35.00mil 25.00mil 30.00mil 8.00mil]
 )
-Attribute("PCB::grid::unit" "mm")
-Attribute("PCB::grid::size" "0.0100mm")
+Attribute("PCB::grid::unit" "mil")
+Attribute("PCB::grid::size" "25.00mil")
 Layer(1 "top")
 (
 )
@@ -796,28 +796,20 @@ Layer(2 "bottom")
 Layer(3 "outline")
 (
 )
-Layer(4 "silk")
+Layer(4 "bottom silk")
 (
 )
-Layer(5 "silk")
+Layer(5 "top silk")
 (
-	Line[0.1600mm 18.5000mm 18.0600mm 18.5000mm 10.00mil 20.00mil "clearline"]
-	Line[0.1600mm 7.4500mm 0.1600mm 18.5000mm 10.00mil 20.00mil "clearline"]
-	Line[0.1600mm 7.4600mm 0.1600mm 0.1000mm 10.00mil 20.00mil "clearline"]
-	Line[18.0600mm 7.4500mm 18.0600mm 18.5000mm 10.00mil 20.00mil "clearline"]
-	Line[18.0600mm 0.1000mm 14.2700mm 0.1000mm 10.00mil 20.00mil "clearline"]
-	Line[18.0600mm 7.4600mm 18.0600mm 0.1000mm 10.00mil 20.00mil "clearline"]
-	Line[0.1600mm 0.1000mm 3.6600mm 0.1000mm 10.00mil 20.00mil "clearline"]
-	Line[3.4000mm 0.1000mm 14.8300mm 0.1000mm 10.00mil 20.00mil "clearline"]
-	Line[4.4700mm 3.9500mm 4.8700mm 4.3500mm 6.00mil 20.00mil "clearline"]
-	Line[4.4700mm 4.3500mm 4.8700mm 3.9500mm 6.00mil 20.00mil "clearline"]
-	Text[1.1300mm 1.9000mm 0 75 "T568A" "clearline"]
-	Text[12.8300mm 5.2000mm 3 75 "7/WBr" "clearline"]
-	Text[14.1300mm 2.7000mm 3 75 "8/Br" "clearline"]
-	Text[11.5300mm 2.7000mm 3 75 "6/O" "clearline"]
-	Text[10.4300mm 5.2000mm 3 75 "5/WBl" "clearline"]
-	Text[9.0300mm 2.6000mm 3 75 "4/Bl" "clearline"]
-	Text[7.8300mm 5.2000mm 3 75 "3/WO" "clearline"]
-	Text[6.5300mm 2.6000mm 3 75 "2/G" "clearline"]
-	Text[5.2300mm 5.3000mm 3 75 "1/WG" "clearline"]
+	Line[11.6300mm 8.2800mm 12.0300mm 8.6800mm 6.00mil 20.00mil "clearline"]
+	Line[11.6300mm 8.6800mm 12.0300mm 8.2800mm 6.00mil 20.00mil "clearline"]
+	Text[13.1950mm 3.1700mm 0 75 "T568A" "clearline"]
+	Text[12.3900mm 9.6300mm 3 75 "1/WG" "clearline"]
+	Text[11.6100mm 3.2350mm 3 75 "2/G" "clearline"]
+	Text[10.3700mm 9.6450mm 3 75 "3/WO" "clearline"]
+	Text[9.6650mm 3.2350mm 3 75 "4/Bl" "clearline"]
+	Text[8.5250mm 9.6450mm 3 75 "5/WBl" "clearline"]
+	Text[7.0850mm 3.3350mm 3 75 "6/O" "clearline"]
+	Text[6.4800mm 9.6450mm 3 75 "7/WBr" "clearline"]
+	Text[5.2400mm 3.3350mm 3 75 "8/Br" "clearline"]
 )

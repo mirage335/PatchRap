@@ -1,0 +1,18 @@
+# PcbBOM Version 1.0
+# Date: Sat 29 Oct 2016 01:04:32 AM GMT UTC
+# Author: 
+# Title: (unknown) - PCB BOM
+# Quantity, Description, Value, RefDes
+# --------------------------------------------
+11,"0201","-",X1/X2/J2 X1/X2/J1 X1/X1/J2 X1/X1/J1 X1/J2 X2/J2 X2/J1 X2/J3 X3/J2 X3/J1 X1/X1/J3 
+2,"HEADER4_1","-",X1/X2/PWR2 X1/X2/PWR1 
+2,"JUMPER6","-",X1/REG X3/TERM 
+7,"SparkGapPCB","2kV",X1/X1/T1 X1/X1/T3 X1/X1/T2 X1/X1/T4 X1/X1/T5 X1/X1/T6 X1/X1/T7 
+1,"MSOP10","unknown",X1/X1/U1 
+2,"0402","4.7uF",X1/X1/C1 X1/X1/C2 
+2,"HEADER10_2","-",X1/X2/H2 X1/X2/H1 
+4,"JUMPER8","-",X2/EX X2/MOV X2/POL2 X2/POL1 
+2,"0201","0.1uF",X2/C2 X2/C1 
+2,"eth_571-1734795-1","-",X2/STEP X1/X1/GEN 
+3,"0805","2.2k",X1/X1/R2 X1/X1/R1 X2/R1 
+1,"0805","10Ohm",X3/L1 

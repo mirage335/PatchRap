@@ -182,6 +182,9 @@ find . -maxdepth 2 -type f -regextype posix-egrep -regex ".*toppaste.*" -exec mv
 find . -maxdepth 2 -type f -regextype posix-egrep -regex ".*bottompaste.*" -exec mv {} {}.gbp \;
 find . -maxdepth 2 -type f -regextype posix-egrep -regex ".*outline.*" -exec mv {} {}.gko \;
 
+find . -maxdepth 2 -type f -regextype posix-egrep -regex ".*G2L.*" -exec rm {} \;
+find . -maxdepth 2 -type f -regextype posix-egrep -regex ".*G3L.*" -exec rm {} \;
+
 # Remove empty silk layers
 #find . -name \*silk\* -size -380c -delete
 

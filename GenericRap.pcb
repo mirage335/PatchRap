@@ -5,12 +5,12 @@ FileVersion[20091103]
 
 PCB["" 4000.00mil 3000.00mil]
 
-Grid[100.000000 0.0000 0.0000 1]
+Grid[500.000000 0.0000 0.0000 1]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[6.00mil 0.10mil 6.00mil 0.10mil 13.00mil 7.00mil]
 Flags("showdrc,nameonpcb,clearnew,newfullpoly,snappin,locknames")
-Groups("1,c:2:3:4:5:6,s:7:8")
+Groups("1,c:2,s:3")
 Styles["Signal,10.00mil,36.00mil,20.00mil,10.00mil:Power,25.00mil,60.00mil,35.00mil,10.00mil:Fat,40.00mil,60.00mil,35.00mil,10.00mil:Skinny,6.00mil,27.00mil,13.00mil,6.00mil"]
 
 Symbol[' ' 18.00mil]
@@ -786,26 +786,26 @@ Symbol['~' 12.00mil]
 	SymbolLine[20.00mil 35.00mil 25.00mil 30.00mil 8.00mil]
 )
 Attribute("PCB::grid::unit" "mil")
-Attribute("PCB::grid::size" "1.00mil")
-Via[590.00mil 66.1590mm 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,5X)"]
-Via[495.00mil 62.3490mm 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,5X)"]
-Via[435.00mil 62.0950mm 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,5X)"]
-Via[410.00mil 69.7150mm 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,5X)"]
-Via[420.00mil 65.2700mm 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,5X)"]
-Via[431.00mil 68.2418mm 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,5X)"]
-Via[425.00mil 66.6670mm 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,5X)"]
+Attribute("PCB::grid::size" "5.00mil")
+Via[590.00mil 66.1590mm 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,1X)"]
+Via[495.00mil 62.3490mm 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,1X)"]
+Via[435.00mil 62.0950mm 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,1X)"]
+Via[410.00mil 69.7150mm 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,1X)"]
+Via[420.00mil 65.2700mm 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,1X)"]
+Via[431.00mil 68.2418mm 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,1X)"]
+Via[425.00mil 66.6670mm 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,1X)"]
 Via[339.00mil 66.0066mm 27.00mil 20.00mil 0.0000 13.00mil "" ""]
-Via[432.00mil 63.8730mm 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,5X)"]
+Via[432.00mil 63.8730mm 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,1X)"]
 Via[140.00mil 61.0790mm 60.00mil 20.00mil 0.0000 35.00mil "" ""]
-Via[255.00mil 66.9210mm 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0X,5X)"]
+Via[255.00mil 66.9210mm 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0X,1X)"]
 Via[190.00mil 66.6670mm 60.00mil 20.00mil 0.0000 35.00mil "" ""]
 Via[220.00mil 9.6440mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[105.00mil 18.6610mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[125.00mil 16.3750mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[105.00mil 13.3270mm 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0X,5X)"]
+Via[105.00mil 13.3270mm 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0X,1X)"]
 Via[140.00mil 55.9990mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[245.00mil 55.4910mm 60.00mil 20.00mil 0.0000 35.00mil "" "thermal(0X,5X)"]
-Via[460.00mil 58.2850mm 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0X,5X)"]
+Via[245.00mil 55.4910mm 60.00mil 20.00mil 0.0000 35.00mil "" "thermal(0X,1X)"]
+Via[460.00mil 58.2850mm 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0X,1X)"]
 Via[3425.00mil 67.1750mm 27.00mil 20.00mil 0.0000 13.00mil "" ""]
 Via[3425.00mil 58.7930mm 27.00mil 20.00mil 0.0000 13.00mil "" ""]
 Via[3085.00mil 59.9360mm 27.00mil 20.00mil 0.0000 13.00mil "" ""]
@@ -824,27 +824,27 @@ Via[1658.00mil 55.8212mm 27.00mil 12.00mil 0.0000 13.00mil "" ""]
 Via[1784.00mil 55.8212mm 27.00mil 12.00mil 0.0000 13.00mil "" ""]
 Via[1745.00mil 55.8212mm 27.00mil 12.00mil 0.0000 13.00mil "" ""]
 Via[1890.00mil 57.3960mm 27.00mil 12.00mil 0.0000 13.00mil "" ""]
-Via[1835.00mil 68.9748mm 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0X,5X)"]
+Via[1835.00mil 68.9748mm 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0X,1X)"]
 Via[2720.00mil 73.0170mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[1835.00mil 71.7470mm 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0X,5X)"]
+Via[1835.00mil 71.7470mm 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0X,1X)"]
 Via[2970.00mil 55.1100mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[2715.00mil 55.6180mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[1995.00mil 60.1900mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[2035.00mil 57.6500mm 27.00mil 12.00mil 0.0000 13.00mil "" ""]
 Via[1930.00mil 57.1420mm 27.00mil 12.00mil 0.0000 13.00mil "" ""]
 Via[2860.00mil 49.2680mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[2930.00mil 48.7600mm 60.00mil 20.00mil 0.0000 35.00mil "" "thermal(0X,5X)"]
+Via[2930.00mil 48.7600mm 60.00mil 20.00mil 0.0000 35.00mil "" "thermal(0X,1X)"]
 Via[2995.00mil 48.8870mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[2845.00mil 46.7280mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[2825.00mil 45.4580mm 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0X,5X)"]
+Via[2825.00mil 45.4580mm 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0X,1X)"]
 Via[2325.00mil 52.6970mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[2380.00mil 52.6970mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[2645.00mil 66.2860mm 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0X,5X)"]
-Via[2440.00mil 65.1430mm 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0X,5X)"]
+Via[2645.00mil 66.2860mm 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0X,1X)"]
+Via[2440.00mil 65.1430mm 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0X,1X)"]
 Via[2955.00mil 60.3170mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[2955.00mil 59.1740mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[2955.00mil 57.3960mm 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0X,5X)"]
-Via[2955.00mil 62.2220mm 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0X,5X)"]
+Via[2955.00mil 57.3960mm 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0X,1X)"]
+Via[2955.00mil 62.2220mm 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0X,1X)"]
 Via[2625.00mil 61.8410mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[2625.00mil 62.9840mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
 
@@ -869,7 +869,7 @@ Element["hidename" "HEADER4_1" "X1/X2/PWR2" "-" 2550.00mil 52.5700mm -50.00mil -
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square"]
 	Pin[0.0000 100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" ""]
-	Pin[100.00mil 100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "3" "3" "thermal(0X,5X)"]
+	Pin[100.00mil 100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "3" "3" "thermal(0X,1X)"]
 	Pin[100.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "4" "4" ""]
 	ElementLine [-50.00mil -50.00mil -50.00mil 150.00mil 10.00mil]
 	ElementLine [-50.00mil 150.00mil 150.00mil 150.00mil 10.00mil]
@@ -920,10 +920,10 @@ Element["hidename" "JUMPER6" "X1/REG" "-" 125.00mil 52.5700mm -50.00mil -110.00m
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square,edge2"]
-	Pin[100.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" "edge2,thermal(0X,5X)"]
+	Pin[100.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" "edge2,thermal(0X,1X)"]
 	Pin[200.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "3" "3" "edge2"]
 	Pin[300.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "4" "4" "edge2"]
-	Pin[400.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "5" "5" "edge2,thermal(0X,5X)"]
+	Pin[400.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "5" "5" "edge2,thermal(0X,1X)"]
 	Pin[500.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "6" "6" "edge2"]
 	ElementLine [-50.00mil 50.00mil 550.00mil 50.00mil 10.00mil]
 	ElementLine [550.00mil -50.00mil 550.00mil 50.00mil 10.00mil]
@@ -1261,7 +1261,7 @@ Element["" "XT60" "X1/Vsys2" "60A" 5.5000mm 38.0920mm 1.6120mm 105.00mil 0 100 "
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 6.0000mm 20.00mil 6.1524mm 4.7500mm "1" "1" "edge2"]
-	Pin[7.2000mm 0.0000 6.0000mm 20.00mil 6.1524mm 4.7500mm "2" "2" "edge2,thermal(0X,5X)"]
+	Pin[7.2000mm 0.0000 6.0000mm 20.00mil 6.1524mm 4.7500mm "2" "2" "edge2,thermal(0X,1X)"]
 	ElementLine [-4.3000mm -4.0000mm -4.3000mm 4.1000mm 10.00mil]
 	ElementLine [-4.3000mm 4.1000mm 11.4000mm 4.1000mm 10.00mil]
 	ElementLine [11.4000mm -4.0000mm 11.4000mm 4.1000mm 10.00mil]
@@ -1282,7 +1282,7 @@ Element["" "XT60" "X1/Vsys3" "60A" 5.5000mm 29.9640mm 1.4850mm 105.00mil 0 100 "
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 6.0000mm 20.00mil 6.1524mm 4.7500mm "1" "1" "edge2"]
-	Pin[7.2000mm 0.0000 6.0000mm 20.00mil 6.1524mm 4.7500mm "2" "2" "edge2,thermal(0X,5X)"]
+	Pin[7.2000mm 0.0000 6.0000mm 20.00mil 6.1524mm 4.7500mm "2" "2" "edge2,thermal(0X,1X)"]
 	ElementLine [-4.3000mm -4.0000mm -4.3000mm 4.1000mm 10.00mil]
 	ElementLine [-4.3000mm 4.1000mm 11.4000mm 4.1000mm 10.00mil]
 	ElementLine [11.4000mm -4.0000mm 11.4000mm 4.1000mm 10.00mil]
@@ -1348,22 +1348,22 @@ Element["" "eth_571-1734795-1" "X1/PSU" "-" 350.00mil 9.1400mm -225.00mil -50.00
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[6.6000mm -4.4500mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "12" "12" "thermal(0X,5X)"]
+	Pin[6.6000mm -4.4500mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "12" "12" "thermal(0X,1X)"]
 	Pin[6.6000mm 4.4500mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "11" "11" ""]
 	Pin[6.6000mm -7.0000mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "13" "13" ""]
-	Pin[6.6000mm 7.0000mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "10" "10" "thermal(0X,5X)"]
-	Pin[0.9000mm -3.5700mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "8" "8" "thermal(0X,5X)"]
-	Pin[0.9000mm -1.5300mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "6" "6" "thermal(0X,5X)"]
-	Pin[0.9000mm 2.5500mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "2" "2" "thermal(0X,5X)"]
+	Pin[6.6000mm 7.0000mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "10" "10" "thermal(0X,1X)"]
+	Pin[0.9000mm -3.5700mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "8" "8" "thermal(0X,1X)"]
+	Pin[0.9000mm -1.5300mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "6" "6" "thermal(0X,1X)"]
+	Pin[0.9000mm 2.5500mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "2" "2" "thermal(0X,1X)"]
 	Pin[0.9000mm 0.5100mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "4" "4" ""]
 	Pin[-0.9000mm 3.5700mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "1" "1" ""]
 	Pin[-0.9000mm 1.5300mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "3" "3" ""]
 	Pin[-0.9000mm -2.5500mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "7" "7" ""]
-	Pin[-0.9000mm -0.5100mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "5" "5" "thermal(0X,5X)"]
-	Pin[0.0000 -6.6000mm 2.8000mm 20.00mil 2.9524mm 2.4000mm "9" "9" "thermal(0X,5X)"]
-	Pin[0.0000 6.6000mm 2.8000mm 20.00mil 2.9524mm 2.4000mm "9" "9" "thermal(0X,5X)"]
-	Pin[-2.5500mm 6.4000mm 1.7000mm 12.00mil 1.8524mm 1.3000mm "9" "9" "thermal(0X,5X)"]
-	Pin[-2.5500mm -6.4000mm 1.7000mm 12.00mil 1.8524mm 1.3000mm "9" "9" "thermal(0X,5X)"]
+	Pin[-0.9000mm -0.5100mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "5" "5" "thermal(0X,1X)"]
+	Pin[0.0000 -6.6000mm 2.8000mm 20.00mil 2.9524mm 2.4000mm "9" "9" "thermal(0X,1X)"]
+	Pin[0.0000 6.6000mm 2.8000mm 20.00mil 2.9524mm 2.4000mm "9" "9" "thermal(0X,1X)"]
+	Pin[-2.5500mm 6.4000mm 1.7000mm 12.00mil 1.8524mm 1.3000mm "9" "9" "thermal(0X,1X)"]
+	Pin[-2.5500mm -6.4000mm 1.7000mm 12.00mil 1.8524mm 1.3000mm "9" "9" "thermal(0X,1X)"]
 	ElementLine [-1.5500mm 4.3500mm -1.3000mm 4.6000mm 6.00mil]
 	ElementLine [-1.3000mm 4.3500mm -1.5500mm 4.6000mm 6.00mil]
 	ElementLine [6.6000mm -6.1000mm 6.6000mm -5.9000mm 6.00mil]
@@ -1403,7 +1403,7 @@ Element["" "XT60" "X1/Vsys4" "60A" 5.5000mm 21.8360mm 1.4850mm 105.00mil 0 100 "
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 6.0000mm 20.00mil 6.1524mm 4.7500mm "1" "1" "edge2"]
-	Pin[7.2000mm 0.0000 6.0000mm 20.00mil 6.1524mm 4.7500mm "2" "2" "edge2,thermal(0X,5X)"]
+	Pin[7.2000mm 0.0000 6.0000mm 20.00mil 6.1524mm 4.7500mm "2" "2" "edge2,thermal(0X,1X)"]
 	ElementLine [-4.3000mm -4.0000mm -4.3000mm 4.1000mm 10.00mil]
 	ElementLine [-4.3000mm 4.1000mm 11.4000mm 4.1000mm 10.00mil]
 	ElementLine [11.4000mm -4.0000mm 11.4000mm 4.1000mm 10.00mil]
@@ -1424,7 +1424,7 @@ Element["" "XT60" "X1/Vsys1" "60A" 5.5000mm 46.2200mm 1.4850mm 105.00mil 0 100 "
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 6.0000mm 20.00mil 6.1524mm 4.7500mm "1" "1" "edge2"]
-	Pin[7.2000mm 0.0000 6.0000mm 20.00mil 6.1524mm 4.7500mm "2" "2" "edge2,thermal(0X,5X)"]
+	Pin[7.2000mm 0.0000 6.0000mm 20.00mil 6.1524mm 4.7500mm "2" "2" "edge2,thermal(0X,1X)"]
 	ElementLine [-4.3000mm -4.0000mm -4.3000mm 4.1000mm 10.00mil]
 	ElementLine [-4.3000mm 4.1000mm 11.4000mm 4.1000mm 10.00mil]
 	ElementLine [11.4000mm -4.0000mm 11.4000mm 4.1000mm 10.00mil]
@@ -1456,16 +1456,16 @@ Element["hidename" "HEADER10_2" "X1/X2/H2" "-" 1860.00mil 55.1100mm -50.00mil -2
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square,edge2,thermal(0X,5X)"]
-	Pin[0.0000 -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" "edge2,thermal(0X,5X)"]
-	Pin[100.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "3" "3" "edge2,thermal(0X,5X)"]
-	Pin[100.00mil -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "4" "4" "edge2,thermal(0X,5X)"]
-	Pin[200.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "5" "5" "edge2,thermal(0X,5X)"]
-	Pin[200.00mil -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "6" "6" "edge2,thermal(0X,5X)"]
-	Pin[300.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "7" "7" "edge2,thermal(0X,5X)"]
-	Pin[300.00mil -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "8" "8" "edge2,thermal(0X,5X)"]
-	Pin[400.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "9" "9" "edge2,thermal(0X,5X)"]
-	Pin[400.00mil -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "10" "10" "edge2,thermal(0X,5X)"]
+	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square,edge2,thermal(0X,1X)"]
+	Pin[0.0000 -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" "edge2,thermal(0X,1X)"]
+	Pin[100.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "3" "3" "edge2,thermal(0X,1X)"]
+	Pin[100.00mil -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "4" "4" "edge2,thermal(0X,1X)"]
+	Pin[200.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "5" "5" "edge2,thermal(0X,1X)"]
+	Pin[200.00mil -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "6" "6" "edge2,thermal(0X,1X)"]
+	Pin[300.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "7" "7" "edge2,thermal(0X,1X)"]
+	Pin[300.00mil -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "8" "8" "edge2,thermal(0X,1X)"]
+	Pin[400.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "9" "9" "edge2,thermal(0X,1X)"]
+	Pin[400.00mil -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "10" "10" "edge2,thermal(0X,1X)"]
 	ElementLine [-50.00mil 50.00mil 450.00mil 50.00mil 10.00mil]
 	ElementLine [450.00mil -150.00mil 450.00mil 50.00mil 10.00mil]
 	ElementLine [-50.00mil -150.00mil 450.00mil -150.00mil 10.00mil]
@@ -1482,16 +1482,16 @@ Element["hidename" "HEADER10_2" "X1/X2/H1" "-" 1165.00mil 55.1100mm -50.00mil -2
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square,edge2,thermal(0X,5X)"]
-	Pin[0.0000 -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" "edge2,thermal(0X,5X)"]
-	Pin[100.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "3" "3" "edge2,thermal(0X,5X)"]
-	Pin[100.00mil -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "4" "4" "edge2,thermal(0X,5X)"]
-	Pin[200.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "5" "5" "edge2,thermal(0X,5X)"]
-	Pin[200.00mil -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "6" "6" "edge2,thermal(0X,5X)"]
-	Pin[300.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "7" "7" "edge2,thermal(0X,5X)"]
-	Pin[300.00mil -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "8" "8" "edge2,thermal(0X,5X)"]
-	Pin[400.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "9" "9" "edge2,thermal(0X,5X)"]
-	Pin[400.00mil -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "10" "10" "edge2,thermal(0X,5X)"]
+	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square,edge2,thermal(0X,1X)"]
+	Pin[0.0000 -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" "edge2,thermal(0X,1X)"]
+	Pin[100.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "3" "3" "edge2,thermal(0X,1X)"]
+	Pin[100.00mil -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "4" "4" "edge2,thermal(0X,1X)"]
+	Pin[200.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "5" "5" "edge2,thermal(0X,1X)"]
+	Pin[200.00mil -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "6" "6" "edge2,thermal(0X,1X)"]
+	Pin[300.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "7" "7" "edge2,thermal(0X,1X)"]
+	Pin[300.00mil -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "8" "8" "edge2,thermal(0X,1X)"]
+	Pin[400.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "9" "9" "edge2,thermal(0X,1X)"]
+	Pin[400.00mil -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "10" "10" "edge2,thermal(0X,1X)"]
 	ElementLine [-50.00mil 50.00mil 450.00mil 50.00mil 10.00mil]
 	ElementLine [450.00mil -150.00mil 450.00mil 50.00mil 10.00mil]
 	ElementLine [-50.00mil -150.00mil 450.00mil -150.00mil 10.00mil]
@@ -1509,7 +1509,7 @@ Element["" "JUMPER8" "X2/EX" "-" 3550.00mil 71.6200mm 40.00mil -55.00mil 2 100 "
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square,edge2"]
-	Pin[-100.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" "edge2,thermal(0X,5X)"]
+	Pin[-100.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" "edge2,thermal(0X,1X)"]
 	Pin[-200.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "3" "3" "edge2"]
 	Pin[-300.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "4" "4" "edge2"]
 	Pin[-400.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "5" "5" "edge2"]
@@ -1561,7 +1561,7 @@ Element["" "JUMPER8" "X2/MOV" "-" 3550.00mil 52.5700mm 40.00mil 115.00mil 2 100 
 	Pin[-200.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "3" "3" "edge2"]
 	Pin[-300.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "4" "4" "edge2"]
 	Pin[-400.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "5" "5" "edge2"]
-	Pin[-500.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "6" "6" "edge2,thermal(0X,5X)"]
+	Pin[-500.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "6" "6" "edge2,thermal(0X,1X)"]
 	Pin[-600.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "7" "7" "edge2"]
 	Pin[-700.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "8" "8" "edge2"]
 	ElementLine [-750.00mil -50.00mil 50.00mil -50.00mil 10.00mil]
@@ -1592,10 +1592,10 @@ Element["" "eth_571-1734795-1" "X2/STEP" "-" 3300.00mil 62.0950mm 225.00mil 65.0
 	Pin[0.9000mm -1.5300mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "3" "3" ""]
 	Pin[0.9000mm 2.5500mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "7" "7" ""]
 	Pin[0.9000mm 0.5100mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "5" "5" ""]
-	Pin[0.0000 6.6000mm 2.8000mm 20.00mil 2.9524mm 2.4000mm "9" "9" "thermal(0X,5X)"]
-	Pin[0.0000 -6.6000mm 2.8000mm 20.00mil 2.9524mm 2.4000mm "9" "9" "thermal(0X,5X)"]
-	Pin[2.5500mm -6.4000mm 1.7000mm 12.00mil 1.8524mm 1.3000mm "9" "9" "thermal(0X,5X)"]
-	Pin[2.5500mm 6.4000mm 1.7000mm 12.00mil 1.8524mm 1.3000mm "9" "9" "thermal(0X,5X)"]
+	Pin[0.0000 6.6000mm 2.8000mm 20.00mil 2.9524mm 2.4000mm "9" "9" "thermal(0X,1X)"]
+	Pin[0.0000 -6.6000mm 2.8000mm 20.00mil 2.9524mm 2.4000mm "9" "9" "thermal(0X,1X)"]
+	Pin[2.5500mm -6.4000mm 1.7000mm 12.00mil 1.8524mm 1.3000mm "9" "9" "thermal(0X,1X)"]
+	Pin[2.5500mm 6.4000mm 1.7000mm 12.00mil 1.8524mm 1.3000mm "9" "9" "thermal(0X,1X)"]
 	ElementLine [1.5500mm -4.3500mm 1.3000mm -4.6000mm 6.00mil]
 	ElementLine [1.3000mm -4.3500mm 1.5500mm -4.6000mm 6.00mil]
 	ElementLine [-6.6000mm 5.9000mm -6.6000mm 6.1000mm 6.00mil]
@@ -1641,7 +1641,7 @@ Element["" "JUMPER8" "X2/POL2" "-" 2650.00mil 71.6200mm -95.00mil -55.00mil 2 10
 	Pin[-400.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "5" "5" "edge2"]
 	Pin[-500.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "6" "6" "edge2"]
 	Pin[-600.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "7" "7" "edge2"]
-	Pin[-700.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "8" "8" "edge2,thermal(0X,5X)"]
+	Pin[-700.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "8" "8" "edge2,thermal(0X,1X)"]
 	ElementLine [-750.00mil -50.00mil 50.00mil -50.00mil 10.00mil]
 	ElementLine [-750.00mil -50.00mil -750.00mil 50.00mil 10.00mil]
 	ElementLine [-750.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
@@ -1695,7 +1695,7 @@ Element["" "BNC_LAY" "X3/AIO3" "-" 3100.00mil 12.5650mm 475.00mil -100.00mil 3 1
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 35.00mil "1" "1" "square"]
-	Pin[0.0000 -100.00mil 60.00mil 30.00mil 66.00mil 35.00mil "2" "2" "thermal(0X,5X)"]
+	Pin[0.0000 -100.00mil 60.00mil 30.00mil 66.00mil 35.00mil "2" "2" "thermal(0X,1X)"]
 	Pin[200.00mil -200.00mil 100.00mil 30.00mil 106.00mil 81.00mil "m1" "3" ""]
 	Pin[200.00mil 200.00mil 100.00mil 30.00mil 106.00mil 81.00mil "m2" "4" ""]
 	ElementLine [-60.00mil -290.00mil 490.00mil -290.00mil 10.00mil]
@@ -1818,22 +1818,22 @@ Element["" "eth_571-1734795-1" "X1/X1/GEN" "-" 350.00mil 65.5200mm -230.00mil -1
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[6.6000mm -4.4500mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "12" "12" "thermal(0X,5X)"]
+	Pin[6.6000mm -4.4500mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "12" "12" "thermal(0X,1X)"]
 	Pin[6.6000mm 4.4500mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "11" "11" ""]
 	Pin[6.6000mm -7.0000mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "13" "13" ""]
 	Pin[6.6000mm 7.0000mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "10" "10" ""]
 	Pin[0.9000mm -3.5700mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "8" "8" ""]
-	Pin[0.9000mm -1.5300mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "6" "6" "thermal(0X,5X)"]
+	Pin[0.9000mm -1.5300mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "6" "6" "thermal(0X,1X)"]
 	Pin[0.9000mm 2.5500mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "2" "2" ""]
 	Pin[0.9000mm 0.5100mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "4" "4" ""]
 	Pin[-0.9000mm 3.5700mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "1" "1" ""]
 	Pin[-0.9000mm 1.5300mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "3" "3" ""]
 	Pin[-0.9000mm -2.5500mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "7" "7" ""]
 	Pin[-0.9000mm -0.5100mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "5" "5" ""]
-	Pin[0.0000 -6.6000mm 2.8000mm 20.00mil 2.9524mm 2.4000mm "9" "9" "thermal(0X,5X)"]
-	Pin[0.0000 6.6000mm 2.8000mm 20.00mil 2.9524mm 2.4000mm "9" "9" "thermal(0X,5X)"]
-	Pin[-2.5500mm 6.4000mm 1.7000mm 12.00mil 1.8524mm 1.3000mm "9" "9" "thermal(0X,5X)"]
-	Pin[-2.5500mm -6.4000mm 1.7000mm 12.00mil 1.8524mm 1.3000mm "9" "9" "thermal(0X,5X)"]
+	Pin[0.0000 -6.6000mm 2.8000mm 20.00mil 2.9524mm 2.4000mm "9" "9" "thermal(0X,1X)"]
+	Pin[0.0000 6.6000mm 2.8000mm 20.00mil 2.9524mm 2.4000mm "9" "9" "thermal(0X,1X)"]
+	Pin[-2.5500mm 6.4000mm 1.7000mm 12.00mil 1.8524mm 1.3000mm "9" "9" "thermal(0X,1X)"]
+	Pin[-2.5500mm -6.4000mm 1.7000mm 12.00mil 1.8524mm 1.3000mm "9" "9" "thermal(0X,1X)"]
 	ElementLine [-1.5500mm 4.3500mm -1.3000mm 4.6000mm 6.00mil]
 	ElementLine [-1.3000mm 4.3500mm -1.5500mm 4.6000mm 6.00mil]
 	ElementLine [6.6000mm -6.1000mm 6.6000mm -5.9000mm 6.00mil]
@@ -1935,7 +1935,7 @@ Element["hidename" "JUMPER6" "X3/TERM" "-" 1760.00mil 58.9200mm 110.00mil -50.00
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square"]
-	Pin[0.0000 100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" "thermal(0X,5X)"]
+	Pin[0.0000 100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" "thermal(0X,1X)"]
 	Pin[0.0000 200.00mil 60.00mil 30.00mil 66.00mil 38.00mil "3" "3" ""]
 	Pin[0.0000 300.00mil 60.00mil 30.00mil 66.00mil 38.00mil "4" "4" ""]
 	Pin[0.0000 400.00mil 60.00mil 30.00mil 66.00mil 38.00mil "5" "5" ""]
@@ -2239,19 +2239,7 @@ Layer(1 "top")
 		[3600.00mil 50.5380mm] [2800.00mil 50.5380mm] [2800.00mil 2.1510mm] [3600.00mil 2.1510mm] 
 	)
 )
-Layer(2 "ground")
-(
-)
-Layer(3 "signal2")
-(
-)
-Layer(4 "signal3")
-(
-)
-Layer(5 "power")
-(
-)
-Layer(6 "bottom")
+Layer(2 "bottom")
 (
 	Line[745.00mil 56.3800mm 915.00mil 56.3800mm 10.00mil 20.00mil "clearline"]
 	Line[925.00mil 56.1260mm 915.00mil 56.3800mm 10.00mil 20.00mil "clearline"]
@@ -2886,7 +2874,7 @@ Layer(6 "bottom")
 		[1690.00mil 73.3980mm] [1865.00mil 73.3980mm] [1865.00mil 57.6500mm] [1690.00mil 57.6500mm] 
 	)
 )
-Layer(7 "outline")
+Layer(3 "outline")
 (
 	Line[35.00mil 0.7540mm 35.00mil 74.1600mm 10.00mil 20.00mil "clearline"]
 	Line[35.00mil 74.1600mm 720.00mil 74.1600mm 10.00mil 20.00mil "clearline"]
@@ -2901,13 +2889,10 @@ Layer(7 "outline")
 	Line[720.00mil 57.6500mm 1660.00mil 57.6500mm 10.00mil 20.00mil "clearline"]
 	Line[1660.00mil 57.6500mm 1660.00mil 74.1600mm 10.00mil 20.00mil "clearline"]
 )
-Layer(8 "spare")
+Layer(4 "bottom silk")
 (
 )
-Layer(9 "bottom silk")
-(
-)
-Layer(10 "top silk")
+Layer(5 "top silk")
 (
 	Line[2575.00mil 52.5700mm 2575.00mil 55.1100mm 10.00mil 20.00mil "clearline"]
 	Line[2675.00mil 52.5700mm 2675.00mil 55.1100mm 10.00mil 20.00mil "clearline"]
@@ -2916,7 +2901,41 @@ Layer(10 "top silk")
 	Line[2750.00mil 50.6650mm 2750.00mil 73.5250mm 10.00mil 20.00mil "clearline"]
 	Line[700.00mil 50.7920mm 700.00mil 73.5250mm 10.00mil 20.00mil "clearline"]
 	Line[700.00mil 57.0150mm 50.00mil 57.0150mm 10.00mil 20.00mil "clearline"]
-	Line[2750.00mil 57.0150mm 1710.00mil 57.0150mm 10.00mil 20.00mil "clearline"]
+	Line[2750.00mil 57.0150mm 42.8070mm 57.0150mm 10.00mil 20.00mil "clearline"]
+	Line[42.8070mm 57.0150mm 1660.00mil 2270.00mil 10.00mil 20.00mil "clearline"]
+	Line[8.2190mm 12.5290mm 7.8190mm 12.9290mm 6.00mil 20.00mil "clearline"]
+	Line[7.8190mm 12.5290mm 8.2190mm 12.9290mm 6.00mil 20.00mil "clearline"]
+	Line[8.2190mm 68.9090mm 7.8190mm 69.3090mm 6.00mil 20.00mil "clearline"]
+	Line[7.8190mm 68.9090mm 8.2190mm 69.3090mm 6.00mil 20.00mil "clearline"]
+	Line[84.4910mm 58.7060mm 84.8910mm 58.3060mm 6.00mil 20.00mil "clearline"]
+	Line[84.8910mm 58.7060mm 84.4910mm 58.3060mm 6.00mil 20.00mil "clearline"]
+	Text[13.3290mm 14.0940mm 3 75 "T568A" "clearline"]
+	Text[6.8690mm 13.2890mm 2 75 "1/WG" "clearline"]
+	Text[13.2640mm 12.5090mm 2 75 "2/G" "clearline"]
+	Text[6.8540mm 11.2690mm 2 75 "3/WO" "clearline"]
+	Text[13.2640mm 10.5640mm 2 75 "4/Bl" "clearline"]
+	Text[6.8540mm 9.4240mm 2 75 "5/WBl" "clearline"]
+	Text[13.1640mm 7.9840mm 2 75 "6/O" "clearline"]
+	Text[6.8540mm 7.3790mm 2 75 "7/WBr" "clearline"]
+	Text[13.1640mm 6.1390mm 2 75 "8/Br" "clearline"]
+	Text[13.3290mm 70.4740mm 3 75 "T568A" "clearline"]
+	Text[6.8690mm 69.6690mm 2 75 "1/WG" "clearline"]
+	Text[13.2640mm 68.8890mm 2 75 "2/G" "clearline"]
+	Text[6.8540mm 67.6490mm 2 75 "3/WO" "clearline"]
+	Text[13.2640mm 66.9440mm 2 75 "4/Bl" "clearline"]
+	Text[6.8540mm 65.8040mm 2 75 "5/WBl" "clearline"]
+	Text[13.1640mm 64.3640mm 2 75 "6/O" "clearline"]
+	Text[6.8540mm 63.7590mm 2 75 "7/WBr" "clearline"]
+	Text[13.1640mm 62.5190mm 2 75 "8/Br" "clearline"]
+	Text[79.3810mm 57.1410mm 1 75 "T568A" "clearline"]
+	Text[85.8410mm 57.9460mm 0 75 "1/WG" "clearline"]
+	Text[79.4460mm 58.7260mm 0 75 "2/G" "clearline"]
+	Text[85.8560mm 59.9660mm 0 75 "3/WO" "clearline"]
+	Text[79.4460mm 60.6710mm 0 75 "4/Bl" "clearline"]
+	Text[85.8560mm 61.8110mm 0 75 "5/WBl" "clearline"]
+	Text[79.5460mm 63.2510mm 0 75 "6/O" "clearline"]
+	Text[85.8560mm 63.8560mm 0 75 "7/WBr" "clearline"]
+	Text[79.5460mm 65.0960mm 0 75 "8/Br" "clearline"]
 )
 NetList()
 (
