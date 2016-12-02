@@ -21,24 +21,24 @@ USA companies provide all parts in these schematics, excepting the RJ45 jacks an
 Pinouts are as follows, numbering by T568A standard.
 
 ##GenericIO	(Limit Switch, Depth Probe, Extruder, Stepper Driver, Radio)
-	3 \/ 1 - Vsys/Vcc
-	3 \\ 2 - pGND/sGnd
+	3 / 1 - Vsys/Vcc
+	3 \ 2 - pGND/sGnd
 	2 - 3 - Vext/Vmid/Avcc/SigAlt	(NC)								(LO)
-	1 \/ 4 - Sig-/SigTx-		(sGND)				(Dir)		(I2C, UART)	
-	1 \\ 5 - Sig+/SigTx+		(COM,ANA,Probe)			(Step)		(I2C, UART)	(IF)
+	1 / 4 - Sig-/SigTx-		(sGND)				(Dir)		(I2C, UART)	
+	1 \ 5 - Sig+/SigTx+		(COM,ANA,Probe)			(Step)		(I2C, UART)	(IF)
 	2 - 6 - sGND			(NO)
-	4 \/ 7 - PWMalternate/SigRx+	(Control, Servo, Heater)	(I2C,UART)			(RF)
-	4 \\ 8 - PWMdirect/SigRx-	(Fan)				(I2C,UART)
+	4 / 7 - PWMalternate/SigRx+	(Control, Servo, Heater)	(I2C,UART)			(RF)
+	4 \ 8 - PWMdirect/SigRx-	(Fan)				(I2C,UART)
 
 ##DigitalIO	(Display, SDCard, SPI)
-	3 \/ 1 - A0
-	3 \\ 2 - dRST
+	3 / 1 - A0
+	3 \ 2 - dRST
 	2 - 3 - Vext
-	1 \/ 4 - MOSI			(I2C, UART)
-	1 \\ 5 - MISO			(I2C, UART)
+	1 / 4 - MOSI			(I2C, UART)
+	1 \ 5 - MISO			(I2C, UART)
 	2 - 6 - pGND
-	4 \/ 7 - SCK			(I2C, UART)
-	4 \\ 8 - CS
+	4 / 7 - SCK			(I2C, UART)
+	4 \ 8 - CS
 
 ##Steppers	(Stepper Motor)
 	3 / 1 - Vsys
