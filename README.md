@@ -51,7 +51,6 @@ Pinouts are as follows, numbering by T568A standard.
 	4 \ 8 - B-
 
 ##LinearPSU
-Partly inspired the above pinouts. See https://github.com/mirage335/LinearPSU/blob/master/Photo.jpg .
 	3 / 1 - 5V
 	3 \ 2 - Vee
 	2 - 3 - Vcc
@@ -61,6 +60,9 @@ Partly inspired the above pinouts. See https://github.com/mirage335/LinearPSU/bl
 	4 / 7 - 3.3V
 	4 \ 8 - Vee
 
+See https://github.com/mirage335/LinearPSU/blob/master/Photo.jpg .
+
+#Ratings
 Please beware the following ratings.
 * Vext is intended as logic power, and must never exceed 5.5V. Recommend 3.3V||5V depending on system needs.
 * Vext may be used as a diode (eg. CDBU0530) OR-gated power bus if all connected devices can operate at 2.8V-5V.
