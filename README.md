@@ -88,19 +88,6 @@ No claim of liability is made by anyone. Your accident is your accident. Use com
 #FutureWork
 * Battery charge control and overdischarge protection circuitry for regenerator.
 
-##Mainboard
-* New modular standards should be integrated.
-
-* Header connectors should use larger VIA holes for easier assembly.
-* Limit switch common terminals should be used as outputs. A three-terminal limit switch NO pin can be wired to Ethernet/T568A pin2 (sGND). The entire NC line (pin4) can then be wired to 3.3V, with the currently assigned NO line (pin5) wired to common output. In summary, pin2 becomes NO/GND, pin4 HIGH, pin5 SIGNAL.
-
-* Extruder power should be jumper-configurable to Vsys/12V/Vlogic.
-* Extruder heater pair should be jumper-configurable to include pGND/Vsys.
-* Extruder thermistor pair should be jumper-configurable to include sGND/Vsys.
-
-* Filter inductors bridged by default.
-
-* Zener diode, 863-1N5919BG, option for adapting 24V/12V/5V fans.
 
 #Reference
 https://www.inventables.com/technologies/stepper-motor-nema-17
