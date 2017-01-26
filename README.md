@@ -62,15 +62,15 @@ Partly inspired the above pinouts. See https://github.com/mirage335/LinearPSU/bl
 	4 \ 8 - Vee
 
 Please beware the following ratings.
-*) Vext is intended as logic power, and must never exceed 5.5V. Recommend 3.3V||5V depending on system needs.
-*) Vext may be used as a diode (eg. CDBU0530) OR-gated power bus if all connected devices can operate at 2.8V-5V.
-*) Vmid/Avcc are alternate uses for the Vext line, and may exceed 5.5V as appropriate.
-*) Vsys is intended for high-power delivery, and may be any voltage all attached devices are configured to tolerate. Recommend 12V||24V.
-*) Ground-referenced voltage (ie. wall current) should only be considered for Vsys. Earth-ground and neutral may be bound to pGND/sGND.
-*) Maximum current into an RJ45 socket or breadboard is typically around 3A/pin. Consider using high-quality header/jumpers, and redundant pins, as appropriate.
-*) Voltage drops can be significant, especially across pGND/sGND. Take care to follow star-toplogy grounding to the greatest extent possible when accuracy counts.
-*) Rough changes to voltages can be made (eg. for fans) by high-power zener diodes (ie. 863-1N5919BG).
-*) Pins 7/8 of GenericIO may be repurposed for digital I2C/UART if needed, specifically for digital control of stepper driver.
+* Vext is intended as logic power, and must never exceed 5.5V. Recommend 3.3V||5V depending on system needs.
+* Vext may be used as a diode (eg. CDBU0530) OR-gated power bus if all connected devices can operate at 2.8V-5V.
+* Vmid/Avcc are alternate uses for the Vext line, and may exceed 5.5V as appropriate.
+* Vsys is intended for high-power delivery, and may be any voltage all attached devices are configured to tolerate. Recommend 12V||24V.
+* Ground-referenced voltage (ie. wall current) should only be considered for Vsys. Earth-ground and neutral may be bound to pGND/sGND.
+* Maximum current into an RJ45 socket or breadboard is typically around 3A/pin. Consider using high-quality header/jumpers, and redundant pins, as appropriate.
+* Voltage drops can be significant, especially across pGND/sGND. Take care to follow star-toplogy grounding to the greatest extent possible when accuracy counts.
+* Rough changes to voltages can be made (eg. for fans) by high-power zener diodes (ie. 863-1N5919BG).
+* Pins 7/8 of GenericIO may be repurposed for digital I2C/UART if needed, specifically for digital control of stepper driver.
 
 #Safety
 Use external balancer with LiPo batteries. Cheaply available from HobbyKing among other places.
@@ -86,23 +86,21 @@ ClassIV lasers are extraordinarily hazardous. Backscatter from the projected spo
 No claim of liability is made by anyone. Your accident is your accident. Use common sense, and follow all regulations. If you don't understand the safety features and limitations, don't use this circuitry or anything similar.
 
 #FutureWork
-##Modules
-*) Modular, breadboard compatible PCB architecture for more flexibility.
-*) Cell balancing and protection circuitry for regenerator.
+* Battery charge control and overdischarge protection circuitry for regenerator.
 
 ##Mainboard
-*) New modular standards should be integrated.
+* New modular standards should be integrated.
 
-*) Header connectors should use larger VIA holes for easier assembly.
-*) Limit switch common terminals should be used as outputs. A three-terminal limit switch NO pin can be wired to Ethernet/T568A pin2 (sGND). The entire NC line (pin4) can then be wired to 3.3V, with the currently assigned NO line (pin5) wired to common output. In summary, pin2 becomes NO/GND, pin4 HIGH, pin5 SIGNAL.
+* Header connectors should use larger VIA holes for easier assembly.
+* Limit switch common terminals should be used as outputs. A three-terminal limit switch NO pin can be wired to Ethernet/T568A pin2 (sGND). The entire NC line (pin4) can then be wired to 3.3V, with the currently assigned NO line (pin5) wired to common output. In summary, pin2 becomes NO/GND, pin4 HIGH, pin5 SIGNAL.
 
-*) Extruder power should be jumper-configurable to Vsys/12V/Vlogic.
-*) Extruder heater pair should be jumper-configurable to include pGND/Vsys.
-*) Extruder thermistor pair should be jumper-configurable to include sGND/Vsys.
+* Extruder power should be jumper-configurable to Vsys/12V/Vlogic.
+* Extruder heater pair should be jumper-configurable to include pGND/Vsys.
+* Extruder thermistor pair should be jumper-configurable to include sGND/Vsys.
 
-*) Filter inductors bridged by default.
+* Filter inductors bridged by default.
 
-*) Zener diode, 863-1N5919BG, option for adapting 24V/12V/5V fans.
+* Zener diode, 863-1N5919BG, option for adapting 24V/12V/5V fans.
 
 #Reference
 https://www.inventables.com/technologies/stepper-motor-nema-17
