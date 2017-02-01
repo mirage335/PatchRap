@@ -43,12 +43,12 @@ Pinouts are as follows, numbering by T568A standard.
 ##Steppers	(Stepper Motor)
 	3 / 1 - Vsys
 	3 \ 2 - pGND
-	2 - 3 - B+
-	1 / 4 - A+
-	1 \ 5 - A-
-	2 - 6 - B-
-	4 / 7 - B+
-	4 \ 8 - B-
+	2 - 3 - B+		Fwd(2A/Blue/Red)		Rev(1A/Green/Blue)
+	1 / 4 - A+		Fwd(1A/Green/Blue)		Rev(2A/Blue/Red)
+	1 \ 5 - A-		Fwd(1B/Black/Yellow)		Rev(2B/Red/White)
+	2 - 6 - B-		Fwd(2B/Red/White)		Rev(1B/Black/Yellow)
+	4 / 7 - B+		Fwd(2A/Blue/Red)*		Rev(1A/Green/Blue)*
+	4 \ 8 - B-		Fwd(2B/Red/White)*		Rev(1B/Black/Yellow)*
 
 ##LinearPSU
 	3 / 1 - 5V
@@ -101,6 +101,17 @@ http://electronut.in/attiny10-hello/
 http://www.hobbyking.com/hobbyking/store/__26136__Turnigy_DLUX_LIPO_Battery_Cell_Display_and_Balancer_2S_6S_.html
 
 https://www.youtube.com/watch?v=EnanV3dLPJ0
+
+http://reprap.org/wiki/Duet
+
+https://miscsolutions.wordpress.com/paneldue/
+http://blog.think3dprint3d.com/2015/04/duex4-v02a-minor-updates.html
+http://blog.think3dprint3d.com/2015/02/reprapfirmware-config-files.html
+
+http://blog.think3dprint3d.com/
+
+http://www.linengineering.com/resources/wiring_connections.aspx
+
 
 #Copyright
 This file is part of PatchRap.
