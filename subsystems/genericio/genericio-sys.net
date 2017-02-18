@@ -1,8 +1,11 @@
-unnamed_net7	T7-1 PWMd-1 GEN-8 U1-7 
-unnamed_net6	T6-1 PWMa-1 GEN-7 U1-8 
-unnamed_net5	T5-1 SigP-1 GEN-5 U1-9 
-unnamed_net4	T4-1 SigM-1 GEN-4 U1-10 
-GND	J1-2 C2-2 T7-2 T6-2 T5-2 T4-2 T3-2 T2-2 T1-2 sGND-1 GEN-9 GEN-6 U1-6 J2-2 J2-1 U1-5 
-unnamed_net3	C1-1 T1-1 Vsys-1 GEN-1 U1-3 
-unnamed_net2	C2-1 T3-1 Vext-SigAlt-1 GEN-3 U1-2 
-unnamed_net1	J1-1 C1-2 T2-1 pGND-sGND-1 U1-4 GEN-2 U1-1 
+unnamed_net7	R2-2 GEN-13 
+unnamed_net6	R1-2 GEN-11 
+Vsys	R1-1 J3-2 GEN-1 C1-1 T1-1 Vsys-1 
+unnamed_net5	GEN-8 T7-1 PWMd-1 U1-7 
+unnamed_net4	GEN-7 T6-1 PWMa-1 U1-8 
+unnamed_net3	GEN-5 T5-1 SigP-1 U1-9 
+unnamed_net2	GEN-4 T4-1 SigM-1 U1-10 
+GND	GEN-12 GEN-9 GEN-6 J1-2 C2-2 T7-2 T6-2 T5-2 T4-2 T3-2 T2-2 T1-2 sGND-1 U1-6 J2-2 J2-1 U1-5 
+unnamed_net1	J3-1 U1-3 
+Vee	GEN-10 GEN-2 J1-1 C1-2 T2-1 pGND-sGND-1 U1-4 U1-2 
+Vext	R2-1 GEN-3 C2-1 T3-1 Vext-SigAlt-1 U1-1 
