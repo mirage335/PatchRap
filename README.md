@@ -1,8 +1,8 @@
-Copyright (C) 2015 mirage335
+Copyright (C) 2015-2017 mirage335
 See the end of the file for license conditions.
 See license.txt for PatchRap license conditions.
 
-'PatchPanel' for RepRap 3D printers to replace PCB terminal blocks with RJ45 jacks.
+'PatchPanel' initially designed for RepRap 3D printers to replace PCB terminal blocks with RJ45 jacks. Applicable to a wide variety of systems, including CNC machines, vehicles, factory automation, test equipment, and more.
 
 #Usage
 GenericRap is the reference implementation, includes multiple connectors and headers to adapt RepRap motherboard terminals to internal step-down voltage converters, XT60 power connectors, shielded RJ45/8P8C connectors, and various peripherials (eg. steppers, limit switches, thermistors, hot-ends etc).
