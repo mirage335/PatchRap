@@ -1,3 +1,6 @@
 [submodule "production"]
 	path = production
 	url = git@github.com:mirage335/gedaProduction.git
+[submodule "applications/stepperTester"]
+	path = applications/stepperTester
+	url = git@github.com:mirage335/stepperTester.git
