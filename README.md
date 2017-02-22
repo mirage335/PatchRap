@@ -50,7 +50,7 @@ Pinouts are as follows, numbering by T568A standard.
 	4 / 7 - B+		Fwd(2A/Blue/Red)*		Rev(1A/Green/Blue)*
 	4 \ 8 - B-		Fwd(2B/Red/White)*		Rev(1B/Black/Yellow)*
 
-##LinearPSU
+##LinearPSU (Lab Bench Power Supply)
 	3 / 1 - 5V
 	3 \ 2 - Vee
 	2 - 3 - Vcc
