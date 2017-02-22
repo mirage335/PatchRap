@@ -4,7 +4,12 @@ See license.txt for PatchRap license conditions.
 
 'PatchPanel' initially designed for RepRap 3D printers to replace PCB terminal blocks with RJ45 jacks. Applicable to a wide variety of systems, including CNC machines, vehicles, factory automation, test equipment, and more.
 
+Primary guidance for the standard should be taken from this README.
+
+ANY CONFLICTING INFORMATION IN ANY OTHER DOCUMENTATION SHOULD BE DEFERRED TO THIS README UNLESS EXPLICITLY STATED OTHERWISE.
+
 #Usage
+
 GenericRap is the reference implementation, includes multiple connectors and headers to adapt RepRap motherboard terminals to internal step-down voltage converters, XT60 power connectors, shielded RJ45/8P8C connectors, and various peripherials (eg. steppers, limit switches, thermistors, hot-ends etc).
 
 Breadboard friendly, the PCB layout includes appropriately spaced headers. In effect, a breadboard can be used as a backplane for power sharing and mechanical support, as well as to arrange even more wiring as needed.
