@@ -22,6 +22,6 @@ WHITE (ffffff) - GenericIO Compliant. All pins strictly limited to <3.3V. End-us
 
 
 _Checkboxes_
-Whitespace is provided as a multi-use checkbox Reading from left-to-right, a vertical line "|" should only be the last symbol if cable connections at both ends were most recently known to be valid.
+Whitespace is provided as a multi-use checkbox, or other arbitrary label. Reading from left-to-right, a vertical line "|" should only be the last symbol if cable connections at both ends were most recently known to be valid.
 
 Mark "|" when connection is validated by continutiy test. Mark "-" or "." or "x" when either end of the cable is not certainly attached to correct device type.
