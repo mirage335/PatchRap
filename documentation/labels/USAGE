@@ -1,0 +1,27 @@
+
+_ColorCode_
+Label background color codes identify the risk of equipment damage upon improper connection, in order. End-user functionality should be kept to BLUE, BLACK, WHITE, or lower risk networks.
+
+YELLOW (ffff00) - RESERVED
+
+MAGENTA (ff00ff) - High-voltage high-current may be applied to any pin. Stepper motor, linear PSU.
+
+PURPLE (8000ff) - RESERVED
+
+ORANGE (ff8000) - GenericIO Compliant. High-voltage/current peripherial. Hot-end.
+
+GREEN (00ff00) - GenericIO Compliant. Peripherial. Limit switch, thermistor.
+
+TEAL (00ffff) - RESERVED
+
+BLUE (0000ff) - GenericIO Compliant. Digital logic or high-reliability network. All power <5V. All signals <3.3V. Fuse, resistor, diode, transformer, and transient-voltage suppression may be in place.
+
+BLACK (000000) - DigitalIO Compliant. All pins strictly limited to <3.3V. End-user digital peripherial. Graphical display.
+WHITE (ffffff) - GenericIO Compliant. All pins strictly limited to <3.3V. End-user analog peripherial. Thermistor.
+
+
+
+_Checkboxes_
+Whitespace is provided as a multi-use checkbox Reading from left-to-right, a vertical line "|" should only be the last symbol if cable connections at both ends were most recently known to be valid.
+
+Mark "|" when connection is validated by continutiy test. Mark "-" or "." or "x" when either end of the cable is not certainly attached to correct device type.

@@ -1,0 +1,12 @@
+--2017-03-07 23:09:41--  https://openclipart.org/image/800px/svg_to_png/92233/warning-02.png
+Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
+Resolving openclipart.org... 2600:3c03::f03c:91ff:fec8:52ce, 45.79.134.66
+Connecting to openclipart.org|2600:3c03::f03c:91ff:fec8:52ce|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 47103 (46K) [image/png]
+Saving to: ‘warning-02.png’
+
+warning-02.png      0%[              ]       0  --.-KB/s               warning-02.png    100%[=============>]  46.00K   283KB/s    in 0.2s    
+
+2017-03-07 23:09:42 (283 KB/s) - ‘warning-02.png’ saved [47103/47103]
+
