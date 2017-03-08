@@ -3,3 +3,4 @@
 *) Ethernet connector footprint does not accommodate correct distance for plastic mounting tabs.
 *) Should probably commission a factory order of more modern connectors with LEDs, at a reasonable price.
 *) Analog SigAlt is not joined to Vext by default.
+*) DigitalIO label has a typo - DigitalO.
