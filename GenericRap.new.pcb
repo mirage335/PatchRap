@@ -1,0 +1,111 @@
+# release: pcb 1.99x
+# To read pcb files, the pcb version (or the cvs source date) must be >= the file version
+FileVersion[20070407]
+PCB["" 600000 500000]
+Grid[10000.000000 0 0 0]
+Cursor[0 0 0.000000]
+PolyArea[200000000.000000]
+Thermal[0.500000]
+DRC[1000 1000 1000 1000 1500 1000]
+Flags("nameonpcb,uniquename,clearnew,snappin")
+Groups("1,c:2:3:4:5:6,s:7:8")
+Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,600,2402,1181,600"]
+Element(0x00 "SMD_DIODE-60-30" "X1/D1" "0.4V" 0 0 0 100 0x00)
+(
+	Pad(0 -5 0 5 30 "1" 0x100)
+	Pad(60 -5 60 5 30 "2" 0x100)
+	ElementLine(-30 -35 -30 35 8)
+	ElementLine(-30 35 90 35 8)
+	ElementLine(90 35 90 -35 8)
+	ElementLine(90 -35 -30 -35 8)
+		ElementLine( -20 -35 -20 35 8 )
+)
+
+Element["" "eth_571-1734795-1" "X1/X1/GEN" "-" 0 0 0.0000 0.0000 0 100 ""]
+(
+	Pin[-4.4500mm -5.7100mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "" "12" "edge2"]
+	Pin[-7.0000mm -5.7100mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "" "13" "edge2"]
+	Pin[-6.4000mm 3.4300mm 1.7000mm 12.00mil 1.8524mm 1.3000mm "" "9" "edge2"]
+	Pin[6.4000mm 3.4300mm 1.7000mm 12.00mil 1.8524mm 1.3000mm "" "9" "edge2"]
+	Pin[6.6000mm 0.0000 2.8000mm 20.00mil 2.9524mm 2.4000mm "" "9" "edge2"]
+	Pin[-6.6000mm 0.0000 2.8000mm 20.00mil 2.9524mm 2.4000mm "" "9" "edge2"]
+	Pin[-0.5100mm 0.9000mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "" "5" "edge2"]
+	Pin[-2.5500mm 0.9000mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "" "7" "edge2"]
+	Pin[1.5300mm 0.9000mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "" "3" "edge2"]
+	Pin[3.5700mm 0.9000mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "" "1" "edge2"]
+	Pin[0.5100mm -0.9000mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "" "4" "edge2"]
+	Pin[2.5500mm -0.9000mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "" "2" "edge2"]
+	Pin[-1.5300mm -0.9000mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "" "6" "edge2"]
+	Pin[-3.5700mm -0.9000mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "" "8" "edge2"]
+	Pin[7.0000mm -5.7100mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "" "10" "edge2"]
+	Pin[4.4500mm -5.7100mm 1.3000mm 20.00mil 1.4524mm 0.9000mm "" "11" "edge2"]
+	ElementLine [-5.9000mm -5.7100mm -6.1000mm -5.7100mm 6.00mil]
+	ElementLine [-5.5500mm -5.7100mm -5.3500mm -5.7100mm 6.00mil]
+	ElementLine [-5.5500mm -6.0100mm -5.5500mm -5.4100mm 6.00mil]
+	ElementLine [-5.9000mm -5.4600mm -5.9000mm -5.9600mm 6.00mil]
+	ElementLine [-5.6500mm -5.7100mm -5.9000mm -5.4600mm 6.00mil]
+	ElementLine [-5.9000mm -5.9600mm -5.6500mm -5.7100mm 6.00mil]
+	ElementLine [5.6050mm -5.9790mm 5.8550mm -5.7290mm 6.00mil]
+	ElementLine [5.8550mm -5.7290mm 5.6050mm -5.4790mm 6.00mil]
+	ElementLine [5.6050mm -5.4790mm 5.6050mm -5.9790mm 6.00mil]
+	ElementLine [5.9550mm -6.0290mm 5.9550mm -5.4290mm 6.00mil]
+	ElementLine [5.9550mm -5.7290mm 6.1550mm -5.7290mm 6.00mil]
+	ElementLine [5.6050mm -5.7290mm 5.4050mm -5.7290mm 6.00mil]
+	ElementLine [3.5500mm -0.9000mm 3.5500mm 0.9000mm 10.00mil]
+	ElementLine [-3.5500mm -0.9000mm -3.5500mm 0.9000mm 10.00mil]
+	ElementLine [5.4500mm 0.9000mm -5.5000mm 0.9000mm 6.00mil]
+	ElementLine [-5.5000mm -0.9000mm 5.4500mm -0.9000mm 6.00mil]
+	ElementLine [-0.2000mm 0.0000 0.2000mm 0.0000 6.00mil]
+	ElementLine [0.0000 -0.2000mm 0.0000 0.2000mm 6.00mil]
+	ElementLine [-8.1000mm 7.5000mm -8.1000mm 7.0000mm 6.00mil]
+	ElementLine [-8.1000mm 7.5000mm -7.6000mm 7.5000mm 6.00mil]
+	ElementLine [8.1000mm 7.5000mm 8.1000mm 7.0000mm 6.00mil]
+	ElementLine [8.1000mm 7.5000mm 7.6000mm 7.5000mm 6.00mil]
+	ElementLine [-8.1000mm -7.5000mm -8.1000mm -7.0000mm 6.00mil]
+	ElementLine [-8.1000mm -7.5000mm -7.6000mm -7.5000mm 6.00mil]
+	ElementLine [8.1000mm -7.5000mm 8.1000mm -7.0000mm 6.00mil]
+	ElementLine [8.1000mm -7.5000mm 7.6000mm -7.5000mm 6.00mil]
+	ElementLine [4.3500mm 1.3000mm 4.6000mm 1.5500mm 6.00mil]
+	ElementLine [4.3500mm 1.5500mm 4.6000mm 1.3000mm 6.00mil]
+
+	)
+Element(0x00 "SMD_DIODE-60-30" "X1/D2" "0.4V" 0 0 0 100 0x00)
+(
+	Pad(0 -5 0 5 30 "1" 0x100)
+	Pad(60 -5 60 5 30 "2" 0x100)
+	ElementLine(-30 -35 -30 35 8)
+	ElementLine(-30 35 90 35 8)
+	ElementLine(90 35 90 -35 8)
+	ElementLine(90 -35 -30 -35 8)
+		ElementLine( -20 -35 -20 35 8 )
+)
+Layer(1 "top")
+(
+)
+Layer(2 "ground")
+(
+)
+Layer(3 "signal2")
+(
+)
+Layer(4 "signal3")
+(
+)
+Layer(5 "power")
+(
+)
+Layer(6 "bottom")
+(
+)
+Layer(7 "outline")
+(
+)
+Layer(8 "spare")
+(
+)
+Layer(9 "silk")
+(
+)
+Layer(10 "silk")
+(
+)
