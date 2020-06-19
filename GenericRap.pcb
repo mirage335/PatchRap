@@ -859,12 +859,12 @@ Via[535.00mil 3175.00mil 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,5X)"]
 Via[560.00mil 2875.00mil 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,5X)"]
 Via[620.00mil 2885.00mil 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,5X)"]
 Via[715.00mil 3035.00mil 27.00mil 20.00mil 0.0000 13.00mil "" "thermal(0X,5X)"]
-Via[1105.00mil 2640.00mil 27.00mil 12.00mil 0.0000 13.00mil "" ""]
-Via[1150.00mil 2640.00mil 27.00mil 12.00mil 0.0000 13.00mil "" ""]
-Via[1150.00mil 2605.00mil 27.00mil 12.00mil 0.0000 13.00mil "" ""]
-Via[1105.00mil 2605.00mil 27.00mil 12.00mil 0.0000 13.00mil "" ""]
-Via[1105.00mil 2570.00mil 27.00mil 12.00mil 0.0000 13.00mil "" ""]
-Via[1150.00mil 2570.00mil 27.00mil 12.00mil 0.0000 13.00mil "" ""]
+Via[1105.00mil 2640.00mil 27.00mil 12.00mil 40.00mil 13.00mil "" ""]
+Via[1150.00mil 2640.00mil 27.00mil 12.00mil 40.00mil 13.00mil "" ""]
+Via[1150.00mil 2605.00mil 27.00mil 12.00mil 40.00mil 13.00mil "" ""]
+Via[1105.00mil 2605.00mil 27.00mil 12.00mil 40.00mil 13.00mil "" ""]
+Via[1105.00mil 2570.00mil 27.00mil 12.00mil 40.00mil 13.00mil "" ""]
+Via[1150.00mil 2570.00mil 27.00mil 12.00mil 40.00mil 13.00mil "" ""]
 
 Element["" "eth_571-1734795-1" "X2/STEP" "-" 3425.00mil 2875.00mil 225.00mil 110.00mil 1 100 ""]
 (
@@ -3147,9 +3147,9 @@ Layer(10 "top silk" "silk")
 	Text[2500.00mil 63.8890mm 0 100 "Vext" "clearline"]
 	Text[2445.00mil 64.7780mm 0 100 "OR" "clearline"]
 	Text[2470.00mil 66.0480mm 0 100 "SigAlt" "clearline"]
-	Text[1175.00mil 2615.00mil 0 52 "6l" "clearline"]
-	Text[1175.00mil 2550.00mil 0 52 "2l" "clearline"]
-	Text[1175.00mil 2585.00mil 0 53 "4l" "clearline"]
+	Text[1180.00mil 2620.00mil 0 96 "6l" "clearline"]
+	Text[1175.00mil 2565.00mil 0 97 "4l" "clearline"]
+	Text[1180.00mil 2510.00mil 0 96 "2l" "clearline"]
 )
 NetList()
 (
