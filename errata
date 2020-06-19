@@ -2,4 +2,7 @@
 *) Splitter should accommodate a 9-pin header, allowing a more convenient jumper connection to ground.
 *) Ethernet connector footprint does not accommodate correct distance for plastic mounting tabs.
 *) Should probably commission a factory order of more modern connectors with LEDs, at a reasonable price.
-*) Analog SigAlt is not joined to Vext by default.
+
+*) Optional extra internal layers should be added for additional stepper motor current carrying capability and reduced VExt/GND voltage drops.
+
+
