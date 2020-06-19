@@ -218,9 +218,6 @@ ChangePinName(X3/TERM, 3, 3)
 ChangePinName(X3/TERM, 2, 2)
 ChangePinName(X3/TERM, 1, 1)
 
-# Start of element X3/SigAlt
-ChangePinName(X3/SigAlt, 1, 1)
-
 # Start of element X3/J2
 ChangePinName(X3/J2, 1, 1)
 ChangePinName(X3/J2, 2, 2)
