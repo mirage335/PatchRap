@@ -1,0 +1,46 @@
+# PcbXY Version 1.0
+# Date: Sat 20 Jun 2020 06:17:48 PM GMT UTC
+# Author: commonadmin
+# Title: (unknown) - PCB X-Y
+# RefDes, Description, Value, X, Y, rotation, top/bottom
+# X,Y in mil.  rotation in degrees.
+# --------------------------------------------
+X2/STEP,"eth_571-1734795-1","-",3385.68,625.00,270,top
+X1/X1/R2,"0805","2.2k",630.00,734.69,90,bottom
+X1/X1/GEN,"eth_571-1734795-1","-",514.75,490.24,90,top
+X1/X1/J3,"0201","-",670.00,365.87,270,bottom
+X3/TERM,"JUMPER6","-",1885.00,500.00,0,top
+X3/J1,"0201","-",1921.81,220.00,180,bottom
+X3/L1,"0805","10Ohm",1960.00,389.57,90,bottom
+X3/J2,"0201","-",1923.19,475.00,0,bottom
+X2/POL1,"JUMPER8","-",2425.00,750.00,270,top
+X2/R1,"0805","2.2k",3000.00,530.43,90,bottom
+X1/X1/R1,"0805","2.2k",630.00,259.26,270,bottom
+X2/J3,"0201","-",2475.00,688.19,90,bottom
+X2/J1,"0201","-",2675.00,688.19,90,bottom
+X2/J2,"0201","-",2575.00,688.19,90,bottom
+X2/POL2,"JUMPER8","-",2425.00,250.00,270,top
+X2/MOV,"JUMPER8","-",3325.00,1000.00,270,top
+X2/C1,"0201","0.1uF",3521.81,1040.00,0,bottom
+X2/C2,"0201","0.1uF",3523.19,965.00,0,bottom
+X2/EX,"JUMPER8","-",3325.00,250.00,270,top
+X1/X2/H1,"HEADER10_2","-",1490.00,950.00,90,top
+X1/X2/H2,"HEADER10_2","-",2185.00,950.00,90,top
+X1/J2,"0201","-",555.00,825.00,270,bottom
+X1/X1/J1,"0201","-",380.00,378.19,270,bottom
+X1/X1/C2,"0402","4.7uF",750.00,420.74,90,bottom
+X1/X1/J2,"0201","-",598.19,380.00,0,bottom
+X1/X1/C1,"0402","4.7uF",645.74,344.69,0,bottom
+X1/X1/T7,"SparkGapPCB","2kV",585.66,646.74,270,bottom
+X1/X1/T6,"SparkGapPCB","2kV",565.66,583.74,270,bottom
+X1/X1/T5,"SparkGapPCB","2kV",572.16,518.74,270,bottom
+X1/X1/T4,"SparkGapPCB","2kV",575.66,463.74,270,bottom
+X1/X1/T2,"SparkGapPCB","2kV",567.16,343.74,270,bottom
+X1/X1/U1,"MSOP10","unknown",670.00,492.50,90,bottom
+X1/X1/T3,"SparkGapPCB","2kV",576.66,406.74,270,bottom
+X1/X1/T1,"SparkGapPCB","2kV",552.16,279.74,270,bottom
+X1/REG,"JUMPER6","-",500.00,1000.00,90,top
+X1/X2/PWR1,"HEADER4_1","-",950.00,950.00,0,top
+X1/X2/J1,"0201","-",963.19,875.00,0,bottom
+X1/X2/PWR2,"HEADER4_1","-",2725.00,950.00,0,top
+X1/X2/J2,"0201","-",1036.81,875.00,180,top

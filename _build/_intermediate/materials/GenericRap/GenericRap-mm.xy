@@ -1,0 +1,59 @@
+# PcbXY Version 1.0
+# Date: Sat 20 Jun 2020 06:17:33 PM GMT UTC
+# Author: commonadmin
+# Title: (unknown) - PCB X-Y
+# RefDes, Description, Value, X, Y, rotation, top/bottom
+# X,Y in mm.  rotation in degrees.
+# --------------------------------------------
+X2/STEP,"eth_571-1734795-1","-",86.00,15.88,270,top
+X1/PSU,"eth_571-1734795-1","-",13.06,68.83,90,top
+X1/X1/R2,"0805","2.2k",16.00,18.66,90,bottom
+X1/X1/GEN,"eth_571-1734795-1","-",13.07,12.45,90,top
+X1/X1/J3,"0201","-",17.02,9.29,270,bottom
+X3/TERM,"JUMPER6","-",47.88,12.70,0,top
+X3/J1,"0201","-",48.81,5.59,180,bottom
+X3/L1,"0805","10Ohm",49.78,9.90,90,bottom
+X3/J2,"0201","-",48.85,12.06,0,bottom
+X2/POL1,"JUMPER8","-",61.59,19.05,270,top
+X2/R1,"0805","2.2k",76.20,13.47,90,bottom
+X1/X1/R1,"0805","2.2k",16.00,6.59,270,bottom
+X1/R1,"0805","2.2k",15.38,63.24,180,bottom
+X1/R2,"0805","2.2k",15.50,74.67,180,bottom
+X3/AIO1,"BNC_LAY","-",84.45,35.56,90,top
+X3/AIO2,"BNC_LAY","-",84.45,50.80,90,top
+X3/AIO3,"BNC_LAY","-",84.45,66.04,90,top
+X2/J3,"0201","-",62.87,17.48,90,bottom
+X2/J1,"0201","-",67.94,17.48,90,bottom
+X2/J2,"0201","-",65.41,17.48,90,bottom
+X2/POL2,"JUMPER8","-",61.59,6.35,270,top
+X2/MOV,"JUMPER8","-",84.45,25.40,270,top
+X2/C1,"0201","0.1uF",89.45,26.42,0,bottom
+X2/C2,"0201","0.1uF",89.49,24.51,0,bottom
+X2/EX,"JUMPER8","-",84.45,6.35,270,top
+X1/X2/H1,"HEADER10_2","-",37.85,24.13,90,top
+X1/X2/H2,"HEADER10_2","-",55.50,24.13,90,top
+X1/J2,"0201","-",14.10,20.95,270,bottom
+X1/Vsys1,"XT60","60A",12.28,31.75,0,top
+X1/Vsys4,"XT60","60A",12.28,56.13,0,top
+X1/J1,"0201","-",9.70,68.33,0,bottom
+X1/Vsys3,"XT60","60A",12.28,48.01,0,top
+X1/Vsys2,"XT60","60A",12.28,39.88,0,top
+X1/X1/J1,"0201","-",9.65,9.61,270,bottom
+X1/X1/C2,"0402","4.7uF",19.05,10.69,90,bottom
+X1/X1/J2,"0201","-",15.19,9.65,0,bottom
+X1/X1/C1,"0402","4.7uF",16.40,8.76,0,bottom
+X1/X1/T7,"SparkGapPCB","2kV",14.88,16.43,270,bottom
+X1/X1/T6,"SparkGapPCB","2kV",14.37,14.83,270,bottom
+X1/X1/T5,"SparkGapPCB","2kV",14.53,13.18,270,bottom
+X1/X1/T4,"SparkGapPCB","2kV",14.62,11.78,270,bottom
+X1/X1/T2,"SparkGapPCB","2kV",14.41,8.73,270,bottom
+X1/X1/U1,"MSOP10","unknown",17.02,12.51,90,bottom
+X1/X1/T3,"SparkGapPCB","2kV",14.65,10.33,270,bottom
+X1/X1/T1,"SparkGapPCB","2kV",14.02,7.11,270,bottom
+X1/REG,"JUMPER6","-",12.70,25.40,90,top
+X1/X2/PWR1,"HEADER4_1","-",24.13,24.13,0,top
+X1/X2/J1,"0201","-",24.46,22.23,0,bottom
+X1/X2/PWR2,"HEADER4_1","-",69.22,24.13,0,top
+X1/X2/J2,"0201","-",26.34,22.23,180,top
+X1/D1,"SMD_DIODE 60 30","0.4V",8.76,66.04,270,bottom
+X1/D2,"SMD_DIODE 60 30","0.4V",8.76,70.61,90,bottom

@@ -1,0 +1,21 @@
+# PcbBOM Version 1.0
+# Date: Sat 20 Jun 2020 06:17:32 PM GMT UTC
+# Author: commonadmin
+# Title: (unknown) - PCB BOM
+# Quantity, Description, Value, RefDes, footprint, value, description, cost, device, mfr, mfrpn, dst, dstpn, link, link_page, supplier, sbapn, kitting, kitting_d, nobom, noplace
+# --------------------------------------------
+3,"eth_571-1734795-1","-",X2/STEP X1/PSU X1/X1/GEN ,"","","","","CONNECTOR_13","","","","","","","","","","","",""
+5,"0805","2.2k",X1/X1/R2 X2/R1 X1/X1/R1 X1/R1 X1/R2 ,"","","","","RESISTOR","","","","","","","","","","","",""
+12,"0201","-",X1/X1/J3 X3/J1 X3/J2 X2/J3 X2/J1 X2/J2 X1/J2 X1/J1 X1/X1/J1 X1/X1/J2 X1/X2/J1 X1/X2/J2 ,"","","","","JUMPER","","","","","","","","","","","",""
+2,"JUMPER6","-",X3/TERM X1/REG ,"","","","","CONNECTOR_6","","","","","","","","","","","",""
+1,"0805","10Ohm",X3/L1 ,"","","","","INDUCTOR","","","","","","","","","","","",""
+4,"JUMPER8","-",X2/POL1 X2/POL2 X2/MOV X2/EX ,"","","","","CONNECTOR_8","","","","","","","","","","","",""
+3,"BNC_LAY","-",X3/AIO1 X3/AIO2 X3/AIO3 ,"","","","","BNC","","","","","","","","","","","",""
+2,"0201","0.1uF",X2/C1 X2/C2 ,"","","","","CAPACITOR","","","","","","","","","","","",""
+2,"HEADER10_2","-",X1/X2/H1 X1/X2/H2 ,"","","","","HEADER10","","","","","","","","","","","",""
+4,"XT60","60A",X1/Vsys1 X1/Vsys4 X1/Vsys3 X1/Vsys2 ,"","","","","CONNECTOR_2","","","","","","","","","","","",""
+2,"0402","4.7uF",X1/X1/C2 X1/X1/C1 ,"","","","","CAPACITOR","","","","","","","","","","","",""
+7,"SparkGapPCB","2kV",X1/X1/T7 X1/X1/T6 X1/X1/T5 X1/X1/T4 X1/X1/T2 X1/X1/T3 X1/X1/T1 ,"","","","","SparkGap","","","","","","","","","","","",""
+1,"MSOP10","unknown",X1/X1/U1 ,"","","","","Suppressor","","","","","","","","","","","",""
+2,"HEADER4_1","-",X1/X2/PWR1 X1/X2/PWR2 ,"","","","","CONNECTOR_4","","","","","","","","","","","",""
+2,"SMD_DIODE 60 30","0.4V",X1/D1 X1/D2 ,"","","","","DIODE","","","","","","","","","","","",""
