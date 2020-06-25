@@ -26,12 +26,16 @@ https://github.com/johnnyr/Mini-Rambo
 
 
 
+	minirambo13.fp
 	MiniRambo-v1.3.gbr.fp
 Reference files obtained without explicit license. Fair use or public domain assumed.
 https://github.com/johnnyr/Mini-Rambo
 
 
 
+	rambo11.fp
+	rambo12.fp
+	rambo13.fp
 	RAMBo-1.1.gbr.fp
 	RAMBo-1.2.gbr.fp
 	RAMBo-1.3.gbr.fp
