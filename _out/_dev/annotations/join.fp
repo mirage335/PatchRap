@@ -1,0 +1,28 @@
+
+Element["" "" "" "" 0.0000 0.0000 0.0000 0.0000 0 100 ""]
+(
+	ElementLine [1.4316mm 0.6553mm 1.5281mm 0.7519mm 4.00mil]
+	ElementLine [1.8177mm 0.7519mm 1.8177mm 41.00mil 4.00mil]
+	ElementLine [1.7211mm 0.6553mm 1.8177mm 0.7519mm 4.00mil]
+	ElementLine [1.6246mm 0.6553mm 1.7211mm 0.6553mm 4.00mil]
+	ElementLine [1.5281mm 0.7519mm 1.6246mm 0.6553mm 4.00mil]
+	ElementLine [1.5281mm 0.7519mm 1.5281mm 41.00mil 4.00mil]
+	ElementLine [1.2385mm 0.7519mm 1.2385mm 41.00mil 4.00mil]
+	ElementLine [1.2385mm 0.4623mm 1.2385mm 0.4816mm 4.00mil]
+	ElementLine [0.6208mm 0.9449mm 0.7173mm 41.00mil 4.00mil]
+	ElementLine [0.7173mm 41.00mil 0.9104mm 41.00mil 4.00mil]
+	ElementLine [0.9104mm 41.00mil 1.0069mm 0.9449mm 4.00mil]
+	ElementLine [1.0069mm 0.7519mm 1.0069mm 0.9449mm 4.00mil]
+	ElementLine [0.9104mm 0.6553mm 1.0069mm 0.7519mm 4.00mil]
+	ElementLine [0.7173mm 0.6553mm 0.9104mm 0.6553mm 4.00mil]
+	ElementLine [0.6208mm 0.7519mm 0.7173mm 0.6553mm 4.00mil]
+	ElementLine [0.6208mm 0.7519mm 0.6208mm 0.9449mm 4.00mil]
+	ElementLine [0.3312mm 1.3312mm 0.4278mm 1.2347mm 4.00mil]
+	ElementLine [0.4278mm 0.7519mm 0.4278mm 1.2347mm 4.00mil]
+	ElementLine [0.4278mm 0.4623mm 0.4278mm 0.4816mm 4.00mil]
+	ElementLine [83.00mil 3.00mil 83.00mil 53.00mil 6.00mil]
+	ElementLine [3.00mil 3.00mil 3.00mil 53.00mil 6.00mil]
+	ElementLine [3.00mil 3.00mil 83.00mil 3.00mil 6.00mil]
+	ElementLine [3.00mil 53.00mil 83.00mil 53.00mil 6.00mil]
+
+	)

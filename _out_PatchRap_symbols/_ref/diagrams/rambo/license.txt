@@ -1,0 +1,21 @@
+
+All files obtained from https://reprap.org/wiki under explicit GNU Free Documentation License .
+
+
+v1.0-v1.1
+https://reprap.org/wiki/File:Rambo-conn-all.jpg
+
+v1.2
+https://reprap.org/wiki/File:Rambo1-2-conn-main.jpg
+
+v1.3
+https://reprap.org/wiki/File:Rambo1-2-conn-main.jpg
+
+v1.4
+https://reprap.org/wiki/File:Rambo-1.4-connection-diagram.png
+
+
+MiniRambo_v1.3
+https://reprap.org/wiki/File:MiniRambo1.3a-connections.png
+
+
