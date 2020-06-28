@@ -8,7 +8,7 @@ Primary guidance for the standard should be taken from this README.
 
 ANY CONFLICTING INFORMATION IN ANY OTHER DOCUMENTATION SHOULD BE DEFERRED TO THIS README UNLESS EXPLICITLY STATED OTHERWISE.
 
-#Usage
+# Usage
 
 GenericRap is the reference implementation, includes multiple connectors and headers to adapt RepRap motherboard terminals to internal step-down voltage converters, XT60 power connectors, shielded RJ45/8P8C connectors, and various peripherials (eg. steppers, limit switches, thermistors, hot-ends etc).
 
@@ -16,7 +16,7 @@ Breadboard friendly, the PCB layout includes appropriately spaced headers. In ef
 
 Cat 6A S/FTP cabling recommended.
 
-#Design
+# Design
 RJ45/8P8C connectors are among most convenient, cheapest connectors designed to provide high performance with commodity shielded twisted-pair cabling. High power transmission is documented, exceeding 2A/pin.
 
 Besides 'patch panel' functions, surge suppressors and EMI filters are supported.
@@ -25,7 +25,7 @@ USA companies provide all parts in these schematics, excepting the RJ45 jacks an
 
 Pinouts are as follows, numbering by T568A standard.
 
-##GenericIO	(Limit Switch, Depth Probe, Extruder, Stepper Driver, Radio)
+## GenericIO	(Limit Switch, Depth Probe, Extruder, Stepper Driver, Radio)
 	3 / 1 - Vsys/Vcc
 	3 \ 2 - pGND/sGnd
 	2 - 3 - Vext/Vmid/Avcc/SigAlt	(NC)								(LO)
@@ -35,7 +35,7 @@ Pinouts are as follows, numbering by T568A standard.
 	4 / 7 - PWMalternate/SigRx+	(Control, Servo, Heater)	(I2C,UART)			(RF)
 	4 \ 8 - PWMdirect/SigRx-	(Fan)				(I2C,UART)
 
-##DigitalIO	(Display, SDCard, SPI)
+## DigitalIO	(Display, SDCard, SPI)
 	3 / 1 - A0
 	3 \ 2 - dRST
 	2 - 3 - Vext
@@ -45,7 +45,7 @@ Pinouts are as follows, numbering by T568A standard.
 	4 / 7 - SCK			(I2C, UART)
 	4 \ 8 - CS
 
-##Steppers	(Stepper Motor)
+## Steppers	(Stepper Motor)
 	3 / 1 - Vsys
 	3 \ 2 - pGND
 	2 - 3 - B+		Fwd(2A/Blue/Red)		Rev(1A/Green/Blue)
@@ -55,7 +55,7 @@ Pinouts are as follows, numbering by T568A standard.
 	4 / 7 - B+		Fwd(2A/Blue/Red)*		Rev(1A/Green/Blue)*
 	4 \ 8 - B-		Fwd(2B/Red/White)*		Rev(1B/Black/Yellow)*
 
-##LinearPSU (Lab Bench Power Supply)
+## LinearPSU (Lab Bench Power Supply)
 	3 / 1 - 5V
 	3 \ 2 - Vee
 	2 - 3 - Vcc
@@ -67,7 +67,7 @@ Pinouts are as follows, numbering by T568A standard.
 
 See https://github.com/mirage335/LinearPSU/blob/master/Photo.jpg .
 
-#Ratings
+# Ratings
 Please beware the following ratings.
 * Vext is intended as logic power, and must never exceed 5.5V. Recommend 3.3V||5V depending on system needs.
 * Vext may be used as a diode (eg. CDBU0530) OR-gated power bus if all connected devices can operate at 2.8V-5V.
@@ -79,7 +79,7 @@ Please beware the following ratings.
 * Rough changes to voltages can be made (eg. for fans) by high-power zener diodes (ie. 863-1N5919BG).
 * Pins 7/8 of GenericIO may be repurposed for digital I2C/UART if needed, specifically for digital control of stepper driver.
 
-#Safety
+# Safety
 Use external balancer with LiPo batteries. Cheaply available from HobbyKing among other places.
 
 Not Ethernet compatible, will destroy network hardware.
@@ -90,13 +90,25 @@ Beware common grounding and other wiring issues.
 
 ClassIV lasers are extraordinarily hazardous. Backscatter from the projected spot alone is sufficient to slice a retina. Avoid exposure, and wear eye protection.
 
+
+
+
+Testing all essential high current circuits to 30% above requirements is recommended. Such testing has not necessarily been performed. Any particular circuit may not have been designed to accommodate any significant current carrying capacity. Oil immersion may increase useful ampacity, though the risk of dissolution or fire must be considered carefully. Design goals are made on a best effort basis only, suggested but not guaranteed for further development, particularly for short narrow traces.
+GenericRap and derivative PCBs - Typically 5A power. Between XT60 Connectors, 40A power.
+Solderless Breadboard - Typically 3A per contact. Typically >6A total to gold, tin, lead or similarly plated square pin header 'power feeder' as used by GenericRap.
+Wrapping Wire 30AWG "Kynar" Insulated - Typically 6A per wire.
+
+Fire suppression or low flammability products may be mentioned for consideration of further development only. None are specifically recommended for any situation, none may have been tested in any relevant application, and no claim of effectiveness is made.
+
 No claim of liability is made by anyone. Your accident is your accident. Use common sense, and follow all regulations. If you don't understand the safety features and limitations, don't use this circuitry or anything similar.
 
-#FutureWork
+
+
+# FutureWork
 * Battery charge control and overdischarge protection circuitry for regenerator.
 
 
-#Reference
+# Reference
 https://www.inventables.com/technologies/stepper-motor-nema-17
 http://www.rcgroups.com/forums/showthread.php?t=2387201
 https://en.wikipedia.org/wiki/Parallel_ATA
@@ -118,7 +130,19 @@ http://blog.think3dprint3d.com/
 http://www.linengineering.com/resources/wiring_connections.aspx
 
 
-#Copyright
+
+https://www.quintolubric.com/wp-content/uploads/articles_2018/IP_MPT_Int_04_2017_S56_59_reprint.pdf
+https://youtu.be/bEtlikCMRWM?t=164
+
+https://smile.amazon.com/dp/B008HQ6XNC/?coliid=I3TVNJLXY6X9TV&colid=3OTBRPJLKJWP5&psc=1&ref_=lv_ov_lig_dp_it
+
+
+https://www.htgsupply.com/products/the-watch-dog-automatic-fire-extinguisher-12-kg/
+
+
+
+
+# Copyright
 This file is part of PatchRap.
 
 PatchRap is free software: you can redistribute it and/or modify

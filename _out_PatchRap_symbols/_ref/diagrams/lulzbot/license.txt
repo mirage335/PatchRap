@@ -1,0 +1,67 @@
+
+	Wire_Diagram_1.png.600x0_q85.png
+	- May apply to typical LulzBot Mini extruders v1.01, v1.02, v1.03 .
+https://ohai.lulzbot.com/project/86797b55-7d08-4c6d-be77-3c116a320547/mini/
+https://ohai.lulzbot.com/media/uploads/Wire_Diagram_1_1.png.600x0_q85.png
+https://web.archive.org/web/20200423205949/https://ohai.lulzbot.com/media/uploads/Wire_Diagram_1_1.png.600x0_q85.png
+https://download.lulzbot.com/Mini/1.01/production_docs/ohai-kit/printhead_assembly_files/Wire_Diagram_1.png.600x0_q85.png
+https://download.lulzbot.com/Mini/1.01/COPYING
+https://download.lulzbot.com/Mini/1.02/production_docs/ohai-kit/printhead_assembly_files/Wire_Diagram_1.png.600x0_q85.png
+https://download.lulzbot.com/Mini/1.02/COPYING
+https://download.lulzbot.com/Mini/1.03/production_docs/ohai-kit/printhead_assembly_files/Wire_Diagram_1.png.600x0_q85.png
+https://download.lulzbot.com/Mini/1.03/COPYING
+"Unless otherwise noted, all files in this archive are licensed under the GPLv3 and/or CC BY SA 4.0."
+Obtained with only 'Copyright' symbol, "FAME 3D LLC. — Committed to Free Software, Libre Innovation, and Open Source Hardware" and link to OHAI-kit site from web site. Identical copy obtained with statement 'GPLv3 and/or CC BY SA 4.0'. GNU Affero Public License (as stated on linked page for ohai-kit source files and available as agpl-3.0.txt), 'GPLv3 and/or CC BY SA 4.0' license (as stated from 'download.lulzbot.com'), public domain, or fair use assumed. No further 'source' for creating the 'png' file was mentioned or readily found.
+
+
+	extruder_pin_assignments.odg
+	- May apply to typical LulzBot Mini extruders v1.04 .
+https://download.lulzbot.com/Mini/1.04/production_parts/Electronics/cable-harnesses/extruder_assembly/extruder_pin_assignments.odg
+https://download.lulzbot.com/Mini/1.04/COPYING
+https://web.archive.org/web/20200107212604/https://download.lulzbot.com/Mini/1.04/production_parts/Electronics/cable-harnesses/extruder_assembly/extruder_pin_assignments.odg
+"Unless otherwise noted, all files in this archive are licensed under the GPLv3 and/or CC BY SA 4.0."
+Obtained under stated 'GPLv3 and/or CC BY SA 4.0' license. May also be public domain, or fair use.
+
+
+
+
+	Taz Extruder Pin Assignments v2c.jpg
+	- May apply to typical LulzBot Taz 5 extruders .
+https://ohai.lulzbot.com/project/2b36d92e-a984-4e61-af92-245ea7fcaeaf/hot-end-tool-head-assembly/
+https://ohai.lulzbot.com/media/uploads/Taz_Extruder_Pin_Assignments_v2c.jpg
+https://web.archive.org/web/20191014173536/https://ohai.lulzbot.com/media/uploads/Taz_Extruder_Pin_Assignments_v2c.jpg
+https://devel.lulzbot.com/TAZ/juniperberry/production_parts/Electronics/Extruder%20Connections/Taz%20Extruder%20Pin%20Assignments%20v2c.jpg
+https://web.archive.org/web/20191015095733/https://devel.lulzbot.com/TAZ/juniperberry/production_parts/Electronics/Extruder%20Connections/Taz%20Extruder%20Pin%20Assignments%20v2c.jpg
+Obtained with only 'Copyright' symbol, "FAME 3D LLC. — Committed to Free Software, Libre Innovation, and Open Source Hardware" and link to OHAI-kit site from web site. Identical copy obtained without explicit license in any parent directory. GNU Affero Public License (as stated on linked page for ohai-kit source files and available as agpl-3.0.txt), public domain, or fair use assumed.
+
+
+	Taz Extruder Pin Assignments v2c.odg
+	- May apply to typical LulzBot Taz 5 extruders .
+https://devel.lulzbot.com/TAZ/juniperberry/production_parts/Electronics/Extruder%20Connections/Taz%20Extruder%20Pin%20Assignments%20v2c.odg
+https://web.archive.org/web/20191015095732/https://devel.lulzbot.com/TAZ/juniperberry/production_parts/Electronics/Extruder%20Connections/Taz%20Extruder%20Pin%20Assignments%20v2c.odg
+Obtained without explicit license in any parent directory. Typical 'GPLv3 and/or CC BY SA 4.0', public domain, or fair use assumed.
+
+
+	05_Extruder_OHAI-T6
+	- May apply to typical LulzBot Taz 6 extruders .
+https://download.lulzbot.com/TAZ/6.02/production_docs/OHAI/05_Extruder_OHAI-T6.pdf
+https://download.lulzbot.com/TAZ/6.02/COPYING
+"Unless otherwise noted, all files in this archive are licensed under the GPLv3 and/or CC BY SA 4.0."
+Obtained under stated 'GPLv3 and/or CC BY SA 4.0' license. May also be public domain, or fair use. No further 'source' for creating the 'pdf' file was mentioned or readily found.
+
+
+	Taz Extruder Pin Assignments v2.0.odg
+https://devel.lulzbot.com/TAZ/Juniper/production_parts/Electronics/Extruder%20Pin%20Assignments/Taz%20Extruder%20Pin%20Assignments%20v2.0.odg
+https://web.archive.org/web/20191015100504/https://devel.lulzbot.com/TAZ/Juniper/production_parts/Electronics/Extruder%20Pin%20Assignments/Taz%20Extruder%20Pin%20Assignments%20v2.0.odg
+Obtained without explicit license in any parent directory. Typical 'GPLv3 and/or CC BY SA 4.0', public domain, or fair use assumed.
+
+
+	Taz Extruder Pin Assignments v2.1.odg
+https://devel.lulzbot.com/TAZ/Juniper/production_parts/Electronics/Extruder%20Pin%20Assignments/Taz%20Extruder%20Pin%20Assignments%20v2.1.odg
+https://web.archive.org/web/20191015100504/https://devel.lulzbot.com/TAZ/Juniper/production_parts/Electronics/Extruder%20Pin%20Assignments/Taz%20Extruder%20Pin%20Assignments%20v2.1.odg
+Obtained without explicit license in any parent directory. Typical 'GPLv3 and/or CC BY SA 4.0', public domain, or fair use assumed.
+
+
+
+
+
