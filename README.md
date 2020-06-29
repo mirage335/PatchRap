@@ -25,7 +25,7 @@ USA companies provide all parts in these schematics, excepting the RJ45 jacks an
 
 Pinouts are as follows, numbering by T568A standard.
 
-## GenericIO	(Limit Switch, Depth Probe, Extruder, Stepper Driver, Radio)
+## GenericIO	(Limit Switch, Depth Probe, Extruder, Stepper/Servo Driver, Servo Encoder, Radio)
 	3 / 1 - Vsys/Vcc
 	3 \ 2 - pGND/sGnd
 	2 - 3 - Vext/Vmid/Avcc/SigAlt	(NC)								(LO)
@@ -69,11 +69,15 @@ See https://github.com/mirage335/LinearPSU/blob/master/Photo.jpg .
 
 # Ratings
 Please beware the following ratings.
+* Servo control through pin7 of "GenericIO" is intended for PWM servo position control, as opposed to rotary "Step/Dir" "Stepper/Servo Driver" control.
+* Fan/Cooling through pin8 of "GenericIO" is intended for workpiece 'cooling'. A term used loosely in this context, implying any 
+nonselective effector. Typically, thermoplastic filament deposition would control a fan blowing on the extruder nozzle, while Selective Laser Sintering, might control a defocused preheater.
+
 * Vext is intended as logic power, and must never exceed 5.5V. Recommend 3.3V||5V depending on system needs.
 * Vext may be used as a diode (eg. CDBU0530) OR-gated power bus if all connected devices can operate at 2.8V-5V.
 * Vmid/Avcc are alternate uses for the Vext line, and may exceed 5.5V as appropriate.
 * Vsys is intended for high-power delivery, and may be any voltage all attached devices are configured to tolerate. Recommend 12V||24V.
-* Ground-referenced voltage (ie. wall current) should only be considered for Vsys. Earth-ground and neutral may be bound to pGND/sGND.
+* Ground-referenced voltage (ie. wall current) is NOT guaranteed to remain isolated but nonetheless should only be considered for Vsys. Earth-ground and neutral may be bound to pGND/sGND.
 * Maximum current into an RJ45 socket or breadboard is typically around 3A/pin. Consider using high-quality header/jumpers, and redundant pins, as appropriate.
 * Voltage drops can be significant, especially across pGND/sGND. Take care to follow star-toplogy grounding to the greatest extent possible when accuracy counts.
 * Rough changes to voltages can be made (eg. for fans) by high-power zener diodes (ie. 863-1N5919BG).
@@ -91,6 +95,7 @@ Beware common grounding and other wiring issues.
 ClassIV lasers are extraordinarily hazardous. Backscatter from the projected spot alone is sufficient to slice a retina. Avoid exposure, and wear eye protection.
 
 
+Ground-referenced voltage (ie. wall current) applied to Vsys/Vee is NOT guaranteed to remain isolated from other circuits. Spark gap surge protectors specifically, among other faults, are expected to allow sustained connection of high-voltage ground-referenced current to all other circuits.
 
 
 Testing all essential high current circuits to 30% above requirements is recommended. Such testing has not necessarily been performed. Any particular circuit may not have been designed to accommodate any significant current carrying capacity. Oil immersion may increase useful ampacity, though the risk of dissolution or fire must be considered carefully. Design goals are made on a best effort basis only, suggested but not guaranteed for further development, particularly for short narrow traces.
@@ -140,6 +145,13 @@ https://smile.amazon.com/dp/B008HQ6XNC/?coliid=I3TVNJLXY6X9TV&colid=3OTBRPJLKJWP
 https://www.htgsupply.com/products/the-watch-dog-automatic-fire-extinguisher-12-kg/
 
 
+
+https://www.youtube.com/watch?v=il9bNWn66BY
+https://duet3d.dozuki.com/Wiki/Choosing_a_Z_probe
+https://www.youtube.com/watch?v=rIb4wtEoE2w
+https://hackaday.com/2019/09/01/force-sensitive-resistor-takes-the-pain-out-of-bed-leveling/
+https://reprap.org/wiki/Z_probe
+https://reprap.org/wiki/Underbed_Piezo-electric_sensors
 
 
 # Copyright
