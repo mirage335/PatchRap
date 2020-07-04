@@ -1,0 +1,135 @@
+v 20130925 2
+P 0 2600 300 2600 1 0 0
+{
+T 0 2600 5 10 0 0 0 0 1
+pintype=pas
+T 355 2595 5 10 0 1 0 0 1
+pinlabel=1
+T 205 2645 5 10 1 1 0 6 1
+pinnumber=1
+T 0 2600 5 10 0 0 0 0 1
+pinseq=1
+}
+P 0 2300 300 2300 1 0 0
+{
+T 0 2300 5 10 0 0 0 0 1
+pintype=pas
+T 355 2295 5 10 0 1 0 0 1
+pinlabel=2
+T 0 2300 5 10 0 0 0 0 1
+pinseq=2
+T 205 2345 5 10 1 1 0 6 1
+pinnumber=2
+}
+P 0 2000 300 2000 1 0 0
+{
+T 0 2000 5 10 0 0 0 0 1
+pintype=pas
+T 355 1995 5 10 0 1 0 0 1
+pinlabel=3
+T 0 2000 5 10 0 0 0 0 1
+pinseq=3
+T 205 2045 5 10 1 1 0 6 1
+pinnumber=3
+}
+P 0 1700 300 1700 1 0 0
+{
+T 0 1700 5 10 0 0 0 0 1
+pintype=pas
+T 355 1695 5 10 0 1 0 0 1
+pinlabel=4
+T 0 1700 5 10 0 0 0 0 1
+pinseq=4
+T 205 1745 5 10 1 1 0 6 1
+pinnumber=4
+}
+P 0 1400 300 1400 1 0 0
+{
+T 0 1400 5 10 0 0 0 0 1
+pintype=pas
+T 355 1395 5 10 0 1 0 0 1
+pinlabel=5
+T 0 1400 5 10 0 0 0 0 1
+pinseq=5
+T 205 1445 5 10 1 1 0 6 1
+pinnumber=5
+}
+P 0 1100 300 1100 1 0 0
+{
+T 0 1100 5 10 0 0 0 0 1
+pintype=pas
+T 355 1095 5 10 0 1 0 0 1
+pinlabel=6
+T 0 1100 5 10 0 0 0 0 1
+pinseq=6
+T 205 1145 5 10 1 1 0 6 1
+pinnumber=6
+}
+P 0 800 300 800 1 0 0
+{
+T 0 800 5 10 0 0 0 0 1
+pintype=pas
+T 355 795 5 10 0 1 0 0 1
+pinlabel=7
+T 0 800 5 10 0 0 0 0 1
+pinseq=7
+T 205 845 5 10 1 1 0 6 1
+pinnumber=7
+}
+P 0 500 300 500 1 0 0
+{
+T 0 500 5 10 0 0 0 0 1
+pintype=pas
+T 355 495 5 10 0 1 0 0 1
+pinlabel=8
+T 0 500 5 10 0 0 0 0 1
+pinseq=8
+T 205 545 5 10 1 1 0 6 1
+pinnumber=8
+}
+P 0 200 300 200 1 0 0
+{
+T 0 200 5 10 0 0 0 0 1
+pintype=pas
+T 355 195 5 10 0 1 0 0 1
+pinlabel=9
+T 0 200 5 10 0 0 0 0 1
+pinseq=9
+T 205 245 5 10 1 1 0 6 1
+pinnumber=9
+}
+B 200 0 500 2900 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 300 3100 8 10 1 1 0 0 1
+refdes=BAR?
+T 300 3400 8 10 0 0 0 0 1
+device=barrier_terminal_block_325mil_9p
+T 300 3600 8 10 0 0 0 0 1
+footprint=barrier_terminal_block_325mil_9p
+T 300 3800 8 10 0 0 0 0 1
+numslots=0
+T 300 4000 8 10 0 0 0 0 1
+value=325mil
+T 300 4200 8 10 0 0 0 0 1
+description=$4.19 MOUSER 538-38700-6109
+T 300 4400 8 10 0 0 0 0 1
+cost=4.19
+T 300 4600 8 10 0 0 0 0 1
+mfr=molex
+T 300 4800 8 10 0 0 0 0 1
+mfrpn=38700-6109
+T 300 5000 8 10 0 0 0 0 1
+dst=Mouser
+T 300 5200 8 10 0 0 0 0 1
+dstpn=538-38700-6109
+T 300 5400 8 10 0 0 0 0 1
+link=https://www.molex.com/pdm_docs/sd/387006109_sd.pdf
+T 300 5600 8 10 0 0 0 0 1
+link_page=1
+T 300 5800 8 10 0 0 0 0 1
+supplier=c
+T 300 6000 8 10 0 0 0 0 1
+kitting=other
+T 300 6200 8 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+T 300 6400 8 10 0 0 0 0 1
+search_alt=https://www.mouser.com/Connectors/Terminal-Blocks/Barrier-Terminal-Blocks/_/N-7rqbf?P=1yvgcdjZ1ytmhdqZ1z0wx62&Ns=Pricing%7c0

@@ -1,0 +1,172 @@
+v 20130925 2
+B 200 0 1000 2000 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 0 1800 300 1800 1 0 0
+{
+T 0 1800 5 10 0 0 0 0 1
+pintype=pas
+T 355 1795 5 10 0 1 0 0 1
+pinlabel=1
+T 205 1845 5 10 1 1 0 6 1
+pinnumber=1
+T 0 1800 5 10 0 0 0 0 1
+pinseq=1
+}
+P 0 1500 300 1500 1 0 0
+{
+T 0 1500 5 10 0 0 0 0 1
+pintype=pas
+T 355 1495 5 10 0 1 0 0 1
+pinlabel=2
+T 0 1500 5 10 0 0 0 0 1
+pinseq=2
+T 205 1545 5 10 1 1 0 6 1
+pinnumber=2
+}
+P 0 1200 300 1200 1 0 0
+{
+T 0 1200 5 10 0 0 0 0 1
+pintype=pas
+T 355 1195 5 10 0 1 0 0 1
+pinlabel=3
+T 0 1200 5 10 0 0 0 0 1
+pinseq=3
+T 205 1245 5 10 1 1 0 6 1
+pinnumber=3
+}
+P 0 900 300 900 1 0 0
+{
+T 0 900 5 10 0 0 0 0 1
+pintype=pas
+T 355 895 5 10 0 1 0 0 1
+pinlabel=4
+T 0 900 5 10 0 0 0 0 1
+pinseq=4
+T 205 945 5 10 1 1 0 6 1
+pinnumber=4
+}
+P 0 600 300 600 1 0 0
+{
+T 0 600 5 10 0 0 0 0 1
+pintype=pas
+T 355 595 5 10 0 1 0 0 1
+pinlabel=5
+T 0 600 5 10 0 0 0 0 1
+pinseq=5
+T 205 645 5 10 1 1 0 6 1
+pinnumber=5
+}
+P 0 300 300 300 1 0 0
+{
+T 0 300 5 10 0 0 0 0 1
+pintype=pas
+T 355 295 5 10 0 1 0 0 1
+pinlabel=6
+T 0 300 5 10 0 0 0 0 1
+pinseq=6
+T 205 345 5 10 1 1 0 6 1
+pinnumber=6
+}
+P 1400 1800 1100 1800 1 0 0
+{
+T 1400 1800 5 10 0 0 0 6 1
+pintype=pas
+T 1045 1795 5 10 0 1 0 6 1
+pinlabel=12
+T 1400 1800 5 10 0 0 0 6 1
+pinseq=12
+T 1195 1845 5 10 1 1 0 0 1
+pinnumber=12
+}
+P 1400 1500 1100 1500 1 0 0
+{
+T 1400 1500 5 10 0 0 0 6 1
+pintype=pas
+T 1045 1495 5 10 0 1 0 6 1
+pinlabel=11
+T 1400 1500 5 10 0 0 0 6 1
+pinseq=11
+T 1195 1545 5 10 1 1 0 0 1
+pinnumber=11
+}
+P 1400 1200 1100 1200 1 0 0
+{
+T 1400 1200 5 10 0 0 0 6 1
+pintype=pas
+T 1045 1195 5 10 0 1 0 6 1
+pinlabel=10
+T 1400 1200 5 10 0 0 0 6 1
+pinseq=10
+T 1195 1245 5 10 1 1 0 0 1
+pinnumber=10
+}
+P 1400 900 1100 900 1 0 0
+{
+T 1400 900 5 10 0 0 0 6 1
+pintype=pas
+T 1045 895 5 10 0 1 0 6 1
+pinlabel=9
+T 1400 900 5 10 0 0 0 6 1
+pinseq=9
+T 1195 945 5 10 1 1 0 0 1
+pinnumber=9
+}
+P 1400 600 1100 600 1 0 0
+{
+T 1400 600 5 10 0 0 0 6 1
+pintype=pas
+T 1045 595 5 10 0 1 0 6 1
+pinlabel=8
+T 1400 600 5 10 0 0 0 6 1
+pinseq=8
+T 1195 645 5 10 1 1 0 0 1
+pinnumber=8
+}
+P 1400 300 1100 300 1 0 0
+{
+T 1400 300 5 10 0 0 0 6 1
+pintype=pas
+T 1045 295 5 10 0 1 0 6 1
+pinlabel=7
+T 1400 300 5 10 0 0 0 6 1
+pinseq=7
+T 1195 345 5 10 1 1 0 0 1
+pinnumber=7
+}
+T 400 2200 8 10 1 1 0 0 1
+refdes=OFFSET?
+T 400 2500 8 10 0 0 0 0 1
+device=idc_offset
+T 400 2800 8 10 0 0 0 0 1
+footprint=idc_offset_15mil
+T 400 3100 8 10 0 0 0 0 1
+numslots=0
+T 400 3300 8 10 0 0 0 0 1
+value=15mil
+T 400 3500 8 10 0 0 0 0 1
+description=$0.28 MOUSER 649-1012938191204BLF
+T 400 3700 8 10 0 0 0 0 1
+cost=0.28
+T 400 3900 8 10 0 0 0 0 1
+mfr=Amphenol FCI
+T 400 4100 8 10 0 0 0 0 1
+mfrpn=10129381-912004BLF
+T 400 4300 8 10 0 0 0 0 1
+dst=Mouser
+T 400 4500 8 10 0 0 0 0 1
+dstpn=649-1012938191204BLF
+T 400 4700 8 10 0 0 0 0 1
+link=http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10129381.pdf
+T 400 4900 8 10 0 0 0 0 1
+link_page=1
+T 400 5100 8 10 0 0 0 0 1
+supplier=c
+T 400 5300 8 10 0 0 0 0 1
+kitting=other
+T 400 5500 8 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+T 400 5700 8 10 0 0 0 0 1
+search_alt=https://www.mouser.com/Connectors/Headers-Wire-Housings/_/N-ay0lo?P=1ytkls1Z1ytkn06Z1z0wxp6Z1z0xbxo&Ns=Pricing|0
+T 3100 2800 8 10 0 0 0 0 1
+footprint_alt=idc_offset_15mil_reverse
+T 6800 2800 8 10 0 0 0 0 1
+footprint_alt_1=HEADER12_2

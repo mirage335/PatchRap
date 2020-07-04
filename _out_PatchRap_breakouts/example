@@ -1,0 +1,4 @@
+elements-dir ./symbols/footprints
+elements-dir ./symbols/footprints
+schematics example.sch
+output-name example

@@ -1,0 +1,5 @@
+(component-library "./symbols")
+(component-library "./symbols/footprints")
+
+(component-library-search "./subsystems")
+(source-library-search "./subsystems")
