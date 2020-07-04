@@ -1,5 +1,5 @@
 unnamed_net3	R?-2 RJ45?-13 
-unnamed_net2	R?-2 RJ45?-11 
+unnamed_net2	R1-2 RJ45?-11 
 GND	PWR2-4 PWR2-3 J?-2 T?-2 RJ45?-12 RJ45?-9 RJ45?-6 
 Vext	J2-1 PWR2-2 PWR2-1 RJ45?-3 
 Vee	Vsys?-2 J2-2 PWR1-3 PWR1-4 J1-1 J1-2 RJ45?-10 J?-1 RJ45?-2 

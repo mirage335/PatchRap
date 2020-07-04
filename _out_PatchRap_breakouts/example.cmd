@@ -59,8 +59,10 @@ ChangePinName(J?, 2, 2)
 # Start of element R?
 ChangePinName(R?, 1, 1)
 ChangePinName(R?, 2, 2)
-ChangePinName(R?, 1, 1)
-ChangePinName(R?, 2, 2)
+
+# Start of element R1
+ChangePinName(R1, 1, 1)
+ChangePinName(R1, 2, 2)
 
 # Start of element T?
 ChangePinName(T?, 2, 2)
@@ -106,16 +108,16 @@ ChangePinName(TERM?, 3, 3)
 ChangePinName(TERM?, 2, 2)
 ChangePinName(TERM?, 1, 1)
 
-# Start of element BAR?
-ChangePinName(BAR?, 9, 9)
-ChangePinName(BAR?, 8, 8)
-ChangePinName(BAR?, 7, 7)
-ChangePinName(BAR?, 6, 6)
-ChangePinName(BAR?, 5, 5)
-ChangePinName(BAR?, 4, 4)
-ChangePinName(BAR?, 3, 3)
-ChangePinName(BAR?, 2, 2)
-ChangePinName(BAR?, 1, 1)
+# Start of element BAR1
+ChangePinName(BAR1, 9, 9)
+ChangePinName(BAR1, 8, 8)
+ChangePinName(BAR1, 7, 7)
+ChangePinName(BAR1, 6, 6)
+ChangePinName(BAR1, 5, 5)
+ChangePinName(BAR1, 4, 4)
+ChangePinName(BAR1, 3, 3)
+ChangePinName(BAR1, 2, 2)
+ChangePinName(BAR1, 1, 1)
 
 # Start of element WTB?
 ChangePinName(WTB?, 1, 1)

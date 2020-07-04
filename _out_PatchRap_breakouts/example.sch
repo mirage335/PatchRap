@@ -97,6 +97,8 @@ T 42750 44900 5 10 0 0 270 2 1
 footprint=ring
 T 48600 45200 5 10 0 0 0 0 1
 value=2mm
+T 48600 45200 5 10 0 0 0 0 1
+description=unknown
 }
 T 45800 46100 9 10 1 0 0 0 3
 Offset footprint for compatibility
@@ -125,7 +127,7 @@ dst=Mouser
 T 42700 50400 5 10 0 0 0 0 1
 dstpn=649-1012938191204BLF
 T 42700 50600 5 10 0 0 0 0 1
-link=http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10129381.pdf
+link=www.amphenol-icc.com/media/wysiwyg/files/drawing/10129381.pdf
 T 42700 50800 5 10 0 0 0 0 1
 link_page=1
 T 42700 51000 5 10 0 0 0 0 1
@@ -139,7 +141,7 @@ footprint_alt_1=HEADER12_2
 T 45400 48700 5 10 0 0 0 0 1
 footprint_alt=idc_offset_15mil_reverse
 T 42700 51600 5 10 0 0 0 0 1
-search_alt=https://www.mouser.com/Connectors/Headers-Wire-Housings/_/N-ay0lo?P=1ytkls1Z1ytkn06Z1z0wxp6Z1z0xbxo&Ns=Pricing|0
+search_alt=www.mouser.com/Connectors/Headers-Wire-Housings/_/N-ay0lo?P=1ytkls1Z1ytkn06Z1z0wxp6Z1z0xbxo&Ns=Pricing|0
 }
 C 49500 45200 1 0 0 connector4-1.sym
 {
@@ -156,7 +158,7 @@ N 51200 46300 51200 45400 4
 C 52800 44400 1 0 0 barrier_terminal_block_325mil_9p.sym
 {
 T 53100 47500 5 10 1 1 0 0 1
-refdes=BAR?
+refdes=BAR1
 T 53100 47800 5 10 0 0 0 0 1
 device=barrier_terminal_block_325mil_9p
 T 53100 48000 5 10 0 0 0 0 1
@@ -176,7 +178,7 @@ dst=Mouser
 T 53100 49600 5 10 0 0 0 0 1
 dstpn=538-38700-6109
 T 53100 49800 5 10 0 0 0 0 1
-link=https://www.molex.com/pdm_docs/sd/387006109_sd.pdf
+link=www.molex.com/pdm_docs/sd/387006109_sd.pdf
 T 53100 50000 5 10 0 0 0 0 1
 link_page=1
 T 53100 50200 5 10 0 0 0 0 1
@@ -186,7 +188,7 @@ kitting=other
 T 53100 50600 5 10 0 0 0 0 1
 kitting_d=not known to be available in machine usable format
 T 53100 50800 5 10 0 0 0 0 1
-search_alt=https://www.mouser.com/Connectors/Terminal-Blocks/Barrier-Terminal-Blocks/_/N-7rqbf?P=1yvgcdjZ1ytmhdqZ1z0wx62&Ns=Pricing%7c0
+search_alt=www.mouser.com/Connectors/Terminal-Blocks/Barrier-Terminal-Blocks/_/N-7rqbf?P=1yvgcdjZ1ytmhdqZ1z0wx62&Ns=Pricing%7c0
 }
 C 54300 44400 1 0 0 terminal_block_5mm_9p.sym
 {
@@ -211,7 +213,7 @@ dst=Mouser
 T 54600 49600 5 10 0 0 0 0 1
 dstpn=490-TB001-500-09BE
 T 54600 49800 5 10 0 0 0 0 1
-link=https://www.mouser.com/datasheet/2/670/tb001-500-1550615.pdf
+link=www.mouser.com/datasheet/2/670/tb001-500-1550615.pdf
 T 54600 50000 5 10 0 0 0 0 1
 link_page=2
 T 54600 50200 5 10 0 0 0 0 1
@@ -221,7 +223,7 @@ kitting=other
 T 54600 50600 5 10 0 0 0 0 1
 kitting_d=not known to be available in machine usable format
 T 54600 50800 5 10 0 0 0 0 1
-search_alt=https://www.mouser.com/Connectors/Terminal-Blocks/Fixed-Terminal-Blocks/_/N-7rqd7?P=1yvgcdjZ1yvgchuZ1z0wxoj&Ns=Pricing%7c0
+search_alt=www.mouser.com/Connectors/Terminal-Blocks/Fixed-Terminal-Blocks/_/N-7rqd7?P=1yvgcdjZ1yvgchuZ1z0wxoj&Ns=Pricing%7c0
 }
 C 44200 45900 1 0 0 idc_offset.sym
 {
@@ -246,7 +248,7 @@ dst=Mouser
 T 44600 50400 5 10 0 0 0 0 1
 dstpn=649-1012938191204BLF
 T 44600 50600 5 10 0 0 0 0 1
-link=http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10129381.pdf
+link=www.amphenol-icc.com/media/wysiwyg/files/drawing/10129381.pdf
 T 44600 50800 5 10 0 0 0 0 1
 link_page=1
 T 44600 51000 5 10 0 0 0 0 1
@@ -260,7 +262,7 @@ footprint_alt_1=HEADER12_2
 T 47300 48700 5 10 0 0 0 0 1
 footprint_alt=idc_offset_15mil_reverse
 T 44600 51600 5 10 0 0 0 0 1
-search_alt=https://www.mouser.com/Connectors/Headers-Wire-Housings/_/N-ay0lo?P=1ytkls1Z1ytkn06Z1z0wxp6Z1z0xbxo&Ns=Pricing|0
+search_alt=www.mouser.com/Connectors/Headers-Wire-Housings/_/N-ay0lo?P=1ytkls1Z1ytkn06Z1z0wxp6Z1z0xbxo&Ns=Pricing|0
 }
 C 39600 42800 1 0 0 connector13-2.sym
 {
@@ -327,7 +329,7 @@ description=$0.148 MOUSER 71-CRCW08052K20JNEAH
 T 39100 43900 5 10 1 1 0 0 1
 value=2.2k
 T 39300 43800 5 10 1 1 0 0 1
-refdes=R?
+refdes=R1
 T 38700 43900 5 10 0 0 0 0 1
 cost=0.148
 T 38700 43900 5 10 0 0 0 0 1
@@ -463,7 +465,7 @@ dst=Mouser
 T 48100 49500 5 10 0 0 0 0 1
 dstpn=517-9612046804AR 
 T 48100 49500 5 10 0 0 0 0 1
-link=http://www.mouser.com/ds/2/1/ts2181-30266.pdf
+link=www.mouser.com/ds/2/1/ts2181-30266.pdf
 T 48100 49500 5 10 0 0 0 0 1
 link_page=2
 T 48100 49500 5 10 0 0 0 0 1
@@ -498,7 +500,7 @@ dst=Mouser
 T 46300 49500 5 10 0 0 0 0 1
 dstpn=517-9612046804AR 
 T 46300 49500 5 10 0 0 0 0 1
-link=http://www.mouser.com/ds/2/1/ts2181-30266.pdf
+link=www.mouser.com/ds/2/1/ts2181-30266.pdf
 T 46300 49500 5 10 0 0 0 0 1
 link_page=2
 T 46300 49500 5 10 0 0 0 0 1
@@ -561,7 +563,7 @@ dst=HobbyKing
 T 39700 49500 5 10 0 0 0 0 1
 dstpn=XT60
 T 39700 49500 5 10 0 0 0 0 1
-link=http://www.hobbyking.com/hobbyking/store/__9572__Nylon_XT60_Connectors_Male_Female_5_pairs_GENUINE.html
+link=www.hobbyking.com/hobbyking/store/__9572__Nylon_XT60_Connectors_Male_Female_5_pairs_GENUINE.html
 T 39700 49500 5 10 0 0 0 0 1
 link_page=N/A
 T 39700 49500 5 10 0 0 0 0 1
@@ -618,9 +620,9 @@ dst=Mouser
 T 52200 47900 5 10 0 0 0 6 1
 dstpn=538-22-28-5084
 T 52200 47900 5 10 0 0 0 6 1
-link=http://www.mouser.com/ds/2/276/0022285084_PCB_HEADERS-228315.pdf
+link=www.mouser.com/ds/2/276/0022285084_PCB_HEADERS-228315.pdf
 T 52200 47900 5 10 0 0 0 6 1
-link_page=http://www.molex.com/pdm_docs/sd/022285084_sd.pdf
+link_page=www.molex.com/pdm_docs/sd/022285084_sd.pdf
 T 52200 47900 5 10 0 0 0 6 1
 supplier=c
 T 52200 47900 5 10 0 0 0 6 1
@@ -651,9 +653,9 @@ dst=Mouser
 T 50300 47900 5 10 0 0 0 0 1
 dstpn=538-22-28-5084
 T 50300 47900 5 10 0 0 0 0 1
-link=http://www.mouser.com/ds/2/276/0022285084_PCB_HEADERS-228315.pdf
+link=www.mouser.com/ds/2/276/0022285084_PCB_HEADERS-228315.pdf
 T 50300 47900 5 10 0 0 0 0 1
-link_page=http://www.molex.com/pdm_docs/sd/022285084_sd.pdf
+link_page=www.molex.com/pdm_docs/sd/022285084_sd.pdf
 T 50300 47900 5 10 0 0 0 0 1
 supplier=c
 T 50300 47900 5 10 0 0 0 0 1

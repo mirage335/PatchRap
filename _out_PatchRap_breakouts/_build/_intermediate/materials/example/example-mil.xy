@@ -1,16 +1,14 @@
 # PcbXY Version 1.0
-# Date: Sat 04 Jul 2020 04:10:19 PM GMT UTC
+# Date: Sat 04 Jul 2020 07:08:23 PM GMT UTC
 # Author: commonadmin
 # Title: (unknown) - PCB X-Y
 # RefDes, Description, Value, X, Y, rotation, top/bottom
 # X,Y in mil.  rotation in degrees.
 # --------------------------------------------
-BAR?,"barrier_terminal_block_325mil_9p","325mil",2180.00,6445.00,180,top
 OFFSET1,"idc_offset_15mil","15mil",1517.50,7060.00,0,top
 OFFSET2,"idc_offset_15mil_reverse","15mil",1277.50,7060.00,0,top
 T?,"SparkGapPCB","2kV",715.91,7181.24,270,top
-R?,"0805","2.2k",730.00,7265.00,0,top
-J?,"0201","-",719.57,7340.00,0,top
+J?,"0201","-",1975.00,5350.00,0,top
 RJ45?,"eth_571-1734795-1","-",404.32,7079.84,90,top
 RING?,"ring","2mm",1790.00,8030.00,0,top
 H?,"mount_m2","2mm",785.00,7875.00,0,top
@@ -23,7 +21,10 @@ BRD1,"JUMPER8","-",920.00,5630.00,0,top
 BRD2,"JUMPER8","-",1215.00,5630.00,0,top
 PWR1,"HEADER4_1","-",180.00,5530.00,0,top
 PWR2,"HEADER4_1","-",1955.00,5530.00,0,top
-J2,"0201","-",336.81,5475.00,0,top
-J1,"0201","-",333.19,5560.00,0,top
+J2,"0201","-",213.19,5325.00,0,top
+J1,"0201","-",213.19,5400.00,0,top
 WTB?,"wireToBoard.fp","-",775.59,8075.79,270,top
-WTB?1,"wireToBoard.fp","-",923.23,8075.79,270,top
+WTB?,"wireToBoard.fp","-",923.23,8075.79,270,top
+R?,"0805","2.2k",730.00,7265.00,0,top
+R1,"0805","2.2k",925.00,7275.00,0,top
+BAR1,"barrier_terminal_block_325mil_9p","325mil",2175.00,6450.00,180,top

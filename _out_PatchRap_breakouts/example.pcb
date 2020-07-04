@@ -787,42 +787,6 @@ Symbol['~' 12.00mil]
 Attribute("PCB::grid::unit" "mil")
 Attribute("PCB::grid::size" "25.00mil")
 
-Element["" "barrier_terminal_block_325mil_9p" "BAR?" "325mil" 2180.00mil 1805.00mil 0.0000 0.0000 3 100 ""]
-(
-	Pin[0.0000 1625.00mil 2.6500mm 20.00mil 2.8024mm 2.2500mm "" "1" ""]
-	Pin[0.0000 1300.00mil 2.6500mm 20.00mil 2.8024mm 2.2500mm "" "2" ""]
-	Pin[0.0000 -1625.00mil 2.6500mm 20.00mil 2.8024mm 2.2500mm "" "3" ""]
-	Pin[0.0000 -1300.00mil 2.6500mm 20.00mil 2.8024mm 2.2500mm "" "4" ""]
-	Pin[0.0000 -975.00mil 2.6500mm 20.00mil 2.8024mm 2.2500mm "" "5" ""]
-	Pin[0.0000 -650.00mil 2.6500mm 20.00mil 2.8024mm 2.2500mm "" "6" ""]
-	Pin[0.0000 -325.00mil 2.6500mm 20.00mil 2.8024mm 2.2500mm "" "7" ""]
-	Pin[0.0000 0.0000 2.6500mm 20.00mil 2.8024mm 2.2500mm "" "8" ""]
-	Pin[0.0000 325.00mil 2.6500mm 20.00mil 2.8024mm 2.2500mm "" "9" ""]
-	Pin[0.0000 650.00mil 2.6500mm 20.00mil 2.8024mm 2.2500mm "" "10" ""]
-	Pin[0.0000 975.00mil 2.6500mm 20.00mil 2.8024mm 2.2500mm "" "11" ""]
-	ElementLine [50.00mil 1675.00mil 45.00mil 1670.00mil 10.00mil]
-	ElementLine [-50.00mil 1575.00mil -45.00mil 1580.00mil 10.00mil]
-	ElementLine [-50.00mil 1675.00mil -45.00mil 1670.00mil 10.00mil]
-	ElementLine [50.00mil 1575.00mil 45.00mil 1580.00mil 10.00mil]
-	ElementLine [-50.00mil -1675.00mil -45.00mil -1670.00mil 10.00mil]
-	ElementLine [-50.00mil -1575.00mil -45.00mil -1580.00mil 10.00mil]
-	ElementLine [50.00mil -1675.00mil 45.00mil -1670.00mil 10.00mil]
-	ElementLine [50.00mil -1575.00mil 45.00mil -1580.00mil 10.00mil]
-	ElementLine [-45.00mil -1780.00mil 45.00mil -1780.00mil 10.00mil]
-	ElementLine [-45.00mil 1780.00mil 45.00mil 1780.00mil 10.00mil]
-	ElementLine [0.0000 0.0000 150.00mil 0.0000 10.00mil]
-	ElementLine [150.00mil -10.00mil 150.00mil 10.00mil 10.00mil]
-	ElementLine [-100.00mil -10.00mil -100.00mil 10.00mil 10.00mil]
-	ElementLine [400.00mil -10.00mil 400.00mil 10.00mil 10.00mil]
-	ElementLine [300.00mil -1780.00mil 400.00mil -1780.00mil 10.00mil]
-	ElementLine [400.00mil -1780.00mil 400.00mil -1680.00mil 10.00mil]
-	ElementLine [300.00mil 1780.00mil 400.00mil 1780.00mil 10.00mil]
-	ElementLine [400.00mil 1680.00mil 400.00mil 1780.00mil 10.00mil]
-	ElementLine [-100.00mil 1680.00mil -100.00mil 1780.00mil 10.00mil]
-	ElementLine [-100.00mil -1780.00mil -100.00mil -1680.00mil 10.00mil]
-
-	)
-
 Element["" "idc_offset_15mil" "OFFSET1" "15mil" 1460.00mil 940.00mil 0.0000 0.0000 0 100 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 20.00mil 66.00mil 38.00mil "" "1" ""]
@@ -904,15 +868,6 @@ Element["" "SparkGapPCB" "T?" "2kV" 17.6040mm 1068.50mil 0.0000 0.0000 0 100 ""]
 	ElementLine [7.00mil -19.00mil 0.0000 -12.00mil 6.00mil]
 	ElementLine [7.00mil -19.00mil 42.00mil -19.00mil 6.00mil]
 	ElementLine [49.00mil -12.00mil 42.00mil -19.00mil 6.00mil]
-
-	)
-
-Element["" "0805" "R?" "2.2k" 730.00mil 985.00mil -31.50mil -31.50mil 0 100 ""]
-(
-	Pad[-35.43mil -3.93mil -35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "1" "1" "square"]
-	Pad[35.43mil -3.93mil 35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
 
 	)
 
@@ -1360,20 +1315,6 @@ Element["" "0201" "J1" "-" 213.19mil 2850.00mil -31.50mil -31.50mil 0 100 ""]
 	)
 
 Element["" "wireToBoard.fp" "WTB?" "-" 20.0000mm 3.2500mm 0.0000 0.0000 2 100 ""]
-(
-	Pin[0.0000 0.0000 2.4000mm 20.00mil 2.5524mm 2.0000mm "" "1" ""]
-	Pin[0.9000mm 1.9000mm 1.7000mm 20.00mil 1.8524mm 1.2500mm "" "2" ""]
-	Pin[-0.6000mm 1.8000mm 1.2000mm 20.00mil 1.3524mm 0.7500mm "" "3" ""]
-	Pin[-1.5000mm 1.0000mm 1.0000mm 20.00mil 1.1524mm 0.5000mm "" "4" ""]
-	ElementLine [0.9000mm 0.9000mm 0.9000mm 1.9000mm 25.00mil]
-	ElementLine [0.9000mm 0.9000mm 0.0000 0.0000 25.00mil]
-	ElementLine [-0.3680mm 80.00mil 0.9000mm 80.00mil 25.00mil]
-	ElementLine [-1.5000mm 1.0000mm -1.4000mm 1.0000mm 25.00mil]
-	ElementLine [-0.3680mm 80.00mil -1.4000mm 1.0000mm 25.00mil]
-
-	)
-
-Element["" "wireToBoard.fp" "WTB?1" "-" 23.7500mm 3.2500mm 0.0000 0.0000 2 100 ""]
 (
 	Pin[0.0000 0.0000 2.4000mm 20.00mil 2.5524mm 2.0000mm "" "1" ""]
 	Pin[0.9000mm 1.9000mm 1.7000mm 20.00mil 1.8524mm 1.2500mm "" "2" ""]
@@ -2274,6 +2215,74 @@ Element["" "breadboard" "I?" "unknown" 130.00mil 1570.00mil 170.00mil 85.00mil 0
 	ElementLine [1835.00mil 6090.00mil 1860.00mil 6090.00mil 10.00mil]
 	ElementLine [1805.00mil 6060.00mil 1805.00mil 6090.00mil 10.00mil]
 	ElementLine [1790.00mil 6075.00mil 1820.00mil 6075.00mil 10.00mil]
+
+	)
+
+Element["" "wireToBoard.fp" "WTB?" "-" 23.7500mm 3.2500mm 0.0000 0.0000 2 100 ""]
+(
+	Pin[0.0000 0.0000 2.4000mm 20.00mil 2.5524mm 2.0000mm "" "1" ""]
+	Pin[0.9000mm 1.9000mm 1.7000mm 20.00mil 1.8524mm 1.2500mm "" "2" ""]
+	Pin[-0.6000mm 1.8000mm 1.2000mm 20.00mil 1.3524mm 0.7500mm "" "3" ""]
+	Pin[-1.5000mm 1.0000mm 1.0000mm 20.00mil 1.1524mm 0.5000mm "" "4" ""]
+	ElementLine [0.9000mm 0.9000mm 0.9000mm 1.9000mm 25.00mil]
+	ElementLine [0.9000mm 0.9000mm 0.0000 0.0000 25.00mil]
+	ElementLine [-0.3680mm 80.00mil 0.9000mm 80.00mil 25.00mil]
+	ElementLine [-1.5000mm 1.0000mm -1.4000mm 1.0000mm 25.00mil]
+	ElementLine [-0.3680mm 80.00mil -1.4000mm 1.0000mm 25.00mil]
+
+	)
+
+Element["" "0805" "R?" "2.2k" 730.00mil 985.00mil -31.50mil -31.50mil 0 100 ""]
+(
+	Pad[-35.43mil -3.93mil -35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "1" "1" "square"]
+	Pad[35.43mil -3.93mil 35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+
+	)
+
+Element["" "0805" "R1" "2.2k" 925.00mil 975.00mil -31.50mil -31.50mil 0 100 ""]
+(
+	Pad[-35.43mil -3.93mil -35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "1" "1" "square"]
+	Pad[35.43mil -3.93mil 35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+
+	)
+
+Element["" "barrier_terminal_block_325mil_9p" "BAR1" "325mil" 2175.00mil 1800.00mil 0.0000 0.0000 3 100 ""]
+(
+	Pin[0.0000 1625.00mil 2.6500mm 20.00mil 2.8024mm 2.2500mm "" "1" ""]
+	Pin[0.0000 1300.00mil 2.6500mm 20.00mil 2.8024mm 2.2500mm "" "2" ""]
+	Pin[0.0000 -1625.00mil 2.6500mm 20.00mil 2.8024mm 2.2500mm "" "3" ""]
+	Pin[0.0000 -1300.00mil 2.6500mm 20.00mil 2.8024mm 2.2500mm "" "4" ""]
+	Pin[0.0000 -975.00mil 2.6500mm 20.00mil 2.8024mm 2.2500mm "" "5" ""]
+	Pin[0.0000 -650.00mil 2.6500mm 20.00mil 2.8024mm 2.2500mm "" "6" ""]
+	Pin[0.0000 -325.00mil 2.6500mm 20.00mil 2.8024mm 2.2500mm "" "7" ""]
+	Pin[0.0000 0.0000 2.6500mm 20.00mil 2.8024mm 2.2500mm "" "8" ""]
+	Pin[0.0000 325.00mil 2.6500mm 20.00mil 2.8024mm 2.2500mm "" "9" ""]
+	Pin[0.0000 650.00mil 2.6500mm 20.00mil 2.8024mm 2.2500mm "" "10" ""]
+	Pin[0.0000 975.00mil 2.6500mm 20.00mil 2.8024mm 2.2500mm "" "11" ""]
+	ElementLine [50.00mil 1675.00mil 45.00mil 1670.00mil 10.00mil]
+	ElementLine [-50.00mil 1575.00mil -45.00mil 1580.00mil 10.00mil]
+	ElementLine [-50.00mil 1675.00mil -45.00mil 1670.00mil 10.00mil]
+	ElementLine [50.00mil 1575.00mil 45.00mil 1580.00mil 10.00mil]
+	ElementLine [-50.00mil -1675.00mil -45.00mil -1670.00mil 10.00mil]
+	ElementLine [-50.00mil -1575.00mil -45.00mil -1580.00mil 10.00mil]
+	ElementLine [50.00mil -1675.00mil 45.00mil -1670.00mil 10.00mil]
+	ElementLine [50.00mil -1575.00mil 45.00mil -1580.00mil 10.00mil]
+	ElementLine [-45.00mil -1780.00mil 45.00mil -1780.00mil 10.00mil]
+	ElementLine [-45.00mil 1780.00mil 45.00mil 1780.00mil 10.00mil]
+	ElementLine [0.0000 0.0000 150.00mil 0.0000 10.00mil]
+	ElementLine [150.00mil -10.00mil 150.00mil 10.00mil 10.00mil]
+	ElementLine [-100.00mil -10.00mil -100.00mil 10.00mil 10.00mil]
+	ElementLine [400.00mil -10.00mil 400.00mil 10.00mil 10.00mil]
+	ElementLine [300.00mil -1780.00mil 400.00mil -1780.00mil 10.00mil]
+	ElementLine [400.00mil -1780.00mil 400.00mil -1680.00mil 10.00mil]
+	ElementLine [300.00mil 1780.00mil 400.00mil 1780.00mil 10.00mil]
+	ElementLine [400.00mil 1680.00mil 400.00mil 1780.00mil 10.00mil]
+	ElementLine [-100.00mil 1680.00mil -100.00mil 1780.00mil 10.00mil]
+	ElementLine [-100.00mil -1780.00mil -100.00mil -1680.00mil 10.00mil]
 
 	)
 Layer(1 "top" "copper")
