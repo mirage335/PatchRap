@@ -1,7 +1,7 @@
 
-	./symbols/ech-misc-fiducial-1.sym
-	./symbols/footprints/fiducial.fp
-	./symbols/connector60-2.sym
+	./ech-misc-fiducial-1.sym
+	./footprints/fiducial.fp
+	./connector60-2.sym
 These files specifically named in this folder were originally obtained from gedasymbols.org under a 'GPL license', presumably GPLv2 and above (as gEDA is licensed). They, and all modifications to them, retain that license, which is provided with them, unless a different license is noted in their file.
 
 
