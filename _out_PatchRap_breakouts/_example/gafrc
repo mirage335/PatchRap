@@ -1,5 +1,5 @@
-(component-library "./symbols")
-(component-library "./symbols/footprints")
+(component-library "./_out_PatchRap_breakouts")
+(component-library "./_out_PatchRap_breakouts/footprints")
 
 (component-library-search "./subsystems")
 (source-library-search "./subsystems")
