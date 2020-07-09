@@ -153,6 +153,8 @@ https://hackaday.com/2019/09/01/force-sensitive-resistor-takes-the-pain-out-of-b
 https://reprap.org/wiki/Z_probe
 https://reprap.org/wiki/Underbed_Piezo-electric_sensors
 
+https://www.youtube.com/watch?v=Bq2AcUwrd5Q
+
 
 # Copyright
 This file is part of PatchRap.
