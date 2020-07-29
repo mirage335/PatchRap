@@ -23,6 +23,8 @@ Besides 'patch panel' functions, surge suppressors and EMI filters are supported
 
 USA companies provide all parts in these schematics, excepting the RJ45 jacks and optional terminal blocks from TE Connectivity, a Swiss company.
 
+Beware many RJ45 jacks are created from PCBs with thin traces unsuitable for high-current. Some RJ45 couplers may be more robust.
+
 Pinouts are as follows, numbering by T568A standard.
 
 ## GenericIO	(Limit Switch, Depth Probe, Extruder, Stepper/Servo Driver, Servo Encoder, Radio)
