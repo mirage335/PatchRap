@@ -230,7 +230,7 @@ dst=Mouser
 T 41500 53200 5 10 0 0 0 0 1
 dstpn=576-SP3003-08ATG
 T 41500 53200 5 10 0 0 0 0 1
-link=http://www.mouser.com/ds/2/240/Littelfuse_TVS_Diode_Array_SP3003_Datasheet.pdf-709348.pdf
+link=www.mouser.com/ds/2/240/Littelfuse_TVS_Diode_Array_SP3003_Datasheet.pdf-709348.pdf
 T 41500 53200 5 10 0 0 0 0 1
 link_page=5
 T 41500 53200 5 10 0 0 0 0 1
@@ -363,7 +363,7 @@ dst=Mouser
 T 33700 49600 5 10 0 0 0 6 1
 dstpn=70-ILSB0603ER4R7K
 T 33700 49600 5 10 0 0 0 6 1
-link=http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf
+link=www.mouser.com/ds/2/427/ilsb0603-239791.pdf
 T 33700 49600 5 10 0 0 0 6 1
 link_page=2
 T 33700 49600 5 10 0 0 0 6 1
@@ -400,7 +400,7 @@ dst=Mouser
 T 33700 49200 5 10 0 0 0 6 1
 dstpn=70-ILSB0603ER4R7K
 T 33700 49200 5 10 0 0 0 6 1
-link=http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf
+link=www.mouser.com/ds/2/427/ilsb0603-239791.pdf
 T 33700 49200 5 10 0 0 0 6 1
 link_page=2
 T 33700 49200 5 10 0 0 0 6 1
@@ -437,7 +437,7 @@ dst=Mouser
 T 33700 48800 5 10 0 0 0 6 1
 dstpn=70-ILSB0603ER4R7K
 T 33700 48800 5 10 0 0 0 6 1
-link=http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf
+link=www.mouser.com/ds/2/427/ilsb0603-239791.pdf
 T 33700 48800 5 10 0 0 0 6 1
 link_page=2
 T 33700 48800 5 10 0 0 0 6 1
@@ -474,7 +474,7 @@ dst=Mouser
 T 33700 48400 5 10 0 0 0 6 1
 dstpn=70-ILSB0603ER4R7K
 T 33700 48400 5 10 0 0 0 6 1
-link=http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf
+link=www.mouser.com/ds/2/427/ilsb0603-239791.pdf
 T 33700 48400 5 10 0 0 0 6 1
 link_page=2
 T 33700 48400 5 10 0 0 0 6 1
@@ -511,7 +511,7 @@ dst=Mouser
 T 33700 47200 5 10 0 0 0 6 1
 dstpn=70-ILSB0603ER4R7K
 T 33700 47200 5 10 0 0 0 6 1
-link=http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf
+link=www.mouser.com/ds/2/427/ilsb0603-239791.pdf
 T 33700 47200 5 10 0 0 0 6 1
 link_page=2
 T 33700 47200 5 10 0 0 0 6 1
@@ -548,7 +548,7 @@ dst=Mouser
 T 33700 47600 5 10 0 0 0 6 1
 dstpn=70-ILSB0603ER4R7K
 T 33700 47600 5 10 0 0 0 6 1
-link=http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf
+link=www.mouser.com/ds/2/427/ilsb0603-239791.pdf
 T 33700 47600 5 10 0 0 0 6 1
 link_page=2
 T 33700 47600 5 10 0 0 0 6 1
@@ -585,7 +585,7 @@ dst=Mouser
 T 33700 48000 5 10 0 0 0 6 1
 dstpn=70-ILSB0603ER4R7K
 T 33700 48000 5 10 0 0 0 6 1
-link=http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf
+link=www.mouser.com/ds/2/427/ilsb0603-239791.pdf
 T 33700 48000 5 10 0 0 0 6 1
 link_page=2
 T 33700 48000 5 10 0 0 0 6 1
@@ -622,7 +622,7 @@ dst=Mouser
 T 33700 50000 5 10 0 0 0 6 1
 dstpn=70-ILSB0603ER4R7K
 T 33700 50000 5 10 0 0 0 6 1
-link=http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf
+link=www.mouser.com/ds/2/427/ilsb0603-239791.pdf
 T 33700 50000 5 10 0 0 0 6 1
 link_page=2
 T 33700 50000 5 10 0 0 0 6 1

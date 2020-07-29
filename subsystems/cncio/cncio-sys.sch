@@ -309,9 +309,9 @@ dst=Mouser
 T 72800 49500 5 10 0 0 0 6 1
 dstpn=538-22-28-5084
 T 72800 49500 5 10 0 0 0 6 1
-link=http://www.mouser.com/ds/2/276/0022285084_PCB_HEADERS-228315.pdf
+link=www.mouser.com/ds/2/276/0022285084_PCB_HEADERS-228315.pdf
 T 72800 49500 5 10 0 0 0 6 1
-link_page=http://www.molex.com/pdm_docs/sd/022285084_sd.pdf
+link_page=www.molex.com/pdm_docs/sd/022285084_sd.pdf
 T 72800 49500 5 10 0 0 0 6 1
 supplier=c
 T 72800 49500 5 10 0 0 0 6 1
@@ -468,9 +468,9 @@ dst=Mouser
 T 77700 49500 5 10 0 0 0 6 1
 dstpn=538-22-28-5084
 T 77700 49500 5 10 0 0 0 6 1
-link=http://www.mouser.com/ds/2/276/0022285084_PCB_HEADERS-228315.pdf
+link=www.mouser.com/ds/2/276/0022285084_PCB_HEADERS-228315.pdf
 T 77700 49500 5 10 0 0 0 6 1
-link_page=http://www.molex.com/pdm_docs/sd/022285084_sd.pdf
+link_page=www.molex.com/pdm_docs/sd/022285084_sd.pdf
 T 77700 49500 5 10 0 0 0 6 1
 supplier=c
 T 77700 49500 5 10 0 0 0 6 1

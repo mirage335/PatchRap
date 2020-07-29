@@ -46,7 +46,7 @@ dst=Mouser
 T 45100 55000 5 10 0 0 0 0 1
 dstpn=517-9612046804AR 
 T 45100 55000 5 10 0 0 0 0 1
-link=http://www.mouser.com/ds/2/1/ts2181-30266.pdf
+link=www.mouser.com/ds/2/1/ts2181-30266.pdf
 T 45100 55000 5 10 0 0 0 0 1
 link_page=2
 T 45100 55000 5 10 0 0 0 0 1
@@ -81,7 +81,7 @@ dst=Mouser
 T 43300 55000 5 10 0 0 0 0 1
 dstpn=517-9612046804AR 
 T 43300 55000 5 10 0 0 0 0 1
-link=http://www.mouser.com/ds/2/1/ts2181-30266.pdf
+link=www.mouser.com/ds/2/1/ts2181-30266.pdf
 T 43300 55000 5 10 0 0 0 0 1
 link_page=2
 T 43300 55000 5 10 0 0 0 0 1
@@ -190,7 +190,7 @@ dst=Mouser
 T 43300 52600 5 10 0 0 0 0 1
 dstpn=855-M20-9760546
 T 43300 52600 5 10 0 0 0 0 1
-link=http://www.mouser.com/ds/2/181/M20-976-350030.pdf
+link=www.mouser.com/ds/2/181/M20-976-350030.pdf
 T 43300 52600 5 10 0 0 0 0 1
 link_page=1
 T 43300 52600 5 10 0 0 0 0 1
@@ -247,7 +247,7 @@ dst=Mouser
 T 46300 52600 5 10 0 0 0 0 1
 dstpn=855-M20-9760546
 T 46300 52600 5 10 0 0 0 0 1
-link=http://www.mouser.com/ds/2/181/M20-976-350030.pdf
+link=www.mouser.com/ds/2/181/M20-976-350030.pdf
 T 46300 52600 5 10 0 0 0 0 1
 link_page=1
 T 46300 52600 5 10 0 0 0 0 1

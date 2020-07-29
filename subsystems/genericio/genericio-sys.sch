@@ -28,7 +28,7 @@ dst=Mouser
 T 43600 51700 5 10 0 0 0 0 1
 dstpn=576-SP3003-08ATG
 T 43600 51700 5 10 0 0 0 0 1
-link=http://www.mouser.com/ds/2/240/Littelfuse_TVS_Diode_Array_SP3003_Datasheet.pdf-709348.pdf
+link=www.mouser.com/ds/2/240/Littelfuse_TVS_Diode_Array_SP3003_Datasheet.pdf-709348.pdf
 T 43600 51700 5 10 0 0 0 0 1
 link_page=5
 T 43600 51700 5 10 0 0 0 0 1

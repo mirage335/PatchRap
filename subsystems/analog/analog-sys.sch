@@ -236,7 +236,7 @@ dst=Mouser
 T 46300 53700 5 10 0 0 0 0 1
 dstpn=571-6404556
 T 46300 53700 5 10 0 0 0 0 1
-link=http://www.mouser.com/ds/2/418/NG_DS_82056_MTA_0708-815240.pdf
+link=www.mouser.com/ds/2/418/NG_DS_82056_MTA_0708-815240.pdf
 T 46300 53700 5 10 0 0 0 0 1
 link_page=23
 T 46300 53700 5 10 0 0 0 0 1
@@ -269,7 +269,7 @@ dst=Mouser
 T 50100 56500 5 10 0 0 0 0 1
 dstpn=571-1-1337543-0
 T 50100 56500 5 10 0 0 0 0 1
-link=http://www.mouser.com/ds/2/418/NG_DS_6-1773448-5_ZDC_RF_COAX_50-75_OHM_1007-577044.pdf
+link=www.mouser.com/ds/2/418/NG_DS_6-1773448-5_ZDC_RF_COAX_50-75_OHM_1007-577044.pdf
 T 50100 56500 5 10 0 0 0 0 1
 link_page=4
 T 50100 56500 5 10 0 0 0 0 1
@@ -302,7 +302,7 @@ dst=Mouser
 T 50100 55000 5 10 0 0 0 0 1
 dstpn=571-1-1337543-0
 T 50100 55000 5 10 0 0 0 0 1
-link=http://www.mouser.com/ds/2/418/NG_DS_6-1773448-5_ZDC_RF_COAX_50-75_OHM_1007-577044.pdf
+link=www.mouser.com/ds/2/418/NG_DS_6-1773448-5_ZDC_RF_COAX_50-75_OHM_1007-577044.pdf
 T 50100 55000 5 10 0 0 0 0 1
 link_page=4
 T 50100 55000 5 10 0 0 0 0 1
@@ -335,7 +335,7 @@ dst=Mouser
 T 50100 53000 5 10 0 0 0 0 1
 dstpn=571-1-1337543-0
 T 50100 53000 5 10 0 0 0 0 1
-link=http://www.mouser.com/ds/2/418/NG_DS_6-1773448-5_ZDC_RF_COAX_50-75_OHM_1007-577044.pdf
+link=www.mouser.com/ds/2/418/NG_DS_6-1773448-5_ZDC_RF_COAX_50-75_OHM_1007-577044.pdf
 T 50100 53000 5 10 0 0 0 0 1
 link_page=4
 T 50100 53000 5 10 0 0 0 0 1

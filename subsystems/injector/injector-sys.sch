@@ -308,7 +308,7 @@ dst=HobbyKing
 T 46400 65000 5 10 0 0 0 0 1
 dstpn=XT60
 T 46400 65000 5 10 0 0 0 0 1
-link=http://www.hobbyking.com/hobbyking/store/__9572__Nylon_XT60_Connectors_Male_Female_5_pairs_GENUINE.html
+link=www.hobbyking.com/hobbyking/store/__9572__Nylon_XT60_Connectors_Male_Female_5_pairs_GENUINE.html
 T 46400 65000 5 10 0 0 0 0 1
 link_page=N/A
 T 46400 65000 5 10 0 0 0 0 1
@@ -384,7 +384,7 @@ dst=HobbyKing
 T 47500 65000 5 10 0 0 0 0 1
 dstpn=XT60
 T 47500 65000 5 10 0 0 0 0 1
-link=http://www.hobbyking.com/hobbyking/store/__9572__Nylon_XT60_Connectors_Male_Female_5_pairs_GENUINE.html
+link=www.hobbyking.com/hobbyking/store/__9572__Nylon_XT60_Connectors_Male_Female_5_pairs_GENUINE.html
 T 47500 65000 5 10 0 0 0 0 1
 link_page=N/A
 T 47500 65000 5 10 0 0 0 0 1
@@ -417,7 +417,7 @@ dst=HobbyKing
 T 48600 65000 5 10 0 0 0 0 1
 dstpn=XT60
 T 48600 65000 5 10 0 0 0 0 1
-link=http://www.hobbyking.com/hobbyking/store/__9572__Nylon_XT60_Connectors_Male_Female_5_pairs_GENUINE.html
+link=www.hobbyking.com/hobbyking/store/__9572__Nylon_XT60_Connectors_Male_Female_5_pairs_GENUINE.html
 T 48600 65000 5 10 0 0 0 0 1
 link_page=N/A
 T 48600 65000 5 10 0 0 0 0 1
@@ -450,7 +450,7 @@ dst=HobbyKing
 T 49600 65000 5 10 0 0 0 0 1
 dstpn=XT60
 T 49600 65000 5 10 0 0 0 0 1
-link=http://www.hobbyking.com/hobbyking/store/__9572__Nylon_XT60_Connectors_Male_Female_5_pairs_GENUINE.html
+link=www.hobbyking.com/hobbyking/store/__9572__Nylon_XT60_Connectors_Male_Female_5_pairs_GENUINE.html
 T 49600 65000 5 10 0 0 0 0 1
 link_page=N/A
 T 49600 65000 5 10 0 0 0 0 1
@@ -487,7 +487,7 @@ dst=HobbyKing
 T 48000 67000 5 10 0 0 0 0 1
 dstpn=Turnigy nano-tech 1550mah 6S 65~130C Lipo Pack (450L Heli)
 T 48000 67000 5 10 0 0 0 0 1
-link=http://www.hobbyking.com/hobbyking/store/__51445__Turnigy_nano_tech_1550mah_6S_65_130C_Lipo_Pack_450L_Heli_.html
+link=www.hobbyking.com/hobbyking/store/__51445__Turnigy_nano_tech_1550mah_6S_65_130C_Lipo_Pack_450L_Heli_.html
 T 48000 67000 5 10 0 0 0 0 1
 link_page=N/A
 T 48000 67000 5 10 0 0 0 0 1
@@ -539,7 +539,7 @@ dst=Mouser
 T 51900 65200 5 10 0 0 0 0 1
 dstpn=571-6404556
 T 51900 65200 5 10 0 0 0 0 1
-link=http://www.mouser.com/ds/2/418/NG_DS_82056_MTA_0708-815240.pdf
+link=www.mouser.com/ds/2/418/NG_DS_82056_MTA_0708-815240.pdf
 T 51900 65200 5 10 0 0 0 0 1
 link_page=23
 T 51900 65200 5 10 0 0 0 0 1
