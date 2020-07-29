@@ -1,16 +1,16 @@
 refdes	footprint	value	description	cost	device	mfr	mfrpn	dst	dstpn	link	link_page	supplier	sbapn	kitting	kitting_d	nobom	noplace	
 H1	JUMPER8	-	$0.42 MOUSER 538-22-28-5084	0.42	CONNECTOR_8	Molex	22-28-5084	Mouser	538-22-28-5084	http://www.mouser.com/ds/2/276/0022285084_PCB_HEADERS-228315.pdf	http://www.molex.com/pdm_docs/sd/022285084_sd.pdf	c	unknown	other	not known to be available in machine usable format	unknown	unknown	
-X4/L1	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
-X4/L6	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
-X4/L7	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
-X4/L8	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
-X4/L5	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
-X4/L4	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
-X4/L3	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
-X4/L2	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
+X4/L1	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
+X4/L6	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
+X4/L7	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
+X4/L8	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
+X4/L5	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
+X4/L4	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
+X4/L3	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
+X4/L2	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
 X4/J3	0201	-	-	unknown	JUMPER	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	true	true	
 X4/J2	0201	-	-	unknown	JUMPER	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	true	true	
-X4/U1	MSOP10	unknown	$1.17 MOUSER 576-SP3003-08ATG	1.17	Suppressor	Littlefuse	SP3003-08ATG	Mouser	576-SP3003-08ATG	http://www.mouser.com/ds/2/240/Littelfuse_TVS_Diode_Array_SP3003_Datasheet.pdf-709348.pdf	5	c	unknown	tape-no-leader	unknown	unknown	unknown	
+X4/U1	MSOP10	unknown	$1.17 MOUSER 576-SP3003-08ATG	1.17	Suppressor	Littlefuse	SP3003-08ATG	Mouser	576-SP3003-08ATG	www.mouser.com/ds/2/240/Littelfuse_TVS_Diode_Array_SP3003_Datasheet.pdf-709348.pdf	5	c	unknown	tape-no-leader	unknown	unknown	unknown	
 X4/T8	SparkGapPCB	2kV	-	unknown	SparkGap	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	true	true	
 X4/T7	SparkGapPCB	2kV	-	unknown	SparkGap	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	true	true	
 X4/T6	SparkGapPCB	2kV	-	unknown	SparkGap	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	true	true	
@@ -20,17 +20,17 @@ X4/T3	SparkGapPCB	2kV	-	unknown	SparkGap	unknown	unknown	unknown	unknown	unknown
 X4/T2	SparkGapPCB	2kV	-	unknown	SparkGap	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	true	true	
 X4/T1	SparkGapPCB	2kV	-	unknown	SparkGap	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	true	true	
 X4/ETH1	eth_571-1734795-1	-	$0.95 MOUSER 571-1734795-1	0.95	CONNECTOR_13	TE Connectivity	1734795-1	Mouser	571-1734795-1	www.mouser.com/ds/2/418/NG_CD_1734795_E_C_1734795_E-658761.pdf	1	c	unknown	other	not known to be available in machine usable format	unknown	unknown	
-X3/L1	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
-X3/L6	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
-X3/L7	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
-X3/L8	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
-X3/L5	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
-X3/L4	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
-X3/L3	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
-X3/L2	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
+X3/L1	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
+X3/L6	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
+X3/L7	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
+X3/L8	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
+X3/L5	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
+X3/L4	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
+X3/L3	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
+X3/L2	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
 X3/J3	0201	-	-	unknown	JUMPER	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	true	true	
 X3/J2	0201	-	-	unknown	JUMPER	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	true	true	
-X3/U1	MSOP10	unknown	$1.17 MOUSER 576-SP3003-08ATG	1.17	Suppressor	Littlefuse	SP3003-08ATG	Mouser	576-SP3003-08ATG	http://www.mouser.com/ds/2/240/Littelfuse_TVS_Diode_Array_SP3003_Datasheet.pdf-709348.pdf	5	c	unknown	tape-no-leader	unknown	unknown	unknown	
+X3/U1	MSOP10	unknown	$1.17 MOUSER 576-SP3003-08ATG	1.17	Suppressor	Littlefuse	SP3003-08ATG	Mouser	576-SP3003-08ATG	www.mouser.com/ds/2/240/Littelfuse_TVS_Diode_Array_SP3003_Datasheet.pdf-709348.pdf	5	c	unknown	tape-no-leader	unknown	unknown	unknown	
 X3/T8	SparkGapPCB	2kV	-	unknown	SparkGap	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	true	true	
 X3/T7	SparkGapPCB	2kV	-	unknown	SparkGap	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	true	true	
 X3/T6	SparkGapPCB	2kV	-	unknown	SparkGap	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	true	true	
@@ -40,17 +40,17 @@ X3/T3	SparkGapPCB	2kV	-	unknown	SparkGap	unknown	unknown	unknown	unknown	unknown
 X3/T2	SparkGapPCB	2kV	-	unknown	SparkGap	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	true	true	
 X3/T1	SparkGapPCB	2kV	-	unknown	SparkGap	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	true	true	
 X3/ETH1	eth_571-1734795-1	-	$0.95 MOUSER 571-1734795-1	0.95	CONNECTOR_13	TE Connectivity	1734795-1	Mouser	571-1734795-1	www.mouser.com/ds/2/418/NG_CD_1734795_E_C_1734795_E-658761.pdf	1	c	unknown	other	not known to be available in machine usable format	unknown	unknown	
-X2/L1	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
-X2/L6	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
-X2/L7	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
-X2/L8	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
-X2/L5	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
-X2/L4	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
-X2/L3	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
-X2/L2	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
+X2/L1	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
+X2/L6	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
+X2/L7	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
+X2/L8	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
+X2/L5	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
+X2/L4	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
+X2/L3	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
+X2/L2	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
 X2/J3	0201	-	-	unknown	JUMPER	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	true	true	
 X2/J2	0201	-	-	unknown	JUMPER	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	true	true	
-X2/U1	MSOP10	unknown	$1.17 MOUSER 576-SP3003-08ATG	1.17	Suppressor	Littlefuse	SP3003-08ATG	Mouser	576-SP3003-08ATG	http://www.mouser.com/ds/2/240/Littelfuse_TVS_Diode_Array_SP3003_Datasheet.pdf-709348.pdf	5	c	unknown	tape-no-leader	unknown	unknown	unknown	
+X2/U1	MSOP10	unknown	$1.17 MOUSER 576-SP3003-08ATG	1.17	Suppressor	Littlefuse	SP3003-08ATG	Mouser	576-SP3003-08ATG	www.mouser.com/ds/2/240/Littelfuse_TVS_Diode_Array_SP3003_Datasheet.pdf-709348.pdf	5	c	unknown	tape-no-leader	unknown	unknown	unknown	
 X2/T8	SparkGapPCB	2kV	-	unknown	SparkGap	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	true	true	
 X2/T7	SparkGapPCB	2kV	-	unknown	SparkGap	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	true	true	
 X2/T6	SparkGapPCB	2kV	-	unknown	SparkGap	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	true	true	
@@ -60,17 +60,17 @@ X2/T3	SparkGapPCB	2kV	-	unknown	SparkGap	unknown	unknown	unknown	unknown	unknown
 X2/T2	SparkGapPCB	2kV	-	unknown	SparkGap	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	true	true	
 X2/T1	SparkGapPCB	2kV	-	unknown	SparkGap	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	true	true	
 X2/ETH1	eth_571-1734795-1	-	$0.95 MOUSER 571-1734795-1	0.95	CONNECTOR_13	TE Connectivity	1734795-1	Mouser	571-1734795-1	www.mouser.com/ds/2/418/NG_CD_1734795_E_C_1734795_E-658761.pdf	1	c	unknown	other	not known to be available in machine usable format	unknown	unknown	
-X1/L1	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
-X1/L6	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
-X1/L7	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
-X1/L8	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
-X1/L5	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
-X1/L4	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
-X1/L3	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
-X1/L2	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	http://www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
+X1/L1	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
+X1/L6	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
+X1/L7	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
+X1/L8	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
+X1/L5	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
+X1/L4	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
+X1/L3	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
+X1/L2	0603	4.7uH	$0.12 MOUSER 70-ILSB0603ER4R7K	0.12	INDUCTOR	Vishay / Dale	ILSB0603ER4R7K	Mouser	70-ILSB0603ER4R7K	www.mouser.com/ds/2/427/ilsb0603-239791.pdf	2	c	unknown	tape-no-leader	unknown	true	true	
 X1/J3	0201	-	-	unknown	JUMPER	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	true	true	
 X1/J2	0201	-	-	unknown	JUMPER	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	true	true	
-X1/U1	MSOP10	unknown	$1.17 MOUSER 576-SP3003-08ATG	1.17	Suppressor	Littlefuse	SP3003-08ATG	Mouser	576-SP3003-08ATG	http://www.mouser.com/ds/2/240/Littelfuse_TVS_Diode_Array_SP3003_Datasheet.pdf-709348.pdf	5	c	unknown	tape-no-leader	unknown	unknown	unknown	
+X1/U1	MSOP10	unknown	$1.17 MOUSER 576-SP3003-08ATG	1.17	Suppressor	Littlefuse	SP3003-08ATG	Mouser	576-SP3003-08ATG	www.mouser.com/ds/2/240/Littelfuse_TVS_Diode_Array_SP3003_Datasheet.pdf-709348.pdf	5	c	unknown	tape-no-leader	unknown	unknown	unknown	
 X1/T8	SparkGapPCB	2kV	-	unknown	SparkGap	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	true	true	
 X1/T7	SparkGapPCB	2kV	-	unknown	SparkGap	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	true	true	
 X1/T6	SparkGapPCB	2kV	-	unknown	SparkGap	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	true	true	
