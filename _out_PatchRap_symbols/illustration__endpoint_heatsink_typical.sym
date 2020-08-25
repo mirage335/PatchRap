@@ -40,8 +40,6 @@ T 2750 900 5 8 0 1 180 2 1
 pintype=io
 }
 L 2800 900 2300 900 3 0 0 0 -1 -1
-T 1500 4200 8 10 0 0 0 0 1
-footprint=illustration_extruder_typical
 T 1500 1100 8 10 1 1 0 0 1
 refdes=I?
 T 1400 1600 8 10 0 0 0 0 1

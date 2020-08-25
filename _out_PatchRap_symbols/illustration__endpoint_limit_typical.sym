@@ -47,8 +47,6 @@ T 1950 900 5 8 0 1 180 2 1
 pintype=pwr
 }
 L 1700 900 1700 1300 3 0 0 0 -1 -1
-T 1500 4200 8 10 0 0 0 0 1
-footprint=illustration_extruder_typical
 T 1100 1100 8 10 1 1 0 0 1
 refdes=I?
 T 900 1800 8 10 0 0 0 0 1

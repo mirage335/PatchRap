@@ -50,8 +50,6 @@ pinlabel=Black-
 T 2050 800 5 8 0 1 180 2 1
 pintype=pwr
 }
-T 1500 4200 8 10 0 0 0 0 1
-footprint=illustration_extruder_typical
 T 1100 1400 8 10 1 1 0 0 1
 refdes=I?
 T 1100 1800 8 10 0 0 0 0 1
