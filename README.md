@@ -16,6 +16,29 @@ Breadboard friendly, the PCB layout includes appropriately spaced headers. In ef
 
 Cat 6A S/FTP cabling recommended.
 
+## Extract
+
+Compacted design files are provided under '_out*' directories for inclusion into other projects. Please respect all relevant copyright licenses and distribute these files only with corresponding source (eg. the complete PatchRap repository).
+
+To include these files in gEDA projects, a few routine modifications should be made.
+
+mkdir -p ./_out_PatchRap_symbols_reduced/footprints
+
+File - project - must begin with...
+```
+elements-dir ./_out_PatchRap_symbols/footprints
+elements-dir ./_out_PatchRap_breakouts/footprints
+
+elements-dir ./_out_PatchRap_symbols_reduced/footprints
+```
+
+File - gafrc - must begin with...
+```
+(component-library "./_out_PatchRap_symbols")
+(component-library "./_out_PatchRap_breakouts")
+```
+
+
 # Design
 RJ45/8P8C connectors are among most convenient, cheapest connectors designed to provide high performance with commodity shielded twisted-pair cabling. High power transmission is documented, exceeding 2A/pin.
 
