@@ -71,6 +71,8 @@ Pinouts are as follows, numbering by T568A standard.
 	4 \ 8 - CS
 
 ## Steppers	(Stepper Motor)
+	BEWARE! Comparison with LulzBot wiring suggests the third-party Fwd/Rev interconnection specification is inverted.
+	Fwd/Rev is intended to be CW/CCW as seen from face of motor.
 	3 / 1 - Vsys
 	3 \ 2 - pGND
 	2 - 3 - B+		Fwd(2A/Blue/Red)		Rev(1A/Green/Blue)
@@ -94,14 +96,16 @@ See https://github.com/mirage335/LinearPSU/blob/master/Photo.jpg .
 
 
 # Steper Motor Known Wiring Standards
-
 All wiring assignments noted here must result in the same direction of rotation.
 
 LulzBot Full Height and Half Height NEMA 17, SY42STH47-1504A
-	Red Motor	(B-)
-	Blue/White	(B+)
-	Green		(A+)
-	Black		(A-)
+	Red/Blue is the color pair found most in common with other stepper motors.
+	Assignment as to which pair is "A" or "B" is based on tracing back to the pin naming of the A4982 chip used by RAMBO Motherboard and Pololu stepper boards, and maintaining consistency with the Ap, Am, Bp, Bm naming used by 'cncio-sys.sch' for pin naming of the Pololu A498x stepper driver boards.
+	Red Motor	(A-)
+	Blue/White	(A+)
+	Green		(B+)
+	Black		(B-)
+	Tracing this mechanically to X-axis motion and typical Marlin firmware settings suggests this is in fact a 'Fwd' driving scheme, not 'Rev'.
 
 OpenBuilds NEMA17
 	Claimed SKU 623
@@ -199,6 +203,17 @@ https://www.youtube.com/watch?v=Bq2AcUwrd5Q
 https://www.youtube.com/watch?v=VwdnGbI5ls8
 
 https://www.instructables.com/id/Make-a-water-block-out-of-a-heatsink-for-less-than/
+
+
+https://www.linengineering.com/resources/wiring-diagrams
+https://cdn11.bigcommerce.com/s-itwgldve/product_images/uploaded_images/imgpsh-fullsize-4-22403.1539714162.jpg
+http://download.lulzbot.com/AO-100/hardware/electronics/spec_sheets/SY42STH47-1504A_stepperMotors.pdf
+
+https://download.lulzbot.com/TAZ/6.02/production_parts/electronics/RAMBo/docs/RAMBo-1.1b-user-manual.pdf
+
+https://ohai.lulzbot.com/project/taz6-rambo-13l-14-upgrade/
+https://ohai.lulzbot.com/media/uploads/PinoutTAZ6_fixed.jpg.600x0_q85_fIgdq3t.jpg
+https://cdn.shopify.com/s/files/1/1223/5992/products/Rambo14a_1024x1024_aa89364b-1778-44dc-817f-51a350a93580_1024x1024.jpg?v=1516047707
 
 
 # Copyright
