@@ -92,6 +92,23 @@ Pinouts are as follows, numbering by T568A standard.
 
 See https://github.com/mirage335/LinearPSU/blob/master/Photo.jpg .
 
+
+# Steper Motor Known Wiring Standards
+
+All wiring assignments noted here must result in the same direction of rotation.
+
+LulzBot Full Height and Half Height NEMA 17, SY42STH47-1504A
+	Red Motor	(B-)
+	Blue/White	(B+)
+	Green		(A+)
+	Black		(A-)
+
+OpenBuilds NEMA17
+	Claimed SKU 623
+	Claimed UPC 819368021264
+	Undetermined wiring scheme.
+
+
 # Ratings
 Please beware the following ratings.
 * Servo control through pin7 of "GenericIO" is intended for PWM servo position control, as opposed to rotary "Step/Dir" "Stepper/Servo Driver" control.
