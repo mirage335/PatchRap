@@ -115,7 +115,7 @@ pinnumber=14
 T 1850 3500 5 8 0 1 270 8 1
 pinseq=14
 T 1900 3345 9 8 1 1 90 6 1
-pinlabel=NC
+pinlabel=NO
 T 1900 3350 5 8 0 1 270 2 1
 pintype=pwr
 }
@@ -126,7 +126,7 @@ pinnumber=15
 T 2050 3500 5 8 0 1 270 8 1
 pinseq=15
 T 2100 3345 9 8 1 1 90 6 1
-pinlabel=NO
+pinlabel=NC
 T 2100 3350 5 8 0 1 270 2 1
 pintype=pwr
 }
