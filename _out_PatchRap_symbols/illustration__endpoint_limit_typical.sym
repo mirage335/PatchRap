@@ -31,7 +31,7 @@ pinnumber=2
 T 2100 1150 5 8 0 1 180 8 1
 pinseq=2
 T 1945 1095 9 8 1 1 0 6 1
-pinlabel=NC
+pinlabel=NO
 T 1950 1100 5 8 0 1 180 2 1
 pintype=pwr
 }
@@ -42,7 +42,7 @@ pinnumber=3
 T 2100 950 5 8 0 1 180 8 1
 pinseq=3
 T 1945 895 9 8 1 1 0 6 1
-pinlabel=NO
+pinlabel=NC
 T 1950 900 5 8 0 1 180 2 1
 pintype=pwr
 }
