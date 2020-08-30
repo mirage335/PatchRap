@@ -38,6 +38,12 @@ File - gafrc - must begin with...
 (component-library "./_out_PatchRap_breakouts")
 ```
 
+File - deleteme ...
+
+```
+echo '' > ./_out_PatchRap_symbols_reduced/footprints/deleteme
+```
+
 
 # Design
 RJ45/8P8C connectors are among most convenient, cheapest connectors designed to provide high performance with commodity shielded twisted-pair cabling. High power transmission is documented, exceeding 2A/pin.
