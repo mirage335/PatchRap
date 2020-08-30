@@ -22,7 +22,11 @@ Compacted design files are provided under '_out*' directories for inclusion into
 
 To include these files in gEDA projects, a few routine modifications should be made.
 
+Directory - create.
+
+```
 mkdir -p ./_out_PatchRap_symbols_reduced/footprints
+```
 
 File - project - must begin with...
 ```
