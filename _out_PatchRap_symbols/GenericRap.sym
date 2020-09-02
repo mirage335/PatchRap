@@ -1,7 +1,7 @@
 v 20130925 2
 T 3000 6100 8 10 0 0 0 0 1
 footprint=GenericRap
-T 800 3900 8 10 1 1 0 0 1
+T 4500 5000 8 10 1 1 0 0 1
 refdes=M?
 T 3000 6300 8 10 0 0 0 0 1
 author=mirage335
@@ -533,24 +533,24 @@ T 11100 2000 9 10 1 0 0 0 10
 Stepper
 RJ45
 3 / 1 - Vsys
-3 \ 2 - pGND
+3 \\ 2 - pGND
 2 - 3 - B+		Fwd(2A/Blue/Red)			Rev(1A/Green/Blue)
 1 / 4 - A+		Fwd(1A/Green/Blue)		Rev(2A/Blue/Red)
-1 \ 5 - A-		Fwd(1B/Black/Yellow)		Rev(2B/Red/White)
+1 \\ 5 - A-		Fwd(1B/Black/Yellow)		Rev(2B/Red/White)
 2 - 6 - B-		Fwd(2B/Red/White)		Rev(1B/Black/Yellow)
 4 / 7 - B+		Fwd(2A/Blue/Red)*			Rev(1A/Green/Blue)*
-4 \ 8 - B-		Fwd(2B/Red/White)*		Rev(1B/Black/Yellow)*
+4 \\ 8 - B-		Fwd(2B/Red/White)*		Rev(1B/Black/Yellow)*
 T 600 200 9 10 1 0 0 0 10
 GenericIO
 RJ45
 3 / 1 - Vsys/Vcc
-3 \ 2 - pGND/sGnd
+3 \\ 2 - pGND/sGnd
 2 - 3 - Vext/Vmid/Avcc/SigAlt		(NC)									(LO)
 1 / 4 - Sig-/SigTx-				(sGND)				(Dir)		(I2C, UART)	
-1 \ 5 - Sig+/SigTx+				(COM,ANA,Probe)		(Step)	(I2C, UART)	(IF)
+1 \\ 5 - Sig+/SigTx+				(COM,ANA,Probe)		(Step)	(I2C, UART)	(IF)
 2 - 6 - sGND					(NO)
 4 / 7 - PWMalternate/SigRx+		(Control, Servo, Heater)	(I2C,UART)			(RF)
-4 \ 8 - PWMdirect/SigRx-			(Fan)				(I2C,UART)
+4 \\ 8 - PWMdirect/SigRx-		(Fan)				(I2C,UART)
 B 500 200 7400 2000 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 T 600 8000 9 10 1 0 0 0 10
 LinearPSU
@@ -588,3 +588,22 @@ L 2500 10200 2500 6000 3 0 0 0 -1 -1
 L 2500 6000 16000 6000 3 0 0 0 -1 -1
 L 16000 6000 16000 10200 3 0 0 0 -1 -1
 L 16000 10200 17500 10200 3 0 0 0 -1 -1
+T 600 2200 9 10 1 0 0 0 9
+P3_W5
+P3_W6
+P2_W4
+P1_W2
+P1_W1
+P2_W3
+P4_W7
+P4_W8
+
+T 1300 2400 9 10 1 0 0 0 8
+1/WG
+2/G
+3/WO
+4/Bl
+5/WBl
+6/O
+7/WBr
+8/Br

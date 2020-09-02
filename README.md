@@ -61,46 +61,46 @@ Beware many RJ45 jacks are created from PCBs with thin traces unsuitable for hig
 Pinouts are as follows, numbering by T568A standard.
 
 ## GenericIO	(Limit Switch, Depth Probe, Extruder, Stepper/Servo Driver, Servo Encoder, Radio)
-	3 / 1 - Vsys/Vcc
-	3 \ 2 - pGND/sGnd
-	2 - 3 - Vext/Vmid/Avcc/SigAlt	(NC)								(LO)
-	1 / 4 - Sig-/SigTx-		(sGND)				(Dir)		(I2C, UART)	
-	1 \ 5 - Sig+/SigTx+		(COM,ANA,Probe)			(Step)		(I2C, UART)	(IF)
-	2 - 6 - sGND			(NO)
-	4 / 7 - PWMalternate/SigRx+	(Control, Servo, Heater)	(I2C,UART)			(RF)
-	4 \ 8 - PWMdirect/SigRx-	(Fan)				(I2C,UART)
+	P3_W5 3 / 1/WG  - Vsys/Vcc
+	P3_W6 3 \ 2/G   - pGND/sGnd
+	P2_W4 2 - 3/WO  - Vext/Vmid/Avcc/SigAlt	(NC)								(LO)
+	P1_W2 1 / 4/Bl  - Sig-/SigTx-		(sGND)				(Dir)		(I2C, UART)	
+	P1_W1 1 \ 5/WBl - Sig+/SigTx+		(COM,ANA,Probe)			(Step)		(I2C, UART)	(IF)
+	P2_W3 2 - 6/O   - sGND			(NO)
+	P4_W7 4 / 7/WBr - PWMalternate/SigRx+	(Control, Servo, Heater)	(I2C,UART)			(RF)
+	P4_W8 4 \ 8/Br  - PWMdirect/SigRx-	(Fan)				(I2C,UART)
 
 ## DigitalIO	(Display, SDCard, SPI)
-	3 / 1 - A0
-	3 \ 2 - dRST
-	2 - 3 - Vext
-	1 / 4 - MOSI			(I2C, UART)
-	1 \ 5 - MISO			(I2C, UART)
-	2 - 6 - pGND
-	4 / 7 - SCK			(I2C, UART)
-	4 \ 8 - CS
+	P3_W5 3 / 1/WG  - A0
+	P3_W6 3 \ 2/G   - dRST
+	P2_W4 2 - 3/WO  - Vext
+	P1_W2 1 / 4/Bl  - MOSI			(I2C, UART)
+	P1_W1 1 \ 5/WBl - MISO			(I2C, UART)
+	P2_W3 2 - 6/O   - pGND
+	P4_W7 4 / 7/WBr - SCK			(I2C, UART)
+	P4_W8 4 \ 8/Br  - CS
 
 ## Steppers	(Stepper Motor)
 	BEWARE! Comparison with LulzBot wiring suggests the third-party Fwd/Rev interconnection specification is inverted.
 	Fwd/Rev is intended to be CW/CCW as seen from face of motor.
-	3 / 1 - Vsys
-	3 \ 2 - pGND
-	2 - 3 - B+		Fwd(2A/Blue/Red)		Rev(1A/Green/Blue)
-	1 / 4 - A+		Fwd(1A/Green/Blue)		Rev(2A/Blue/Red)
-	1 \ 5 - A-		Fwd(1B/Black/Yellow)		Rev(2B/Red/White)
-	2 - 6 - B-		Fwd(2B/Red/White)		Rev(1B/Black/Yellow)
-	4 / 7 - B+		Fwd(2A/Blue/Red)*		Rev(1A/Green/Blue)*
-	4 \ 8 - B-		Fwd(2B/Red/White)*		Rev(1B/Black/Yellow)*
+	P3_W5 3 / 1/WG  - Vsys
+	P3_W6 3 \ 2/G   - pGND
+	P2_W4 2 - 3/WO  - B+		Fwd(2A/Blue/Red)		Rev(1A/Green/Blue)
+	P1_W2 1 / 4/Bl  - A+		Fwd(1A/Green/Blue)		Rev(2A/Blue/Red)
+	P1_W1 1 \ 5/WBl - A-		Fwd(1B/Black/Yellow)		Rev(2B/Red/White)
+	P2_W3 2 - 6/O   - B-		Fwd(2B/Red/White)		Rev(1B/Black/Yellow)
+	P4_W7 4 / 7/WBr - B+		Fwd(2A/Blue/Red)*		Rev(1A/Green/Blue)*
+	P4_W8 4 \ 8/Br  - B-		Fwd(2B/Red/White)*		Rev(1B/Black/Yellow)*
 
 ## LinearPSU (Lab Bench Power Supply)
-	3 / 1 - 5V
-	3 \ 2 - Vee
-	2 - 3 - Vcc
-	1 / 4 - GND
-	1 \ 5 - Vee
-	2 - 6 - Vee
-	4 / 7 - 3.3V
-	4 \ 8 - Vee
+	P3_W5 3 / 1/WG  - 5V
+	P3_W6 3 \ 2/G   - Vee
+	P2_W4 2 - 3/WO  - Vcc
+	P1_W2 1 / 4/Bl  - GND
+	P1_W1 1 \ 5/WBl - Vee
+	P2_W3 2 - 6/O   - Vee
+	P4_W7 4 / 7/WBr - 3.3V
+	P4_W8 4 \ 8/Br  - Vee
 
 See https://github.com/mirage335/LinearPSU/blob/master/Photo.jpg .
 
@@ -111,10 +111,10 @@ All wiring assignments noted here must result in the same direction of rotation.
 LulzBot Full Height and Half Height NEMA 17, SY42STH47-1504A
 	Red/Blue is the color pair found most in common with other stepper motors.
 	Assignment as to which pair is "A" or "B" is based on tracing back to the pin naming of the A4982 chip used by RAMBO Motherboard and Pololu stepper boards, and maintaining consistency with the Ap, Am, Bp, Bm naming used by 'cncio-sys.sch' for pin naming of the Pololu A498x stepper driver boards.
-	Red Motor	(A-)
-	Blue/White	(A+)
-	Green		(B+)
-	Black		(B-)
+	P1_W1 1 \ 5/WBl - Red Motor	(A-)
+	P1_W2 1 / 4/Bl  - Blue/White	(A+)
+	P2_W4 2 - 3/WO  - Green		(B+)
+	P2_W3 2 - 6/O   - Black		(B-)
 	Tracing this mechanically to X-axis motion and typical Marlin firmware settings suggests this is in fact a 'Fwd' driving scheme, not 'Rev'.
 
 OpenBuilds NEMA17
