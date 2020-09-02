@@ -444,24 +444,24 @@ T 11100 2000 9 10 1 0 0 0 10
 Stepper
 RJ45
 3 / 1 - Vsys
-3 \ 2 - pGND
+3 \\ 2 - pGND
 2 - 3 - B+		Fwd(2A/Blue/Red)			Rev(1A/Green/Blue)
 1 / 4 - A+		Fwd(1A/Green/Blue)		Rev(2A/Blue/Red)
-1 \ 5 - A-		Fwd(1B/Black/Yellow)		Rev(2B/Red/White)
+1 \\ 5 - A-		Fwd(1B/Black/Yellow)		Rev(2B/Red/White)
 2 - 6 - B-		Fwd(2B/Red/White)		Rev(1B/Black/Yellow)
 4 / 7 - B+		Fwd(2A/Blue/Red)*			Rev(1A/Green/Blue)*
-4 \ 8 - B-		Fwd(2B/Red/White)*		Rev(1B/Black/Yellow)*
+4 \\ 8 - B-		Fwd(2B/Red/White)*		Rev(1B/Black/Yellow)*
 T 600 200 9 10 1 0 0 0 10
 GenericIO
 RJ45
 3 / 1 - Vsys/Vcc
-3 \ 2 - pGND/sGnd
+3 \\ 2 - pGND/sGnd
 2 - 3 - Vext/Vmid/Avcc/SigAlt		(NC)									(LO)
 1 / 4 - Sig-/SigTx-				(sGND)				(Dir)		(I2C, UART)	
-1 \ 5 - Sig+/SigTx+				(COM,ANA,Probe)		(Step)	(I2C, UART)	(IF)
+1 \\ 5 - Sig+/SigTx+				(COM,ANA,Probe)		(Step)	(I2C, UART)	(IF)
 2 - 6 - sGND					(NO)
 4 / 7 - PWMalternate/SigRx+		(Control, Servo, Heater)	(I2C,UART)			(RF)
-4 \ 8 - PWMdirect/SigRx-			(Fan)				(I2C,UART)
+4 \\ 8 - PWMdirect/SigRx-		(Fan)				(I2C,UART)
 B 500 200 7400 2000 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 L 0 0 8000 0 3 0 0 0 -1 -1
 L 8000 0 8000 4000 3 0 0 0 -1 -1
