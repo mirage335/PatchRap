@@ -225,6 +225,8 @@ https://ohai.lulzbot.com/project/taz6-rambo-13l-14-upgrade/
 https://ohai.lulzbot.com/media/uploads/PinoutTAZ6_fixed.jpg.600x0_q85_fIgdq3t.jpg
 https://cdn.shopify.com/s/files/1/1223/5992/products/Rambo14a_1024x1024_aa89364b-1778-44dc-817f-51a350a93580_1024x1024.jpg?v=1516047707
 
+https://hackaday.com/2019/09/10/diy-watertight-junction-box-for-serious-outdoor-sealing/
+
 
 # Copyright
 This file is part of PatchRap.
